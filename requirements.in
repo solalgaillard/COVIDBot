@@ -1,0 +1,8 @@
+Scrapy
+beautifulsoup4
+selenium
+webdriver-manager
+spacy==2.1.0
+nltk
+pip-tools
+scikit-learn

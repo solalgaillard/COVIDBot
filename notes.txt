@@ -1,0 +1,6 @@
+---------ChromeDriver 84.0.4147.30 (2020-05-28)---------
+Supports Chrome version 84
+Resolved issue 3420: after switching to the print window, the chromedriver stops responding [Pri-2]
+Resolved issue 3421: chromedriver 81. Driver returns Cyrillic text without styles [Pri-2]
+Resolved issue 3422: GetElementText breaks with prototype 1.6.0.3 and chromedriver 81 [Pri-]
+Resolved issue 3434: Cannot get 'assert' messages from the 'browser' logs. [Pri-3]
