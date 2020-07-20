@@ -6,6 +6,33 @@ kernel = aiml.Kernel()
 kernel.learn("./chatBot/covid-bot.aiml")
 kernel.respond("load aiml b")
 
+
+'''
+
+
+
+In main
+
+<template>
+            <learn>basic_chat.aiml</learn>
+            <!-- You can add more aiml files here -->
+            <!--<learn>more_aiml.aiml</learn>-->
+</template>
+
+
+<template> 
+   <set name = "topic"> topic-name </set>
+</template>
+
+<topic name = "topic-name">
+   <category>
+      ...
+   </category>     
+</topic>
+
+'''
+#statments = textacy.extract.semistructured_statements(document, "Gates", cue = 'have',  max_n_words = 200, )
+
 def addString():
     stringtoAdd = "<category><pattern>WHAT ARE YOU</pattern><template>I'm a bot, silly!</template></category>"
     with open('./chatBot/basic-chat2.aiml', "r+", encoding = "utf-8") as file:
