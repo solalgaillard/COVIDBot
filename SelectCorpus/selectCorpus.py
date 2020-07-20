@@ -21,7 +21,6 @@ solve_coreference = solveCoreference()
 segment_documents = SegmentDocuments()
 
 
-
 file_path = (base_path / "../data/scrapped-data-binary.pickle").resolve()
 corpus = pickle.load(open(file_path, "rb" ))
 corpus = corpusManipulation.removeDuplicatesInCorpus(corpus)
@@ -59,18 +58,30 @@ with open(file_path, 'wb+') as f:
     pickle.dump(filteredCorpus, f)
 
 
+'''
+file_path = (base_path / "../data/cleaned-up-corpus.pickle").resolve()
+filteredCorpus = pickle.load(open(file_path, "rb" ))
+
+print(len(filteredCorpus["data"]))
+
 flatten = lambda l: [item for sublist in l for item in sublist]
+
 
 flattened = flatten(filteredCorpus["data"])
 
-
+feature_extractions = featureExtractions()
 feature_extractions.featureExtraction(flattened)
-
+'''
 
 #pd.DataFrame(corpus['data'], {url..., scrapped..}
 
 #pandaframe
 
+'''
+To measure similarity, create matrix between sentences and compare them all, rank rows per
+published_date, then per source. Need dataframeAccrossBoard
+
+'''
 
 
 '''

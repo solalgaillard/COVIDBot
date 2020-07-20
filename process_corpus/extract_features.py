@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 import collections
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.decomposition import TruncatedSVD
 from sklearn import svm
 from sklearn.cluster import KMeans
 import pandas as pd
@@ -148,18 +149,24 @@ class featureExtractions():
 
     def featureExtraction(self, flattenedCorpus):
 
+        corpusManipulation = ManipulateCorpus()
+
+        print(len(flattenedCorpus))
+        print(corpusManipulation.normalize_corpus(flattenedCorpus))
         tfidfMatrix = TfidfVectorizer(max_df=0.7, max_features=200000,
                                            min_df=0.3,
                                            use_idf=True, tokenizer=nltk.word_tokenize, ngram_range=(1, 2))
 
-        svd = TruncatedSVD(n_components=100)
-        svdMatrix = svd.fit_transform(tfidfMatrix)
+        matrix = tfidfMatrix.fit_transform(corpusManipulation.normalize_corpus(flattenedCorpus))
+
+        #svd = TruncatedSVD(n_components=10)
+        #svdMatrix = svd.fit_transform(matrix)
 
         terms = tfidfMatrix.get_feature_names()
 
         totalvocab_stemmed = []
-        for i in flattenedCorpus:
-            totalvocab_stemmed.extend(nltk.word_tokenize(corpusManipulation.normalize_corpus(i)))
+        for i in corpusManipulation.normalize_corpus(flattenedCorpus):
+            totalvocab_stemmed.extend(nltk.word_tokenize(i))
 
         vocab_frame = pd.DataFrame({'words': totalvocab_stemmed}, index=totalvocab_stemmed)
 
@@ -169,13 +176,13 @@ class featureExtractions():
 
         km = KMeans(n_clusters=num_clusters)
 
-        #km.fit(tfidf_matrix)
+        km.fit(matrix)
 
-        km.fit(svdMatrix)
+        #km.fit(svdMatrix)
 
         clusters = km.labels_.tolist()
 
-        frame = pd.DataFrame(corpus, index=[clusters], columns=['cluster'])
+        frame = pd.DataFrame(flattenedCorpus, index=[clusters], columns=['cluster'])
 
         print(clusters)
 
@@ -187,15 +194,9 @@ class featureExtractions():
         for i in range(num_clusters):
             print("Cluster %d words:" % i, end='')
 
-            for ind in order_centroids[i, :12]:  # replace 6 with n words per cluster
+            for ind in order_centroids[i, :40]:  # replace 6 with n words per cluster
                 print(' %s' % vocab_frame.loc[terms[ind].split(' ')].values.tolist()[0][0].encode('utf-8', 'ignore'),
                       end=',')
-            print()  # add whitespace
-            print()  # add whitespace
-
-            print("Cluster %d url:" % i, end='')
-            for title in frame.loc[i]['url'].values.tolist():
-                print(' %s,' % title, end='')
             print()  # add whitespace
             print()  # add whitespace
 
