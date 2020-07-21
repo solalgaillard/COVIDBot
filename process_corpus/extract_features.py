@@ -227,7 +227,7 @@ class featureExtractions():
                     {"word": "processing", "weight": .8},
                     {"word": "detectable", "weight": .7},
                 ],
-            "numbers": [
+            "data": [
                     {"word": "number", "weight": 1},
                     {"word": "death", "weight": 1},
                     {"word": "case", "weight": 1},

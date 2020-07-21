@@ -9,17 +9,27 @@ class ExtractFacts():
         #get verb lemma
 
         allStatements = set()
-        nounIndices = []
-        verbIndices = []
+        #nounIndices = []
+        #verbIndices = []
         for segment in corpus["data"]:
-            segment = nlp(segment)
-            for token in segment:
-                # print(token.text, token.pos_, token.dep_, token.head.text)
-                if token.dep_ == 'nsubj':
-                    nounIndices.append(token.text)
-                if token.dep_ == 'ROOT':
-                    verbIndices.append(token.text)
+            newSegment = nlp(segment)
+            for token in newSegment:
+            # print(token.text, token.pos_, token.dep_, token.head.text)
+                if token.dep_ == "nsubj" and token.text.lower() not in ["who, which, what, where, how, when"]: #And not interrogative
+                    noun = token.text
+                    statements = textacy.extract.semistructured_statements(newSegment, noun)
+        for segment in corpus["data"]:
+            newSegment = nlp(segment)
+            for chunk in newSegment.noun_chunks:
+                if(chunk.root.dep_ == "nsubj"):
+                    statements = textacy.extract.semistructured_statements(newSegment, chunk.text)
+                    for statement in statements:
+                        allStatements.add(statement)
 
+
+        return allStatements
+
+        '''
         for noun in list(dict.fromkeys(nounIndices)):
             print(noun)
             for verb in list(dict.fromkeys(verbIndices)):
@@ -31,3 +41,4 @@ class ExtractFacts():
         for statement in allStatements:
             entity, cue, fact = statement
             print("* entity:", entity, ", cue:", cue, ", fact:", fact)
+        '''

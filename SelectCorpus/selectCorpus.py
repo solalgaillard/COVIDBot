@@ -99,7 +99,12 @@ for topic_idx, topic in enumerate(resultTopics["topic_mapping"]):
                 corpus_per_topic['data'].append(filteredCorpus["data"][cluster_idx])
         #create a file
         #process
-        extractFacts.extract(corpus_per_topic)
+        allStatements = extractFacts.extract(corpus_per_topic)
+        for statement in allStatements:
+            entity, cue, fact = statement
+            print("* entity:", entity, ", cue:", cue, ", fact:", fact)
+
+        #WRITE TO Knowledge Base
 
 
 

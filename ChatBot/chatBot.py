@@ -31,10 +31,8 @@ In main
 </topic>
 
 '''
-#statments = textacy.extract.semistructured_statements(document, "Gates", cue = 'have',  max_n_words = 200, )
 
-def addString():
-    stringtoAdd = "<category><pattern>WHAT ARE YOU</pattern><template>I'm a bot, silly!</template></category>"
+def addString(value):
     with open('./chatBot/basic-chat2.aiml', "r+", encoding = "utf-8") as file:
 
         # Move the pointer (similar to a cursor in a text editor) to the end of the file
