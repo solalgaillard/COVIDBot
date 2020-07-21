@@ -9,29 +9,25 @@ from process_corpus.utilities import ManipulateCorpus
 from process_corpus.segment_documents import SegmentDocuments
 from process_corpus.solve_coreferences import solveCoreference
 from process_corpus.extract_features import featureExtractions
-from sklearn.model_selection import train_test_split
+from process_corpus.extract_facts import ExtractFacts
 from pathlib import Path
-from xml.etree import cElementTree as ET
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
-import collections
 base_path = Path(__file__).parent
 corpusManipulation = ManipulateCorpus()
 solve_coreference = solveCoreference()
 segment_documents = SegmentDocuments()
 
 
+'''
 file_path = (base_path / "../data/scrapped-data-binary.pickle").resolve()
 corpus = pickle.load(open(file_path, "rb" ))
 corpus = corpusManipulation.removeDuplicatesInCorpus(corpus)
-
+print(len(corpus["data"]))
 #corpus['data'] = corpusManipulation.removeOverUsedSentencesFromCorpus(corpus['data'])
-
 corpus['data'] = [segment_documents.segmentDocs(solve_coreference.replaceOnlySentencesApart(document)) for document in corpus['data']]
 
-print(corpus)
 
-#corpusManipulation.exportScrappedDataToFile2(corpus)
+
+corpusManipulation.exportScrappedDataToFile2(corpus)
 
 
 feature_extractions = featureExtractions()
@@ -41,14 +37,23 @@ feature_extractions = featureExtractions()
 
 feature_extractions.trainModelSVC()
 
+
+
 filteredCorpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+
+
 for idx, document in enumerate(corpus["data"]):
-    filteredDocument = feature_extractions.useModel(document)
-    if len(filteredDocument):
+    for segment in document:
         filteredCorpus['url'].append(corpus['url'][idx])
         filteredCorpus['scrapped_date'].append(corpus['scrapped_date'][idx])
         filteredCorpus['published_date'].append(corpus['published_date'][idx])
-        filteredCorpus['data'].append(filteredDocument)
+        filteredCorpus['data'].append(segment)
+
+
+
+
+filteredCorpus = feature_extractions.useModel(filteredCorpus)
+print(filteredCorpus)
 
 
 print(len(filteredCorpus["data"]), len(corpus["data"]))
@@ -56,22 +61,47 @@ print(len(filteredCorpus["data"]), len(corpus["data"]))
 file_path = (base_path / "../data/cleaned-up-corpus.pickle").resolve()
 with open(file_path, 'wb+') as f:
     pickle.dump(filteredCorpus, f)
-
+'''
 
 '''
 file_path = (base_path / "../data/cleaned-up-corpus.pickle").resolve()
 filteredCorpus = pickle.load(open(file_path, "rb" ))
 
-print(len(filteredCorpus["data"]))
+corpusManipulation.exportScrappedDataToFile(filteredCorpus)
 
-flatten = lambda l: [item for sublist in l for item in sublist]
+#flatten = lambda l: [item for sublist in l for item in sublist]
 
 
-flattened = flatten(filteredCorpus["data"])
+#TODO - Opearation ici, c'est df avec chaque segment
+
+
 
 feature_extractions = featureExtractions()
-feature_extractions.featureExtraction(flattened)
+resultTopics = feature_extractions.featureExtraction(filteredCorpus["data"])
 '''
+
+file_path = (base_path / "../data/cleaned-up-corpus.pickle").resolve()
+filteredCorpus = pickle.load(open(file_path, "rb" ))
+
+file_path = (base_path / "../data/result-topic.pickle").resolve()
+resultTopics = pickle.load(open(file_path, "rb" ))
+
+extractFacts = ExtractFacts()
+
+for topic_idx, topic in enumerate(resultTopics["topic_mapping"]):
+    if topic:
+        corpus_per_topic = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+        for cluster_idx, cluster in enumerate(resultTopics["clusters"]):
+            if cluster == topic_idx:
+                corpus_per_topic['url'].append(filteredCorpus['url'][cluster_idx])
+                corpus_per_topic['scrapped_date'].append(filteredCorpus['scrapped_date'][cluster_idx])
+                corpus_per_topic['published_date'].append(filteredCorpus['published_date'][cluster_idx])
+                corpus_per_topic['data'].append(filteredCorpus["data"][cluster_idx])
+        #create a file
+        #process
+        extractFacts.extract(corpus_per_topic)
+
+
 
 #pd.DataFrame(corpus['data'], {url..., scrapped..}
 

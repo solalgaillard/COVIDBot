@@ -7,7 +7,7 @@ import pandas as pd
 import neuralcoref
 
 
-nlp = spacy.load('en_core_web_sm', parse=True, tag=True, entity=True)
+nlp = spacy.load('en_core_web_lg', parse=True, tag=True, entity=True)
 
 coref = neuralcoref.NeuralCoref(nlp.vocab)
 nlp.add_pipe(coref, name='neuralcoref')

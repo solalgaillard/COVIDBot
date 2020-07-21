@@ -11,7 +11,7 @@ import nltk
 from sklearn.feature_extraction.text import CountVectorizer
 import spacy
 import pandas as pd
-nlp = spacy.load('en_core_web_sm', parse=True, tag=True, entity=True)
+nlp = spacy.load('en_core_web_lg', parse=True, tag=True, entity=True)
 tokenizer = ToktokTokenizer()
 stopword_list = nltk.corpus.stopwords.words('english')
 

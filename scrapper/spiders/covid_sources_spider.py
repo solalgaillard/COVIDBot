@@ -34,6 +34,7 @@ print(f'{home}/.wdm/drivers/chromedriver/mac64/83.0.4103.39')
 #TODO MAKE DRIVER PATH RELATIVE ON INSTALL
 #TODO CREATE NEW EMAIL FOR NYT
 #TODO LIMIT TO PAST THREE MONTHS - done
+#TODO WRITING TO FILES NEEDS TO BE INVOKED ONLY ONCE AT THE END NEED A PANDAFRAME
 
 class CovidSpider(CrawlSpider):
     name = "covidsources"
@@ -57,7 +58,7 @@ class CovidSpider(CrawlSpider):
     todaysDate = datetime.datetime.now()
     base_path = Path(__file__).parent
     file_path = (base_path / "../../data/scrapped-data-binary.pickle").resolve()
-    allFilesData = pickle.load(open(file_path, "rb")) if os.path.isfile(file_path) else {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+    allFilesData = pickle.load(open(file_path, "rb+")) if os.path.isfile(file_path) else {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
 
 
 
@@ -172,12 +173,12 @@ class CovidSpider(CrawlSpider):
                              published_date = datetime.datetime.strptime(timestamp_elements[0].get_attribute('content'), '%B %d, %Y')
 
 
-                if published_date and abs((self.todaysDate - published_date).days) < 90:
+                if published_date and abs((self.todaysDate - published_date).days) < 120:
                     SENTENCE_PATTERN = re.compile(r'\S.+?[.!?]|[.!?][\'\"]\s+(?=\s+|$)+')  # make multiligne and comment https://stackoverflow.com/questions/5032210/php-sentence-boundaries-detection/5844564#5844564
 
-                    SIX_WORDS_TAG_MIN = re.compile(r'(\w+(?:\s+|[.!?]$)){6}')
+                    FOUR_WORDS_TAG_MIN = re.compile(r'(\w+(?:\s+|[.!?]$)){4}')
 #Change order of checks
-                    document_sent_tok = re.findall(SENTENCE_PATTERN, ' '.join([self.cleanMe(tag) for tag in tags if re.search(SIX_WORDS_TAG_MIN, tag)]).replace("\n"," "))
+                    document_sent_tok = re.findall(SENTENCE_PATTERN, ' '.join([self.cleanMe(tag) for tag in tags if re.search(FOUR_WORDS_TAG_MIN, tag)]).replace("\n"," "))
 
                     document = ' '.join([sent for sent in document_sent_tok ])
 
@@ -185,12 +186,12 @@ class CovidSpider(CrawlSpider):
 
                     #document= self.cleanMe(document) #Redondance mais important
 
-                    if(len(document)>1500): #pas de micro documents
+                    if(len(document)>1000): #pas de micro documents
                         self.allFilesData['url'].append(response.url)
                         self.allFilesData['scrapped_date'].append(self.todaysDate)
                         self.allFilesData['published_date'].append(published_date)
                         self.allFilesData['data'].append(document)
-                        with open(self.file_path, 'wb') as f:
+                        with open(self.file_path, 'wb') as f: #NOT GOOD, NEEDS TO BE INVOKED ONLY ONCE AT THE END NEED A PANDAFRAME
                             pickle.dump(self.allFilesData, f)
                         self.count[current_domain] += 1
 
