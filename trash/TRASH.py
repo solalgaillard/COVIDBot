@@ -56,3 +56,55 @@ for idx, value in enumerate(lookForSentences):
         document = document + ' ' + ' '.join(
             [value for value in lookForSentences if re.search(THREE_WORDS_SENTENCE_MIN, value)])
 
+
+'''
+To measure similarity, create matrix between sentences and compare them all, rank rows per
+published_date, then per source. Need dataframeAccrossBoard
+
+'''
+
+
+'''
+def cluster_sentences(sentences, nb_of_clusters=5):
+    tfidf_vectorizer = TfidfVectorizer(tokenizer=nltk.word_tokenize,
+                                       max_df=0.9,
+                                       min_df=0.1)
+    # builds a tf-idf matrix for the sentences
+    tfidf_matrix = tfidf_vectorizer.fit_transform(corpusManipulation.normalize_corpus(sentences))
+    kmeans = KMeans(n_clusters=nb_of_clusters)
+    kmeans.fit(tfidf_matrix)
+    clusters = collections.defaultdict(list)
+    for i, label in enumerate(kmeans.labels_):
+        clusters[label].append(i)
+    return dict(clusters)
+
+
+def truc():
+    sentences = ["Nature is beautiful", "I like green apples",
+                 "We should protect the trees", "Fruit trees provide fruits",
+                 "Green apples are tasty"]
+    nclusters = 3
+    clusters = cluster_sentences(sentences, nclusters)
+    print(clusters)
+    print("test2")
+    for cluster in range(nclusters):
+        print("cluster ", cluster, ":")
+        for i, sentence in enumerate(clusters[cluster]):
+            print("\tsentence ", i, ": ", sentences[sentence])
+
+
+'''
+
+'''
+for noun in list(dict.fromkeys(nounIndices)):
+    print(noun)
+    for verb in list(dict.fromkeys(verbIndices)):
+        print(verb)
+        statements = textacy.extract.semistructured_statements(segment, noun, cue=verb)
+        for statement in statements:
+            allStatements.add(statement)
+
+for statement in allStatements:
+    entity, cue, fact = statement
+    print("* entity:", entity, ", cue:", cue, ", fact:", fact)
+'''

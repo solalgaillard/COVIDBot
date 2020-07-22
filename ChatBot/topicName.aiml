@@ -1,0 +1,14 @@
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+	<category>
+		<pattern> * TEST1 * </pattern>
+		<template><think><set name = "topic">topicName</set></think>I know a lot about TEST1</template>
+	</category>
+	<category>
+		<pattern> * TEST2 * </pattern>
+		<template><think><set name = "topic">topicName</set></think>I know a lot about TEST2</template>
+	</category>
+	<topic name = "topicName">
+	<category>
+		<pattern>*</pattern>
+		<template><think><set name="topic"><!-- Change the topic to either an empty string, or to something else --></set></think><!-- Bots response goes here --></template></category>
+	</topic></aiml>

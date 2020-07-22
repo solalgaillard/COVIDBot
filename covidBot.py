@@ -1,21 +1,6 @@
 import sys
 
-#TODO - 1 - LIST OPTIONS
-'''
-- scrap the web
 
-- Export data for labeling
-
-- load model
-
-- type model to recognize covid text
-
-- generate aiml
-
-- launch bot
-
-- start-from-scratch
-'''
 
 def main():
     print("Hello World!")

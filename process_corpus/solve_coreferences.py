@@ -12,9 +12,7 @@ nlp = spacy.load('en_core_web_lg', parse=True, tag=True, entity=True)
 coref = neuralcoref.NeuralCoref(nlp.vocab)
 nlp.add_pipe(coref, name='neuralcoref')
 
-#TODO - 1 - Coreference extraction. - done
-#TODO - 2 - Text Segmentation - done
-#TODO - 3 - Automatize to get a small corpus to label.
+
 
 
 

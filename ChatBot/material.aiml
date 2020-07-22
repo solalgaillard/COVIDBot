@@ -1,0 +1,3687 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* MATERIAL *</pattern>
+		<template>
+			<think><set name = "topic">MATERIAL</set></think>
+			I know a lot about material
+		</template>
+	</category>
+	<category>
+		<pattern>MATERIAL *</pattern>
+		<template>
+			<think><set name = "topic">MATERIAL</set></think>
+			I know a lot about material
+		</template>
+	</category>
+	<category>
+		<pattern>* MATERIAL</pattern>
+		<template>
+			<think><set name = "topic">MATERIAL</set></think>
+			I know a lot about material
+		</template>
+	</category>
+	<category>
+		<pattern>MATERIAL</pattern>
+		<template>
+			<think><set name = "topic">MATERIAL</set></think>
+			I know a lot about material
+		</template>
+	</category>
+	<topic name = "MATERIAL">
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>It is uncertain whether aerosols generated from some procedures may be infectious, such as.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE * DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* ARE DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* ARE DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE * DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOUR RESPIRATOR APPROVALS *</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOUR RESPIRATOR APPROVALS *</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>ARE YOUR RESPIRATOR APPROVALS *</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOUR RESPIRATOR APPROVALS</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOUR RESPIRATOR APPROVALS</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOUR RESPIRATOR APPROVALS *</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOUR RESPIRATOR APPROVALS</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>ARE YOUR RESPIRATOR APPROVALS</pattern>
+			<template>Your respirator approvals are valid by checking the NIOSH Certified Equipment List (CEL.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE VIRAL LOADS</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * VIRAL LOADS</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * VIRAL LOADS</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE VIRAL LOADS</pattern>
+			<template>Viral loads might be higher, such as the nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* BE * WHO *</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>BE * WHO *</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>BE WHO *</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>* BE WHO</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>* BE * WHO</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>* BE WHO *</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>BE * WHO</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>BE WHO</pattern>
+			<template>Who be in the room providing care to the patient.</template>
+		</category>
+		<category>
+			<pattern>* IS * A SURGICAL N95 *</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>IS * A SURGICAL N95 *</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>IS A SURGICAL N95 *</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>* IS A SURGICAL N95</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>* IS * A SURGICAL N95</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>* IS A SURGICAL N95 *</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>IS * A SURGICAL N95</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>IS A SURGICAL N95</pattern>
+			<template>A surgical n95 is not available for use in operative or procedural settings.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR</pattern>
+			<template>A respirator is not available), eye protection, gloves, and a gown.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* IS THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* IS THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* ARE * GOWNS *</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>ARE * GOWNS *</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>ARE GOWNS *</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>* ARE GOWNS</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>* ARE * GOWNS</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>* ARE GOWNS *</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>ARE * GOWNS</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>ARE GOWNS</pattern>
+			<template>Gowns are easier to put on and, in particular, to take off.</template>
+		</category>
+		<category>
+			<pattern>* WERE * THREE PATIENTS *</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE * THREE PATIENTS *</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE THREE PATIENTS *</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* WERE THREE PATIENTS</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* WERE * THREE PATIENTS</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* WERE THREE PATIENTS *</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE * THREE PATIENTS</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE THREE PATIENTS</pattern>
+			<template>Three patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * PATIENTS *</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * PATIENTS *</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE PATIENTS *</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE PATIENTS</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * PATIENTS</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE PATIENTS *</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * PATIENTS</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE PATIENTS</pattern>
+			<template>Patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* IS * RESPIRATORY PROTECTION *</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS * RESPIRATORY PROTECTION *</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS RESPIRATORY PROTECTION *</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS RESPIRATORY PROTECTION</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS * RESPIRATORY PROTECTION</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS RESPIRATORY PROTECTION *</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS * RESPIRATORY PROTECTION</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS RESPIRATORY PROTECTION</pattern>
+			<template>Respiratory protection is most important, such as performance of aerosol-generating procedures on patients with suspected or confirmed COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE RISK *</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>IS * THE RISK *</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>IS THE RISK *</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>* IS THE RISK</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE RISK</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>* IS THE RISK *</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>IS * THE RISK</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>IS THE RISK</pattern>
+			<template>The risk is low or minimal.</template>
+		</category>
+		<category>
+			<pattern>* ARE * GOWNS *</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>ARE * GOWNS *</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>ARE GOWNS *</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>* ARE GOWNS</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>* ARE * GOWNS</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>* ARE GOWNS *</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>ARE * GOWNS</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>ARE GOWNS</pattern>
+			<template>Gowns are available that protect against microorganisms.</template>
+		</category>
+		<category>
+			<pattern>* IS * COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS * COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS * COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS * COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* ARE * NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES *</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES *</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES *</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES *</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE NONSTERILE DISPOSABLE PATIENT EXAMINATION GLOVES</pattern>
+			<template>Nonsterile disposable patient examination gloves are appropriate for the care of patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE * CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE * CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE * CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE * DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE * DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* IS THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* IS THE POTENTIALLY INFECTIOUS INDIVIDUAL *</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS * THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>IS THE POTENTIALLY INFECTIOUS INDIVIDUAL</pattern>
+			<template>The potentially infectious individual is a patient or visitor.</template>
+		</category>
+		<category>
+			<pattern>* ARE * FACEMASKS *</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>ARE * FACEMASKS *</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>ARE FACEMASKS *</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>* ARE FACEMASKS</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>* ARE * FACEMASKS</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>* ARE FACEMASKS *</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>ARE * FACEMASKS</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>ARE FACEMASKS</pattern>
+			<template>Facemasks are loose-fitting and provide only barrier protection against droplets, including large respiratory particles.</template>
+		</category>
+		<category>
+			<pattern>* IS * A PROLONGED PERIOD *</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>IS * A PROLONGED PERIOD *</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>IS A PROLONGED PERIOD *</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>* IS A PROLONGED PERIOD</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>* IS * A PROLONGED PERIOD</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>* IS A PROLONGED PERIOD *</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>IS * A PROLONGED PERIOD</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>IS A PROLONGED PERIOD</pattern>
+			<template>A prolonged period is not unusual after intensive care, but many Covid-19 patients have experienced particularly severe fatigue and muscle wasting.</template>
+		</category>
+		<category>
+			<pattern>* IS * ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS * ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* IS ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* IS * ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* IS ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS * ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* WERE * SO MANY ICU PATIENTS *</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>WERE * SO MANY ICU PATIENTS *</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>WERE SO MANY ICU PATIENTS *</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>* WERE SO MANY ICU PATIENTS</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>* WERE * SO MANY ICU PATIENTS</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>* WERE SO MANY ICU PATIENTS *</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>WERE * SO MANY ICU PATIENTS</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>WERE SO MANY ICU PATIENTS</pattern>
+			<template>So many icu patients were on mechanical ventilators for extraordinarily long periods of time.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* IS * FEVER *</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>IS * FEVER *</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>IS FEVER *</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>* IS FEVER</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>* IS * FEVER</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>* IS FEVER *</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>IS * FEVER</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>IS FEVER</pattern>
+			<template>Fever is the most commonly reported sign.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * POTENTIAL ASSOCIATIONS *</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * POTENTIAL ASSOCIATIONS *</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE POTENTIAL ASSOCIATIONS *</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE POTENTIAL ASSOCIATIONS</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * POTENTIAL ASSOCIATIONS</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE POTENTIAL ASSOCIATIONS *</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * POTENTIAL ASSOCIATIONS</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE POTENTIAL ASSOCIATIONS</pattern>
+			<template>Potential associations might be due to aerosols generated by the procedure or due to increased contact between those administering the nebulized medication and infected patients.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* WERE * PATIENTS *</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE * PATIENTS *</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE PATIENTS *</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WERE PATIENTS</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WERE * PATIENTS</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WERE PATIENTS *</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE * PATIENTS</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE PATIENTS</pattern>
+			<template>Patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* IS * ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS * ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* IS ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* IS * ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* IS ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS * ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* IS * NO FIT TESTING *</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>IS * NO FIT TESTING *</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>IS NO FIT TESTING *</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>* IS NO FIT TESTING</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>* IS * NO FIT TESTING</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>* IS NO FIT TESTING *</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>IS * NO FIT TESTING</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>IS NO FIT TESTING</pattern>
+			<template>No fit testing is necessary with facemasks.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE * DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE DETAILED STRATEGIES *</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE * DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>ARE DETAILED STRATEGIES</pattern>
+			<template>Detailed strategies are available on the CDC website.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS *</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS</pattern>
+			<template>Respirators are not available.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * THESE INDIVIDUALS *</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * THESE INDIVIDUALS *</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>CAN BE THESE INDIVIDUALS *</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE THESE INDIVIDUALS</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * THESE INDIVIDUALS</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE THESE INDIVIDUALS *</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * THESE INDIVIDUALS</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>CAN BE THESE INDIVIDUALS</pattern>
+			<template>These individuals can be at higher risk for severe illness and have the potential to expose large numbers of individuals at risk for severe disease.</template>
+		</category>
+		<category>
+			<pattern>* IS * DIRECT CONTACT *</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>IS * DIRECT CONTACT *</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>IS DIRECT CONTACT *</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>* IS DIRECT CONTACT</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>* IS * DIRECT CONTACT</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>* IS DIRECT CONTACT *</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>IS * DIRECT CONTACT</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>IS DIRECT CONTACT</pattern>
+			<template>Direct contact is most likely to occur.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>Who is responsible for identifying contacts and notifying potentially exposed individuals.</template>
+		</category>
+		<category>
+			<pattern>* IS * ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS * ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* IS ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* IS * ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* IS ANOTHER OPTION *</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS * ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>IS ANOTHER OPTION</pattern>
+			<template>Another option is to allow communal dining in shifts so that staff can monitor patients while ensuring they remain at least 6 feet apart.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PATIENTS *</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE * PATIENTS *</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE PATIENTS *</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE PATIENTS</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PATIENTS</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE PATIENTS *</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE * PATIENTS</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE PATIENTS</pattern>
+			<template>Patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* IS * A COVERALL *</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>IS * A COVERALL *</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>IS A COVERALL *</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>* IS A COVERALL</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>* IS * A COVERALL</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>* IS A COVERALL *</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>IS * A COVERALL</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>IS A COVERALL</pattern>
+			<template>A coverall is important to prevent self-contamination.</template>
+		</category>
+		<category>
+			<pattern>* ARE * EXTENDED LENGTH GLOVES *</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>ARE * EXTENDED LENGTH GLOVES *</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>ARE EXTENDED LENGTH GLOVES *</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>* ARE EXTENDED LENGTH GLOVES</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>* ARE * EXTENDED LENGTH GLOVES</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>* ARE EXTENDED LENGTH GLOVES *</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>ARE * EXTENDED LENGTH GLOVES</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>ARE EXTENDED LENGTH GLOVES</pattern>
+			<template>Extended length gloves are not necessary when providing care to suspected or confirmed COVID-19 patients.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DECISIONS *</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>ARE * DECISIONS *</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>ARE DECISIONS *</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>* ARE DECISIONS</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DECISIONS</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>* ARE DECISIONS *</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>ARE * DECISIONS</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>ARE DECISIONS</pattern>
+			<template>Decisions are at the discretion of state and local health departments and/or individual clinicians.</template>
+		</category>
+		<category>
+			<pattern>* ARE * CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE * CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE * CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* ARE CONTACT *</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE * CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>ARE CONTACT</pattern>
+			<template>Contact are likely routes of transmission.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR *</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR *</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR *</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR *</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR</pattern>
+			<template>A respirator is the CDC/NIOSH-approved.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHICH PATIENTS *</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHICH PATIENTS *</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE WHICH PATIENTS *</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHICH PATIENTS</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHICH PATIENTS</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHICH PATIENTS *</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHICH PATIENTS</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>ARE WHICH PATIENTS</pattern>
+			<template>Which patients are at higher risk for transmission and might be prioritized for evaluation and testing.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION *</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION *</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION *</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION *</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION</pattern>
+			<template>Information is very limited.</template>
+		</category>
+		<category>
+			<pattern>* IS * COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS * COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS * COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS COHORTING *</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS * COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>IS COHORTING</pattern>
+			<template>Cohorting is not possible.</template>
+		</category>
+		<category>
+			<pattern>* IS * INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS *</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS * INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS *</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS *</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS * INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS *</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS * INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS INTERIM INFECTION PREVENTION AND CONTROL RECOMMENDATIONS</pattern>
+			<template>Interim infection prevention and control recommendations Is forceful exhalation during the second stage of labor considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* ARE * ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE * ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE * ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE * ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHAT ANTIVIRAL DRUGS *</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHAT ANTIVIRAL DRUGS *</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE WHAT ANTIVIRAL DRUGS *</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHAT ANTIVIRAL DRUGS</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHAT ANTIVIRAL DRUGS</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHAT ANTIVIRAL DRUGS *</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHAT ANTIVIRAL DRUGS</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE WHAT ANTIVIRAL DRUGS</pattern>
+			<template>What antiviral drugs are available to treat COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE ONLY THING *</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>IS * THE ONLY THING *</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>IS THE ONLY THING *</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>* IS THE ONLY THING</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE ONLY THING</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>* IS THE ONLY THING *</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>IS * THE ONLY THING</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>IS THE ONLY THING</pattern>
+			<template>The only thing is their fingertips.</template>
+		</category>
+		<category>
+			<pattern>* ARE * ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE * ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE * ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE ADDITIONAL INFECTION PREVENTION MEASURES *</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE * ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>ARE ADDITIONAL INFECTION PREVENTION MEASURES</pattern>
+			<template>Additional infection prevention measures are in place to stop the spread.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PROCEDURES *</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE * PROCEDURES *</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE PROCEDURES *</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE PROCEDURES</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PROCEDURES</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE PROCEDURES *</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE * PROCEDURES</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE PROCEDURES</pattern>
+			<template>Procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* WAS * SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS * SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* WAS SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* WAS * SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* WAS SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS * SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THE RESULTS *</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THE RESULTS *</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THE RESULTS *</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THE RESULTS</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THE RESULTS</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THE RESULTS *</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THE RESULTS</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THE RESULTS</pattern>
+			<template>The results are adequate to meet the testing recommendations at any facility.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * PREGNANT PEOPLE *</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * PREGNANT PEOPLE *</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE PREGNANT PEOPLE *</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE PREGNANT PEOPLE</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * PREGNANT PEOPLE</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE PREGNANT PEOPLE *</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * PREGNANT PEOPLE</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE PREGNANT PEOPLE</pattern>
+			<template>Pregnant people might be at an increased risk for severe illness from COVID-19 compared to non-pregnant people.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS *</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS *</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * RESPIRATORS</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE RESPIRATORS *</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE * RESPIRATORS</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE RESPIRATORS</pattern>
+			<template>Respirators are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* WAS * WHO *</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WAS * WHO *</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WAS WHO *</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WAS WHO</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WAS * WHO</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WAS WHO *</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WAS * WHO</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WAS WHO</pattern>
+			<template>Who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* BE * INTERIM GUIDANCE *</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>BE * INTERIM GUIDANCE *</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>BE INTERIM GUIDANCE *</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>* BE INTERIM GUIDANCE</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>* BE * INTERIM GUIDANCE</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>* BE INTERIM GUIDANCE *</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>BE * INTERIM GUIDANCE</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>BE INTERIM GUIDANCE</pattern>
+			<template>Interim guidance be helpful to healthcare facilities performing such activities.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE VIRAL LOADS *</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE VIRAL LOADS</pattern>
+			<template>Viral loads might be higher (e. g., nose and throat, oropharynx, respiratory tract.</template>
+		</category>
+		<category>
+			<pattern>* ARE * HOUR PHONE NUMBERS *</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>ARE * HOUR PHONE NUMBERS *</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>ARE HOUR PHONE NUMBERS *</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>* ARE HOUR PHONE NUMBERS</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>* ARE * HOUR PHONE NUMBERS</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>* ARE HOUR PHONE NUMBERS *</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>ARE * HOUR PHONE NUMBERS</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>ARE HOUR PHONE NUMBERS</pattern>
+			<template>Hour phone numbers are available at the Council of State and Territorial Epidemiologists website.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE MOST COMMON PHYSICAL CHALLENGE *</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>IS * THE MOST COMMON PHYSICAL CHALLENGE *</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>IS THE MOST COMMON PHYSICAL CHALLENGE *</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>* IS THE MOST COMMON PHYSICAL CHALLENGE</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE MOST COMMON PHYSICAL CHALLENGE</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>* IS THE MOST COMMON PHYSICAL CHALLENGE *</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>IS * THE MOST COMMON PHYSICAL CHALLENGE</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>IS THE MOST COMMON PHYSICAL CHALLENGE</pattern>
+			<template>The most common physical challenge is shortness of breath - and that can apply to people who had moderate as well as severe symptoms of the disease.</template>
+		</category>
+		<category>
+			<pattern>* BE * PATIENTS *</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>BE * PATIENTS *</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>BE PATIENTS *</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>* BE PATIENTS</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>* BE * PATIENTS</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>* BE PATIENTS *</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>BE * PATIENTS</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>BE PATIENTS</pattern>
+			<template>Patients be at higher risk for infection compared to those that were wearing a facemask.</template>
+		</category>
+		<category>
+			<pattern>* IS * ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS * ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* IS ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* IS * ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* IS ONE OPTION *</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS * ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>IS ONE OPTION</pattern>
+			<template>One option is to position staff in patients’ rooms to monitor their dining.</template>
+		</category>
+		<category>
+			<pattern>* TO BE * SOME PATIENTS *</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>TO BE * SOME PATIENTS *</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>TO BE SOME PATIENTS *</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>* TO BE SOME PATIENTS</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>* TO BE * SOME PATIENTS</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>* TO BE SOME PATIENTS *</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>TO BE * SOME PATIENTS</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>TO BE SOME PATIENTS</pattern>
+			<template>Some patients to be totally free of the ventilator, to be ready to even start walking or standing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * HCP *</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * HCP *</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE HCP *</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE HCP</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * HCP</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE HCP *</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * HCP</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE HCP</pattern>
+			<template>Hcp are more likely to encounter asymptomatic patients with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SURGICAL N95 RESPIRATORS *</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>ARE * SURGICAL N95 RESPIRATORS *</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>ARE SURGICAL N95 RESPIRATORS *</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>* ARE SURGICAL N95 RESPIRATORS</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SURGICAL N95 RESPIRATORS</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>* ARE SURGICAL N95 RESPIRATORS *</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>ARE * SURGICAL N95 RESPIRATORS</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>ARE SURGICAL N95 RESPIRATORS</pattern>
+			<template>Surgical n95 respirators are hot and uncomfortable.</template>
+		</category>
+		<category>
+			<pattern>* WERE * NEITHER THE PATIENTS *</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE * NEITHER THE PATIENTS *</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE NEITHER THE PATIENTS *</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WERE NEITHER THE PATIENTS</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WERE * NEITHER THE PATIENTS</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* WERE NEITHER THE PATIENTS *</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE * NEITHER THE PATIENTS</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>WERE NEITHER THE PATIENTS</pattern>
+			<template>Neither the patients were aware at the time who was in which group.</template>
+		</category>
+		<category>
+			<pattern>* ARE * STAFF *</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>ARE * STAFF *</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>ARE STAFF *</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>* ARE STAFF</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>* ARE * STAFF</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>* ARE STAFF *</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>ARE * STAFF</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>ARE STAFF</pattern>
+			<template>Staff are at greater risk for the spread of germs.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOME PROCEDURES *</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE * SOME PROCEDURES *</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE SOME PROCEDURES *</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE SOME PROCEDURES</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOME PROCEDURES</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE SOME PROCEDURES *</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE * SOME PROCEDURES</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>ARE SOME PROCEDURES</pattern>
+			<template>Some procedures are more likely to generate higher concentrations of infectious respiratory aerosols than coughing, sneezing, talking, or breathing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO *</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO *</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO *</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO *</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO</pattern>
+			<template>Who are now asymptomatic.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR</pattern>
+			<template>A respirator is not available—and.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE * DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* ARE DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* ARE * DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* ARE DECISIONS *</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE * DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>ARE DECISIONS</pattern>
+			<template>Decisions are distinct from decisions about.</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC *</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>IS * CDC *</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>IS CDC *</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>* IS CDC</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>* IS CDC *</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>IS * CDC</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>IS CDC</pattern>
+			<template>Cdc is and CDC risk factors.</template>
+		</category>
+		<category>
+			<pattern>* IS * COVID *</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>IS * COVID *</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>IS COVID *</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>* IS COVID</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>* IS * COVID</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>* IS COVID *</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>IS * COVID</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>IS COVID</pattern>
+			<template>Covid is a nasty, nasty disease that kicks every single system you&apos;ve got in the neck.</template>
+		</category>
+		<category>
+			<pattern>* IS * GUIDANCE *</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS * GUIDANCE *</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS GUIDANCE *</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS GUIDANCE</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS * GUIDANCE</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS GUIDANCE *</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS * GUIDANCE</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS GUIDANCE</pattern>
+			<template>Guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS * BREATHLESSNESS *</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS * BREATHLESSNESS *</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS BREATHLESSNESS *</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS BREATHLESSNESS</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS * BREATHLESSNESS</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS BREATHLESSNESS *</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS * BREATHLESSNESS</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS BREATHLESSNESS</pattern>
+			<template>Breathlessness is an issue that goes well beyond survivors of intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESPIRATOR *</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>IS A RESPIRATOR</pattern>
+			<template>A respirator is not available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* IS * HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS *</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS * HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS *</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS *</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS * HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS *</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS * HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>IS HEALTHCARE INFECTION PREVENTION AND CONTROL FAQS</pattern>
+			<template>Healthcare infection prevention and control faqs Is use of high-flow oxygen considered an aerosol-generating procedure for respirator prioritization during shortages.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT *</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT *</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS WHAT *</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT *</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS WHAT</pattern>
+			<template>What is multisystem inflammatory syndrome in children (MIS-C) and who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* IS INFORMATION *</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS * INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>IS INFORMATION</pattern>
+			<template>Information is available in the Health Departments.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHAT TYPES *</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHAT TYPES *</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE WHAT TYPES *</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHAT TYPES</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHAT TYPES</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHAT TYPES *</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHAT TYPES</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE WHAT TYPES</pattern>
+			<template>What types are available for healthcare personnel to protect from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE ROLE *</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>IS * THE ROLE *</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>IS THE ROLE *</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>* IS THE ROLE</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE ROLE</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>* IS THE ROLE *</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>IS * THE ROLE</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>IS THE ROLE</pattern>
+			<template>The role is for patient source control, to prevent contamination of the surrounding area when a person coughs or sneezes.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>It is important for HCP to perform hand hygiene after removing PPE.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESIDENT *</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESIDENT *</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>IS A RESIDENT *</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESIDENT</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>* IS * A RESIDENT</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>* IS A RESIDENT *</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>IS * A RESIDENT</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>IS A RESIDENT</pattern>
+			<template>A resident is asymptomatic and declines testing at the time of facility-wide testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * GUIDANCE *</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * GUIDANCE *</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE GUIDANCE *</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE GUIDANCE</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * GUIDANCE</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE GUIDANCE *</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * GUIDANCE</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE GUIDANCE</pattern>
+			<template>Guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT *</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT *</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT *</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT *</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT</pattern>
+			<template>It &apos;s all part of the process of preparing patients for the moment when patients are woken up.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * THE GREATEST BURDEN *</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * THE GREATEST BURDEN *</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>WILL BE THE GREATEST BURDEN *</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE THE GREATEST BURDEN</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * THE GREATEST BURDEN</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE THE GREATEST BURDEN *</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * THE GREATEST BURDEN</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>WILL BE THE GREATEST BURDEN</pattern>
+			<template>The greatest burden will be in the community.</template>
+		</category>
+		<category>
+			<pattern>* ARE * OTHER CONSIDERATIONS *</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>ARE * OTHER CONSIDERATIONS *</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>ARE OTHER CONSIDERATIONS *</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>* ARE OTHER CONSIDERATIONS</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>* ARE * OTHER CONSIDERATIONS</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>* ARE OTHER CONSIDERATIONS *</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>ARE * OTHER CONSIDERATIONS</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>ARE OTHER CONSIDERATIONS</pattern>
+			<template>Other considerations are epidemiologic factors such as the occurrence of local community transmission of COVID-19 infections.</template>
+		</category>
+		<category>
+			<pattern>* MUST BE * LENGTH REQUIREMENTS *</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>MUST BE * LENGTH REQUIREMENTS *</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>MUST BE LENGTH REQUIREMENTS *</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>* MUST BE LENGTH REQUIREMENTS</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>* MUST BE * LENGTH REQUIREMENTS</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>* MUST BE LENGTH REQUIREMENTS *</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>MUST BE * LENGTH REQUIREMENTS</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>MUST BE LENGTH REQUIREMENTS</pattern>
+			<template>Length requirements must be a minimum of 220mm-230mm depending on glove size and material type.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE IT *</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE IT</pattern>
+			<template>It might not be possible to cohort certain patients together or change HCP assigned to their care.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE SOME PATIENTS *</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>MAY BE SOME PATIENTS</pattern>
+			<template>Some patients may be unable or unwilling to use them as intended.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY *</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY *</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY *</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY *</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY</pattern>
+			<template>They are also deconditioned because they&apos;ve been lying in a hospital bed for so long that they&apos;ve become pretty unfit.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY *</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY</pattern>
+			<template>They are in the healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY *</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY *</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY *</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY *</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY</pattern>
+			<template>They are in a healthcare facility.</template>
+		</category>
+		<category>
+			<pattern>* WERE * PATIENTS *</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE * PATIENTS *</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE PATIENTS *</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* WERE PATIENTS</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* WERE * PATIENTS</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* WERE PATIENTS *</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE * PATIENTS</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>WERE PATIENTS</pattern>
+			<template>Patients were no deaths among those given SNG001.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES *</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE * OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>MIGHT NOT BE OTHER RECOMMENDED INFECTION CONTROL MEASURES</pattern>
+			<template>Other recommended infection control measures might not be safe or appropriate to implement in all locations or for all patients due to security and behavioral concerns.</template>
+		</category>
+		<category>
+			<pattern>* IS * GUIDANCE *</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>IS * GUIDANCE *</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>IS GUIDANCE *</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>* IS GUIDANCE</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>* IS * GUIDANCE</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>* IS GUIDANCE *</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>IS * GUIDANCE</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>IS GUIDANCE</pattern>
+			<template>Guidance is available for HCP and healthcare facilities on steps to take.</template>
+		</category>
+		<category>
+			<pattern>* ARE * NONSTERILE *</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * NONSTERILE *</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE NONSTERILE *</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE NONSTERILE</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * NONSTERILE</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE NONSTERILE *</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * NONSTERILE</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE NONSTERILE</pattern>
+			<template>Nonsterile are appropriate for use by patients with suspected or confirmed COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>Who is at risk.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE * THEY *</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE * THEY *</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE THEY *</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE THEY</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE * THEY</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE THEY *</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE * THEY</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE THEY</pattern>
+			<template>They &apos;re breathless because they&apos;ve had a respiratory disease.</template>
+		</category>
+		<category>
+			<pattern>* IS * ADHERENCE *</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>IS * ADHERENCE *</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>IS ADHERENCE *</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>* IS ADHERENCE</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>* IS * ADHERENCE</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>* IS ADHERENCE *</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>IS * ADHERENCE</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>IS ADHERENCE</pattern>
+			<template>Adherence is an important part of protecting all HCP in healthcare settings.</template>
+		</category>
+		<category>
+			<pattern>* WAS * SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS * SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* WAS SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* WAS * SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* WAS SHE *</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS * SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>WAS SHE</pattern>
+			<template>She was potentially infectious.</template>
+		</category>
+		<category>
+			<pattern>* ARE * INTERIM U. S. GUIDANCE *</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * INTERIM U. S. GUIDANCE *</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE INTERIM U. S. GUIDANCE *</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE INTERIM U. S. GUIDANCE</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * INTERIM U. S. GUIDANCE</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE INTERIM U. S. GUIDANCE *</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * INTERIM U. S. GUIDANCE</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE INTERIM U. S. GUIDANCE</pattern>
+			<template>Interim u. s. guidance Are empiric antibiotics recommended for patients suspected of having COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT GUIDANCE *</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT GUIDANCE *</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS WHAT GUIDANCE *</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT GUIDANCE</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT GUIDANCE</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT GUIDANCE *</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT GUIDANCE</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>IS WHAT GUIDANCE</pattern>
+			<template>What guidance is available for labor and delivery HCP with potential exposure in a healthcare setting to patients with COVID-19 infection.</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

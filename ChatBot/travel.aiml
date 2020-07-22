@@ -1,0 +1,2471 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* TRAVEL *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>TRAVEL *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>* TRAVEL</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>TRAVEL</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<topic name = "TRAVEL">
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You Are Sick Isolate.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE BEST WAY *</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>IS * THE BEST WAY *</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>IS THE BEST WAY *</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>* IS THE BEST WAY</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE BEST WAY</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>* IS THE BEST WAY *</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>IS * THE BEST WAY</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>IS THE BEST WAY</pattern>
+			<template>The best way is to take steps to avoid being exposed to this virus.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY *</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY *</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY *</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY *</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>ARE THEY</pattern>
+			<template>They are n’t sick as well.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU *</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU *</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU *</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU *</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU</pattern>
+			<template>You Might Be Sick Parents or Caregivers.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* IS * SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS * SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS * SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS * SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS * CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC. *</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>IS * CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC. *</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>IS CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC. *</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>* IS CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC.</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>* IS * CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC.</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>* IS CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC. *</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>IS * CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC.</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>IS CENTURY TECHNOLOGIES INC. 22ND CENTURY TECHNOLOGIES INC.</pattern>
+			<template>Century technologies inc. 22nd century technologies inc. is one of the largest public-sector.</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS PAGE *</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>IS * THIS PAGE *</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>IS THIS PAGE *</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>* IS THIS PAGE</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS PAGE</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>* IS THIS PAGE *</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>IS * THIS PAGE</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>IS THIS PAGE</pattern>
+			<template>This page is about travel that is different from your everyday activities, away from your local community.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * YOU *</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * YOU *</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN YOU *</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN YOU</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * YOU</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN YOU *</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * YOU</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN YOU</pattern>
+			<template>You have been around someone with COVID-19 in the past 14 days.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN * YOU *</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN * YOU *</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN YOU *</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN YOU</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN * YOU</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN YOU *</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN * YOU</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN YOU</pattern>
+			<template>You ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* IS * SHE *</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS * SHE *</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS SHE *</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS SHE</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS * SHE</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS SHE *</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS * SHE</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS SHE</pattern>
+			<template>She is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * YOUR HEALTH DEPARTMENT *</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * YOUR HEALTH DEPARTMENT *</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>MAY BE YOUR HEALTH DEPARTMENT *</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE YOUR HEALTH DEPARTMENT</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * YOUR HEALTH DEPARTMENT</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE YOUR HEALTH DEPARTMENT *</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * YOUR HEALTH DEPARTMENT</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>MAY BE YOUR HEALTH DEPARTMENT</pattern>
+			<template>Your health department may be able to provide assistance.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are sick or caring for someone.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO *</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO *</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO *</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO *</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO</pattern>
+			<template>Who are sick enough to need.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are , along your route.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN * WHO *</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN * WHO *</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN WHO *</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN WHO</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN * WHO</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* ’VE BEEN WHO *</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN * WHO</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>’VE BEEN WHO</pattern>
+			<template>Who ’ve been in contact with.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE * PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE * PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who do not have symptoms.</template>
+		</category>
+		<category>
+			<pattern>* WERE * THIS PARTICULAR GROUP *</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>WERE * THIS PARTICULAR GROUP *</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>WERE THIS PARTICULAR GROUP *</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>* WERE THIS PARTICULAR GROUP</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>* WERE * THIS PARTICULAR GROUP</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>* WERE THIS PARTICULAR GROUP *</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>WERE * THIS PARTICULAR GROUP</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>WERE THIS PARTICULAR GROUP</pattern>
+			<template>This particular group were a lot more difficult to wean off the ventilator.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>It is an Separate yourself from other people.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>It is not an unfamiliar story for anyone working in intensive care.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>It is only the beginning of a long process of physical and psychological recovery.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOME HEALTHCARE SYSTEMS *</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>ARE * SOME HEALTHCARE SYSTEMS *</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>ARE SOME HEALTHCARE SYSTEMS *</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>* ARE SOME HEALTHCARE SYSTEMS</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOME HEALTHCARE SYSTEMS</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>* ARE SOME HEALTHCARE SYSTEMS *</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>ARE * SOME HEALTHCARE SYSTEMS</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>ARE SOME HEALTHCARE SYSTEMS</pattern>
+			<template>Some healthcare systems are overwhelmed and there may be limited access to adequate medical care in affected areas.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU *</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU</pattern>
+			<template>You will be subject to the destination website&apos;s privacy policy when you follow the link.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE I *</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>MAY BE I</pattern>
+			<template>I may be sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * YOUR FACILITY *</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>IS * YOUR FACILITY *</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>IS YOUR FACILITY *</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>* IS YOUR FACILITY</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>* IS * YOUR FACILITY</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>* IS YOUR FACILITY *</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>IS * YOUR FACILITY</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>IS YOUR FACILITY</pattern>
+			<template>Your facility is able to provide.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>It is important to stay home.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are at work.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>It was only after going home that.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are sick COVID-19 testing.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>ARE * PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>ARE PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>* ARE PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>* ARE PEOPLE *</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>ARE * PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>ARE PEOPLE</pattern>
+			<template>People are different from those with COVID-19 who feel less sick.</template>
+		</category>
+		<category>
+			<pattern>* IS * THAT PROCESS *</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>IS * THAT PROCESS *</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>IS THAT PROCESS *</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>* IS THAT PROCESS</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>* IS * THAT PROCESS</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>* IS THAT PROCESS *</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>IS * THAT PROCESS</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>IS THAT PROCESS</pattern>
+			<template>That process is a success.</template>
+		</category>
+		<category>
+			<pattern>* IS * A KEEN CYCLIST *</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS * A KEEN CYCLIST *</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS A KEEN CYCLIST *</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS A KEEN CYCLIST</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS * A KEEN CYCLIST</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS A KEEN CYCLIST *</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS * A KEEN CYCLIST</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS A KEEN CYCLIST</pattern>
+			<template>A keen cyclist is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * YOU *</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * YOU *</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN YOU *</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN YOU</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * YOU</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN YOU *</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * YOU</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN YOU</pattern>
+			<template>You have been in close contact with someone who has COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE BEST WAY *</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>IS * THE BEST WAY *</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>IS THE BEST WAY *</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>* IS THE BEST WAY</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>* IS * THE BEST WAY</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>* IS THE BEST WAY *</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>IS * THE BEST WAY</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>IS THE BEST WAY</pattern>
+			<template>The best way is to prevent exposure.</template>
+		</category>
+		<category>
+			<pattern>* IS * SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS * SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS * SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* IS SOMEONE *</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS * SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>IS SOMEONE</pattern>
+			<template>Someone is sick with COVID-19 (see.</template>
+		</category>
+		<category>
+			<pattern>* BE * YOU *</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>BE * YOU *</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>BE YOU *</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>* BE YOU</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>* BE * YOU</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>* BE YOU *</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>BE * YOU</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>BE YOU</pattern>
+			<template>You be within 6 feet of others during or after your trip.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO *</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO *</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO *</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO *</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO</pattern>
+			<template>Who are nearby or be launched into the air and inhaled into someone’s lungs.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You Are Sick or Caring for Someone Interim Guidance for Communities of Faith.</template>
+		</category>
+		<category>
+			<pattern>* IS * NEXT GOAL *</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS * NEXT GOAL *</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS NEXT GOAL *</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS NEXT GOAL</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS * NEXT GOAL</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* IS NEXT GOAL *</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS * NEXT GOAL</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>IS NEXT GOAL</pattern>
+			<template>Next goal is to cycle around the block.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You Are Sick Quarantine.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO *</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO *</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO *</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO *</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO</pattern>
+			<template>Who are sick with COVID-19 symptoms.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are sick with COVID-19 or think you might have COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>Who is more likely to get very ill from COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE * THEY *</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE * THEY *</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE THEY *</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE THEY</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE * THEY</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>* &apos;RE THEY *</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE * THEY</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>&apos;RE THEY</pattern>
+			<template>They &apos;re less confused and less disoriented than.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * I *</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * I *</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>WILL BE I *</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE I</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * I</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>* WILL BE I *</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>WILL BE * I</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>WILL BE I</pattern>
+			<template>I will be able to take my bike for a proper ride.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU *</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU *</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU *</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU *</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU</pattern>
+			<template>You Might Be Sick Considerations for Wearing Cloth Face Coverings.</template>
+		</category>
+		<category>
+			<pattern>* MAY HAVE BEEN * YOU *</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>MAY HAVE BEEN * YOU *</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>MAY HAVE BEEN YOU *</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>* MAY HAVE BEEN YOU</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>* MAY HAVE BEEN * YOU</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>* MAY HAVE BEEN YOU *</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>MAY HAVE BEEN * YOU</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>MAY HAVE BEEN YOU</pattern>
+			<template>You may have been infectious and able to spread COVID-19 to others.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * CHILDREN *</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * CHILDREN *</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN CHILDREN *</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN CHILDREN</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * CHILDREN</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN CHILDREN *</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * CHILDREN</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN CHILDREN</pattern>
+			<template>Children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS * CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* IS CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* IS CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS * CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</template>
+		</category>
+		<category>
+			<pattern>* WAS * DIARRHOEA *</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>WAS * DIARRHOEA *</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>WAS DIARRHOEA *</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>* WAS DIARRHOEA</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>* WAS * DIARRHOEA</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>* WAS DIARRHOEA *</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>WAS * DIARRHOEA</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>WAS DIARRHOEA</pattern>
+			<template>Diarrhoea was the seventh most common symptom, well below the top three: cough, fever and shortness of breath.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>You Are Pregnant, Breastfeeding, or Caring for Young Children Protecting Seafood Processing Workers from COVID-19 Safe Watering Points.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* IS * APPLEONE EMPLOYMENT SERVICES *</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>IS * APPLEONE EMPLOYMENT SERVICES *</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>IS APPLEONE EMPLOYMENT SERVICES *</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>* IS APPLEONE EMPLOYMENT SERVICES</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>* IS * APPLEONE EMPLOYMENT SERVICES</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>* IS APPLEONE EMPLOYMENT SERVICES *</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>IS * APPLEONE EMPLOYMENT SERVICES</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>IS APPLEONE EMPLOYMENT SERVICES</pattern>
+			<template>Appleone employment services is America’s largest certified women and minority owned staffing company.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * ANTIVIRALS *</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * ANTIVIRALS *</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>MAY BE ANTIVIRALS *</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE ANTIVIRALS</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * ANTIVIRALS</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>* MAY BE ANTIVIRALS *</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>MAY BE * ANTIVIRALS</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>MAY BE ANTIVIRALS</pattern>
+			<template>Antivirals may be more effective in the early stages, and immune drugs later in the disease.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PEOPLE *</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>ARE * PEOPLE *</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>ARE PEOPLE *</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>* ARE PEOPLE</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>* ARE * PEOPLE</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>* ARE PEOPLE *</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>ARE * PEOPLE</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>ARE PEOPLE</pattern>
+			<template>People are at greater risk for some illnesses, such as COVID-19, because of close living arrangements with other people.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * SOME CHILDREN *</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * SOME CHILDREN *</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN SOME CHILDREN *</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN SOME CHILDREN</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * SOME CHILDREN</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN SOME CHILDREN *</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * SOME CHILDREN</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN SOME CHILDREN</pattern>
+			<template>Some children have been sick with COVID-19.</template>
+		</category>
+		<category>
+			<pattern>* IS * NSG *</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>IS * NSG *</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>IS NSG *</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>* IS NSG</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>* IS * NSG</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>* IS NSG *</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>IS * NSG</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>IS NSG</pattern>
+			<template>Nsg is an established, well-funded national enterprise with operations in 45 states.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * WHO *</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * WHO *</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN WHO *</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN WHO</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * WHO</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN WHO *</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * WHO</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN WHO</pattern>
+			<template>Who have been within about 6 feet of the sick person or have had.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>Who Is at Increased Risk for Severe Illness.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * WHO *</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * WHO *</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN WHO *</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN WHO</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * WHO</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN WHO *</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * WHO</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN WHO</pattern>
+			<template>Who have been in one of these countries during the previous 14 days.</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>It was a month after falling ill that She first managed to walk to the end of the road and back.</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS * CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* IS CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* IS CDC *</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS * CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>IS CDC</pattern>
+			<template>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOAP *</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE * SOAP *</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE SOAP *</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE SOAP</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOAP</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE SOAP *</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE * SOAP</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>ARE SOAP</pattern>
+			<template>Soap are not readily available.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO *</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO *</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO *</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO *</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>ARE WHO</pattern>
+			<template>Who Are at Increased Risk for Severe Illness People.</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS LIST *</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>IS * THIS LIST *</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>IS THIS LIST *</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>* IS THIS LIST</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS LIST</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>* IS THIS LIST *</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>IS * THIS LIST</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>IS THIS LIST</pattern>
+			<template>This list is not all possible symptoms.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT *</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT *</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>IS WHAT *</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT *</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>IS WHAT</pattern>
+			<template>What is a safe way to perform temperature checks.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SIMPLIFIED CHINESE *</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>ARE * SIMPLIFIED CHINESE *</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>ARE SIMPLIFIED CHINESE *</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>* ARE SIMPLIFIED CHINESE</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>* ARE * SIMPLIFIED CHINESE</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>* ARE SIMPLIFIED CHINESE *</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>ARE * SIMPLIFIED CHINESE</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>ARE SIMPLIFIED CHINESE</pattern>
+			<template>Simplified chinese are available for those who need them.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU *</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU</pattern>
+			<template>You Can be Around Others.</template>
+		</category>
+		<category>
+			<pattern>* IS * ATRIUM *</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>IS * ATRIUM *</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>IS ATRIUM *</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>* IS ATRIUM</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>* IS * ATRIUM</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>* IS ATRIUM *</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>IS * ATRIUM</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>IS ATRIUM</pattern>
+			<template>Atrium is a national, woman-owned, WBENC-certified talent management firm.</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

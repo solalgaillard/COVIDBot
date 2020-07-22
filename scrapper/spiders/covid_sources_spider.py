@@ -23,18 +23,7 @@ os.environ["PATH"] += os.pathsep + f'{home}/.wdm/drivers/chromedriver/mac64/83.0
 #print [name for name in os.listdir(".") if os.path.isdir(name)]
 
 print(f'{home}/.wdm/drivers/chromedriver/mac64/83.0.4103.39')
-#TODO SUpra SCRIPT THAT CALLS ALL THE SPIDERS - PASS THE VARIABLES - AFTER THEY REACH A CERTAIN AMOUNT OF DATA (250 entries)
-#TODO EXTRACT DATE ON EACH DOMAIN - Done
-#TODO CRON JOB TO LAUNCH SCRIPT EVERY TWO DAYS
-#TODO UNDERSTAND WHY RULES DON't work - don't filter ? -DONE
-#TODO BREAD-WIDTH FIRST - done
-#TODO KILL ALL QUEUED REQUESTS - done
-#TODO MAKE INSTALL LOCALLY OF DRIVER - done
-#TODO RULES FOR PATH AUTOMATICALLY
-#TODO MAKE DRIVER PATH RELATIVE ON INSTALL
-#TODO CREATE NEW EMAIL FOR NYT
-#TODO LIMIT TO PAST THREE MONTHS - done
-#TODO WRITING TO FILES NEEDS TO BE INVOKED ONLY ONCE AT THE END NEED A PANDAFRAME
+
 
 class CovidSpider(CrawlSpider):
     name = "covidsources"
@@ -173,7 +162,7 @@ class CovidSpider(CrawlSpider):
                              published_date = datetime.datetime.strptime(timestamp_elements[0].get_attribute('content'), '%B %d, %Y')
 
 
-                if published_date and abs((self.todaysDate - published_date).days) < 120:
+                if published_date and abs((self.todaysDate - published_date).days) < 90:
                     SENTENCE_PATTERN = re.compile(r'\S.+?[.!?]|[.!?][\'\"]\s+(?=\s+|$)+')  # make multiligne and comment https://stackoverflow.com/questions/5032210/php-sentence-boundaries-detection/5844564#5844564
 
                     FOUR_WORDS_TAG_MIN = re.compile(r'(\w+(?:\s+|[.!?]$)){4}')
