@@ -3,20 +3,19 @@ import os
 
 # Create the kernel and learn AIML files
 kernel = aiml.Kernel()
-kernel.learn("./chatBot/covid-bot.aiml")
+kernel.learn("./chat_bot/covid_bot.aiml")
 kernel.respond("load aiml files")
 
-
-
-
+'''
+if os.path.isfile("bot_brain.brn"):
+    kernel.bootstrap(brainFile = "bot_brain.brn")
+else:
+    kernel.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
+    kernel.saveBrain("bot_brain.brn"
+'''
 # Press CTRL-C to break this loop
 
-#addTopic("stuff")
 
-#createTopic("topicName", ["test1", "test2"], [])
-
-
-#addString()
 while True:
     inputed = input("Enter your message >> ")
     res = kernel.respond(inputed)

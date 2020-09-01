@@ -96,7 +96,6 @@ class CovidSpider(CrawlSpider):
 
 
     def parse_item(self, response):
-        print('THIS IS A TEST')
         self.driver.get(response.url)
 
         current_domain = next((x for x in self.allowed_domains if x in response.url), None)
@@ -135,7 +134,6 @@ class CovidSpider(CrawlSpider):
 
 
                 elif 'bbc' in response.url:
-                    print("WOTWTOQTQE\n\n\n")
                     tags.extend(res.xpath("//*[contains(@class, 'story-body')]/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
                     timestamp_elements = self.driver.find_elements_by_css_selector(".story-body .date")
                     if len(timestamp_elements) > 0:

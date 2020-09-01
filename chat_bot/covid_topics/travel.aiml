@@ -1,0 +1,1127 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* TRAVEL *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>TRAVEL *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>* TRAVEL</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>TRAVEL</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>* FLIGHTS *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>FLIGHTS *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>* FLIGHTS</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>FLIGHTS</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>* AIRLINE *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<category>
+		<pattern>AIRLINE *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<category>
+		<pattern>* AIRLINE</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<category>
+		<pattern>AIRLINE</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<topic name = "TRAVEL">
+		<category>
+			<pattern>* WILL BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>
+				<random>
+					<li>You Are Sick Quarantine.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CAN BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CAN BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CAN BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CAN BE YOU</pattern>
+			<template>
+				<random>
+					<li>You Can be Around Others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS PAGE *</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THIS PAGE *</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THIS PAGE *</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THIS PAGE</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS PAGE</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THIS PAGE *</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THIS PAGE</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THIS PAGE</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>
+				<random>
+					<li>You are , along your route.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * HUMANS *</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * HUMANS *</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE HUMANS *</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE HUMANS</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * HUMANS</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE HUMANS *</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * HUMANS</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE HUMANS</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU</pattern>
+			<template>
+				<random>
+					<li>You Might Be Sick Parents or Caregivers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN WHO *</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN WHO</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * WHO</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN WHO *</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * WHO</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN WHO</pattern>
+			<template>
+				<random>
+					<li>Who have been in one of these countries during the previous 14 days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be more likely to get very ill from COVID-19.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be , along your route.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be more likely to get very ill from COVID-19.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be , along your route.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be more likely to get very ill from COVID-19.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be , along your route.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be more likely to get very ill from COVID-19.</li>
+					<li>You will be Sick Isolate.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Sick Parents or Caregivers.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be Around Others.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You will be , along your route.</li>
+					<li>You will be Sick Quarantine.</li>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT *</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT *</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT</pattern>
+			<template>
+				<random>
+					<li>It is safe to be around others.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO *</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is in one of these countries during the previous 14 days.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO *</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is in one of these countries during the previous 14 days.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is in one of these countries during the previous 14 days.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO</pattern>
+			<template>
+				<random>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is in one of these countries during the previous 14 days.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					<li>Who Is at Increased Risk for Severe Illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THIS PAGE *</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THIS PAGE *</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THIS PAGE</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THIS PAGE</pattern>
+			<template>
+				<random>
+					<li>This page is about travel that is different from your everyday activities, away from your local community.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HUMANS *</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HUMANS *</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HUMANS</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HUMANS</pattern>
+			<template>
+				<random>
+					<li>Humans are Present USDA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

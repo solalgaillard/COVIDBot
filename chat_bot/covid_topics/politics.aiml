@@ -1,0 +1,3535 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* POLITICS *</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<category>
+		<pattern>POLITICS *</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<category>
+		<pattern>* POLITICS</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<category>
+		<pattern>POLITICS</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<topic name = "POLITICS">
+		<category>
+			<pattern>* IS * MONEY *</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MONEY *</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MONEY *</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MONEY</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MONEY</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MONEY *</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MONEY</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MONEY</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * POPULIST LEADERS *</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * POPULIST LEADERS *</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE POPULIST LEADERS *</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE POPULIST LEADERS</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * POPULIST LEADERS</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE POPULIST LEADERS *</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * POPULIST LEADERS</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE POPULIST LEADERS</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * PRIDE *</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * PRIDE *</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS PRIDE *</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS PRIDE</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * PRIDE</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS PRIDE *</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * PRIDE</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS PRIDE</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’LL BE * I *</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’LL BE * I *</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’LL BE I *</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’LL BE I</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’LL BE * I</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’LL BE I *</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’LL BE * I</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’LL BE I</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE HEAT *</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE HEAT *</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE HEAT *</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE HEAT</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE HEAT</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE HEAT *</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE HEAT</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE HEAT</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE REASON *</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE REASON *</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE REASON *</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE REASON</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE REASON</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE REASON *</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE REASON</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE REASON</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S WHO *</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S WHO</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * WHO</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S WHO *</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * WHO</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S WHO</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MIGHT BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MIGHT BE YOU</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE PRESIDENT *</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE PRESIDENT *</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE PRESIDENT *</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE PRESIDENT</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE PRESIDENT</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE PRESIDENT *</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE PRESIDENT</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE PRESIDENT</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS TRUMP</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * TRUMP</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * TRUMP</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS TRUMP</pattern>
+			<template>
+				<random>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE REMEDY *</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE REMEDY *</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE REMEDY *</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE REMEDY</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE REMEDY</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE REMEDY *</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE REMEDY</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE REMEDY</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * THE LATEST GATHERING *</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * THE LATEST GATHERING *</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE THE LATEST GATHERING *</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE THE LATEST GATHERING</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * THE LATEST GATHERING</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE THE LATEST GATHERING *</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * THE LATEST GATHERING</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE THE LATEST GATHERING</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TO BE * HIS GOVERNMENT *</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TO BE * HIS GOVERNMENT *</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TO BE HIS GOVERNMENT *</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TO BE HIS GOVERNMENT</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TO BE * HIS GOVERNMENT</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TO BE HIS GOVERNMENT *</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TO BE * HIS GOVERNMENT</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TO BE HIS GOVERNMENT</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * ONE BIG ROW *</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * ONE BIG ROW *</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS ONE BIG ROW *</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS ONE BIG ROW</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * ONE BIG ROW</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS ONE BIG ROW *</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * ONE BIG ROW</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS ONE BIG ROW</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE RULES *</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE RULES *</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE RULES *</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE RULES</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE RULES</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE RULES *</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE RULES</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE RULES</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * SEATS *</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * SEATS *</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE SEATS *</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE SEATS</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * SEATS</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE SEATS *</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * SEATS</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE SEATS</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * NEARLY 140,000 AMERICANS *</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * NEARLY 140,000 AMERICANS *</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE NEARLY 140,000 AMERICANS *</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE NEARLY 140,000 AMERICANS</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * NEARLY 140,000 AMERICANS</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE NEARLY 140,000 AMERICANS *</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * NEARLY 140,000 AMERICANS</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE NEARLY 140,000 AMERICANS</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MUST BE * WORKERS *</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MUST BE * WORKERS *</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MUST BE WORKERS *</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MUST BE WORKERS</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MUST BE * WORKERS</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MUST BE WORKERS *</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MUST BE * WORKERS</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MUST BE WORKERS</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * WE *</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * WE *</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE WE *</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE WE</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * WE</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE WE *</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * WE</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE WE</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * FEDERAL LAW ENFORCEMENT OFFICIALS *</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * FEDERAL LAW ENFORCEMENT OFFICIALS *</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE FEDERAL LAW ENFORCEMENT OFFICIALS *</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE FEDERAL LAW ENFORCEMENT OFFICIALS</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * FEDERAL LAW ENFORCEMENT OFFICIALS</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE FEDERAL LAW ENFORCEMENT OFFICIALS *</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * FEDERAL LAW ENFORCEMENT OFFICIALS</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE FEDERAL LAW ENFORCEMENT OFFICIALS</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE WHAT</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE WHAT</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * THE MOST IMPORTANT ELEMENT *</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * THE MOST IMPORTANT ELEMENT *</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE THE MOST IMPORTANT ELEMENT *</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE THE MOST IMPORTANT ELEMENT</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * THE MOST IMPORTANT ELEMENT</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE THE MOST IMPORTANT ELEMENT *</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * THE MOST IMPORTANT ELEMENT</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE THE MOST IMPORTANT ELEMENT</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * THIS BROKEN TIMEPIECE *</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * THIS BROKEN TIMEPIECE *</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE THIS BROKEN TIMEPIECE *</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE THIS BROKEN TIMEPIECE</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * THIS BROKEN TIMEPIECE</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE THIS BROKEN TIMEPIECE *</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * THIS BROKEN TIMEPIECE</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE THIS BROKEN TIMEPIECE</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * ANY EFFORTS *</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * ANY EFFORTS *</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE ANY EFFORTS *</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE ANY EFFORTS</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * ANY EFFORTS</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE ANY EFFORTS *</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * ANY EFFORTS</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE ANY EFFORTS</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was a breach of the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is “The payroll tax to me is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * DONALD TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * DONALD TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS DONALD TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS DONALD TRUMP</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * DONALD TRUMP</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS DONALD TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * DONALD TRUMP</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS DONALD TRUMP</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A STOPPED CLOCK *</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A STOPPED CLOCK *</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A STOPPED CLOCK *</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A STOPPED CLOCK</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A STOPPED CLOCK</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A STOPPED CLOCK *</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A STOPPED CLOCK</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A STOPPED CLOCK</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE PAYROLL TAX *</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE PAYROLL TAX *</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE PAYROLL TAX *</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE PAYROLL TAX</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE PAYROLL TAX</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE PAYROLL TAX *</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE PAYROLL TAX</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE PAYROLL TAX</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s Dutch guy who&apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE * COUNTRIES *</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE * COUNTRIES *</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE COUNTRIES *</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE COUNTRIES</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE * COUNTRIES</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE COUNTRIES *</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE * COUNTRIES</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE COUNTRIES</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * I *</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * I *</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE I *</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE I</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * I</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE I *</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * I</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE I</pattern>
+			<template>
+				<random>
+					<li>I will be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * COVID-19 CASES *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * COVID-19 CASES *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN COVID-19 CASES *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN COVID-19 CASES</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * COVID-19 CASES</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN COVID-19 CASES *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * COVID-19 CASES</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN COVID-19 CASES</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat could be detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * HE *</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * HE *</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS HE *</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS HE</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * HE</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS HE *</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * HE</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS HE</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MONEY *</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MONEY *</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MONEY</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MONEY</pattern>
+			<template>
+				<random>
+					<li>Money is not among Mr. Trump’s myriad problems.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* POPULIST LEADERS *</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>POPULIST LEADERS *</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* POPULIST LEADERS</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>POPULIST LEADERS</pattern>
+			<template>
+				<random>
+					<li>Populist leaders are peerless showmen: experts not in government but in hijacking the public attention.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PRIDE *</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PRIDE *</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PRIDE</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PRIDE</pattern>
+			<template>
+				<random>
+					<li>Pride was it downfall.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* I *</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>I *</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* I</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>I</pattern>
+			<template>
+				<random>
+					<li>I ’ll be right eventually.</li>
+					<li>I ’ll be right eventually.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE HEAT *</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE HEAT *</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE HEAT</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE HEAT</pattern>
+			<template>
+				<random>
+					<li>The heat is now on Trump on a number of fronts.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE REASON *</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE REASON *</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE REASON</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE REASON</pattern>
+			<template>
+				<random>
+					<li>The reason is because our have more tests.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO *</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO *</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO</pattern>
+			<template>
+				<random>
+					<li>Who &apos;s to blame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOU *</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOU *</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOU</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOU</pattern>
+			<template>
+				<random>
+					<li>You might be a hero in your home country for a few days.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PRESIDENT *</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PRESIDENT *</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PRESIDENT</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PRESIDENT</pattern>
+			<template>
+				<random>
+					<li>The president is already a drag on down-ballot candidates.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Trump is ‘not really working this anymore.</li>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Trump is ‘not really working this anymore.</li>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TRUMP</pattern>
+			<template>
+				<random>
+					<li>Trump is ‘not really working this anymore.</li>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TRUMP</pattern>
+			<template>
+				<random>
+					<li>Trump is ‘not really working this anymore.</li>
+					<li>Trump is right to demand that law and order be restored in American cities.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE REMEDY *</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE REMEDY *</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE REMEDY</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE REMEDY</pattern>
+			<template>
+				<random>
+					<li>The remedy is to remedy the violation, not to release petitioners.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE LATEST GATHERING *</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE LATEST GATHERING *</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE LATEST GATHERING</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE LATEST GATHERING</pattern>
+			<template>
+				<random>
+					<li>The latest gathering may be one of the most acrimonious yet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HIS GOVERNMENT *</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HIS GOVERNMENT *</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HIS GOVERNMENT</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HIS GOVERNMENT</pattern>
+			<template>
+				<random>
+					<li>His government to be able to veto recovery funds if a recipient is deemed failing on economic reforms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ONE BIG ROW *</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ONE BIG ROW *</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ONE BIG ROW</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ONE BIG ROW</pattern>
+			<template>
+				<random>
+					<li>One big row is how far countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE RULES *</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE RULES *</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE RULES</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE RULES</pattern>
+			<template>
+				<random>
+					<li>The rules were there for everyone’s safety and the rules applied to us.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SEATS *</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SEATS *</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SEATS</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SEATS</pattern>
+			<template>
+				<random>
+					<li>Seats are now increasingly up for grabs.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* NEARLY 140,000 AMERICANS *</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>NEARLY 140,000 AMERICANS *</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* NEARLY 140,000 AMERICANS</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>NEARLY 140,000 AMERICANS</pattern>
+			<template>
+				<random>
+					<li>Nearly 140,000 americans are now dead because of the Covid-19 pandemic and more than 3,000,000 have contracted the disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT *</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					<li>It was unusual for top aides to a presidential bid to simultaneously moonlight for other campaigns.</li>
+					<li>It was a breach of the rules.</li>
+					<li>It was “The payroll tax to me is very important.</li>
+					<li>It was Dutch guy who&apos;s to blame.</li>
+					<li>It was indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT *</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					<li>It was unusual for top aides to a presidential bid to simultaneously moonlight for other campaigns.</li>
+					<li>It was a breach of the rules.</li>
+					<li>It was “The payroll tax to me is very important.</li>
+					<li>It was Dutch guy who&apos;s to blame.</li>
+					<li>It was indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					<li>It was unusual for top aides to a presidential bid to simultaneously moonlight for other campaigns.</li>
+					<li>It was a breach of the rules.</li>
+					<li>It was “The payroll tax to me is very important.</li>
+					<li>It was Dutch guy who&apos;s to blame.</li>
+					<li>It was indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT</pattern>
+			<template>
+				<random>
+					<li>It was the kind of rookie mistake you could put down to the newness of TV.</li>
+					<li>It was unusual for top aides to a presidential bid to simultaneously moonlight for other campaigns.</li>
+					<li>It was a breach of the rules.</li>
+					<li>It was “The payroll tax to me is very important.</li>
+					<li>It was Dutch guy who&apos;s to blame.</li>
+					<li>It was indeed true.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WORKERS *</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WORKERS *</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WORKERS</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WORKERS</pattern>
+			<template>
+				<random>
+					<li>Workers must be our main focus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WE *</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines.</li>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WE *</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines.</li>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WE</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines.</li>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WE</pattern>
+			<template>
+				<random>
+					<li>We are with the vaccines.</li>
+					<li>We are with the vaccines and the therapeutics.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEDERAL LAW ENFORCEMENT OFFICIALS *</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEDERAL LAW ENFORCEMENT OFFICIALS *</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEDERAL LAW ENFORCEMENT OFFICIALS</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEDERAL LAW ENFORCEMENT OFFICIALS</pattern>
+			<template>
+				<random>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					<li>Federal law enforcement officials are necessary to do the job and Trump chooses to go down this path.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT *</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT *</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT</pattern>
+			<template>
+				<random>
+					<li>What could be the coronavirus relief package.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					<li>Heat is detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HEAT *</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					<li>Heat is detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					<li>Heat is detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HEAT</pattern>
+			<template>
+				<random>
+					<li>Heat is now on Trump on a number of fronts.</li>
+					<li>Heat is detrimental to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE MOST IMPORTANT ELEMENT *</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE MOST IMPORTANT ELEMENT *</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE MOST IMPORTANT ELEMENT</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE MOST IMPORTANT ELEMENT</pattern>
+			<template>
+				<random>
+					<li>The most important element will be political commitment, especially by our leaders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THIS BROKEN TIMEPIECE *</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THIS BROKEN TIMEPIECE *</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THIS BROKEN TIMEPIECE</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THIS BROKEN TIMEPIECE</pattern>
+			<template>
+				<random>
+					<li>This broken timepiece be happy when all the clocks have stopped.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANY EFFORTS *</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANY EFFORTS *</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANY EFFORTS</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANY EFFORTS</pattern>
+			<template>
+				<random>
+					<li>Any efforts will be a delicate balance.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DONALD TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DONALD TRUMP *</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DONALD TRUMP</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DONALD TRUMP</pattern>
+			<template>
+				<random>
+					<li>Donald trump is to resume daily coronavirus press briefings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A STOPPED CLOCK *</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A STOPPED CLOCK *</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A STOPPED CLOCK</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A STOPPED CLOCK</pattern>
+			<template>
+				<random>
+					<li>A stopped clock is right twice a day.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PAYROLL TAX *</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PAYROLL TAX *</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PAYROLL TAX</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PAYROLL TAX</pattern>
+			<template>
+				<random>
+					<li>The payroll tax is very important.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COUNTRIES *</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COUNTRIES *</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COUNTRIES</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COUNTRIES</pattern>
+			<template>
+				<random>
+					<li>Countries should be able to access grants.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COVID-19 CASES *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COVID-19 CASES *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COVID-19 CASES</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COVID-19 CASES</pattern>
+			<template>
+				<random>
+					<li>Covid-19 cases have been , particularly in some of the hottest and sunniest states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HE *</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HE *</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HE</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HE</pattern>
+			<template>
+				<random>
+					<li>He was “sure Ruth May’ll back here again.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

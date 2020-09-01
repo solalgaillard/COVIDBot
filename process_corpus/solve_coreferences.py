@@ -13,10 +13,6 @@ coref = neuralcoref.NeuralCoref(nlp.vocab)
 nlp.add_pipe(coref, name='neuralcoref')
 
 
-
-
-
-
 class solveCoreference():
 
     def belongsToWhichSentence(self, doc, idx):
@@ -55,8 +51,6 @@ class solveCoreference():
             if (mention["main"] != mention["mention"] and mainIdx != mentionStart and sentenceMention != sentenceIdx):
                 docIdxStart = document[mentionStart].idx
                 docIdxEnd = document[mentionEnd].idx + len(document[mentionEnd])
-                #print(mention["mention"].start_char, mention["mention"].end_char, docIdxStart, docIdxEnd )
-                #print(docIdxStart, docIdxEnd, offset, len(mention["main"].text) )
                 newDoc = newDoc[: docIdxStart+offset] + mention["main"].text + newDoc[ docIdxEnd + offset : ]
                 offset = offset + (len(mention["main"].text) - (docIdxEnd - docIdxStart))
 

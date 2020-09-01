@@ -73,8 +73,6 @@ class ScrapperDownloaderMiddleware:
         print(request)
         print(spider.count)
         current_domain = next((x for x in spider.allowed_domains if x in request.url), None)
-        print(current_domain)
-        print(spider.count[current_domain])
         if spider.count[current_domain]>=spider.max_entries_per_domain:
             raise IgnoreRequest("URL not processed: %s" % request.url)
 

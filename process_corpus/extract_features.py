@@ -17,7 +17,7 @@ class featureExtractions():
 
     def __init__(self):
         base_path = Path(__file__).parent
-        file_path2 = (base_path / "../data/learning-data.xml").resolve()
+        file_path2 = (base_path / "../data_saved/learning-data.xml").resolve()
 
         file = open(file_path2, 'r')
 
@@ -181,7 +181,7 @@ class featureExtractions():
 
         print('there are ' + str(vocab_frame.shape[0]) + ' items in vocab_frame')
 
-        num_clusters = 16
+        num_clusters = 18
 
         km = KMeans(n_clusters=num_clusters)
 
@@ -205,8 +205,9 @@ class featureExtractions():
         #weight*1/x
         #matching words
 
-        topics = {
-            "symptom": [
+        topics = [ {
+            "name": ["symptom"],
+            "values": [
                     {"word": "symptom", "weight": 1},
                     {"word": "respiratory", "weight": 1},
                     {"word": "tract", "weight": 1},
@@ -214,7 +215,10 @@ class featureExtractions():
                     {"word": "stool", "weight": .6},
                     {"word": "laboratory", "weight": .4},
                 ],
-            "test": [
+            },
+            {
+            "name": ["test"],
+            "values": [
                     {"word": "test", "weight": 1},
                     {"word": "laboratory", "weight": 1},
                     {"word": "precaution", "weight": .5},
@@ -227,7 +231,10 @@ class featureExtractions():
                     {"word": "processing", "weight": .8},
                     {"word": "detectable", "weight": .7},
                 ],
-            "data": [
+            },
+            {
+            "name": ["data"],
+            "values": [
                     {"word": "number", "weight": 1},
                     {"word": "death", "weight": 1},
                     {"word": "case", "weight": 1},
@@ -239,7 +246,10 @@ class featureExtractions():
                     {"word": "toll", "weight": 1},
                     {"word": "percentage", "weight": .8},
                 ],
-            "vaccine/treatment": [
+            },
+            {
+            "name": ["vaccine", "treatment"],
+            "values": [
                     {"word": "vaccine", "weight": 1},
                     {"word": "trial", "weight": 1},
                     {"word": "drug", "weight": .6},
@@ -247,16 +257,20 @@ class featureExtractions():
                     {"word": "treatment", "weight": .6},
                     {"word": "antibody", "weight": .5},
                 ],
-
-            "material/healthcare": [
+            },
+            {
+                "name": ["material", "healthcare"],
+                "values": [
                     {"word": "respirator", "weight": 1},
                     {"word": "patient", "weight": 1},
                     {"word": "n95", "weight": 1},
                     {"word": "procedure", "weight": .7},
                     {"word": "protection", "weight": .7},
                 ],
-
-            "travel/flights/airline": [
+            },
+            {
+                "name": ["travel", "flights", "airline"],
+                "values": [
                     {"word": "travel", "weight": 1},
                     {"word": "transportation", "weight": 1},
                     {"word": "flight", "weight": 1},
@@ -267,7 +281,10 @@ class featureExtractions():
                     {"word": "entry", "weight": 1},
                     {"word": "disembarkation", "weight": 1},
                 ],
-            "politics": [
+            },
+            {
+            "name": ["politics"],
+                    "values": [
                     {"word": "government", "weight": .7},
                     {"word": "trump", "weight": 1},
                     {"word": "european", "weight": .8},
@@ -283,21 +300,28 @@ class featureExtractions():
                     {"word": "mask", "weight": .2},
                     {"word": "country", "weight": .2},
                 ]
-        } #contain
+            }
+        ] #contain
 
-        occurencesMapping = {}
-        for topic in topics:
-            occurencesMapping[topic] = [0 for x in range(num_clusters)]
+        #### JUST CHANGED DATA STRUCTURE.
+
+        occurencesMapping = [[0 for y in range(num_clusters)] for x in range(len(topics))]
+        for idxTop, topic in enumerate(topics):
+            print(topic, idxTop)
+
+            #occurencesMapping[idxTop] = [0 for x in range(num_clusters)]
+
             for i in range(num_clusters):
                 print("Cluster %d words:" % i, end='')
 
-                for idx,ind in enumerate(order_centroids[i, :40]):  # replace 6 with n words per cluster
+                for idx, ind in enumerate(order_centroids[i, :40]):  # 40 words per cluster
                     term = vocab_frame.loc[terms[ind].split(' ')].values.tolist()[0][0]
-                    for wordEntry in topics[topic]:
+                    for wordEntry in topic["values"]:
+                        print(wordEntry)
                         if((len(wn.synsets(wordEntry["word"])) and term in wn.synsets(wordEntry["word"])[0].lemma_names()) or term == wordEntry["word"]):
                             print(ind)
                             print(((40-ind)/40.), wordEntry["weight"])
-                            occurencesMapping[topic][i] += (wordEntry["weight"] * ((40-idx)/40.)) #linear progression
+                            occurencesMapping[idxTop][i] += (wordEntry["weight"] * ((40-idx)/40.)) #linear progression
 
                     #wn.synsets('change')[0].lemma_names()
 
@@ -312,9 +336,10 @@ class featureExtractions():
 
         mapping = [None for x in range(num_clusters)]
         print(occurencesMapping)
-        for topic in occurencesMapping:
-            occurencesMapping[topic] = occurencesMapping[topic].index(max(occurencesMapping[topic]))
-            mapping[occurencesMapping[topic]] = topic
+
+        for idx in range(len(occurencesMapping)):
+            print(occurencesMapping[idx].index(max(occurencesMapping[idx])))
+            mapping[occurencesMapping[idx].index(max(occurencesMapping[idx]))] = topics[idx]["name"]
 
         print(mapping)
         return {"clusters": clusters, "topic_mapping": mapping}

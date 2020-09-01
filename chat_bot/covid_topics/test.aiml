@@ -1,0 +1,4735 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* TEST *</pattern>
+		<template>
+			<think><set name = "topic">TEST</set></think>
+			I know a lot about test
+		</template>
+	</category>
+	<category>
+		<pattern>TEST *</pattern>
+		<template>
+			<think><set name = "topic">TEST</set></think>
+			I know a lot about test
+		</template>
+	</category>
+	<category>
+		<pattern>* TEST</pattern>
+		<template>
+			<think><set name = "topic">TEST</set></think>
+			I know a lot about test
+		</template>
+	</category>
+	<category>
+		<pattern>TEST</pattern>
+		<template>
+			<think><set name = "topic">TEST</set></think>
+			I know a lot about test
+		</template>
+	</category>
+	<topic name = "TEST">
+		<category>
+			<pattern>* IS * YOUR FEEDBACK *</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * YOUR FEEDBACK *</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS YOUR FEEDBACK *</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS YOUR FEEDBACK</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * YOUR FEEDBACK</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS YOUR FEEDBACK *</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * YOUR FEEDBACK</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS YOUR FEEDBACK</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * ZIMBABWE *</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * ZIMBABWE *</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS ZIMBABWE *</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS ZIMBABWE</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * ZIMBABWE</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS ZIMBABWE *</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * ZIMBABWE</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS ZIMBABWE</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE COVID-19 PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE COVID-19 PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE COVID-19 PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE COVID-19 PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE COVID-19 PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE COVID-19 PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE COVID-19 PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE COVID-19 PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE EXISTING EVIDENCE *</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE EXISTING EVIDENCE *</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE EXISTING EVIDENCE *</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE EXISTING EVIDENCE</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE EXISTING EVIDENCE</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE EXISTING EVIDENCE *</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE EXISTING EVIDENCE</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE EXISTING EVIDENCE</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE * STANDARD PRACTICES *</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE * STANDARD PRACTICES *</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE STANDARD PRACTICES *</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE STANDARD PRACTICES</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE * STANDARD PRACTICES</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SHOULD BE STANDARD PRACTICES *</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE * STANDARD PRACTICES</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SHOULD BE STANDARD PRACTICES</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * ANTIBODY TEST RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * ANTIBODY TEST RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE ANTIBODY TEST RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE ANTIBODY TEST RESULTS</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * ANTIBODY TEST RESULTS</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE ANTIBODY TEST RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * ANTIBODY TEST RESULTS</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE ANTIBODY TEST RESULTS</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A DECLINING PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A DECLINING PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A DECLINING PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A DECLINING PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A DECLINING PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A DECLINING PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A DECLINING PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A DECLINING PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * ANTIBODY TESTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * ANTIBODY TESTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE ANTIBODY TESTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE ANTIBODY TESTS</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * ANTIBODY TESTS</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE ANTIBODY TESTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * ANTIBODY TESTS</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE ANTIBODY TESTS</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * YOU</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE YOU *</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * YOU</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE YOU</pattern>
+			<template>
+				<random>
+					<li>You are sick or caring for someone.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE WHAT</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE WHAT</pattern>
+			<template>
+				<random>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOAP *</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * SOAP *</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE SOAP *</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE SOAP</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * SOAP</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE SOAP *</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * SOAP</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE SOAP</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE NOTION *</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE NOTION *</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE NOTION *</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE NOTION</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE NOTION</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE NOTION *</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE NOTION</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE NOTION</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAS BEEN * THE DRUG *</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAS BEEN * THE DRUG *</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAS BEEN THE DRUG *</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAS BEEN THE DRUG</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAS BEEN * THE DRUG</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAS BEEN THE DRUG *</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAS BEEN * THE DRUG</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAS BEEN THE DRUG</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A FAMILY MEMBER *</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A FAMILY MEMBER *</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A FAMILY MEMBER *</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A FAMILY MEMBER</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A FAMILY MEMBER</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A FAMILY MEMBER *</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A FAMILY MEMBER</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A FAMILY MEMBER</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * NURSES *</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * NURSES *</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE NURSES *</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE NURSES</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * NURSES</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE NURSES *</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * NURSES</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE NURSES</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * SNAP *</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * SNAP *</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS SNAP *</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS SNAP</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * SNAP</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS SNAP *</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * SNAP</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS SNAP</pattern>
+			<template>
+				<random>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * OUR CULTURES *</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * OUR CULTURES *</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE OUR CULTURES *</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE OUR CULTURES</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * OUR CULTURES</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE OUR CULTURES *</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * OUR CULTURES</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE OUR CULTURES</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHAT *</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT *</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHAT</pattern>
+			<template>
+				<random>
+					<li>What is CDC COVID Data Tracker.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s potentially harmful.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE INITIAL CONCERN *</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE INITIAL CONCERN *</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE INITIAL CONCERN *</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE INITIAL CONCERN</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE INITIAL CONCERN</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE INITIAL CONCERN *</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE INITIAL CONCERN</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE INITIAL CONCERN</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE EUROPEAN CENTRE *</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE EUROPEAN CENTRE *</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE EUROPEAN CENTRE *</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE EUROPEAN CENTRE</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE EUROPEAN CENTRE</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE EUROPEAN CENTRE *</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE EUROPEAN CENTRE</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE EUROPEAN CENTRE</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE YOU *</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE YOU</pattern>
+			<template>
+				<random>
+					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * CDC LABORATORY SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * CDC LABORATORY SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE CDC LABORATORY SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE CDC LABORATORY SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * CDC LABORATORY SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE CDC LABORATORY SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * CDC LABORATORY SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE CDC LABORATORY SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * GROSSING STATIONS *</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * GROSSING STATIONS *</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE GROSSING STATIONS *</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE GROSSING STATIONS</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * GROSSING STATIONS</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE GROSSING STATIONS *</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * GROSSING STATIONS</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE GROSSING STATIONS</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SECOND ISSUE *</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SECOND ISSUE *</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SECOND ISSUE *</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SECOND ISSUE</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SECOND ISSUE</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SECOND ISSUE *</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SECOND ISSUE</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SECOND ISSUE</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * RISK ASSESSMENTS *</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * RISK ASSESSMENTS *</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE RISK ASSESSMENTS *</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE RISK ASSESSMENTS</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * RISK ASSESSMENTS</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE RISK ASSESSMENTS *</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * RISK ASSESSMENTS</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE RISK ASSESSMENTS</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHO *</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHO</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHO</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHO *</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHO</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHO</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * FDA *</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * FDA *</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE FDA *</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE FDA</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * FDA</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE FDA *</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * FDA</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE FDA</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE REST *</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE REST *</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE REST *</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE REST</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE REST</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE REST *</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE REST</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE REST</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * DATA *</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * DATA *</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS DATA *</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS DATA</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * DATA</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS DATA *</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * DATA</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS DATA</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * SEVERAL WINDOWS 10 LAPTOPS *</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * SEVERAL WINDOWS 10 LAPTOPS *</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS SEVERAL WINDOWS 10 LAPTOPS *</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS SEVERAL WINDOWS 10 LAPTOPS</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * SEVERAL WINDOWS 10 LAPTOPS</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS SEVERAL WINDOWS 10 LAPTOPS *</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * SEVERAL WINDOWS 10 LAPTOPS</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS SEVERAL WINDOWS 10 LAPTOPS</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS COVID-19</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * COVID-19</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * COVID-19</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS COVID-19</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT SCIENCE *</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT SCIENCE *</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHAT SCIENCE *</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT SCIENCE</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * WHAT SCIENCE</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS WHAT SCIENCE *</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * WHAT SCIENCE</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS WHAT SCIENCE</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * TWO KINDS *</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * TWO KINDS *</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE TWO KINDS *</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE TWO KINDS</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * TWO KINDS</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE TWO KINDS *</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * TWO KINDS</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE TWO KINDS</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * A CORONAVIRUS CRISIS RESPONSE TEAM *</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * A CORONAVIRUS CRISIS RESPONSE TEAM *</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS A CORONAVIRUS CRISIS RESPONSE TEAM *</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS A CORONAVIRUS CRISIS RESPONSE TEAM</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * A CORONAVIRUS CRISIS RESPONSE TEAM</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS A CORONAVIRUS CRISIS RESPONSE TEAM *</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * A CORONAVIRUS CRISIS RESPONSE TEAM</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS A CORONAVIRUS CRISIS RESPONSE TEAM</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A LIST *</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A LIST *</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A LIST *</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A LIST</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * A LIST</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS A LIST *</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * A LIST</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS A LIST</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE WHAT</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE WHAT</pattern>
+			<template>
+				<random>
+					<li>What will be a weekly surveillance report called.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * POSITIVE RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * POSITIVE RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE POSITIVE RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE POSITIVE RESULTS</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * POSITIVE RESULTS</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE POSITIVE RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * POSITIVE RESULTS</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE POSITIVE RESULTS</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * TEST KITS *</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * TEST KITS *</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE TEST KITS *</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE TEST KITS</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * TEST KITS</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE TEST KITS *</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * TEST KITS</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE TEST KITS</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * US DIGITAL RESPONSE *</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * US DIGITAL RESPONSE *</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS US DIGITAL RESPONSE *</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS US DIGITAL RESPONSE</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * US DIGITAL RESPONSE</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS US DIGITAL RESPONSE *</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * US DIGITAL RESPONSE</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS US DIGITAL RESPONSE</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * CONSULAR PERSONNEL *</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * CONSULAR PERSONNEL *</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE CONSULAR PERSONNEL *</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE CONSULAR PERSONNEL</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * CONSULAR PERSONNEL</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE CONSULAR PERSONNEL *</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * CONSULAR PERSONNEL</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE CONSULAR PERSONNEL</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * ALL TEN REGIONS *</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * ALL TEN REGIONS *</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE ALL TEN REGIONS *</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE ALL TEN REGIONS</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * ALL TEN REGIONS</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE ALL TEN REGIONS *</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * ALL TEN REGIONS</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE ALL TEN REGIONS</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE 17 PERCENT EXPANSION *</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE 17 PERCENT EXPANSION *</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE 17 PERCENT EXPANSION *</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE 17 PERCENT EXPANSION</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE 17 PERCENT EXPANSION</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE 17 PERCENT EXPANSION *</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE 17 PERCENT EXPANSION</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE 17 PERCENT EXPANSION</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* AM * I *</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>AM * I *</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>AM I *</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* AM I</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* AM * I</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* AM I *</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>AM * I</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>AM I</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE EU PUBLIC HEALTH AGENCY *</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE EU PUBLIC HEALTH AGENCY *</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE EU PUBLIC HEALTH AGENCY *</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE EU PUBLIC HEALTH AGENCY</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE EU PUBLIC HEALTH AGENCY</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE EU PUBLIC HEALTH AGENCY *</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE EU PUBLIC HEALTH AGENCY</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE EU PUBLIC HEALTH AGENCY</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOUR FEEDBACK *</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOUR FEEDBACK *</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOUR FEEDBACK</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOUR FEEDBACK</pattern>
+			<template>
+				<random>
+					<li>Your feedback is very important to.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ZIMBABWE *</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ZIMBABWE *</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ZIMBABWE</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ZIMBABWE</pattern>
+			<template>
+				<random>
+					<li>Zimbabwe is in desperate need of an international bailout package to save the economy from collapse.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE COVID-19 PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE COVID-19 PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE COVID-19 PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE COVID-19 PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT *</pattern>
+			<template>
+				<random>
+					<li>It is possible that different types of laboratories will take on different roles, and the data interpretation may need to change.</li>
+					<li>It is perhaps not surprising the demand for &quot;miracle cures&quot; and simple.</li>
+					<li>It is safe to with soap and tap water during.</li>
+					<li>It is potentially harmful.</li>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT *</pattern>
+			<template>
+				<random>
+					<li>It is possible that different types of laboratories will take on different roles, and the data interpretation may need to change.</li>
+					<li>It is perhaps not surprising the demand for &quot;miracle cures&quot; and simple.</li>
+					<li>It is safe to with soap and tap water during.</li>
+					<li>It is potentially harmful.</li>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT</pattern>
+			<template>
+				<random>
+					<li>It is possible that different types of laboratories will take on different roles, and the data interpretation may need to change.</li>
+					<li>It is perhaps not surprising the demand for &quot;miracle cures&quot; and simple.</li>
+					<li>It is safe to with soap and tap water during.</li>
+					<li>It is potentially harmful.</li>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT</pattern>
+			<template>
+				<random>
+					<li>It is possible that different types of laboratories will take on different roles, and the data interpretation may need to change.</li>
+					<li>It is perhaps not surprising the demand for &quot;miracle cures&quot; and simple.</li>
+					<li>It is safe to with soap and tap water during.</li>
+					<li>It is potentially harmful.</li>
+					<li>It is important to stay home.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE EXISTING EVIDENCE *</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE EXISTING EVIDENCE *</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE EXISTING EVIDENCE</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE EXISTING EVIDENCE</pattern>
+			<template>
+				<random>
+					<li>The existing evidence is insufficient to draw a conclusion on benefits and harms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* STANDARD PRACTICES *</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>STANDARD PRACTICES *</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* STANDARD PRACTICES</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>STANDARD PRACTICES</pattern>
+			<template>
+				<random>
+					<li>Standard practices should be sufficient to protect wastewater workers from * virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CDC *</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CDC</pattern>
+			<template>
+				<random>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
+					<li>Cdc is committed to stopping its spread.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device Job market lessons from a 2008 graduate for the class of 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANTIBODY TEST RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANTIBODY TEST RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANTIBODY TEST RESULTS</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANTIBODY TEST RESULTS</pattern>
+			<template>
+				<random>
+					<li>Antibody test results are important in detecting infections with few or no symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A DECLINING PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A DECLINING PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A DECLINING PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A DECLINING PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>A declining percentage is well below the national baseline of 2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANTIBODY TESTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANTIBODY TESTS *</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANTIBODY TESTS</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANTIBODY TESTS</pattern>
+			<template>
+				<random>
+					<li>Antibody tests are available through healthcare providers and laboratories.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOU *</pattern>
+			<template>
+				<random>
+					<li>You are able to spread the virus that causes COVID-19.</li>
+					<li>You are sick COVID-19 testing.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the CDC website&apos;s privacy policy when you follow the link.</li>
+					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
+					<li>You are sick or caring for someone.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOU *</pattern>
+			<template>
+				<random>
+					<li>You are able to spread the virus that causes COVID-19.</li>
+					<li>You are sick COVID-19 testing.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the CDC website&apos;s privacy policy when you follow the link.</li>
+					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
+					<li>You are sick or caring for someone.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOU</pattern>
+			<template>
+				<random>
+					<li>You are able to spread the virus that causes COVID-19.</li>
+					<li>You are sick COVID-19 testing.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the CDC website&apos;s privacy policy when you follow the link.</li>
+					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
+					<li>You are sick or caring for someone.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOU</pattern>
+			<template>
+				<random>
+					<li>You are able to spread the virus that causes COVID-19.</li>
+					<li>You are sick COVID-19 testing.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the CDC website&apos;s privacy policy when you follow the link.</li>
+					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
+					<li>You are sick or caring for someone.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT *</pattern>
+			<template>
+				<random>
+					<li>What are the most promising coronavirus drugs.</li>
+					<li>What are the difference between cleaning and disinfecting.</li>
+					<li>What are CDC COVID Data Tracker.</li>
+					<li>What are a weekly surveillance report called.</li>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT *</pattern>
+			<template>
+				<random>
+					<li>What are the most promising coronavirus drugs.</li>
+					<li>What are the difference between cleaning and disinfecting.</li>
+					<li>What are CDC COVID Data Tracker.</li>
+					<li>What are a weekly surveillance report called.</li>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT</pattern>
+			<template>
+				<random>
+					<li>What are the most promising coronavirus drugs.</li>
+					<li>What are the difference between cleaning and disinfecting.</li>
+					<li>What are CDC COVID Data Tracker.</li>
+					<li>What are a weekly surveillance report called.</li>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT</pattern>
+			<template>
+				<random>
+					<li>What are the most promising coronavirus drugs.</li>
+					<li>What are the difference between cleaning and disinfecting.</li>
+					<li>What are CDC COVID Data Tracker.</li>
+					<li>What are a weekly surveillance report called.</li>
+					<li>What are the requirements for returning the body of someone who has died of COVID-19 to the United States.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOAP *</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOAP *</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOAP</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOAP</pattern>
+			<template>
+				<random>
+					<li>Soap are not available.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE NOTION *</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE NOTION *</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE NOTION</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE NOTION</pattern>
+			<template>
+				<random>
+					<li>The notion was ] most of the cases were linked to this live animal market [in the Chinese city of Wuhan.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE DRUG *</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE DRUG *</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE DRUG</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE DRUG</pattern>
+			<template>
+				<random>
+					<li>The drug has been so popular.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A FAMILY MEMBER *</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A FAMILY MEMBER *</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A FAMILY MEMBER</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A FAMILY MEMBER</pattern>
+			<template>
+				<random>
+					<li>A family member is in a different country from the deceased person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* NURSES *</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>NURSES *</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* NURSES</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>NURSES</pattern>
+			<template>
+				<random>
+					<li>Nurses are also on strike demanding better salaries, and better working conditions.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SNAP *</pattern>
+			<template>
+				<random>
+					<li>Snap is the universal safety net.</li>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SNAP *</pattern>
+			<template>
+				<random>
+					<li>Snap is the universal safety net.</li>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SNAP</pattern>
+			<template>
+				<random>
+					<li>Snap is the universal safety net.</li>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SNAP</pattern>
+			<template>
+				<random>
+					<li>Snap is the universal safety net.</li>
+					<li>Snap is very well suited to quickly meet the needs of low-income individuals.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* OUR CULTURES *</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>OUR CULTURES *</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* OUR CULTURES</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>OUR CULTURES</pattern>
+			<template>
+				<random>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health (:60.</li>
+					<li>Our cultures Are Our Source of Health.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					<li>Our cultures Are Our Source of Health (9:02.</li>
+					<li>Our cultures Are Our Source of Health (:30.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE INITIAL CONCERN *</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE INITIAL CONCERN *</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE INITIAL CONCERN</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE INITIAL CONCERN</pattern>
+			<template>
+				<random>
+					<li>The initial concern was how to keep the disease outside the the EU’s borders.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE EUROPEAN CENTRE *</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE EUROPEAN CENTRE *</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE EUROPEAN CENTRE</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE EUROPEAN CENTRE</pattern>
+			<template>
+				<random>
+					<li>The european centre is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CDC LABORATORY SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CDC LABORATORY SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CDC LABORATORY SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CDC LABORATORY SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Cdc laboratory scientists are a key line of defense in emerging health threats such as SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PERCENTAGE *</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PERCENTAGE</pattern>
+			<template>
+				<random>
+					<li>The percentage was less than or the same as the percentage reported during week 27 but greater than the percentage reported for week 26.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* GROSSING STATIONS *</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>GROSSING STATIONS *</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* GROSSING STATIONS</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>GROSSING STATIONS</pattern>
+			<template>
+				<random>
+					<li>Grossing stations are not as effective as biosafety cabinets at protecting the user from exposure to biological agents.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SECOND ISSUE *</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SECOND ISSUE *</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SECOND ISSUE</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SECOND ISSUE</pattern>
+			<template>
+				<random>
+					<li>The second issue is the test itself.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* RISK ASSESSMENTS *</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>RISK ASSESSMENTS *</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* RISK ASSESSMENTS</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>RISK ASSESSMENTS</pattern>
+			<template>
+				<random>
+					<li>Risk assessments are dependent on the procedures performed.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO *</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO *</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO</pattern>
+			<template>
+				<random>
+					<li>Who is at higher risk for serious illness from COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FDA *</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FDA *</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FDA</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FDA</pattern>
+			<template>
+				<random>
+					<li>Fda could be applicable to modifications of other tests with an authorized EUA.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE REST *</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE REST *</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE REST</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE REST</pattern>
+			<template>
+				<random>
+					<li>The rest were in the city of Urumqi.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DATA *</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DATA *</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DATA</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DATA</pattern>
+			<template>
+				<random>
+					<li>Data was not available for some states.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SEVERAL WINDOWS 10 LAPTOPS *</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SEVERAL WINDOWS 10 LAPTOPS *</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SEVERAL WINDOWS 10 LAPTOPS</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SEVERAL WINDOWS 10 LAPTOPS</pattern>
+			<template>
+				<random>
+					<li>Several windows 10 laptops was rock solid.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a quarantinable communicable disease in the United States and human remains.</li>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a quarantinable communicable disease in the United States and human remains.</li>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COVID-19</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a quarantinable communicable disease in the United States and human remains.</li>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COVID-19</pattern>
+			<template>
+				<random>
+					<li>Covid-19 is a quarantinable communicable disease in the United States and human remains.</li>
+					<li>Covid-19 is a new disease and there is limited information regarding risk factors for severe disease.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT SCIENCE *</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT SCIENCE *</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT SCIENCE</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT SCIENCE</pattern>
+			<template>
+				<random>
+					<li>What science is available to guide eventual relaxation of measures.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TWO KINDS *</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TWO KINDS *</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TWO KINDS</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TWO KINDS</pattern>
+			<template>
+				<random>
+					<li>Two kinds are available for COVID-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A CORONAVIRUS CRISIS RESPONSE TEAM *</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A CORONAVIRUS CRISIS RESPONSE TEAM *</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A CORONAVIRUS CRISIS RESPONSE TEAM</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A CORONAVIRUS CRISIS RESPONSE TEAM</pattern>
+			<template>
+				<random>
+					<li>A coronavirus crisis response team was to the public on the Monday.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A LIST *</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A LIST *</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A LIST</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A LIST</pattern>
+			<template>
+				<random>
+					<li>A list is not available at this time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* POSITIVE RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>POSITIVE RESULTS *</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* POSITIVE RESULTS</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>POSITIVE RESULTS</pattern>
+			<template>
+				<random>
+					<li>Positive results may be due to past or present infections with a coronavirus other than SARS-CoV-2.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TEST KITS *</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TEST KITS *</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TEST KITS</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TEST KITS</pattern>
+			<template>
+				<random>
+					<li>Test kits are in production and will be available through.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* US DIGITAL RESPONSE *</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>US DIGITAL RESPONSE *</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* US DIGITAL RESPONSE</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>US DIGITAL RESPONSE</pattern>
+			<template>
+				<random>
+					<li>Us digital response is a volunteer-run, non-partisan service offering free access to skilled expertise for local governments who need support.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CONSULAR PERSONNEL *</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CONSULAR PERSONNEL *</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CONSULAR PERSONNEL</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CONSULAR PERSONNEL</pattern>
+			<template>
+				<random>
+					<li>Consular personnel are available 24 hours a day, 7 days a week, to provide assistance to US citizens for overseas emergencies.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ALL TEN REGIONS *</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ALL TEN REGIONS *</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ALL TEN REGIONS</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ALL TEN REGIONS</pattern>
+			<template>
+				<random>
+					<li>All ten regions are below their region-specific baselines.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE 17 PERCENT EXPANSION *</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE 17 PERCENT EXPANSION *</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE 17 PERCENT EXPANSION</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE 17 PERCENT EXPANSION</pattern>
+			<template>
+				<random>
+					<li>The 17 percent expansion is the fastest in the program’s history.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* I *</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>I *</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* I</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>I</pattern>
+			<template>
+				<random>
+					<li>I am over 16 years old.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE EU PUBLIC HEALTH AGENCY *</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE EU PUBLIC HEALTH AGENCY *</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE EU PUBLIC HEALTH AGENCY</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE EU PUBLIC HEALTH AGENCY</pattern>
+			<template>
+				<random>
+					<li>The eu public health agency is human to human transmission which of course changes what you need to do.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>
