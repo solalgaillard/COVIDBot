@@ -85,8 +85,9 @@ if __name__ == "__main__":
 #Those are all the todos not done
 
 
-
     #TODO - PIPE NLP
+
+    #TODO - Change Folder name of export_to_aiml, this is causing the issue
 
     #TODO 6 - Refactor all the code
         #TODO 6 - a - Prepare proper packaging

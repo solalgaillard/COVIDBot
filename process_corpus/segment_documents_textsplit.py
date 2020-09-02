@@ -1,11 +1,12 @@
+import pandas as pd
+import spacy
 from textsplit.tools import get_penalty, get_segments
 from textsplit.algorithm import split_optimal
 from sklearn.feature_extraction.text import CountVectorizer
-import spacy
-import pandas as pd
+
 nlp = spacy.load('en_core_web_lg', parse=True, tag=True, entity=True)
 
-def segment_documents(document):
+def segment_documents_textsplit(document):
     a_segment_len = len(document) / 1000. * 2
     nlp_document = nlp(document)
 
