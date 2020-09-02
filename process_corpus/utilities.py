@@ -2,7 +2,7 @@ import spacy
 import nltk
 from nltk.tokenize.toktok import ToktokTokenizer
 import re
-from contractions import CONTRACTION_MAP
+from process_corpus.contractions import CONTRACTION_MAP
 from pathlib import Path
 import unicodedata
 nlp = spacy.load('en_core_web_sm', parse=True, tag=True, entity=True)

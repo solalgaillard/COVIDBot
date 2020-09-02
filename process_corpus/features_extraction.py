@@ -48,7 +48,7 @@ class FeatureExtraction():
         accuracy = accuracy_score(y_test, y_predicted)
         return accuracy, precision, recall, f1
 
-    def trainModelLogRegr(self):
+    def _trainModelLogRegr(self):
 
         self.data_x = normalize_corpus(self.data_x)
 
@@ -67,28 +67,28 @@ class FeatureExtraction():
 
         X_train, X_test, y_train, y_test = train_test_split(self.data_x, self.labels_y, test_size=0.1, random_state=42)
         #define vectorizer parameters
-        self.tfidf_vectorizer = TfidfVectorizer(max_df=0.7, max_features=200000,
+        self.tfidf_vectorizer_log_reg = TfidfVectorizer(max_df=0.7, max_features=200000,
                                          min_df=0.3,
                                          use_idf=True, tokenizer=nltk.word_tokenize, ngram_range=(1,2))
 
 
         #train data
-        X_train_tfidf = self.tfidf_vectorizer.fit_transform(X_train) #fit the vectorizer to synopses
+        X_train_tfidf = self.tfidf_vectorizer_log_reg.fit_transform(X_train) #fit the vectorizer to synopses
 
 
 
         #test data
-        X_test_tfidf = self.tfidf_vectorizer.transform(X_test)
+        X_test_tfidf = self.tfidf_vectorizer_log_reg.transform(X_test)
 
         #linear regression
-        self.clf_tfidf = LogisticRegression(C=30.0, class_weight='balanced', solver='newton-cg',
+        self.clf_tfidf_log_reg = LogisticRegression(C=30.0, class_weight='balanced', solver='newton-cg',
                                  multi_class='multinomial', n_jobs=-1, random_state=40)
 
         #take train data and labels
-        self.clf_tfidf.fit(X_train_tfidf, y_train)
+        self.clf_tfidf_log_reg.fit(X_train_tfidf, y_train)
 
         #predict from list of corpus
-        y_predicted_tfidf = self.clf_tfidf.predict(X_test_tfidf)
+        y_predicted_tfidf = self.clf_tfidf_log_reg.predict(X_test_tfidf)
 
         print(y_predicted_tfidf)
 
@@ -96,34 +96,34 @@ class FeatureExtraction():
         print("accuracy = %.3f, precision = %.3f, recall = %.3f, f1 = %.3f" % (accuracy_tfidf, precision_tfidf,
                                                                                recall_tfidf, f1_tfidf))
 
-    def trainModelSVC(self):
+    def _trainModelSVC(self):
 
         self.data_x = normalize_corpus(self.data_x)
 
         X_train, X_test, y_train, y_test = train_test_split(self.data_x, self.labels_y, test_size=0.1, random_state=42)
 
         #define vectorizer parameters
-        self.tfidf_vectorizer = TfidfVectorizer(max_df=0.7, max_features=200000,
+        self.tfidf_vectorizer_svm = TfidfVectorizer(max_df=0.7, max_features=200000,
                                          min_df=0.3,
                                          use_idf=True, tokenizer=nltk.word_tokenize, ngram_range=(1,2))
 
 
         #train data
-        X_train_tfidf = self.tfidf_vectorizer.fit_transform(X_train) #fit the vectorizer to synopses
+        X_train_tfidf = self.tfidf_vectorizer_svm.fit_transform(X_train) #fit the vectorizer to synopses
 
 
 
         #test data
-        X_test_tfidf = self.tfidf_vectorizer.transform(X_test)
+        X_test_tfidf = self.tfidf_vectorizer_svm.transform(X_test)
 
 
-        self.clf_tfidf = svm.SVC()
+        self.clf_tfidf_svm = svm.SVC()
 
-        self.clf_tfidf.fit(X_train_tfidf, y_train)
+        self.clf_tfidf_svm.fit(X_train_tfidf, y_train)
 
 
 
-        y_predicted_tfidf = self.clf_tfidf.predict(X_test_tfidf)
+        y_predicted_tfidf = self.clf_tfidf_svm.predict(X_test_tfidf)
 
         print(y_predicted_tfidf)
 
@@ -131,13 +131,19 @@ class FeatureExtraction():
         print("accuracy = %.3f, precision = %.3f, recall = %.3f, f1 = %.3f" % (accuracy_tfidf, precision_tfidf,
                                                                                recall_tfidf, f1_tfidf))
 
+    def train_models(self):
+        _trainModelSVC()
+        _trainModelLogRegr()
 
-    def useModel(self, corpus):
+    def useModel(self, corpus, model):
 
         print(corpus)
-        X_test_tfidf = self.tfidf_vectorizer.transform(normalize_corpus(corpus["data"]))
-
-        y_predicted_tfidf = self.clf_tfidf.predict(X_test_tfidf)
+        if model == "svm" :
+            X_test_tfidf = self.tfidf_vectorizer_svm.transform(normalize_corpus(corpus["data"]))
+            y_predicted_tfidf = self.clf_tfidf_svm.predict(X_test_tfidf)
+        else:
+            X_test_tfidf = self.tfidf_vectorizer_log_reg.transform(normalize_corpus(corpus["data"]))
+            y_predicted_tfidf = self.clf_tfidf_log_reg.predict(X_test_tfidf)
 
         new_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
         for idx, value in enumerate(y_predicted_tfidf):

@@ -19,7 +19,7 @@ import os
 
 #os.environ['WDM_LOCAL'] = '1'
 home = str(Path.home())
-os.environ["PATH"] += os.pathsep + f'{home}/.wdm/drivers/chromedriver/mac64/83.0.4103.39'
+os.environ["PATH"] += os.pathsep + f'{home}/.wdm/drivers/chromedriver/mac64/85.0.4183.87'
 #print [name for name in os.listdir(".") if os.path.isdir(name)]
 
 print(f'{home}/.wdm/drivers/chromedriver/mac64/83.0.4103.39')
@@ -46,7 +46,7 @@ class CovidSpider(CrawlSpider):
     max_entries_per_domain = 250
     todaysDate = datetime.datetime.now()
     base_path = Path(__file__).parent
-    file_path = (base_path / "../../data/scrapped-data-binary.pickle").resolve()
+    file_path = (base_path / "../../data_saved/scrap.pickle").resolve()
     allFilesData = pickle.load(open(file_path, "rb+")) if os.path.isfile(file_path) else {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
 
 
