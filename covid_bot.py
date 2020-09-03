@@ -27,8 +27,6 @@ def main(labeling, build, model):
 
     corpus = pickle.load(open(file_path, "rb"))
 
-    print(corpus)
-
     file_path = (base_path / "data_saved/corefseg.pickle").resolve()
 
     if build in ["all", "scrap", "corefseg"] or not file_path.is_file():
@@ -41,27 +39,22 @@ def main(labeling, build, model):
     else:
         corpus = pickle.load(open(file_path, "rb"))
 
-
     file_path = (base_path / "data_saved/teaching_data.xml").resolve()
 
     if labeling or not file_path.is_file():
-        print("LABELING")
-        export_scrapped_data_to_file_for_labeling(corpus)
+        print("Exported teaching_data.xml for labeling.",
+              "Please review the file, label the entries")
+        export_scrapped_data_to_file_for_labeling(corpus, labeling)
         return
 
-    file_path = (base_path / "data_saved/trained_models.xml").resolve()
+    feature_extraction = FeatureExtraction(file_path)
 
-    #if build not in ["all", "scrap", "corefseg", "model"] or not file_path.isfile():
-    #PASS TEACHING FILE, IF NO TEACHING FILE, FOR
+    file_path = (base_path / "data_saved/trained_models.pickle").resolve()
 
-
-    feature_extraction = FeatureExtraction()
-
-    #TRAIN BOTH MODELS & SAVE
-    feature_extraction.trainModelSVC()
-
-
-
+    if build not in ["all", "scrap", "corefseg", "model"] or not file_path.isfile():
+        feature_extraction.train_models()
+    else:
+        feature_extraction.load_models()
 
     file_path = (base_path / "data_saved/covidentries.pickle").resolve()
 
@@ -72,7 +65,6 @@ def main(labeling, build, model):
         print("Wrote to file covidentries.pickle")
     else:
         corpus = pickle.load(open(file_path, "rb"))
-
 
     file_path = (base_path / "data_saved/covidtopics.pickle").resolve()
 
@@ -113,11 +105,11 @@ if __name__ == "__main__":
     # list of command line arguments
     argumentList = sys.argv[1:]
 
-    options = ["build =", "labeling", "model"]
-    labeling = False ; build = "none" ; model = "svm" #ou log_reg
+    options = ["build =", "labeling=", "model"]
+    labeling = 0 ; build = "none" ; model = "svm" #ou log_reg
     try:
         # Parsing argument
-        arguments, values = getopt.getopt(argumentList, "b:lm:", options)
+        arguments, values = getopt.getopt(argumentList, "b:l:m:", options)
 
 
         # checking each argument
@@ -136,7 +128,7 @@ if __name__ == "__main__":
 
             elif currentArgument in ("-l", "--labeling"):
                 build = "none"
-                labeling = True
+                labeling = currentValue
 
 
     except getopt.error as err:
@@ -235,5 +227,20 @@ if __name__ == "__main__":
         for token in nlp_segment:
             if token.dep_ == "nsubj" and token.text.lower() not in ["who, which, what, where, how, when"]: #And not interrogative
                 statements = textacy.extract.semistructured_statements(nlp_segment, token.text)
+
+
+
+        for idx, value in enumerate(corpus['data']):
+            if total_it == iteration:
+                break
+            f.write("\t\t<doc>\n\t\t\t<url>%s</url>" % (
+            corpus['url'][idx]))
+            for inner_idx,doc in enumerate(value):
+                if total_it == iteration:
+                    break
+                f.write("\n\t\t\t<data>\n\t\t\t\t<segment>%s</segment>\n\t\t\t\t<label></label>\n\t\t\t</data>" % replaceXMLSpecialChar(doc))
+                total_it += inner_idx + 1
+            f.write("\n\t\t</doc>\n")
+        f.write("\t</documents>")
 
 """

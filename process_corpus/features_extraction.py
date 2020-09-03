@@ -14,9 +14,7 @@ import nltk
 
 class FeatureExtraction():
 
-    def __init__(self):
-        base_path = Path(__file__).parent
-        file_path = (base_path / "../data_saved/teaching_data.xml").resolve()
+    def __init__(self, file_path):
 
         file = open(file_path, 'r')
 
@@ -132,8 +130,31 @@ class FeatureExtraction():
                                                                                recall_tfidf, f1_tfidf))
 
     def train_models(self):
-        _trainModelSVC()
-        _trainModelLogRegr()
+        self._trainModelSVC()
+        self._trainModelLogRegr()
+        #SAVE TO FILE THE MODELS
+        model = {
+            "tfidf_vectorizer_svm": self.tfidf_vectorizer_svm,
+            "clf_tfidf_svm": self.clf_tfidf_svm,
+            "tfidf_vectorizer_log_reg": self.tfidf_vectorizer_log_reg,
+            "clf_tfidf_log_reg": self.clf_tfidf_log_reg
+
+        }
+        file_path = (base_path / "data_saved/trained_models.pickle").resolve()
+        with open(file_path, 'wb+') as f:
+            pickle.dump(model, f)
+        print("Wrote models to file trained_models.pickle")
+
+    def load_models(self):
+        _file_path = (base_path / "data_saved/trained_models.pickle").resolve()
+        model = pickle.load(open(file_path, "rb"))
+        self.tfidf_vectorizer_svm = model["tfidf_vectorizer_svm"]
+        self.clf_tfidf_svm = model["clf_tfidf_svm"]
+        self.tfidf_vectorizer_log_reg = model["tfidf_vectorizer_log_reg"]
+        self.clf_tfidf_log_reg = model["clf_tfidf_log_reg"]
+
+        print("Loaded models from file trained_models.pickle")
+
 
     def useModel(self, corpus, model):
 

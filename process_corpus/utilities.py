@@ -121,19 +121,23 @@ def remove_duplicates_in_corpus(corpus):
             docsToOccurences[doc] = True
     return filteredCorpus
 
-def export_scrapped_data_to_file_for_labeling(corpus):  # Base pour isoler données et créer un premier corpus d'entraînement
+def export_scrapped_data_to_file_for_labeling(corpus, iteration=500):  # Base pour isoler données et créer un premier corpus d'entraînement
     base_path = Path(__file__).parent
     file_path = (base_path / "../data/scrapped-data-for-labeling.xml").resolve()
     with open(file_path, 'w') as f:
         f.write("<?xml version='1.0' encoding='utf-8'?>\n\t<documents>\n")
-        for idx, value in enumerate(corpus['data']):
+        i = 0 ; j = 0
+        while(i<iteration or i<len(corpus['data'])):
             f.write("\t\t<doc>\n\t\t\t<url>%s</url>" % (
-            corpus['url'][idx]))
-            for doc in value:
-                f.write("\n\t\t\t<data>\n\t\t\t\t<segment>%s</segment>\n\t\t\t\t<label></label>\n\t\t\t</data>" % replaceXMLSpecialChar(doc))
+                corpus['url'][i]))
+            while (i + j + 1 < iteration or j<len(corpus['data'][i])):
+                f.write(
+                    "\n\t\t\t<data>\n\t\t\t\t<segment>%s</segment>\n\t\t\t\t<label></label>\n\t\t\t</data>" % replaceXMLSpecialChar(
+                        corpus['data'][i][j]))
+                j =+ 1
             f.write("\n\t\t</doc>\n")
+            i =+ i
         f.write("\t</documents>")
-
 
 def replaceXMLSpecialChar(aString):
     value_esc_char = aString.replace("&", "&amp;")
