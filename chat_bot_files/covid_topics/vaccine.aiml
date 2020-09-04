@@ -1,0 +1,547 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* VACCINE *</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about vaccine
+		</template>
+	</category>
+	<category>
+		<pattern>VACCINE *</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about vaccine
+		</template>
+	</category>
+	<category>
+		<pattern>* VACCINE</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about vaccine
+		</template>
+	</category>
+	<category>
+		<pattern>VACCINE</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about vaccine
+		</template>
+	</category>
+	<category>
+		<pattern>* TREATMENT *</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about treatment
+		</template>
+	</category>
+	<category>
+		<pattern>TREATMENT *</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about treatment
+		</template>
+	</category>
+	<category>
+		<pattern>* TREATMENT</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about treatment
+		</template>
+	</category>
+	<category>
+		<pattern>TREATMENT</pattern>
+		<template>
+			<think><set name = "topic">VACCINE</set></think>
+			I know a lot about treatment
+		</template>
+	</category>
+	<topic name = "VACCINE">
+		<category>
+			<pattern>* IS * THE MOST OBVIOUS REASON *</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE MOST OBVIOUS REASON *</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE MOST OBVIOUS REASON *</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE MOST OBVIOUS REASON</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE MOST OBVIOUS REASON</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE MOST OBVIOUS REASON *</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE MOST OBVIOUS REASON</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE MOST OBVIOUS REASON</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * DRINKING ALCOHOL *</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * DRINKING ALCOHOL *</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS DRINKING ALCOHOL *</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS DRINKING ALCOHOL</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * DRINKING ALCOHOL</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS DRINKING ALCOHOL *</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * DRINKING ALCOHOL</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS DRINKING ALCOHOL</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE BEGINNING *</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE BEGINNING *</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE BEGINNING *</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE BEGINNING</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE BEGINNING</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE BEGINNING *</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE BEGINNING</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE BEGINNING</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE * THEY *</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE * THEY *</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE THEY *</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE THEY</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE * THEY</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE THEY *</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE * THEY</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE THEY</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE MOST OBVIOUS REASON *</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE MOST OBVIOUS REASON *</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE MOST OBVIOUS REASON</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE MOST OBVIOUS REASON</pattern>
+			<template>
+				<random>
+					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DRINKING ALCOHOL *</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DRINKING ALCOHOL *</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DRINKING ALCOHOL</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DRINKING ALCOHOL</pattern>
+			<template>
+				<random>
+					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT *</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT *</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT</pattern>
+			<template>
+				<random>
+					<li>It is like you are sanitizing your inside.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE BEGINNING *</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE BEGINNING *</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE BEGINNING</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE BEGINNING</pattern>
+			<template>
+				<random>
+					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THEY *</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THEY *</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THEY</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THEY</pattern>
+			<template>
+				<random>
+					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

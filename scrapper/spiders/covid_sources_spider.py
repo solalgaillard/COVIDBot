@@ -1,33 +1,33 @@
-import scrapy
-import datetime
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 import re
-import w3lib.html
 import pickle
 from bs4 import BeautifulSoup
-from scrapy.http import Request
 import os.path
-from pathlib import Path
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from pathlib import Path
-from selenium.webdriver.common.by import By
 import time
-
 import os
-
-#os.environ['WDM_LOCAL'] = '1'
-home = str(Path.home())
-os.environ["PATH"] += os.pathsep + f'{home}/.wdm/drivers/chromedriver/mac64/85.0.4183.87'
-#print [name for name in os.listdir(".") if os.path.isdir(name)]
-
-print(f'{home}/.wdm/drivers/chromedriver/mac64/83.0.4103.39')
+import datetime
 
 
+'''
+    Définition du scrapper.
+    4 urls de références, le nytimes, le guardian, le site du cdc et le site de la bbc.
+    On charge les données existantes dans all_files_data et on scrappe à nouveau avec
+    un maximum de 250 valeurs par domaine. On installe le driver pour Chrome s'il n'existe pas
+    et on ajoute l'executable à la variable PATH à l'instanciation, on passe aussi les options au driver.
+'''
 class CovidSpider(CrawlSpider):
+    '''
+       Propriétés de la classe, certaines parsées par l'objeet parent de Scrapy.
+    '''
     name = "covidsources"
     allowed_domains = ["theguardian.com", "nytimes.com", "cdc.gov", "bbc.com"]
+
+    # Bizarrement, j'avais toute une stratégie pour contourner le paywall du NYTimes mais cela ne semble pas
+    # nécessaire, il doit y avoir un script JavaScript qui obfusque le contenu après.
     start_urls = [
         "https://nytimes.com",
         #"https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F",
@@ -35,6 +35,7 @@ class CovidSpider(CrawlSpider):
         "https://www.cdc.gov/coronavirus/2019-ncov",
         "https://www.bbc.com/news/coronavirus",
     ]
+    # Filtre les url contenant les mots clés suivant.
     rules = ( #https://stackoverflow.com/questions/24890533/scray-crawlspider-doesnt-listen-deny-rules
         Rule(LinkExtractor(allow=('com/[\w_]+','gov/[\w_]+'), deny=('support','profile','job[s]?','about','comments','help','signout')),
              callback='parse_item'
@@ -44,17 +45,25 @@ class CovidSpider(CrawlSpider):
 
     count = { i : 0 for i in allowed_domains }
     max_entries_per_domain = 250
-    todaysDate = datetime.datetime.now()
-    base_path = Path(__file__).parent
-    file_path = (base_path / "../../data_saved/scrap.pickle").resolve()
-    allFilesData = pickle.load(open(file_path, "rb+")) if os.path.isfile(file_path) else {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+    todays_date = datetime.datetime.now()
+    file_path = (Path(__file__).parent / "../../data_saved/scrap.pickle").resolve()
+    all_files_data = pickle.load(open(file_path, "rb+")) if os.path.isfile(file_path) else {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
 
 
-
+    '''
+        Propriétés de l'objet, notamment instanciation du driver et des options de celui-ci
+    '''
     def __init__(self, *a, **kw):
         super(CovidSpider, self).__init__(*a, **kw)
-        #ATtention modify path and install in /user/.wmd
-        webdriver.Chrome(ChromeDriverManager().install())
+        # Installe in ./.wmd
+        os.environ['WDM_LOCAL'] = '1'
+        # Récupère l'URL
+        driver_path = ChromeDriverManager().install()
+        # Et ajoute le dans le PATH
+        os.environ["PATH"] += os.pathsep + driver_path[:driver_path.rfind('/')]
+        #self.driver = webdriver.Chrome(driver_path)
+        # Ajoute les options pour Chrome pour empêcher les téléchargements automatiques ou l'ouverture
+        # d'autres processus.
         chrome_options = webdriver.ChromeOptions()
 
         #Prevent Download
@@ -68,118 +77,125 @@ class CovidSpider(CrawlSpider):
         )
 
 
-
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        # Instancie le driver
+        self.driver = webdriver.Chrome(driver_path, chrome_options=chrome_options)
 
 
     '''
-    def parse_start_url(self, args):
-        print(args)
-        for url in self.start_urls:
-            yield Request(url=url, callback=self.parse, dont_filter=False)
+        Nettoie les balises html restés dans les chaînes après sc
     '''
-
-
-    def cleanMe(self, html):
-        soup = BeautifulSoup(html, "html.parser")  # create a new bs4 object from the html data loaded
-        for script in soup(["script", "style"]):  # remove all javascript and stylesheet code
+    def _clean_me(self, html):
+        # crée un nouvel objet bs avec l'html passé
+        soup = BeautifulSoup(html, "html.parser")
+        # Enlève les balises script et style
+        for script in soup(["script", "style"]):
             script.extract()
-        # get text
+        # Prend le texte
         text = soup.get_text()
-        # break into lines and remove leading and trailing space on each
+        # Fait une liste avec une entrée pour chaque retour à la ligne
+        # Enlève les espaces en début et fin de ligne.
         lines = (line.strip() for line in text.splitlines())
-        # break multi-headlines into a line each
+        # Ségmente les multiespaces en lignes séparées
         chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-        # drop blank lines
+        # Enlève les lignes vides.
         text = '\n'.join(chunk for chunk in chunks if chunk)
         return text
 
-
+    '''
+        Fonction appelé à chaque nouvelle URL parsée. Dépendent du domaine, ce ne sont pas les même règles
+        pour extraire le contenu. On récupère aussi les dates de publications. Il a fallu réaliser une analyse
+        pour chaque domaine.
+    '''
     def parse_item(self, response):
+
+        # Fais passer l'url au driver
         self.driver.get(response.url)
 
+        # Prend le domaine
         current_domain = next((x for x in self.allowed_domains if x in response.url), None)
+
+        #Override la réponse par le driver de selenium
         res = response.replace(body=self.driver.page_source)
 
-        '''
-            if response.url == 'https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2F%2Fwww.nytimes.com%2F' :
-            self.driver.find_element_by_id("username").send_keys("solalgaillard@yahoo.fr")
-            self.driver.find_element_by_id("password").send_keys("Iw8nts0mejon0w!")
-            self.driver.find_element_by_css_selector("button[data-testid='login-button'][type='submit']").click()
-            time.sleep(10)# if flag by captcha
-            yield Request(url='https://nytimes.com', callback=self.parse_item, dont_filter=False)
-        
-        '''
-
-
-
+        # Tant qu'on a pas dépassé le nombre d'entrées max par domaine
         if self.count[current_domain]<self.max_entries_per_domain:
-            if response.url not in self.allFilesData['url']:
-                tagsAllowedList = ["div", "article", "aside"]
+            if response.url not in self.all_files_data['url']:
+                tags_allowed_list = ["div", "article", "aside"]
                 tags = []
                 published_date = None
 
+                # Pour le guardian
                 if 'guardian' in response.url:
+                    # Se débarasse de la bannière qui bloque le contenu
                     button = self.driver.find_elements_by_css_selector(".signin-gate__dismiss")
                     if len(button) > 0:
                         button[0].click()
-                        time.sleep(10)  # if flag by captcha
+                        time.sleep(10)  # laisse le temps de se débarasser de la bannière
 
+                    # Extrait la date de l'article et la parse
                     published_date_search = re.search('theguardian\.com/\S*/(\d{4}/[A-z]{3}/\d{1,2})/\S+', response.url)
                     if published_date_search:
                         published_date = datetime.datetime.strptime(published_date_search.group(1), '%Y/%b/%d')
+                    # Récupère le contenu
                     tags.extend(res.xpath(
                         "//*[contains(@class, 'content__article-body')]/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
                     tags.extend(res.xpath("//*[contains(@class, 'js-liveblog-body')]/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
 
-
+                # Pour la BBC
                 elif 'bbc' in response.url:
+                    # Récupère le contenu
                     tags.extend(res.xpath("//*[contains(@class, 'story-body')]/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
+                    # Récupère la date de publication
                     timestamp_elements = self.driver.find_elements_by_css_selector(".story-body .date")
                     if len(timestamp_elements) > 0:
                         published_date = datetime.datetime.fromtimestamp(int(timestamp_elements[0].get_attribute('data-seconds')))
 
-
-                elif  'nytimes' in response.url:
+                # Pour le NYTimes
+                elif 'nytimes' in response.url:
+                    # Récupère le contenu
                     tags.extend(res.xpath("//*[contains(@name, 'articleBody')]/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
+                    # Récupère la date de publication
                     published_date_search = re.search('nytimes\.com/(\d{4}/\d{2}/\d{1,2})/\S+', response.url)
                     if published_date_search:
                         published_date = datetime.datetime.strptime(published_date_search.group(1), '%Y/%m/%d')
 
+                # Pour le reste
                 else:
-
-                    for i in range(len(tagsAllowedList)):
+                    # Parse les balises acceptées
+                    for i in range(len(tags_allowed_list)):
+                        #Exclue les scripts
                         tags.extend(res.xpath(
-                            f"//{tagsAllowedList[i]}/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
-                        #tags.extend(res.css(f'{tagsAllowedList[i]} *::text').getall())
+                            f"//{tags_allowed_list[i]}/descendant-or-self::*[not(self::script or self::style)]/text()").getall())
+                        #tags.extend(res.css(f'{tags_allowed_list[i]} *::text').getall())
 
-
+                    # Récupère la date de publication pour le CDC
                     if 'cdc.gov' in response.url:
                         timestamp_elements = self.driver.find_elements_by_xpath("//meta[@property='cdc:last_updated']")
                         if len(timestamp_elements) > 0:
                              published_date = datetime.datetime.strptime(timestamp_elements[0].get_attribute('content'), '%B %d, %Y')
 
+                # Sélectionne que les entrées qui ont été publiées dans les trois derniers mois.
+                # Utilise regex pour isoler les phrases, pas Spacy ou nltk.
+                if published_date and abs((self.todays_date - published_date).days) < 90:
+                    # Les phrases devaient pouvoir contenir multiligne et commentaire. Custom Tokenization!
+                    # https://stackoverflow.com/questions/5032210/php-sentence-boundaries-detection/5844564#5844564
+                    SENTENCE_PATTERN = re.compile(r'\S.+?[.!?]|[.!?][\'\"]\s+(?=\s+|$)+')
 
-                if published_date and abs((self.todaysDate - published_date).days) < 90:
-                    SENTENCE_PATTERN = re.compile(r'\S.+?[.!?]|[.!?][\'\"]\s+(?=\s+|$)+')  # make multiligne and comment https://stackoverflow.com/questions/5032210/php-sentence-boundaries-detection/5844564#5844564
-
+                    # Vérifie qu'il y a au moins 4 mots.
                     FOUR_WORDS_TAG_MIN = re.compile(r'(\w+(?:\s+|[.!?]$)){4}')
-#Change order of checks
-                    document_sent_tok = re.findall(SENTENCE_PATTERN, ' '.join([self.cleanMe(tag) for tag in tags if re.search(FOUR_WORDS_TAG_MIN, tag)]).replace("\n"," "))
 
+                    # Pour chaque tag, remets les retours à la ligne sur la même ligne, vérifie qu'il y a 4 mots,
+                    # Nettoie les tags, puis extrait tous les tags en un document puis
+                    # extrait tout les segments du texte qui pésentent la forme d'une phrase.
+                    document_sent_tok = re.findall(SENTENCE_PATTERN, ' '.join([self._clean_me(tag) for tag in tags if re.search(FOUR_WORDS_TAG_MIN, tag)]).replace("\n"," "))
+
+                    # Puis reconstruit un document.
                     document = ' '.join([sent for sent in document_sent_tok ])
 
-                                         #if re.search(THREE_WORDS_TAG_MIN, sent)]).replace("\s{2,}", " ")
-
-                    #document= self.cleanMe(document) #Redondance mais important
-
-                    if(len(document)>1000): #pas de micro documents
-                        self.allFilesData['url'].append(response.url)
-                        self.allFilesData['scrapped_date'].append(self.todaysDate)
-                        self.allFilesData['published_date'].append(published_date)
-                        self.allFilesData['data'].append(document)
-                        with open(self.file_path, 'wb') as f: #NOT GOOD, NEEDS TO BE INVOKED ONLY ONCE AT THE END NEED A PANDAFRAME
-                            pickle.dump(self.allFilesData, f)
+                    # Aucun micro document ne peut être sélectionné.
+                    if(len(document)>1000):
+                        self.all_files_data['url'].append(response.url)
+                        self.all_files_data['scrapped_date'].append(self.todays_date)
+                        self.all_files_data['published_date'].append(published_date)
+                        self.all_files_data['data'].append(document)
                         self.count[current_domain] += 1
-
-            #yield from res.follow_all(css='a', callback=self.parse)

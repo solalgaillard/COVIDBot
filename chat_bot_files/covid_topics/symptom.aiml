@@ -1,0 +1,255 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* SYMPTOM *</pattern>
+		<template>
+			<think><set name = "topic">SYMPTOM</set></think>
+			I know a lot about symptom
+		</template>
+	</category>
+	<category>
+		<pattern>SYMPTOM *</pattern>
+		<template>
+			<think><set name = "topic">SYMPTOM</set></think>
+			I know a lot about symptom
+		</template>
+	</category>
+	<category>
+		<pattern>* SYMPTOM</pattern>
+		<template>
+			<think><set name = "topic">SYMPTOM</set></think>
+			I know a lot about symptom
+		</template>
+	</category>
+	<category>
+		<pattern>SYMPTOM</pattern>
+		<template>
+			<think><set name = "topic">SYMPTOM</set></think>
+			I know a lot about symptom
+		</template>
+	</category>
+	<topic name = "SYMPTOM">
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * ANOTHER TELLTALE SIGN *</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * ANOTHER TELLTALE SIGN *</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE ANOTHER TELLTALE SIGN *</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE ANOTHER TELLTALE SIGN</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * ANOTHER TELLTALE SIGN</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE ANOTHER TELLTALE SIGN *</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * ANOTHER TELLTALE SIGN</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE ANOTHER TELLTALE SIGN</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT *</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT *</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT</pattern>
+			<template>
+				<random>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					<li>It was primarily a respiratory illness.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANOTHER TELLTALE SIGN *</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANOTHER TELLTALE SIGN *</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANOTHER TELLTALE SIGN</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANOTHER TELLTALE SIGN</pattern>
+			<template>
+				<random>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

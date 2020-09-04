@@ -1,0 +1,191 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* TRAVEL *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>TRAVEL *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>* TRAVEL</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>TRAVEL</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about travel
+		</template>
+	</category>
+	<category>
+		<pattern>* FLIGHTS *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>FLIGHTS *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>* FLIGHTS</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>FLIGHTS</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about flights
+		</template>
+	</category>
+	<category>
+		<pattern>* AIRLINE *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<category>
+		<pattern>AIRLINE *</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<category>
+		<pattern>* AIRLINE</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<category>
+		<pattern>AIRLINE</pattern>
+		<template>
+			<think><set name = "topic">TRAVEL</set></think>
+			I know a lot about airline
+		</template>
+	</category>
+	<topic name = "TRAVEL">
+		<category>
+			<pattern>* IS * SOMEONE *</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * SOMEONE *</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS SOMEONE *</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS SOMEONE</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * SOMEONE</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS SOMEONE *</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * SOMEONE</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS SOMEONE</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOMEONE *</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOMEONE *</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOMEONE</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOMEONE</pattern>
+			<template>
+				<random>
+					<li>Someone is sick Guidance for Reopening Buildings.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

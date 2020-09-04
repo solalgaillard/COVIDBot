@@ -1,11 +1,14 @@
-import spacy
 import nltk
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
 from nltk.tokenize.toktok import ToktokTokenizer
-import re
 from process_corpus.contractions import CONTRACTION_MAP
-from pathlib import Path
+import re
+import spacy
 import unicodedata
-nlp = spacy.load('en_core_web_sm', parse=True, tag=True, entity=True)
+
+nlp = spacy.load('en_core_web_lg', parse=True, tag=True, entity=True)
+
 tokenizer = ToktokTokenizer()
 stopword_list = nltk.corpus.stopwords.words('english')
 
@@ -110,52 +113,56 @@ def remove_overused_sentences_from_corpus(corpus_data):
     return filtered_corpus
 
 def remove_duplicates_in_corpus(corpus):
-    docsToOccurences = {}
-    filteredCorpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+    docs_to_occurences = {}
+    filtered_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
     for idx, doc in enumerate(corpus['data']):
-        if doc not in docsToOccurences:
-            filteredCorpus['url'].append(corpus['url'][idx])
-            filteredCorpus['scrapped_date'].append(corpus['scrapped_date'][idx])
-            filteredCorpus['published_date'].append(corpus['published_date'][idx])
-            filteredCorpus['data'].append(doc)
-            docsToOccurences[doc] = True
-    return filteredCorpus
+        if doc not in docs_to_occurences:
+            filtered_corpus['url'].append(corpus['url'][idx])
+            filtered_corpus['scrapped_date'].append(corpus['scrapped_date'][idx])
+            filtered_corpus['published_date'].append(corpus['published_date'][idx])
+            filtered_corpus['data'].append(doc)
+            docs_to_occurences[doc] = True
+    return filtered_corpus
 
-def export_scrapped_data_to_file_for_labeling(corpus, iteration=500):  # Base pour isoler données et créer un premier corpus d'entraînement
-    base_path = Path(__file__).parent
-    file_path = (base_path / "../data/scrapped-data-for-labeling.xml").resolve()
+# Base pour isoler données et créer un premier corpus d'entraînement
+def export_scrapped_data_to_file_for_labeling(corpus, file_path, iteration):
     with open(file_path, 'w') as f:
         f.write("<?xml version='1.0' encoding='utf-8'?>\n\t<documents>\n")
-        i = 0 ; j = 0
-        while(i<iteration or i<len(corpus['data'])):
+        i = 0 ; k = 0
+        while(k<iteration and i<len(corpus['data'])):
             f.write("\t\t<doc>\n\t\t\t<url>%s</url>" % (
                 corpus['url'][i]))
-            while (i + j + 1 < iteration or j<len(corpus['data'][i])):
+            j = 0
+            while (k < iteration and j<len(corpus['data'][i])):
                 f.write(
-                    "\n\t\t\t<data>\n\t\t\t\t<segment>%s</segment>\n\t\t\t\t<label></label>\n\t\t\t</data>" % replaceXMLSpecialChar(
-                        corpus['data'][i][j]))
-                j =+ 1
+                    "\n\t\t\t<data>\n\t\t\t\t<segment>%s</segment>"
+                    "\n\t\t\t\t<label></label>\n\t\t\t</data>" % replace_xml_special_char(
+                        corpus['data'][i][j]
+                    )
+                )
+                j += 1 ; k += 1
             f.write("\n\t\t</doc>\n")
-            i =+ i
+            i += i
         f.write("\t</documents>")
 
-def replaceXMLSpecialChar(aString):
-    value_esc_char = aString.replace("&", "&amp;")
-    value_esc_char = value_esc_char.replace("<", "&lt;")
-    value_esc_char = value_esc_char.replace(">", "&gt;")
-    value_esc_char = value_esc_char.replace('"', "&quot;")
-    value_esc_char = value_esc_char.replace("'", "&apos;")
-    return value_esc_char
+def replace_xml_special_char(a_string):
+    return a_string\
+        .replace("&", "&amp;")\
+        .replace("<", "&lt;")\
+        .replace(">", "&gt;")\
+        .replace('"', "&quot;")\
+        .replace("'", "&apos;")
+
 
 def each_segement_gets_description(corpus):
-    filteredCorpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+    filtered_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
 
     # Each segment gets their own description based on parent
     for idx, document in enumerate(corpus["data"]):
         for segment in document:
-            filteredCorpus['url'].append(corpus['url'][idx])
-            filteredCorpus['scrapped_date'].append(corpus['scrapped_date'][idx])
-            filteredCorpus['published_date'].append(corpus['published_date'][idx])
-            filteredCorpus['data'].append(segment)
+            filtered_corpus['url'].append(corpus['url'][idx])
+            filtered_corpus['scrapped_date'].append(corpus['scrapped_date'][idx])
+            filtered_corpus['published_date'].append(corpus['published_date'][idx])
+            filtered_corpus['data'].append(segment)
 
-    return filteredCorpus
+    return filtered_corpus

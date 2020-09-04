@@ -7,6 +7,7 @@
 
 from scrapy import signals
 from scrapy.exceptions import IgnoreRequest
+import pickle
 
 class ScrapperSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
@@ -109,5 +110,8 @@ class ScrapperDownloaderMiddleware:
         spider.logger.info('Spider opened: %s' % spider.name)
 
     def spider_closed(self, spider):
+        # Sauvegarde le résultat du scrapping dans un fichier
+        with open(spider.file_path, 'wb') as f:
+            pickle.dump(spider.all_files_data, f)
+        print("Wrote to file scrap.pickle")
         spider.driver.quit()
-        spider.driver = None

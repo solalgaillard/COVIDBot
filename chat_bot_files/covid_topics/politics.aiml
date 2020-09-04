@@ -1,0 +1,6251 @@
+<aiml version = "1.0.1" encoding = "UTF-8">
+	<category>
+		<pattern>* POLITICS *</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<category>
+		<pattern>POLITICS *</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<category>
+		<pattern>* POLITICS</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<category>
+		<pattern>POLITICS</pattern>
+		<template>
+			<think><set name = "topic">POLITICS</set></think>
+			I know a lot about politics
+		</template>
+	</category>
+	<topic name = "POLITICS">
+		<category>
+			<pattern>* COULD BE * HE *</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * HE *</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE HE *</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE HE</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * HE</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE HE *</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * HE</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE HE</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE IT *</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE IT</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * IT</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE IT *</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * IT</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE IT</pattern>
+			<template>
+				<random>
+					<li>It will be important in the fight against coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * HEAD SIDE MEDICAL LIGHT ICON *</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * HEAD SIDE MEDICAL LIGHT ICON *</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE HEAD SIDE MEDICAL LIGHT ICON *</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE HEAD SIDE MEDICAL LIGHT ICON</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * HEAD SIDE MEDICAL LIGHT ICON</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE HEAD SIDE MEDICAL LIGHT ICON *</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * HEAD SIDE MEDICAL LIGHT ICON</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE HEAD SIDE MEDICAL LIGHT ICON</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SPREAD *</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SPREAD *</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SPREAD *</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SPREAD</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SPREAD</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SPREAD *</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SPREAD</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SPREAD</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE IT *</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE IT</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * IT</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE IT *</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * IT</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE IT</pattern>
+			<template>
+				<random>
+					<li>It would be impossible to increase the pH of your cells.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * EMPLOYEES *</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * EMPLOYEES *</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE EMPLOYEES *</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE EMPLOYEES</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * EMPLOYEES</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE EMPLOYEES *</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * EMPLOYEES</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE EMPLOYEES</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE * WE *</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE * WE *</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE WE *</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE WE</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE * WE</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ’RE WE *</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE * WE</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>’RE WE</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAD BEEN * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAD BEEN * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAD BEEN WHO *</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAD BEEN WHO</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAD BEEN * WHO</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAD BEEN WHO *</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAD BEEN * WHO</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAD BEEN WHO</pattern>
+			<template>
+				<random>
+					<li>Who had been on board.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS TIMELINE *</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THIS TIMELINE *</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THIS TIMELINE *</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THIS TIMELINE</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THIS TIMELINE</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THIS TIMELINE *</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THIS TIMELINE</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THIS TIMELINE</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * ITS PLANS *</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * ITS PLANS *</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE ITS PLANS *</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE ITS PLANS</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * ITS PLANS</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE ITS PLANS *</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * ITS PLANS</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE ITS PLANS</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * MORE THAN 350 MIGRANTS *</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * MORE THAN 350 MIGRANTS *</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE MORE THAN 350 MIGRANTS *</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE MORE THAN 350 MIGRANTS</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * MORE THAN 350 MIGRANTS</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE MORE THAN 350 MIGRANTS *</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * MORE THAN 350 MIGRANTS</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE MORE THAN 350 MIGRANTS</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * HEALTH CARE PROFESSIONALS *</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * HEALTH CARE PROFESSIONALS *</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE HEALTH CARE PROFESSIONALS *</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE HEALTH CARE PROFESSIONALS</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * HEALTH CARE PROFESSIONALS</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE HEALTH CARE PROFESSIONALS *</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * HEALTH CARE PROFESSIONALS</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE HEALTH CARE PROFESSIONALS</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE LEVEL *</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE LEVEL *</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE LEVEL *</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE LEVEL</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE LEVEL</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE LEVEL *</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE LEVEL</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE LEVEL</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE COVID-19 PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE COVID-19 PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE COVID-19 PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE COVID-19 PATIENTS</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE COVID-19 PATIENTS</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE COVID-19 PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE COVID-19 PATIENTS</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE COVID-19 PATIENTS</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * THE DISTRIBUTION *</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * THE DISTRIBUTION *</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE THE DISTRIBUTION *</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE THE DISTRIBUTION</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * THE DISTRIBUTION</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE THE DISTRIBUTION *</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * THE DISTRIBUTION</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE THE DISTRIBUTION</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * LIMITED COVID-19 VACCINE DOSES *</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * LIMITED COVID-19 VACCINE DOSES *</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE LIMITED COVID-19 VACCINE DOSES *</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE LIMITED COVID-19 VACCINE DOSES</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * LIMITED COVID-19 VACCINE DOSES</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE LIMITED COVID-19 VACCINE DOSES *</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * LIMITED COVID-19 VACCINE DOSES</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE LIMITED COVID-19 VACCINE DOSES</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * WICKS *</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * WICKS *</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS WICKS *</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS WICKS</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * WICKS</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS WICKS *</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * WICKS</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS WICKS</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * ITS OPERATIONS *</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * ITS OPERATIONS *</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE ITS OPERATIONS *</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE ITS OPERATIONS</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * ITS OPERATIONS</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE ITS OPERATIONS *</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * ITS OPERATIONS</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE ITS OPERATIONS</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * CORONAVIRUS *</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * CORONAVIRUS *</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE CORONAVIRUS *</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE CORONAVIRUS</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * CORONAVIRUS</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE CORONAVIRUS *</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * CORONAVIRUS</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE CORONAVIRUS</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE FEELING *</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE FEELING *</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE FEELING *</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE FEELING</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE FEELING</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE FEELING *</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE FEELING</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE FEELING</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE PATIENT *</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE PATIENT *</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE PATIENT *</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE PATIENT</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE PATIENT</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE PATIENT *</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE PATIENT</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE PATIENT</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * WHAT *</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE WHAT</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE WHAT *</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * WHAT</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE WHAT</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE IT *</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE IT</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * IT</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE IT *</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * IT</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE IT</pattern>
+			<template>
+				<random>
+					<li>It may be difficult to keep a physical distance of 6 feet.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;M * I *</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;M * I *</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;M I *</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;M I</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;M * I</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;M I *</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;M * I</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;M I</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * 86 CAREER E. R.A. *</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * 86 CAREER E. R.A. *</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS 86 CAREER E. R.A. *</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS 86 CAREER E. R.A.</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * 86 CAREER E. R.A.</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS 86 CAREER E. R.A. *</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * 86 CAREER E. R.A.</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS 86 CAREER E. R.A.</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * BLOOD *</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * BLOOD *</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS BLOOD *</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS BLOOD</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * BLOOD</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS BLOOD *</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * BLOOD</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS BLOOD</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * ONE OR MORE OPTIONS *</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * ONE OR MORE OPTIONS *</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE ONE OR MORE OPTIONS *</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE ONE OR MORE OPTIONS</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE * ONE OR MORE OPTIONS</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COULD BE ONE OR MORE OPTIONS *</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE * ONE OR MORE OPTIONS</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COULD BE ONE OR MORE OPTIONS</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * THE RELEASE *</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * THE RELEASE *</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE THE RELEASE *</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE THE RELEASE</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * THE RELEASE</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE THE RELEASE *</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * THE RELEASE</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE THE RELEASE</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * ANOTHER THING *</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * ANOTHER THING *</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS ANOTHER THING *</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS ANOTHER THING</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * ANOTHER THING</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS ANOTHER THING *</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * ANOTHER THING</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS ANOTHER THING</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE NEW C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE NEW C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE NEW C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE NEW C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE NEW C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE NEW C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE NEW C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE NEW C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data is sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain is now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT *</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS IT *</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * IT</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS IT</pattern>
+			<template>
+				<random>
+					<li>It is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE RELEASE DATE *</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE RELEASE DATE *</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE RELEASE DATE *</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE RELEASE DATE</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE RELEASE DATE</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE RELEASE DATE *</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE RELEASE DATE</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE RELEASE DATE</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MOST PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MOST PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MOST PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MOST PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MOST PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MOST PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MOST PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MOST PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S * IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* &apos;S IT *</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S * IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>&apos;S IT</pattern>
+			<template>
+				<random>
+					<li>It &apos;s a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE SWAB SAMPLE *</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE SWAB SAMPLE *</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE SWAB SAMPLE *</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE SWAB SAMPLE</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE SWAB SAMPLE</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE SWAB SAMPLE *</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE SWAB SAMPLE</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE SWAB SAMPLE</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * CALIFORNIA GOVERNOR GAVIN NEWSOM *</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * CALIFORNIA GOVERNOR GAVIN NEWSOM *</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE CALIFORNIA GOVERNOR GAVIN NEWSOM *</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE CALIFORNIA GOVERNOR GAVIN NEWSOM</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * CALIFORNIA GOVERNOR GAVIN NEWSOM</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE CALIFORNIA GOVERNOR GAVIN NEWSOM *</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * CALIFORNIA GOVERNOR GAVIN NEWSOM</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE CALIFORNIA GOVERNOR GAVIN NEWSOM</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE F. D.A. *</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE F. D.A. *</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE F. D.A. *</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE F. D.A.</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * THE F. D.A.</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE THE F. D.A. *</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * THE F. D.A.</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE THE F. D.A.</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * SOCIAL DISTANCING *</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * SOCIAL DISTANCING *</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS SOCIAL DISTANCING *</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS SOCIAL DISTANCING</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * SOCIAL DISTANCING</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS SOCIAL DISTANCING *</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * SOCIAL DISTANCING</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS SOCIAL DISTANCING</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * DIAGNOSTIC THROAT AND NOSE SWAB TESTS *</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * DIAGNOSTIC THROAT AND NOSE SWAB TESTS *</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE DIAGNOSTIC THROAT AND NOSE SWAB TESTS *</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE DIAGNOSTIC THROAT AND NOSE SWAB TESTS</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE * DIAGNOSTIC THROAT AND NOSE SWAB TESTS</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WERE DIAGNOSTIC THROAT AND NOSE SWAB TESTS *</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE * DIAGNOSTIC THROAT AND NOSE SWAB TESTS</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WERE DIAGNOSTIC THROAT AND NOSE SWAB TESTS</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE GUARDIAN BATISTA *</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE GUARDIAN BATISTA *</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE GUARDIAN BATISTA *</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE GUARDIAN BATISTA</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE GUARDIAN BATISTA</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE GUARDIAN BATISTA *</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE GUARDIAN BATISTA</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE GUARDIAN BATISTA</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE PEOPLE</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * PEOPLE</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * PEOPLE</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE PEOPLE</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SUFFERING *</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SUFFERING *</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SUFFERING *</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SUFFERING</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SUFFERING</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SUFFERING *</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SUFFERING</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SUFFERING</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT *</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS IT *</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * IT</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS IT</pattern>
+			<template>
+				<random>
+					<li>It was almost like Mardi Gras.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE NEW THE C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE NEW THE C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE NEW THE C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE NEW THE C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE NEW THE C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE NEW THE C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE NEW THE C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE NEW THE C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY *</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY *</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE THEY *</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * THEY</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE THEY *</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * THEY</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE THEY</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE MESSAGE *</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE MESSAGE *</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE MESSAGE *</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE MESSAGE</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE MESSAGE</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE MESSAGE *</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE MESSAGE</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE MESSAGE</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * SEAVER *</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * SEAVER *</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS SEAVER *</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS SEAVER</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * SEAVER</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS SEAVER *</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * SEAVER</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS SEAVER</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO *</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE WHO *</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE * WHO</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ARE WHO *</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE * WHO</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ARE WHO</pattern>
+			<template>
+				<random>
+					<li>Who are at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * FEDERAL CORONAVIRUS FUNDS *</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * FEDERAL CORONAVIRUS FUNDS *</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN FEDERAL CORONAVIRUS FUNDS *</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN FEDERAL CORONAVIRUS FUNDS</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN * FEDERAL CORONAVIRUS FUNDS</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE BEEN FEDERAL CORONAVIRUS FUNDS *</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN * FEDERAL CORONAVIRUS FUNDS</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE BEEN FEDERAL CORONAVIRUS FUNDS</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * EVERY ASYMPTOMATIC INDIVIDUAL *</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * EVERY ASYMPTOMATIC INDIVIDUAL *</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS EVERY ASYMPTOMATIC INDIVIDUAL *</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS EVERY ASYMPTOMATIC INDIVIDUAL</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * EVERY ASYMPTOMATIC INDIVIDUAL</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS EVERY ASYMPTOMATIC INDIVIDUAL *</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * EVERY ASYMPTOMATIC INDIVIDUAL</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS EVERY ASYMPTOMATIC INDIVIDUAL</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * RENDON *</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * RENDON *</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS RENDON *</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS RENDON</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * RENDON</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS RENDON *</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * RENDON</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS RENDON</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE * A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MAY BE A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE * A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MAY BE A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine may be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SECOND AMENDMENT *</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SECOND AMENDMENT *</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SECOND AMENDMENT *</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SECOND AMENDMENT</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SECOND AMENDMENT</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SECOND AMENDMENT *</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SECOND AMENDMENT</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SECOND AMENDMENT</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SITUATION *</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SITUATION *</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SITUATION *</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SITUATION</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE SITUATION</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE SITUATION *</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE SITUATION</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE SITUATION</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * SMELL LOSS *</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * SMELL LOSS *</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS SMELL LOSS *</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS SMELL LOSS</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * SMELL LOSS</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS SMELL LOSS *</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * SMELL LOSS</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS SMELL LOSS</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * SCIENCE FICTION FILM TENET *</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * SCIENCE FICTION FILM TENET *</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE SCIENCE FICTION FILM TENET *</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE SCIENCE FICTION FILM TENET</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * SCIENCE FICTION FILM TENET</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE SCIENCE FICTION FILM TENET *</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * SCIENCE FICTION FILM TENET</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE SCIENCE FICTION FILM TENET</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * HOPE *</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * HOPE *</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS HOPE *</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS HOPE</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * HOPE</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS HOPE *</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * HOPE</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS HOPE</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE CAUSE *</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE CAUSE *</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE CAUSE *</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE CAUSE</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE CAUSE</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE CAUSE *</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE CAUSE</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE CAUSE</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HE *</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HE *</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HE</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HE</pattern>
+			<template>
+				<random>
+					<li>He could be forthcoming and straightforward, but also slippery, refusing any suggestion that he might tone down.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT *</pattern>
+			<template>
+				<random>
+					<li>It will be crucial to educate people about the benefits of vaccination.</li>
+					<li>It will be better to fly a migrant mother who tested positive for Covid-19 to Palermo.</li>
+					<li>It will be impossible to increase the pH of your cells.</li>
+					<li>It will be unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					<li>It will be difficult to keep a physical distance of 6 feet.</li>
+					<li>It will be he strategic thinking and experience that extended he career.</li>
+					<li>It will be before he antics fully curdle.</li>
+					<li>It will be up to the devolved administrations to make their own public health decisions.</li>
+					<li>It will be important in the fight against coronavirus.</li>
+					<li>It will be like baking a cake at home.</li>
+					<li>It will be quite a challenge.</li>
+					<li>It will be “on track” for seeking government review “as early as October 2020.</li>
+					<li>It will be hard to measure the spread of falsehoods and debunk them.</li>
+					<li>It will be a strong source of misinformation.</li>
+					<li>It will be a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					<li>It will be almost like Mardi Gras.</li>
+					<li>It will be alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT *</pattern>
+			<template>
+				<random>
+					<li>It will be crucial to educate people about the benefits of vaccination.</li>
+					<li>It will be better to fly a migrant mother who tested positive for Covid-19 to Palermo.</li>
+					<li>It will be impossible to increase the pH of your cells.</li>
+					<li>It will be unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					<li>It will be difficult to keep a physical distance of 6 feet.</li>
+					<li>It will be he strategic thinking and experience that extended he career.</li>
+					<li>It will be before he antics fully curdle.</li>
+					<li>It will be up to the devolved administrations to make their own public health decisions.</li>
+					<li>It will be important in the fight against coronavirus.</li>
+					<li>It will be like baking a cake at home.</li>
+					<li>It will be quite a challenge.</li>
+					<li>It will be “on track” for seeking government review “as early as October 2020.</li>
+					<li>It will be hard to measure the spread of falsehoods and debunk them.</li>
+					<li>It will be a strong source of misinformation.</li>
+					<li>It will be a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					<li>It will be almost like Mardi Gras.</li>
+					<li>It will be alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IT</pattern>
+			<template>
+				<random>
+					<li>It will be crucial to educate people about the benefits of vaccination.</li>
+					<li>It will be better to fly a migrant mother who tested positive for Covid-19 to Palermo.</li>
+					<li>It will be impossible to increase the pH of your cells.</li>
+					<li>It will be unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					<li>It will be difficult to keep a physical distance of 6 feet.</li>
+					<li>It will be he strategic thinking and experience that extended he career.</li>
+					<li>It will be before he antics fully curdle.</li>
+					<li>It will be up to the devolved administrations to make their own public health decisions.</li>
+					<li>It will be important in the fight against coronavirus.</li>
+					<li>It will be like baking a cake at home.</li>
+					<li>It will be quite a challenge.</li>
+					<li>It will be “on track” for seeking government review “as early as October 2020.</li>
+					<li>It will be hard to measure the spread of falsehoods and debunk them.</li>
+					<li>It will be a strong source of misinformation.</li>
+					<li>It will be a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					<li>It will be almost like Mardi Gras.</li>
+					<li>It will be alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IT</pattern>
+			<template>
+				<random>
+					<li>It will be crucial to educate people about the benefits of vaccination.</li>
+					<li>It will be better to fly a migrant mother who tested positive for Covid-19 to Palermo.</li>
+					<li>It will be impossible to increase the pH of your cells.</li>
+					<li>It will be unlikely that Some theatres&apos;ll have to make Some theatres beds elsewhere anytime soon.</li>
+					<li>It will be difficult to keep a physical distance of 6 feet.</li>
+					<li>It will be he strategic thinking and experience that extended he career.</li>
+					<li>It will be before he antics fully curdle.</li>
+					<li>It will be up to the devolved administrations to make their own public health decisions.</li>
+					<li>It will be important in the fight against coronavirus.</li>
+					<li>It will be like baking a cake at home.</li>
+					<li>It will be quite a challenge.</li>
+					<li>It will be “on track” for seeking government review “as early as October 2020.</li>
+					<li>It will be hard to measure the spread of falsehoods and debunk them.</li>
+					<li>It will be a strong source of misinformation.</li>
+					<li>It will be a bit of a pointless argument to determine if high pH would inhibit coronavirus Claim.</li>
+					<li>It will be almost like Mardi Gras.</li>
+					<li>It will be alone in voting against a counter-terrorism resolution in the UN security council.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HEAD SIDE MEDICAL LIGHT ICON *</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HEAD SIDE MEDICAL LIGHT ICON *</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HEAD SIDE MEDICAL LIGHT ICON</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HEAD SIDE MEDICAL LIGHT ICON</pattern>
+			<template>
+				<random>
+					<li>Head side medical light icon Be alert for symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SPREAD *</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SPREAD *</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SPREAD</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SPREAD</pattern>
+			<template>
+				<random>
+					<li>The spread is a particular challenge for fact checkers.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* EMPLOYEES *</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>EMPLOYEES *</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* EMPLOYEES</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>EMPLOYEES</pattern>
+			<template>
+				<random>
+					<li>Employees are able to request alternative work arrangements.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WE *</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WE *</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WE</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WE</pattern>
+			<template>
+				<random>
+					<li>We ’re in a very deep-red state.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO *</pattern>
+			<template>
+				<random>
+					<li>Who had been in the capitol for the virus.</li>
+					<li>Who had been on board.</li>
+					<li>Who had been at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO *</pattern>
+			<template>
+				<random>
+					<li>Who had been in the capitol for the virus.</li>
+					<li>Who had been on board.</li>
+					<li>Who had been at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO</pattern>
+			<template>
+				<random>
+					<li>Who had been in the capitol for the virus.</li>
+					<li>Who had been on board.</li>
+					<li>Who had been at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO</pattern>
+			<template>
+				<random>
+					<li>Who had been in the capitol for the virus.</li>
+					<li>Who had been on board.</li>
+					<li>Who had been at high risk of severe illness from.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BRITAIN *</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BRITAIN</pattern>
+			<template>
+				<random>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was ill-prepared for a pandemic.</li>
+					<li>Britain was now at a fork in the road.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THIS TIMELINE *</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THIS TIMELINE *</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THIS TIMELINE</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THIS TIMELINE</pattern>
+			<template>
+				<random>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					<li>This timeline is deeply worrisome for the politicization of public health and the potential safety ramifications.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ITS PLANS *</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ITS PLANS *</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ITS PLANS</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ITS PLANS</pattern>
+			<template>
+				<random>
+					<li>Its plans were as yet hypothetical.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MORE THAN 350 MIGRANTS *</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MORE THAN 350 MIGRANTS *</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MORE THAN 350 MIGRANTS</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MORE THAN 350 MIGRANTS</pattern>
+			<template>
+				<random>
+					<li>More than 350 migrants are due to land in Palermo, Sea-Watch said, after quarantine checks.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HEALTH CARE PROFESSIONALS *</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HEALTH CARE PROFESSIONALS *</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HEALTH CARE PROFESSIONALS</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HEALTH CARE PROFESSIONALS</pattern>
+			<template>
+				<random>
+					<li>Health care professionals would be among the first to receive the product, along with other essential workers and national security employees.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE LEVEL *</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE LEVEL *</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE LEVEL</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE LEVEL</pattern>
+			<template>
+				<random>
+					<li>The level is below that which is considered dangerous.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE COVID-19 PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were less able to identify smells, and the Covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE COVID-19 PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were less able to identify smells, and the Covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE COVID-19 PATIENTS</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were less able to identify smells, and the Covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE COVID-19 PATIENTS</pattern>
+			<template>
+				<random>
+					<li>The covid-19 patients were less able to identify smells, and the Covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					<li>The covid-19 patients were not able to discern bitter or sweet tastes at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE DISTRIBUTION *</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE DISTRIBUTION *</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE DISTRIBUTION</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE DISTRIBUTION</pattern>
+			<template>
+				<random>
+					<li>The distribution would be a daunting challenge.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LIMITED COVID-19 VACCINE DOSES *</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LIMITED COVID-19 VACCINE DOSES *</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LIMITED COVID-19 VACCINE DOSES</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LIMITED COVID-19 VACCINE DOSES</pattern>
+			<template>
+				<random>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					<li>Limited covid-19 vaccine doses may be available by early November 2020.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data were overwhelmingly positive.</li>
+					<li>A vaccine could be available for certain groups before clinical trials have been completed, if the data is overwhelmingly positive.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WICKS *</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WICKS *</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WICKS</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WICKS</pattern>
+			<template>
+				<random>
+					<li>Wicks was on maternity leave.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ITS OPERATIONS *</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ITS OPERATIONS *</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ITS OPERATIONS</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ITS OPERATIONS</pattern>
+			<template>
+				<random>
+					<li>Its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CORONAVIRUS *</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CORONAVIRUS *</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CORONAVIRUS</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CORONAVIRUS</pattern>
+			<template>
+				<random>
+					<li>Coronavirus are the rules.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE FEELING *</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE FEELING *</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE FEELING</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE FEELING</pattern>
+			<template>
+				<random>
+					<li>The feeling is one of desolation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE DATA *</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE DATA</pattern>
+			<template>
+				<random>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were overwhelmingly positive.</li>
+					<li>The data were sufficient for licensure application.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PATIENT *</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PATIENT *</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PATIENT</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PATIENT</pattern>
+			<template>
+				<random>
+					<li>The patient was at when tested.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT *</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT *</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHAT</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHAT</pattern>
+			<template>
+				<random>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					<li>What be a vast, complex effort to vaccinate hundreds of millions of Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* I *</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>I *</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* I</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>I</pattern>
+			<template>
+				<random>
+					<li>I &apos;m not against a vaccine and.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* 86 CAREER E. R.A. *</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was a great pitcher.</li>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>86 CAREER E. R.A. *</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was a great pitcher.</li>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* 86 CAREER E. R.A.</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was a great pitcher.</li>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>86 CAREER E. R.A.</pattern>
+			<template>
+				<random>
+					<li>86 career e. r.a. was a great pitcher.</li>
+					<li>86 career e. r.a. was an even greater person.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PANDEMIC *</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE PANDEMIC</pattern>
+			<template>
+				<random>
+					<li>The pandemic was well-founded.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BLOOD *</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BLOOD *</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BLOOD</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BLOOD</pattern>
+			<template>
+				<random>
+					<li>Blood is very slightly alkaline.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ONE OR MORE OPTIONS *</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ONE OR MORE OPTIONS *</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ONE OR MORE OPTIONS</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ONE OR MORE OPTIONS</pattern>
+			<template>
+				<random>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					<li>One or more options could be available toward the end of this year or early next.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE RELEASE *</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE RELEASE *</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE RELEASE</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE RELEASE</pattern>
+			<template>
+				<random>
+					<li>The release would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANOTHER THING *</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANOTHER THING *</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ANOTHER THING</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ANOTHER THING</pattern>
+			<template>
+				<random>
+					<li>Another thing is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE NEW C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE NEW C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE NEW C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE NEW C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new c. d.c. guidance is the latest sign of an accelerating race for a vaccine to ease a pandemic that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE RELEASE DATE *</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE RELEASE DATE *</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE RELEASE DATE</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE RELEASE DATE</pattern>
+			<template>
+				<random>
+					<li>The release date is an attempt at salvaging a summer release, traditionally Hollywood&apos;s most lucrative season.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MOST PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Most people is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					<li>Most people is somewhat impaired.</li>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MOST PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Most people is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					<li>Most people is somewhat impaired.</li>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MOST PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Most people is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					<li>Most people is somewhat impaired.</li>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MOST PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Most people is a blocked, stuffy or runny nose - most people with coronavirus &quot;true&quot; loss of taste.</li>
+					<li>Most people is somewhat impaired.</li>
+					<li>Most people is out of action.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SWAB SAMPLE *</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SWAB SAMPLE *</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SWAB SAMPLE</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SWAB SAMPLE</pattern>
+			<template>
+				<random>
+					<li>The swab sample was n&apos;t good enough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CALIFORNIA GOVERNOR GAVIN NEWSOM *</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CALIFORNIA GOVERNOR GAVIN NEWSOM *</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CALIFORNIA GOVERNOR GAVIN NEWSOM</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CALIFORNIA GOVERNOR GAVIN NEWSOM</pattern>
+			<template>
+				<random>
+					<li>California governor gavin newsom will be ready for it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE F. D.A. *</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE F. D.A. *</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE F. D.A.</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE F. D.A.</pattern>
+			<template>
+				<random>
+					<li>The f. d.a. were to allow the use of a vaccine or two this year.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOCIAL DISTANCING *</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOCIAL DISTANCING *</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOCIAL DISTANCING</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOCIAL DISTANCING</pattern>
+			<template>
+				<random>
+					<li>Social distancing is impossible in the cramped living quarters of Dubai’s labour camps.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DIAGNOSTIC THROAT AND NOSE SWAB TESTS *</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DIAGNOSTIC THROAT AND NOSE SWAB TESTS *</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DIAGNOSTIC THROAT AND NOSE SWAB TESTS</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DIAGNOSTIC THROAT AND NOSE SWAB TESTS</pattern>
+			<template>
+				<random>
+					<li>Diagnostic throat and nose swab tests were still essential if someone thought they might have coronavirus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE GUARDIAN BATISTA *</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE GUARDIAN BATISTA *</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE GUARDIAN BATISTA</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE GUARDIAN BATISTA</pattern>
+			<template>
+				<random>
+					<li>The guardian batista was similarly pessimistic, claiming its operations were “completely paralyzed” and Brazil’s environmental policies in tatters.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PEOPLE</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PEOPLE</pattern>
+			<template>
+				<random>
+					<li>People will be reluctant to have it.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SUFFERING *</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SUFFERING *</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SUFFERING</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SUFFERING</pattern>
+			<template>
+				<random>
+					<li>The suffering is too much.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MEDIA PLAYBACK *</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MEDIA PLAYBACK</pattern>
+			<template>
+				<random>
+					<li>Media playback is unsupported on your device.</li>
+					<li>Media playback is unsupported on your device.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE NEW THE C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE NEW THE C. D.C. GUIDANCE *</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE NEW THE C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE NEW THE C. D.C. GUIDANCE</pattern>
+			<template>
+				<random>
+					<li>The new the c. d.c. guidance is the latest sign of an accelerating race for a vaccine against a disease that has killed more than 184,000 Americans.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THEY *</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THEY *</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THEY</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THEY</pattern>
+			<template>
+				<random>
+					<li>They are &quot;quite confident that it is a strong source of misinformation.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE MESSAGE *</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE MESSAGE *</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE MESSAGE</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE MESSAGE</pattern>
+			<template>
+				<random>
+					<li>The message is not a message of trust and confidence in medical or scientific evidence.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SEAVER *</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SEAVER *</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SEAVER</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SEAVER</pattern>
+			<template>
+				<random>
+					<li>Seaver was a picture of kinetic grace.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEDERAL CORONAVIRUS FUNDS *</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEDERAL CORONAVIRUS FUNDS *</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEDERAL CORONAVIRUS FUNDS</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEDERAL CORONAVIRUS FUNDS</pattern>
+			<template>
+				<random>
+					<li>Federal coronavirus funds have been slow to reach public health departments.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* EVERY ASYMPTOMATIC INDIVIDUAL *</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>EVERY ASYMPTOMATIC INDIVIDUAL *</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* EVERY ASYMPTOMATIC INDIVIDUAL</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>EVERY ASYMPTOMATIC INDIVIDUAL</pattern>
+			<template>
+				<random>
+					<li>Every asymptomatic individual is a small victory, as we can isolate people who might unknowingly transmit the infection.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* RENDON *</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>RENDON *</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* RENDON</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>RENDON</pattern>
+			<template>
+				<random>
+					<li>Rendon was concerned about whether the votes would legally qualify or.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SECOND AMENDMENT *</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SECOND AMENDMENT *</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SECOND AMENDMENT</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SECOND AMENDMENT</pattern>
+			<template>
+				<random>
+					<li>The second amendment is no help.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SITUATION *</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SITUATION *</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE SITUATION</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE SITUATION</pattern>
+			<template>
+				<random>
+					<li>The situation is very desperate for these men.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SMELL LOSS *</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SMELL LOSS *</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SMELL LOSS</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SMELL LOSS</pattern>
+			<template>
+				<random>
+					<li>Smell loss was much more profound in the Covid-19 patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SCIENCE FICTION FILM TENET *</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SCIENCE FICTION FILM TENET *</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SCIENCE FICTION FILM TENET</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SCIENCE FICTION FILM TENET</pattern>
+			<template>
+				<random>
+					<li>Science fiction film tenet would be the one to lure audiences away from their sofas and streaming services and back into cinemas.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HOPE *</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HOPE *</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HOPE</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HOPE</pattern>
+			<template>
+				<random>
+					<li>Hope is not currently in plentiful supply.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE CAUSE *</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE CAUSE *</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE CAUSE</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE CAUSE</pattern>
+			<template>
+				<random>
+					<li>The cause was complications of Lewy body dementia and Covid-19, the Baseball Hall of Fame.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>*</pattern>
+			<template>
+				<think><set name="topic"><!-- No Topic --></set></think>
+				Ok, changing topic.
+			</template>
+		</category>
+	</topic>
+</aiml>

@@ -1,4 +1,8 @@
-topics_associated_weights = [ {
+'''
+    Les thèmes sont définis par des poids sur des mots cibles et du nombre d'occurences
+    (par classement) dans les clusters.
+'''
+TOPICS_ASSOCIATED_BY_WEIGHTS = [ {
             "name": ["symptom"],
             "values": [
                     {"word": "symptom", "weight": 1},
