@@ -31,5 +31,11 @@
         </random>
     </template>
 </category>
+<category>
+        <pattern>*</pattern>
+        <template>
+            Can't get it wrong
+        </template>
+    </category>
 
 </aiml>

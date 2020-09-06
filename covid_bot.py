@@ -236,15 +236,20 @@ if __name__ == "__main__":
 #Make sure last Chrome is installed, not chromium but chrome
 
 
-    #TODO - Better strategy in generating AIML - today
+    #TODO - Better strategy in generating AIML - done
 
     #TODO GET RID OF TEXTACY
 
-    #TODO DECIDE WETHER OR NOT TO KEEP TOPICS DATA NOT OUTSIDE OF TOPICS
+    #TODO Add also topic data to non-topic
 
-    #TODO EXPORT TO AIML WITH NEW SYSTEM
+    #TODO EXPORT TO AIML WITH NEW SYSTEM - done
+
+    #TODO contractions and lemmatization on input
+
+    #TODO - Patterns to take out
 
     #TODO - Provide Basic AIML Bot - today
+
 
 
 
@@ -260,6 +265,7 @@ if __name__ == "__main__":
     #TODO - 3 - Unit Testing
     #TODO - 4 - Word embeddings all across would have been more efficient than TF-IDF?
     #TODO - Investigate better Scrapping
+        #TODO - c - Stupid meaningless sentences get kept
         #TODO - c - Investigate Paywall for NYT, do I need a new Login?
 
     #TODO - Label more Data and check between Logistic Regression and SVM which one is best
