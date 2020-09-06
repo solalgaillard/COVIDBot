@@ -29,130 +29,2626 @@
 	</category>
 	<topic name = "SYMPTOM">
 		<category>
-			<pattern>* WAS * IT *</pattern>
+			<pattern>* BE * IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * IT *</pattern>
+			<pattern>BE * IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS IT *</pattern>
+			<pattern>BE IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS IT</pattern>
+			<pattern>* BE IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * IT</pattern>
+			<pattern>* BE * IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS IT *</pattern>
+			<pattern>* BE IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * IT</pattern>
+			<pattern>BE * IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS IT</pattern>
+			<pattern>BE IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE * ANOTHER TELLTALE SIGN *</pattern>
+			<pattern>* BE * TIME *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE * ANOTHER TELLTALE SIGN *</pattern>
+			<pattern>BE * TIME *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE ANOTHER TELLTALE SIGN *</pattern>
+			<pattern>BE TIME *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE ANOTHER TELLTALE SIGN</pattern>
+			<pattern>* BE TIME</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE * ANOTHER TELLTALE SIGN</pattern>
+			<pattern>* BE * TIME</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE ANOTHER TELLTALE SIGN *</pattern>
+			<pattern>* BE TIME *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE * ANOTHER TELLTALE SIGN</pattern>
+			<pattern>BE * TIME</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE ANOTHER TELLTALE SIGN</pattern>
+			<pattern>BE TIME</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * LOWER RISK *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * LOWER RISK *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE LOWER RISK *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE LOWER RISK</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * LOWER RISK</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE LOWER RISK *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * LOWER RISK</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE LOWER RISK</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * WIND *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * WIND *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE WIND *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE WIND</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * WIND</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE WIND *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * WIND</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE WIND</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * VIRAL DROPLETS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * VIRAL DROPLETS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE VIRAL DROPLETS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE VIRAL DROPLETS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * VIRAL DROPLETS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE VIRAL DROPLETS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * VIRAL DROPLETS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE VIRAL DROPLETS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * SUNLIGHT *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * SUNLIGHT *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE SUNLIGHT *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE SUNLIGHT</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * SUNLIGHT</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE SUNLIGHT *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * SUNLIGHT</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE SUNLIGHT</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE * THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* BE THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE * THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>BE THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * OPEN SPACES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * OPEN SPACES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY OPEN SPACES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY OPEN SPACES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * OPEN SPACES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY OPEN SPACES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * OPEN SPACES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY OPEN SPACES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * CONCENTRATED AMOUNTS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * CONCENTRATED AMOUNTS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY CONCENTRATED AMOUNTS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY CONCENTRATED AMOUNTS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * CONCENTRATED AMOUNTS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY CONCENTRATED AMOUNTS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * CONCENTRATED AMOUNTS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY CONCENTRATED AMOUNTS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * INFECTED PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * INFECTED PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY INFECTED PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY INFECTED PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * INFECTED PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY INFECTED PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * INFECTED PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY INFECTED PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * A CONFINED SPACE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * A CONFINED SPACE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY A CONFINED SPACE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY A CONFINED SPACE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * A CONFINED SPACE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY A CONFINED SPACE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * A CONFINED SPACE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY A CONFINED SPACE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * LONG STRETCHES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * LONG STRETCHES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY LONG STRETCHES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY LONG STRETCHES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * LONG STRETCHES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY LONG STRETCHES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * LONG STRETCHES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY LONG STRETCHES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * TIME *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * TIME *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY TIME *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY TIME</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * TIME</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY TIME *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * TIME</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY TIME</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * DR. JULIAN W. TANG *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * DR. JULIAN W. TANG *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY DR. JULIAN W. TANG *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY DR. JULIAN W. TANG</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * DR. JULIAN W. TANG</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY DR. JULIAN W. TANG *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * DR. JULIAN W. TANG</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY DR. JULIAN W. TANG</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * A VIROLOGIST *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * A VIROLOGIST *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY A VIROLOGIST *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY A VIROLOGIST</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * A VIROLOGIST</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY A VIROLOGIST *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * A VIROLOGIST</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY A VIROLOGIST</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * THE UNIVERSITY *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * THE UNIVERSITY *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY THE UNIVERSITY *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY THE UNIVERSITY</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * THE UNIVERSITY</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY THE UNIVERSITY *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * THE UNIVERSITY</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY THE UNIVERSITY</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * LEICESTER *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * LEICESTER *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY LEICESTER *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY LEICESTER</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY * LEICESTER</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SAY LEICESTER *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY * LEICESTER</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SAY LEICESTER</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * MANY PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * MANY PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE MANY PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE MANY PATIENTS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * MANY PATIENTS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE MANY PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * MANY PATIENTS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE MANY PATIENTS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * FEVER *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * FEVER *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE FEVER *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE FEVER</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * FEVER</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE FEVER *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * FEVER</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE FEVER</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * CHILLS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * CHILLS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE CHILLS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE CHILLS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * CHILLS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE CHILLS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * CHILLS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE CHILLS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * SOME PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * SOME PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE SOME PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE SOME PEOPLE</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * SOME PEOPLE</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE SOME PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * SOME PEOPLE</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE SOME PEOPLE</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * MANY SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * MANY SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE MANY SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE MANY SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * MANY SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE MANY SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * MANY SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE MANY SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * WHO *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * WHO *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE WHO *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE WHO</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * WHO</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE WHO *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * WHO</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE WHO</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * PNEUMONIA *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * PNEUMONIA *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE PNEUMONIA *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE PNEUMONIA</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * PNEUMONIA</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE PNEUMONIA *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * PNEUMONIA</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE PNEUMONIA</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * ACUTE RESPIRATORY DISTRESS SYNDROME *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * ACUTE RESPIRATORY DISTRESS SYNDROME *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE ACUTE RESPIRATORY DISTRESS SYNDROME *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE ACUTE RESPIRATORY DISTRESS SYNDROME</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * ACUTE RESPIRATORY DISTRESS SYNDROME</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE ACUTE RESPIRATORY DISTRESS SYNDROME *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * ACUTE RESPIRATORY DISTRESS SYNDROME</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE ACUTE RESPIRATORY DISTRESS SYNDROME</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * SUPPLEMENTAL OXYGEN *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * SUPPLEMENTAL OXYGEN *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE SUPPLEMENTAL OXYGEN *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE SUPPLEMENTAL OXYGEN</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE * SUPPLEMENTAL OXYGEN</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* HAVE SUPPLEMENTAL OXYGEN *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE * SUPPLEMENTAL OXYGEN</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>HAVE SUPPLEMENTAL OXYGEN</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY * DOCTORS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY * DOCTORS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY DOCTORS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY DOCTORS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY * DOCTORS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY DOCTORS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY * DOCTORS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY DOCTORS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY * MANY MORE SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY * MANY MORE SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY MANY MORE SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY MANY MORE SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY * MANY MORE SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY MANY MORE SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY * MANY MORE SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY MANY MORE SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY * SYNDROMES *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY * SYNDROMES *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY SYNDROMES *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY SYNDROMES</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY * SYNDROMES</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IDENTIFY SYNDROMES *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY * SYNDROMES</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IDENTIFY SYNDROMES</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * TEENAGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * TEENAGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP TEENAGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP TEENAGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * TEENAGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP TEENAGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * TEENAGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP TEENAGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * YOUNG ADULTS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * YOUNG ADULTS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP YOUNG ADULTS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP YOUNG ADULTS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * YOUNG ADULTS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP YOUNG ADULTS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * YOUNG ADULTS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP YOUNG ADULTS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * SOME CASES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * SOME CASES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP SOME CASES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP SOME CASES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * SOME CASES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP SOME CASES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * SOME CASES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP SOME CASES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * PAINFUL RED AND PURPLE LESIONS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * PAINFUL RED AND PURPLE LESIONS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP PAINFUL RED AND PURPLE LESIONS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP PAINFUL RED AND PURPLE LESIONS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * PAINFUL RED AND PURPLE LESIONS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP PAINFUL RED AND PURPLE LESIONS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * PAINFUL RED AND PURPLE LESIONS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP PAINFUL RED AND PURPLE LESIONS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * THEIR FINGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * THEIR FINGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP THEIR FINGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP THEIR FINGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * THEIR FINGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP THEIR FINGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * THEIR FINGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP THEIR FINGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * TOES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * TOES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP TOES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP TOES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * TOES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP TOES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * TOES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP TOES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * FEW OTHER SERIOUS SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * FEW OTHER SERIOUS SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP FEW OTHER SERIOUS SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP FEW OTHER SERIOUS SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP * FEW OTHER SERIOUS SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DEVELOP FEW OTHER SERIOUS SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP * FEW OTHER SERIOUS SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DEVELOP FEW OTHER SERIOUS SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * COMMON SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * COMMON SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE COMMON SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE COMMON SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * COMMON SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE COMMON SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * COMMON SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE COMMON SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE COVID-19</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * COVID-19</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * COVID-19</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE COVID-19</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * FEVER *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * FEVER *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE FEVER *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE FEVER</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * FEVER</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE FEVER *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * FEVER</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE FEVER</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * COUGH *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * COUGH *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE COUGH *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE COUGH</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE * COUGH</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INCLUDE COUGH *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE * COUGH</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INCLUDE COUGH</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
 					</random>
 			</template>
 		</category>
@@ -160,8 +2656,7 @@
 			<pattern>* IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
@@ -169,8 +2664,7 @@
 			<pattern>IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
@@ -178,8 +2672,7 @@
 			<pattern>* IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
@@ -187,44 +2680,1203 @@
 			<pattern>IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ANOTHER TELLTALE SIGN *</pattern>
+			<pattern>* TIME *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>ANOTHER TELLTALE SIGN *</pattern>
+			<pattern>TIME *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ANOTHER TELLTALE SIGN</pattern>
+			<pattern>* TIME</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>ANOTHER TELLTALE SIGN</pattern>
+			<pattern>TIME</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LOWER RISK *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LOWER RISK *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LOWER RISK</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LOWER RISK</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WIND *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WIND *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WIND</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WIND</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* VIRAL DROPLETS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>VIRAL DROPLETS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* VIRAL DROPLETS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>VIRAL DROPLETS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SUNLIGHT *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SUNLIGHT *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SUNLIGHT</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SUNLIGHT</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE VIRUS *</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE VIRUS</pattern>
+			<template>
+				<random>
+					<li>Why is it safer to spend time together outside? lower risk because wind disperses viral droplets, and sunlight can kill some of the virus.</li>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* OPEN SPACES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>OPEN SPACES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* OPEN SPACES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>OPEN SPACES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CONCENTRATED AMOUNTS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CONCENTRATED AMOUNTS *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CONCENTRATED AMOUNTS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CONCENTRATED AMOUNTS</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INFECTED PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INFECTED PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* INFECTED PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>INFECTED PEOPLE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A CONFINED SPACE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A CONFINED SPACE *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A CONFINED SPACE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A CONFINED SPACE</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LONG STRETCHES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LONG STRETCHES *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LONG STRETCHES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LONG STRETCHES</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DR. JULIAN W. TANG *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DR. JULIAN W. TANG *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DR. JULIAN W. TANG</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DR. JULIAN W. TANG</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A VIROLOGIST *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A VIROLOGIST *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* A VIROLOGIST</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>A VIROLOGIST</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE UNIVERSITY *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE UNIVERSITY *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE UNIVERSITY</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE UNIVERSITY</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LEICESTER *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LEICESTER *</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* LEICESTER</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>LEICESTER</pattern>
+			<template>
+				<random>
+					<li>Open spaces prevent the virus from building up in concentrated amounts and being inhaled, which can happen when infected people exhale in a confined space for long stretches of time, said Dr. Julian W. Tang, a virologist at the University of Leicester.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MANY PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MANY PATIENTS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MANY PATIENTS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MANY PATIENTS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEVER *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEVER *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEVER</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEVER</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CHILLS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CHILLS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* CHILLS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>CHILLS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOME PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOME PEOPLE *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOME PEOPLE</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOME PEOPLE</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MANY SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MANY SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MANY SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MANY SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>— many patients had fever and chills, were weak and tired, and coughed a lot, though some people don’t show many symptoms at all.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WHO</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WHO</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PNEUMONIA *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PNEUMONIA *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PNEUMONIA</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PNEUMONIA</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ACUTE RESPIRATORY DISTRESS SYNDROME *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ACUTE RESPIRATORY DISTRESS SYNDROME *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* ACUTE RESPIRATORY DISTRESS SYNDROME</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>ACUTE RESPIRATORY DISTRESS SYNDROME</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SUPPLEMENTAL OXYGEN *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SUPPLEMENTAL OXYGEN *</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SUPPLEMENTAL OXYGEN</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SUPPLEMENTAL OXYGEN</pattern>
+			<template>
+				<random>
+					<li>Those who seemed sickest had pneumonia or acute respiratory distress syndrome and received supplemental oxygen.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DOCTORS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DOCTORS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* DOCTORS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>DOCTORS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MANY MORE SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MANY MORE SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* MANY MORE SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>MANY MORE SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SYNDROMES *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SYNDROMES *</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SYNDROMES</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SYNDROMES</pattern>
+			<template>
+				<random>
+					<li>By now, doctors have identified many more symptoms and syndromes.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TEENAGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TEENAGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TEENAGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TEENAGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOUNG ADULTS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOUNG ADULTS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* YOUNG ADULTS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>YOUNG ADULTS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOME CASES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOME CASES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SOME CASES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SOME CASES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PAINFUL RED AND PURPLE LESIONS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PAINFUL RED AND PURPLE LESIONS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* PAINFUL RED AND PURPLE LESIONS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>PAINFUL RED AND PURPLE LESIONS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THEIR FINGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THEIR FINGERS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THEIR FINGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THEIR FINGERS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TOES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TOES *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* TOES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>TOES</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEW OTHER SERIOUS SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEW OTHER SERIOUS SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* FEW OTHER SERIOUS SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>FEW OTHER SERIOUS SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Teenagers and young adults in some cases have developed painful red and purple lesions on their fingers and toes — nicknamed “Covid toe” — but few other serious symptoms.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COMMON SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COMMON SYMPTOMS *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COMMON SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COMMON SYMPTOMS</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COVID-19 *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COVID-19</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COVID-19</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COUGH *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COUGH *</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* COUGH</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>COUGH</pattern>
+			<template>
+				<random>
+					<li>Common symptoms of COVID-19 include fever and cough.</li>
 					</random>
 			</template>
 		</category>

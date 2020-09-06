@@ -50,60 +50,61 @@ def _set_all_permutations_string(all_statements):
 
     all_permutations = ""
 
-    entity_cue_dic = {}
+    noun_verb_dic = {}
 
-    entity_dic = {}
+    noun_dic = {}
 
     for statement in all_statements:
-        entity, cue, fact = statement
+        nouns, verb, sentence = statement.values()
+        print(nouns, verb, sentence)
 
-        if(f'{entity.text.upper()}{cue.text.upper()}' in entity_cue_dic):
-            entity_cue_dic[f'{entity}{cue}']['facts'].append(fact)
-        else:
-            entity_cue_dic[f'{entity}{cue}'] = {"facts": [fact], "entity": entity, "cue": cue}
+        for noun in nouns:
+            if(f'{noun.upper()}{verb.upper()}' in noun_verb_dic):
+                noun_verb_dic[f'{noun}{verb}']['facts'].append(sentence)
+            else:
+                noun_verb_dic[f'{noun}{verb}'] = {"facts": [sentence], "entity": noun, "cue": verb}
 
-        if (entity.text.upper() in entity_dic):
-            entity_dic[entity.text.upper()]['facts'].append(fact)
-        else:
-            entity_dic[entity.text.upper()] = {"facts": [fact], "entity": entity, "cue": cue}
+            if (noun.upper() in noun_dic):
+                noun_dic[noun.upper()]['facts'].append(sentence)
+            else:
+                noun_dic[noun.upper()] = {"facts": [sentence], "entity": noun}
 
 
-    for statement in entity_cue_dic:
-        entity = entity_cue_dic[statement]["entity"]
-        cue = entity_cue_dic[statement]["cue"]
-        facts = entity_cue_dic[statement]["facts"]
+    for statement in noun_verb_dic:
+        entity = noun_verb_dic[statement]["entity"]
+        cue = noun_verb_dic[statement]["cue"]
+        facts = noun_verb_dic[statement]["facts"]
         template = ""
         allPatterns = [
-            f'* {cue.text.upper()} * {entity.text.upper()} *',
-            f'{cue.text.upper()} * {entity.text.upper()} *',
-            f'{cue.text.upper()} {entity.text.upper()} *',
-            f'* {cue.text.upper()} {entity.text.upper()}',
-            f'* {cue.text.upper()} * {entity.text.upper()}',
-            f'* {cue.text.upper()} {entity.text.upper()} *',
-            f'{cue.text.upper()} * {entity.text.upper()}',
-            f'{cue.text.upper()} {entity.text.upper()}',
+            f'* {cue.upper()} * {entity.upper()} *',
+            f'{cue.upper()} * {entity.upper()} *',
+            f'{cue.upper()} {entity.upper()} *',
+            f'* {cue.upper()} {entity.upper()}',
+            f'* {cue.upper()} * {entity.upper()}',
+            f'* {cue.upper()} {entity.upper()} *',
+            f'{cue.upper()} * {entity.upper()}',
+            f'{cue.upper()} {entity.upper()}',
         ]
         for fact in facts:
-            tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
-            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(tmp)}</li>'
+            #tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
+            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact)}</li>'
         for pattern in allPatterns:
             all_permutations += _create_permutation(pattern, template)
 
-    for statement in entity_dic:
-        entity = entity_dic[statement]["entity"]
-        cue = entity_dic[statement]["cue"]
-        facts = entity_dic[statement]["facts"]
+    for statement in noun_dic:
+        entity = noun_dic[statement]["entity"]
+        facts = noun_dic[statement]["facts"]
         template = ""
         allPatterns = [
-            f'* {entity.text.upper()} *',
-            f'{entity.text.upper()} *',
-            f'* {entity.text.upper()}',
-            f'{entity.text.upper()}',
+            f'* {entity.upper()} *',
+            f'{entity.upper()} *',
+            f'* {entity.upper()}',
+            f'{entity.upper()}',
         ]
         for fact in facts:
             # currentFact = entity.text.capitalize() + ' ' + cue.text + ' ' + fact.text + '.'
-            tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
-            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(tmp)}</li>'
+            #tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
+            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact)}</li>'
         for pattern in allPatterns:
             all_permutations += _create_permutation(pattern, template)
 

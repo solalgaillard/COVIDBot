@@ -238,6 +238,12 @@ if __name__ == "__main__":
 
     #TODO - Better strategy in generating AIML - today
 
+    #TODO GET RID OF TEXTACY
+
+    #TODO DECIDE WETHER OR NOT TO KEEP TOPICS DATA NOT OUTSIDE OF TOPICS
+
+    #TODO EXPORT TO AIML WITH NEW SYSTEM
+
     #TODO - Provide Basic AIML Bot - today
 
 

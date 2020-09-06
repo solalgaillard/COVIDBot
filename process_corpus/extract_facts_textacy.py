@@ -1,3 +1,4 @@
+from process_corpus.utilities import expand_contractions
 import spacy
 import textacy
 
@@ -22,42 +23,29 @@ def extract_facts_textacy(corpus):
     return all_statements
 
 def extract_facts_textacy(corpus):
-    all_statements = set()
+    all_statements = []
+    reflexive_pronouns = {"you": "I", "i": "you"}
     for segment in corpus["data"]:
         segment_expanded = expand_contractions(segment)
-        nlp_segment = nlp(segment_expanded)
-        verb = None
-        reflexive_pronouns = {"you": "I", "i", "you"}
-        for token in doc:
-            if token.dep_ == 'ROOT':
-                verb = token.lemma_
-        if verb:
-            nouns = [token.text if token.text.lowercase() not in ["you, i"] else reflexive_pronouns[token.text.lowercase() ] for token in doc.noun_chunks]
-            sentence = segment_expanded
+        nlp_segment_expanded = nlp(segment_expanded)
+        for sentence in nlp_segment_expanded.sents:
+            has_dobj = False
+            has_nsubj = False
+            verb = None
+            for token in sentence:
+                if not has_dobj and token.dep_ == 'dobj':
+                    has_dobj = True
 
+                if not has_nsubj and token.dep_ == 'nsubj':
+                    has_nsubj = True
+
+                if token.dep_ == 'ROOT':
+                    verb = token.lemma_
+            if verb and has_nsubj and has_dobj:
+                lowercase_token = token.text.lower()
+                nouns = [token.text if lowercase_token not in ["you, i"] else reflexive_pronouns[lowercase_token] for token in sentence.noun_chunks]
+                if not any(stmt['nouns'] == nouns and stmt['verb'] == verb and stmt['sentence'] == sentence.text for stmt in all_statements):
+                    all_statements.append({"nouns": nouns, "verb": verb, "sentence": sentence.text})
     return all_statements
 
 
-doc = nlp('European authorities fined Google a record $5.1 billion on Wednesday for abusing its power in the mobile phone market and ordered the company to alter its practices')
-doc = nlp('random shit no verb')
-
-a = textacy.extract.entities(doc, exclude_types=["DATE", "MONEY", "ORDINAL"])
-c = textacy.extract.subject_verb_object_triples(doc)
-
-for b in a:
-    print(b)
-
-for b in c:
-    print(b)
-
-statements = textacy.extract.semistructured_statements(doc, "authorities")
-for statement in statements:
-    print(statement)
-
-
-#Identifie, le verbe root, lemmatise -> c'est le cue
-
-#Take le noun_chunk,
-
-print([(token.text,token.dep_) for token in doc])
-print([token.text for token in doc.noun_chunks])
