@@ -42,7 +42,7 @@ def main(labeling, build, model):
     # Résolution des coréférences et segementation du corpus
     if build in ["all", "scrap", "corefseg"] or not file_path.is_file():
         print("Segmentation and Coreference Resolution process starting:\nThis is a long process...")
-        corpus = remove_duplicates_in_corpus(corpus)
+        corpus = remove_overused_sentences_from_corpus(remove_duplicates_in_corpus(corpus))
         tmp_corpus_data = []
         for idx, document in enumerate(corpus['data']):
             tmp_corpus_data.append([])
@@ -132,7 +132,7 @@ def main(labeling, build, model):
         else:
             print('No answer in knowledge base')
 
-
+# Script de début
 if __name__ == "__main__":
     # Arguments par défaut.
     labeling = 0 ; build = "none" ; model = "svm" #ou log_reg
@@ -221,6 +221,7 @@ if __name__ == "__main__":
     #TODO - On Scrapper, writing to files need to be invoked only once - done
     #TODO - Refactor all the code - done
     #TODO - Silence nltk downloads
+    #TODO - Comment Code - done beisdes AIML part
 
 
 #-----------------------------------------------------------------------------------------------------------------------
@@ -235,13 +236,9 @@ if __name__ == "__main__":
 #Make sure last Chrome is installed, not chromium but chrome
 
 
-
-
-    #TODO - Comment Code - doing
-
     #TODO - Better strategy in generating AIML - today
 
-    #TODO - Provide Basic AIML Bot
+    #TODO - Provide Basic AIML Bot - today
 
 
 
@@ -249,15 +246,14 @@ if __name__ == "__main__":
 #-----------------------------------------------------------------------------------------------------------------------
 #Those are all the nice to have
     #TODO - Survey where data structures can be replaced by Pandas DataFrame
-    #TODO - 5 - Develop Mecanism to flag answer when special user
-        #TODO - 5 - a - Need to be able to blacklist entry - put it in a file
-    #TODO - PIPE NLP
-    #TODO - 1 - Check if similarities between facts avec word2vec and use published date and source to decide which
-            # to keep
+    #TODO - Survey Cluster technique
+    #TODO - 5 - Develop Mecanism to flag answer when special authorized user is interacting with the bot
+        #TODO - 5 - a - Need to be able to blacklist entry - (Put it in a dic, and rebuild AIML)
+    #TODO - PIPE NLP when processing batches of docs for incredible speeding up
     #TODO - 2 - Cron Job to scrap and rebuild automatically the bot
     #TODO - 3 - Unit Testing
-    #TODO - 4 - Word embeddings all across would have been more efficient
-    #TODO - Investigate way better Scrapping
+    #TODO - 4 - Word embeddings all across would have been more efficient than TF-IDF?
+    #TODO - Investigate better Scrapping
         #TODO - c - Investigate Paywall for NYT, do I need a new Login?
 
     #TODO - Label more Data and check between Logistic Regression and SVM which one is best

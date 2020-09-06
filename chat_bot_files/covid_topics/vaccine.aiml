@@ -57,130 +57,322 @@
 	</category>
 	<topic name = "VACCINE">
 		<category>
-			<pattern>* IS * THE MOST OBVIOUS REASON *</pattern>
+			<pattern>* WOULD BE * IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE MOST OBVIOUS REASON *</pattern>
+			<pattern>WOULD BE * IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE MOST OBVIOUS REASON *</pattern>
+			<pattern>WOULD BE IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE MOST OBVIOUS REASON</pattern>
+			<pattern>* WOULD BE IT</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * THE MOST OBVIOUS REASON</pattern>
+			<pattern>* WOULD BE * IT</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE MOST OBVIOUS REASON *</pattern>
+			<pattern>* WOULD BE IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE MOST OBVIOUS REASON</pattern>
+			<pattern>WOULD BE * IT</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE MOST OBVIOUS REASON</pattern>
+			<pattern>WOULD BE IT</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * DRINKING ALCOHOL *</pattern>
+			<pattern>* COULD BE * A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * DRINKING ALCOHOL *</pattern>
+			<pattern>COULD BE * A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS DRINKING ALCOHOL *</pattern>
+			<pattern>COULD BE A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS DRINKING ALCOHOL</pattern>
+			<pattern>* COULD BE A VACCINE</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * DRINKING ALCOHOL</pattern>
+			<pattern>* COULD BE * A VACCINE</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS DRINKING ALCOHOL *</pattern>
+			<pattern>* COULD BE A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * DRINKING ALCOHOL</pattern>
+			<pattern>COULD BE * A VACCINE</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS DRINKING ALCOHOL</pattern>
+			<pattern>COULD BE A VACCINE</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>A vaccine could be available by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE * A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WOULD BE A VACCINE *</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE * A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WOULD BE A VACCINE</pattern>
+			<template>
+				<random>
+					<li>A vaccine would be ready by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE FINAL HURDLE *</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE FINAL HURDLE *</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE FINAL HURDLE *</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE FINAL HURDLE</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS * THE FINAL HURDLE</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* IS THE FINAL HURDLE *</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS * THE FINAL HURDLE</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>IS THE FINAL HURDLE</pattern>
+			<template>
+				<random>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE CENTERS *</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE CENTERS *</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE CENTERS *</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE CENTERS</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS * THE CENTERS</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WAS THE CENTERS *</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS * THE CENTERS</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WAS THE CENTERS</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
@@ -188,7 +380,7 @@
 			<pattern>* IS * IT *</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -196,7 +388,7 @@
 			<pattern>IS * IT *</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -204,7 +396,7 @@
 			<pattern>IS IT *</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -212,7 +404,7 @@
 			<pattern>* IS IT</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -220,7 +412,7 @@
 			<pattern>* IS * IT</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -228,7 +420,7 @@
 			<pattern>* IS IT *</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -236,7 +428,7 @@
 			<pattern>IS * IT</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
@@ -244,199 +436,263 @@
 			<pattern>IS IT</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It is not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * THE BEGINNING *</pattern>
+			<pattern>* WAS * A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * THE BEGINNING *</pattern>
+			<pattern>WAS * A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS THE BEGINNING *</pattern>
+			<pattern>WAS A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS THE BEGINNING</pattern>
+			<pattern>* WAS A VACCINE</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * THE BEGINNING</pattern>
+			<pattern>* WAS * A VACCINE</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS THE BEGINNING *</pattern>
+			<pattern>* WAS A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * THE BEGINNING</pattern>
+			<pattern>WAS * A VACCINE</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS THE BEGINNING</pattern>
+			<pattern>WAS A VACCINE</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine was ready by then.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ’RE * THEY *</pattern>
+			<pattern>* ARE * SCIENTISTS *</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>’RE * THEY *</pattern>
+			<pattern>ARE * SCIENTISTS *</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>’RE THEY *</pattern>
+			<pattern>ARE SCIENTISTS *</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ’RE THEY</pattern>
+			<pattern>* ARE SCIENTISTS</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ’RE * THEY</pattern>
+			<pattern>* ARE * SCIENTISTS</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ’RE THEY *</pattern>
+			<pattern>* ARE SCIENTISTS *</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>’RE * THEY</pattern>
+			<pattern>ARE * SCIENTISTS</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>’RE THEY</pattern>
+			<pattern>ARE SCIENTISTS</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE MOST OBVIOUS REASON *</pattern>
+			<pattern>* WAS * IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE MOST OBVIOUS REASON *</pattern>
+			<pattern>WAS * IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE MOST OBVIOUS REASON</pattern>
+			<pattern>WAS IT *</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE MOST OBVIOUS REASON</pattern>
+			<pattern>* WAS IT</pattern>
 			<template>
 				<random>
-					<li>The most obvious reason is it will save lives, but it could also allow the lifting of restrictions such as lockdowns and social distancing.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* DRINKING ALCOHOL *</pattern>
+			<pattern>* WAS * IT</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>DRINKING ALCOHOL *</pattern>
+			<pattern>* WAS IT *</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* DRINKING ALCOHOL</pattern>
+			<pattern>WAS * IT</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>DRINKING ALCOHOL</pattern>
+			<pattern>WAS IT</pattern>
 			<template>
 				<random>
-					<li>Drinking alcohol is like you are sanitizing your inside.</li>
+					<li>It was “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * IT *</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE IT *</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE IT</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE * IT</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* WILL BE IT *</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE * IT</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>WILL BE IT</pattern>
+			<template>
+				<random>
+					<li>It will be available in quantities that can immunize patients.</li>
 					</random>
 			</template>
 		</category>
@@ -444,7 +700,10 @@
 			<pattern>* IT *</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
+					<li>It would be not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
+					<li>It would be “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
+					<li>It would be available in quantities that can immunize patients.</li>
 					</random>
 			</template>
 		</category>
@@ -452,7 +711,10 @@
 			<pattern>IT *</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
+					<li>It would be not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
+					<li>It would be “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
+					<li>It would be available in quantities that can immunize patients.</li>
 					</random>
 			</template>
 		</category>
@@ -460,7 +722,10 @@
 			<pattern>* IT</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
+					<li>It would be not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
+					<li>It would be “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
+					<li>It would be available in quantities that can immunize patients.</li>
 					</random>
 			</template>
 		</category>
@@ -468,71 +733,154 @@
 			<pattern>IT</pattern>
 			<template>
 				<random>
-					<li>It is like you are sanitizing your inside.</li>
+					<li>It would be irresponsible not to be ready if that was the case.</li>
+					<li>It would be not enough to stop all Covid-19 patients dying or to lift the need for all restrictions.</li>
+					<li>It would be “extremely unlikely but not impossible” that a vaccine could be available by the end of October.</li>
+					<li>It would be available in quantities that can immunize patients.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE BEGINNING *</pattern>
+			<pattern>* A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine could be ready “before the end of the year.</li>
+					<li>A vaccine could be ready by the end of October.</li>
+					<li>A vaccine could be ready by then.</li>
+					<li>A vaccine could be ready for distribution before Election Day in November.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE BEGINNING *</pattern>
+			<pattern>A VACCINE *</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine could be ready “before the end of the year.</li>
+					<li>A vaccine could be ready by the end of October.</li>
+					<li>A vaccine could be ready by then.</li>
+					<li>A vaccine could be ready for distribution before Election Day in November.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE BEGINNING</pattern>
+			<pattern>* A VACCINE</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine could be ready “before the end of the year.</li>
+					<li>A vaccine could be ready by the end of October.</li>
+					<li>A vaccine could be ready by then.</li>
+					<li>A vaccine could be ready for distribution before Election Day in November.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE BEGINNING</pattern>
+			<pattern>A VACCINE</pattern>
 			<template>
 				<random>
-					<li>The beginning was an “important step” towards a potential vaccine which could help defeat Covid-19.</li>
+					<li>A vaccine could be ready “before the end of the year.</li>
+					<li>A vaccine could be ready by the end of October.</li>
+					<li>A vaccine could be ready by then.</li>
+					<li>A vaccine could be ready for distribution before Election Day in November.</li>
+					<li>A vaccine could be available by the end of October.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THEY *</pattern>
+			<pattern>* THE FINAL HURDLE *</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THEY *</pattern>
+			<pattern>THE FINAL HURDLE *</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THEY</pattern>
+			<pattern>* THE FINAL HURDLE</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THEY</pattern>
+			<pattern>THE FINAL HURDLE</pattern>
 			<template>
 				<random>
-					<li>They ’re ready to start testing their protein-based Covid-19 vaccine on humans for the first time.</li>
+					<li>The final hurdle is also the point where many a medicine has stumbled.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE CENTERS *</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE CENTERS *</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* THE CENTERS</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>THE CENTERS</pattern>
+			<template>
+				<random>
+					<li>The centers was “the right thing to do” in case a vaccine was ready by then.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SCIENTISTS *</pattern>
+			<template>
+				<random>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>* SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
+					</random>
+			</template>
+		</category>
+		<category>
+			<pattern>SCIENTISTS</pattern>
+			<template>
+				<random>
+					<li>Scientists are n&apos;t Brad Pitt, injecting themselves and saying &apos;we&apos;re all going to be saved.</li>
 					</random>
 			</template>
 		</category>

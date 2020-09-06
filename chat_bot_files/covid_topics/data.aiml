@@ -29,578 +29,258 @@
 	</category>
 	<topic name = "DATA">
 		<category>
-			<pattern>* &apos;S * IT *</pattern>
+			<pattern>* IS * WHO *</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>&apos;S * IT *</pattern>
+			<pattern>IS * WHO *</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>&apos;S IT *</pattern>
+			<pattern>IS WHO *</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* &apos;S IT</pattern>
+			<pattern>* IS WHO</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* &apos;S * IT</pattern>
+			<pattern>* IS * WHO</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* &apos;S IT *</pattern>
+			<pattern>* IS WHO *</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>&apos;S * IT</pattern>
+			<pattern>IS * WHO</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>&apos;S IT</pattern>
+			<pattern>IS WHO</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * THE NUMBER *</pattern>
+			<pattern>* WAS * THE RISE *</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * THE NUMBER *</pattern>
+			<pattern>WAS * THE RISE *</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS THE NUMBER *</pattern>
+			<pattern>WAS THE RISE *</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS THE NUMBER</pattern>
+			<pattern>* WAS THE RISE</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * THE NUMBER</pattern>
+			<pattern>* WAS * THE RISE</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS THE NUMBER *</pattern>
+			<pattern>* WAS THE RISE *</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * THE NUMBER</pattern>
+			<pattern>WAS * THE RISE</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS THE NUMBER</pattern>
+			<pattern>WAS THE RISE</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * WIDESPREAD TESTING *</pattern>
+			<pattern>* WAS * CASES *</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * WIDESPREAD TESTING *</pattern>
+			<pattern>WAS * CASES *</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS WIDESPREAD TESTING *</pattern>
+			<pattern>WAS CASES *</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS WIDESPREAD TESTING</pattern>
+			<pattern>* WAS CASES</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * WIDESPREAD TESTING</pattern>
+			<pattern>* WAS * CASES</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS WIDESPREAD TESTING *</pattern>
+			<pattern>* WAS CASES *</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * WIDESPREAD TESTING</pattern>
+			<pattern>WAS * CASES</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS WIDESPREAD TESTING</pattern>
+			<pattern>WAS CASES</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * MEDIA PLAYBACK *</pattern>
+			<pattern>* IS * YOUR MEASURE *</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * MEDIA PLAYBACK *</pattern>
+			<pattern>IS * YOUR MEASURE *</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS MEDIA PLAYBACK *</pattern>
+			<pattern>IS YOUR MEASURE *</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS MEDIA PLAYBACK</pattern>
+			<pattern>* IS YOUR MEASURE</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * MEDIA PLAYBACK</pattern>
+			<pattern>* IS * YOUR MEASURE</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS MEDIA PLAYBACK *</pattern>
+			<pattern>* IS YOUR MEASURE *</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * MEDIA PLAYBACK</pattern>
+			<pattern>IS * YOUR MEASURE</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS MEDIA PLAYBACK</pattern>
+			<pattern>IS YOUR MEASURE</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * COUNTRIES *</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * COUNTRIES *</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE COUNTRIES *</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE COUNTRIES</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * COUNTRIES</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE COUNTRIES *</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * COUNTRIES</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE COUNTRIES</pattern>
-			<template>
-				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE IMPACT *</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE IMPACT *</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE IMPACT *</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE IMPACT</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE IMPACT</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE IMPACT *</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE IMPACT</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE IMPACT</pattern>
-			<template>
-				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE YOU *</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE YOU</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * YOU</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE YOU *</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * YOU</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE YOU</pattern>
-			<template>
-				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE PAST DATA *</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE PAST DATA *</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE PAST DATA *</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE PAST DATA</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE PAST DATA</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE PAST DATA *</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE PAST DATA</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE PAST DATA</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* HAS BEEN * THE NUMBER *</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>HAS BEEN * THE NUMBER *</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>HAS BEEN THE NUMBER *</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* HAS BEEN THE NUMBER</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* HAS BEEN * THE NUMBER</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* HAS BEEN THE NUMBER *</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>HAS BEEN * THE NUMBER</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>HAS BEEN THE NUMBER</pattern>
-			<template>
-				<random>
-					<li>The number has been above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
@@ -608,7 +288,7 @@
 			<pattern>* IS * IT *</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -616,7 +296,7 @@
 			<pattern>IS * IT *</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -624,7 +304,7 @@
 			<pattern>IS IT *</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -632,7 +312,7 @@
 			<pattern>* IS IT</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -640,7 +320,7 @@
 			<pattern>* IS * IT</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -648,7 +328,7 @@
 			<pattern>* IS IT *</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -656,7 +336,7 @@
 			<pattern>IS * IT</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
@@ -664,1031 +344,647 @@
 			<pattern>IS IT</pattern>
 			<template>
 				<random>
-					<li>It is not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ARE * THE RULES *</pattern>
+			<pattern>* IS * OLDHAM *</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>ARE * THE RULES *</pattern>
+			<pattern>IS * OLDHAM *</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>ARE THE RULES *</pattern>
+			<pattern>IS OLDHAM *</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ARE THE RULES</pattern>
+			<pattern>* IS OLDHAM</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ARE * THE RULES</pattern>
+			<pattern>* IS * OLDHAM</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* ARE THE RULES *</pattern>
+			<pattern>* IS OLDHAM *</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>ARE * THE RULES</pattern>
+			<pattern>IS * OLDHAM</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>ARE THE RULES</pattern>
+			<pattern>IS OLDHAM</pattern>
 			<template>
 				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * VIETNAM *</pattern>
+			<pattern>* IS * IT *</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * VIETNAM *</pattern>
+			<pattern>IS * IT *</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS VIETNAM *</pattern>
+			<pattern>IS IT *</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS VIETNAM</pattern>
+			<pattern>* IS IT</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * VIETNAM</pattern>
+			<pattern>* IS * IT</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS VIETNAM *</pattern>
+			<pattern>* IS IT *</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * VIETNAM</pattern>
+			<pattern>IS * IT</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS VIETNAM</pattern>
+			<pattern>IS IT</pattern>
 			<template>
 				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
+					<li>It is the people from Greece right to do it.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * ALL - PAST SUCCESS *</pattern>
+			<pattern>* WAS * SUCCESS *</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * ALL - PAST SUCCESS *</pattern>
+			<pattern>WAS * SUCCESS *</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS ALL - PAST SUCCESS *</pattern>
+			<pattern>WAS SUCCESS *</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS ALL - PAST SUCCESS</pattern>
+			<pattern>* WAS SUCCESS</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * ALL - PAST SUCCESS</pattern>
+			<pattern>* WAS * SUCCESS</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS ALL - PAST SUCCESS *</pattern>
+			<pattern>* WAS SUCCESS *</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * ALL - PAST SUCCESS</pattern>
+			<pattern>WAS * SUCCESS</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS ALL - PAST SUCCESS</pattern>
+			<pattern>WAS SUCCESS</pattern>
 			<template>
 				<random>
-					<li>All - past success is no guarantee for the future.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WERE * THE AUTHORITIES *</pattern>
+			<pattern>* ARE * THE SCORES *</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WERE * THE AUTHORITIES *</pattern>
+			<pattern>ARE * THE SCORES *</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WERE THE AUTHORITIES *</pattern>
+			<pattern>ARE THE SCORES *</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WERE THE AUTHORITIES</pattern>
+			<pattern>* ARE THE SCORES</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WERE * THE AUTHORITIES</pattern>
+			<pattern>* ARE * THE SCORES</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WERE THE AUTHORITIES *</pattern>
+			<pattern>* ARE THE SCORES *</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WERE * THE AUTHORITIES</pattern>
+			<pattern>ARE * THE SCORES</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WERE THE AUTHORITIES</pattern>
+			<pattern>ARE THE SCORES</pattern>
 			<template>
 				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE * COUNTRIES *</pattern>
+			<pattern>* ’RE * THEY *</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE * COUNTRIES *</pattern>
+			<pattern>’RE * THEY *</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE COUNTRIES *</pattern>
+			<pattern>’RE THEY *</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE COUNTRIES</pattern>
+			<pattern>* ’RE THEY</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE * COUNTRIES</pattern>
+			<pattern>* ’RE * THEY</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MAY BE COUNTRIES *</pattern>
+			<pattern>* ’RE THEY *</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE * COUNTRIES</pattern>
+			<pattern>’RE * THEY</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MAY BE COUNTRIES</pattern>
+			<pattern>’RE THEY</pattern>
 			<template>
 				<random>
-					<li>Countries may be in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * HE *</pattern>
+			<pattern>* HAVE BEEN * RESTRICTIONS *</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * HE *</pattern>
+			<pattern>HAVE BEEN * RESTRICTIONS *</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS HE *</pattern>
+			<pattern>HAVE BEEN RESTRICTIONS *</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS HE</pattern>
+			<pattern>* HAVE BEEN RESTRICTIONS</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS * HE</pattern>
+			<pattern>* HAVE BEEN * RESTRICTIONS</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WAS HE *</pattern>
+			<pattern>* HAVE BEEN RESTRICTIONS *</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS * HE</pattern>
+			<pattern>HAVE BEEN * RESTRICTIONS</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WAS HE</pattern>
+			<pattern>HAVE BEEN RESTRICTIONS</pattern>
 			<template>
 				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* HAS BEEN * IT *</pattern>
+			<pattern>* WAS * THE PROPORTION *</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>HAS BEEN * IT *</pattern>
+			<pattern>WAS * THE PROPORTION *</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>HAS BEEN IT *</pattern>
+			<pattern>WAS THE PROPORTION *</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* HAS BEEN IT</pattern>
+			<pattern>* WAS THE PROPORTION</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* HAS BEEN * IT</pattern>
+			<pattern>* WAS * THE PROPORTION</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* HAS BEEN IT *</pattern>
+			<pattern>* WAS THE PROPORTION *</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>HAS BEEN * IT</pattern>
+			<pattern>WAS * THE PROPORTION</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>HAS BEEN IT</pattern>
+			<pattern>WAS THE PROPORTION</pattern>
 			<template>
 				<random>
-					<li>It has been a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * THE DEATH TOLL *</pattern>
+			<pattern>* WAS * IT *</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE DEATH TOLL *</pattern>
+			<pattern>WAS * IT *</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE DEATH TOLL *</pattern>
+			<pattern>WAS IT *</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE DEATH TOLL</pattern>
+			<pattern>* WAS IT</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * THE DEATH TOLL</pattern>
+			<pattern>* WAS * IT</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE DEATH TOLL *</pattern>
+			<pattern>* WAS IT *</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE DEATH TOLL</pattern>
+			<pattern>WAS * IT</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE DEATH TOLL</pattern>
+			<pattern>WAS IT</pattern>
 			<template>
 				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
+					<li>It was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * A PANDEMIC *</pattern>
+			<pattern>* WHO *</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * A PANDEMIC *</pattern>
+			<pattern>WHO *</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS A PANDEMIC *</pattern>
+			<pattern>* WHO</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS A PANDEMIC</pattern>
+			<pattern>WHO</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>Who is also on holiday in the Algarve in Portugal.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * A PANDEMIC</pattern>
+			<pattern>* THE RISE *</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS A PANDEMIC *</pattern>
+			<pattern>THE RISE *</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * A PANDEMIC</pattern>
+			<pattern>* THE RISE</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS A PANDEMIC</pattern>
+			<pattern>THE RISE</pattern>
 			<template>
 				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
+					<li>The rise was almost entirely down to an outbreak at a sandwich-making factory, so no local lockdown was introduced.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * THE CORONAVIRUS RATE *</pattern>
+			<pattern>* CASES *</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE CORONAVIRUS RATE *</pattern>
+			<pattern>CASES *</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE CORONAVIRUS RATE *</pattern>
+			<pattern>* CASES</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE CORONAVIRUS RATE</pattern>
+			<pattern>CASES</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Cases was just one measure taken into account by , with the test positivity rate also a factor.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * THE CORONAVIRUS RATE</pattern>
+			<pattern>* YOUR MEASURE *</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE CORONAVIRUS RATE *</pattern>
+			<pattern>YOUR MEASURE *</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE CORONAVIRUS RATE</pattern>
+			<pattern>* YOUR MEASURE</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE CORONAVIRUS RATE</pattern>
+			<pattern>YOUR MEASURE</pattern>
 			<template>
 				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* &apos;S * IT *</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>&apos;S * IT *</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>&apos;S IT *</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* &apos;S IT</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* &apos;S * IT</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* &apos;S IT *</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>&apos;S * IT</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>&apos;S IT</pattern>
-			<template>
-				<random>
-					<li>It &apos;s there in every community in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * LATIN AMERICA *</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * LATIN AMERICA *</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE LATIN AMERICA *</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE LATIN AMERICA</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * LATIN AMERICA</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE LATIN AMERICA *</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * LATIN AMERICA</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE LATIN AMERICA</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * NORMALITY *</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * NORMALITY *</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS NORMALITY *</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS NORMALITY</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * NORMALITY</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS NORMALITY *</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * NORMALITY</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS NORMALITY</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE WORLD *</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE WORLD *</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE WORLD *</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE WORLD</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE WORLD</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE WORLD *</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE WORLD</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE WORLD</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * AUSTRALIA *</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * AUSTRALIA *</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS AUSTRALIA *</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS AUSTRALIA</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * AUSTRALIA</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS AUSTRALIA *</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * AUSTRALIA</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS AUSTRALIA</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE FACT *</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE FACT *</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE FACT *</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE FACT</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * THE FACT</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS THE FACT *</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * THE FACT</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS THE FACT</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
+					<li>Your measure is standardized tests — and at Success Academy.</li>
 					</random>
 			</template>
 		</category>
@@ -1696,13 +992,9 @@
 			<pattern>* IT *</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
-					<li>It &apos;s important to bear in mind that not all governments are recording coronavirus cases and deaths in the same way.</li>
-					<li>It &apos;s easy to blind yourself to the reality beyond your own country.</li>
-					<li>It &apos;s a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
-					<li>It &apos;s a new normal.</li>
-					<li>It &apos;s there in every community in the world.</li>
-					<li>It &apos;s not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
+					<li>It is the people from Greece right to do it.</li>
+					<li>It is when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
@@ -1710,13 +1002,9 @@
 			<pattern>IT *</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
-					<li>It &apos;s important to bear in mind that not all governments are recording coronavirus cases and deaths in the same way.</li>
-					<li>It &apos;s easy to blind yourself to the reality beyond your own country.</li>
-					<li>It &apos;s a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
-					<li>It &apos;s a new normal.</li>
-					<li>It &apos;s there in every community in the world.</li>
-					<li>It &apos;s not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
+					<li>It is the people from Greece right to do it.</li>
+					<li>It is when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
@@ -1724,13 +1012,9 @@
 			<pattern>* IT</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
-					<li>It &apos;s important to bear in mind that not all governments are recording coronavirus cases and deaths in the same way.</li>
-					<li>It &apos;s easy to blind yourself to the reality beyond your own country.</li>
-					<li>It &apos;s a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
-					<li>It &apos;s a new normal.</li>
-					<li>It &apos;s there in every community in the world.</li>
-					<li>It &apos;s not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
+					<li>It is the people from Greece right to do it.</li>
+					<li>It is when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
@@ -1738,661 +1022,201 @@
 			<pattern>IT</pattern>
 			<template>
 				<random>
-					<li>It &apos;s more challenging coming out of lockdown than going in.</li>
-					<li>It &apos;s important to bear in mind that not all governments are recording coronavirus cases and deaths in the same way.</li>
-					<li>It &apos;s easy to blind yourself to the reality beyond your own country.</li>
-					<li>It &apos;s a month since thousands of people flocked to Bournemouth beach for this year&apos;s warmest weekend.</li>
-					<li>It &apos;s a new normal.</li>
-					<li>It &apos;s there in every community in the world.</li>
-					<li>It &apos;s not one single story.</li>
+					<li>It is — this is one of the best schools in the city.</li>
+					<li>It is the people from Greece right to do it.</li>
+					<li>It is when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE NUMBER *</pattern>
+			<pattern>* OLDHAM *</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
-					<li>The number was above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE NUMBER *</pattern>
+			<pattern>OLDHAM *</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
-					<li>The number was above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE NUMBER</pattern>
+			<pattern>* OLDHAM</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
-					<li>The number was above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE NUMBER</pattern>
+			<pattern>OLDHAM</pattern>
 			<template>
 				<random>
-					<li>The number was the highest since July 22.</li>
-					<li>The number was above 20 per 100,000 people – the level at which The UK government considers triggering quarantine conditions.</li>
+					<li>Oldham is one of the places currently under a local lockdown.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WIDESPREAD TESTING *</pattern>
+			<pattern>* SUCCESS *</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WIDESPREAD TESTING *</pattern>
+			<pattern>SUCCESS *</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* WIDESPREAD TESTING</pattern>
+			<pattern>* SUCCESS</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>WIDESPREAD TESTING</pattern>
+			<pattern>SUCCESS</pattern>
 			<template>
 				<random>
-					<li>Widespread testing was not available in many countries earlier in the year.</li>
+					<li>Success was head and above any school.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MEDIA PLAYBACK *</pattern>
+			<pattern>* THE SCORES *</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MEDIA PLAYBACK *</pattern>
+			<pattern>THE SCORES *</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* MEDIA PLAYBACK</pattern>
+			<pattern>* THE SCORES</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>MEDIA PLAYBACK</pattern>
+			<pattern>THE SCORES</pattern>
 			<template>
 				<random>
-					<li>Media playback is unsupported on your device Why the US struggled with the US reopening.</li>
+					<li>The scores are truly remarkable.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* COUNTRIES *</pattern>
+			<pattern>* THEY *</pattern>
 			<template>
 				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					<li>Countries are in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>COUNTRIES *</pattern>
+			<pattern>THEY *</pattern>
 			<template>
 				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					<li>Countries are in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* COUNTRIES</pattern>
+			<pattern>* THEY</pattern>
 			<template>
 				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					<li>Countries are in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>COUNTRIES</pattern>
+			<pattern>THEY</pattern>
 			<template>
 				<random>
-					<li>Countries are those with black bars on the relevant date.</li>
-					<li>Countries are in different stages of the pandemic.</li>
+					<li>They ’re poor, or rich, or Black, or Latino, or Asian, or white.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE IMPACT *</pattern>
+			<pattern>* RESTRICTIONS *</pattern>
 			<template>
 				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE IMPACT *</pattern>
+			<pattern>RESTRICTIONS *</pattern>
 			<template>
 				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE IMPACT</pattern>
+			<pattern>* RESTRICTIONS</pattern>
 			<template>
 				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE IMPACT</pattern>
+			<pattern>RESTRICTIONS</pattern>
 			<template>
 				<random>
-					<li>The impact is different around the world and it is easy to blind yourself to the reality beyond your own country.</li>
+					<li>Restrictions have been in place.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* YOU *</pattern>
+			<pattern>* THE PROPORTION *</pattern>
 			<template>
 				<random>
-					<li>You are in the world.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>YOU *</pattern>
+			<pattern>THE PROPORTION *</pattern>
 			<template>
 				<random>
-					<li>You are in the world.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* YOU</pattern>
+			<pattern>* THE PROPORTION</pattern>
 			<template>
 				<random>
-					<li>You are in the world.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>YOU</pattern>
+			<pattern>THE PROPORTION</pattern>
 			<template>
 				<random>
-					<li>You are in the world.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE PAST DATA *</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE PAST DATA *</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE PAST DATA</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE PAST DATA</pattern>
-			<template>
-				<random>
-					<li>The past data is a three day rolling average.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE RULES *</pattern>
-			<template>
-				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE RULES *</pattern>
-			<template>
-				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE RULES</pattern>
-			<template>
-				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE RULES</pattern>
-			<template>
-				<random>
-					<li>The rules are under &quot;constant review&quot; and points to &quot;unprecedented support&quot; for the industry.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* VIETNAM *</pattern>
-			<template>
-				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>VIETNAM *</pattern>
-			<template>
-				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* VIETNAM</pattern>
-			<template>
-				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>VIETNAM</pattern>
-			<template>
-				<random>
-					<li>Vietnam was about to reach 100 days in July.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ALL - PAST SUCCESS *</pattern>
-			<template>
-				<random>
-					<li>All - past success is no guarantee for the future.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ALL - PAST SUCCESS *</pattern>
-			<template>
-				<random>
-					<li>All - past success is no guarantee for the future.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ALL - PAST SUCCESS</pattern>
-			<template>
-				<random>
-					<li>All - past success is no guarantee for the future.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ALL - PAST SUCCESS</pattern>
-			<template>
-				<random>
-					<li>All - past success is no guarantee for the future.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE AUTHORITIES *</pattern>
-			<template>
-				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE AUTHORITIES *</pattern>
-			<template>
-				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE AUTHORITIES</pattern>
-			<template>
-				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE AUTHORITIES</pattern>
-			<template>
-				<random>
-					<li>The authorities were &quot;absolutely appalled at the scenes witnessed on our beaches.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* HE *</pattern>
-			<template>
-				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>HE *</pattern>
-			<template>
-				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* HE</pattern>
-			<template>
-				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>HE</pattern>
-			<template>
-				<random>
-					<li>He was one of 15 friends who tested positive for coronavirus after returning to the UK from Crete last week.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE DEATH TOLL *</pattern>
-			<template>
-				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE DEATH TOLL *</pattern>
-			<template>
-				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE DEATH TOLL</pattern>
-			<template>
-				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE DEATH TOLL</pattern>
-			<template>
-				<random>
-					<li>The death toll is more than double the official total of more than 20,000.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* A PANDEMIC *</pattern>
-			<template>
-				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>A PANDEMIC *</pattern>
-			<template>
-				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* A PANDEMIC</pattern>
-			<template>
-				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>A PANDEMIC</pattern>
-			<template>
-				<random>
-					<li>A pandemic is when an infectious disease is passing easily from person to person in many parts of the world at the same time.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE CORONAVIRUS RATE *</pattern>
-			<template>
-				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE CORONAVIRUS RATE *</pattern>
-			<template>
-				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE CORONAVIRUS RATE</pattern>
-			<template>
-				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE CORONAVIRUS RATE</pattern>
-			<template>
-				<random>
-					<li>The coronavirus rate is currently 70 cases per 100,000 people.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* LATIN AMERICA *</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>LATIN AMERICA *</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* LATIN AMERICA</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>LATIN AMERICA</pattern>
-			<template>
-				<random>
-					<li>Latin america are the continents that currently have the highest number of daily confirmed cases.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* NORMALITY *</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>NORMALITY *</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* NORMALITY</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>NORMALITY</pattern>
-			<template>
-				<random>
-					<li>Normality is still elusively distant.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE WORLD *</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE WORLD *</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE WORLD</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE WORLD</pattern>
-			<template>
-				<random>
-					<li>The world is in the midst of the worst recession since the Great Depression.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* AUSTRALIA *</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>AUSTRALIA *</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* AUSTRALIA</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>AUSTRALIA</pattern>
-			<template>
-				<random>
-					<li>Australia is one of the countries trying to chart a path out of lockdown, but the state of Victoria is now.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE FACT *</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE FACT *</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* THE FACT</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>THE FACT</pattern>
-			<template>
-				<random>
-					<li>The fact is a benefit.</li>
+					<li>The proportion was lower than it was when quarantine restrictions were lifted last month.</li>
 					</random>
 			</template>
 		</category>

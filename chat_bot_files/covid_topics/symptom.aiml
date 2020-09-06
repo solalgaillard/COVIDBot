@@ -162,8 +162,6 @@
 				<random>
 					<li>It was primarily a respiratory illness.</li>
 					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
 					</random>
 			</template>
 		</category>
@@ -171,8 +169,6 @@
 			<pattern>IT *</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
 					<li>It was primarily a respiratory illness.</li>
 					<li>It was primarily a respiratory illness.</li>
 					</random>
@@ -184,8 +180,6 @@
 				<random>
 					<li>It was primarily a respiratory illness.</li>
 					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
 					</random>
 			</template>
 		</category>
@@ -193,8 +187,6 @@
 			<pattern>IT</pattern>
 			<template>
 				<random>
-					<li>It was primarily a respiratory illness.</li>
-					<li>It was primarily a respiratory illness.</li>
 					<li>It was primarily a respiratory illness.</li>
 					<li>It was primarily a respiratory illness.</li>
 					</random>
@@ -206,8 +198,6 @@
 				<random>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					</random>
 			</template>
 		</category>
@@ -215,8 +205,6 @@
 			<pattern>ANOTHER TELLTALE SIGN *</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					</random>
@@ -228,8 +216,6 @@
 				<random>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					</random>
 			</template>
 		</category>
@@ -237,8 +223,6 @@
 			<pattern>ANOTHER TELLTALE SIGN</pattern>
 			<template>
 				<random>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
-					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					<li>Another telltale sign may be a sudden, profound diminution of one’s sense of smell and taste.</li>
 					</random>

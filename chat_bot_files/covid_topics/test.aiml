@@ -29,130 +29,66 @@
 	</category>
 	<topic name = "TEST">
 		<category>
-			<pattern>* IS * THE COVID-19 PANDEMIC *</pattern>
+			<pattern>* WAS * THE CITY *</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE COVID-19 PANDEMIC *</pattern>
+			<pattern>WAS * THE CITY *</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE COVID-19 PANDEMIC *</pattern>
+			<pattern>WAS THE CITY *</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE COVID-19 PANDEMIC</pattern>
+			<pattern>* WAS THE CITY</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS * THE COVID-19 PANDEMIC</pattern>
+			<pattern>* WAS * THE CITY</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* IS THE COVID-19 PANDEMIC *</pattern>
+			<pattern>* WAS THE CITY *</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS * THE COVID-19 PANDEMIC</pattern>
+			<pattern>WAS * THE CITY</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>IS THE COVID-19 PANDEMIC</pattern>
+			<pattern>WAS THE CITY</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE YOU *</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE YOU</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * YOU</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE YOU *</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * YOU</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE YOU</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
@@ -221,70 +157,6 @@
 			</template>
 		</category>
 		<category>
-			<pattern>* CAN BE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE YOU *</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE YOU</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE * YOU</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE YOU *</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE * YOU</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE YOU</pattern>
-			<template>
-				<random>
-					<li>You can be with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
 			<pattern>* IS * TIMELY COMMUNICATION *</pattern>
 			<template>
 				<random>
@@ -345,518 +217,6 @@
 			<template>
 				<random>
 					<li>Timely communication is essential to minimize the risk incurred in handling specimens from patients with possible SARS-CoV-2 infection.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE YOU *</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE YOU</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * YOU</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE YOU *</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * YOU</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE YOU</pattern>
-			<template>
-				<random>
-					<li>You Are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * TESTING *</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * TESTING *</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS TESTING *</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS TESTING</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * TESTING</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS TESTING *</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * TESTING</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS TESTING</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE YOU *</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE YOU</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE * YOU</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CAN BE YOU *</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE * YOU</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CAN BE YOU</pattern>
-			<template>
-				<random>
-					<li>You Can be Around Others.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* WILL BE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>WILL BE * YOU *</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>WILL BE YOU *</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* WILL BE YOU</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* WILL BE * YOU</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* WILL BE YOU *</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>WILL BE * YOU</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>WILL BE YOU</pattern>
-			<template>
-				<random>
-					<li>You will be subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * WHO *</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * WHO *</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE WHO *</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE WHO</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE * WHO</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* ARE WHO *</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE * WHO</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>ARE WHO</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * CDC *</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * CDC *</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS CDC *</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS CDC</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * CDC</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS CDC *</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * CDC</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS CDC</pattern>
-			<template>
-				<random>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE *</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE *</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE *</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE *</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * A DIFFERENT KIND *</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * A DIFFERENT KIND *</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS A DIFFERENT KIND *</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS A DIFFERENT KIND</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS * A DIFFERENT KIND</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* IS A DIFFERENT KIND *</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS * A DIFFERENT KIND</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>IS A DIFFERENT KIND</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
 					</random>
 			</template>
 		</category>
@@ -925,106 +285,34 @@
 			</template>
 		</category>
 		<category>
-			<pattern>* THE COVID-19 PANDEMIC *</pattern>
+			<pattern>* THE CITY *</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE COVID-19 PANDEMIC *</pattern>
+			<pattern>THE CITY *</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>* THE COVID-19 PANDEMIC</pattern>
+			<pattern>* THE CITY</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
 		<category>
-			<pattern>THE COVID-19 PANDEMIC</pattern>
+			<pattern>THE CITY</pattern>
 			<template>
 				<random>
-					<li>The covid-19 pandemic is a serious global health threat, and CDC is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* YOU *</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					<li>You are with others after.</li>
-					<li>You are Sick Infection Prevention and Control Assessment Tool for Nursing Homes.</li>
-					<li>You are around others.</li>
-					<li>You are Around Others.</li>
-					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					<li>You are Sick or Caring for Someone Considerations for Communities of Faith CDC Releases Recommendations for Communities of Faith Data Visualization.</li>
-					<li>You are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					<li>You are around others after you receive two negative tests results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are around others after you receive two negative test results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>YOU *</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					<li>You are with others after.</li>
-					<li>You are Sick Infection Prevention and Control Assessment Tool for Nursing Homes.</li>
-					<li>You are around others.</li>
-					<li>You are Around Others.</li>
-					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					<li>You are Sick or Caring for Someone Considerations for Communities of Faith CDC Releases Recommendations for Communities of Faith Data Visualization.</li>
-					<li>You are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					<li>You are around others after you receive two negative tests results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are around others after you receive two negative test results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* YOU</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					<li>You are with others after.</li>
-					<li>You are Sick Infection Prevention and Control Assessment Tool for Nursing Homes.</li>
-					<li>You are around others.</li>
-					<li>You are Around Others.</li>
-					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					<li>You are Sick or Caring for Someone Considerations for Communities of Faith CDC Releases Recommendations for Communities of Faith Data Visualization.</li>
-					<li>You are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					<li>You are around others after you receive two negative tests results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are around others after you receive two negative test results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are with others after you receive two negative test results in a row, at least 24 hours apart.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>YOU</pattern>
-			<template>
-				<random>
-					<li>You are a healthcare provider with an urgent inquiry, or a member of the general public with an urgent information need.</li>
-					<li>You are with others after.</li>
-					<li>You are Sick Infection Prevention and Control Assessment Tool for Nursing Homes.</li>
-					<li>You are around others.</li>
-					<li>You are Around Others.</li>
-					<li>You are subject to the destination website&apos;s privacy policy when you follow the link.</li>
-					<li>You are Sick or Caring for Someone Considerations for Communities of Faith CDC Releases Recommendations for Communities of Faith Data Visualization.</li>
-					<li>You are Pregnant, Breastfeeding, or Caring for Young Children.</li>
-					<li>You are around others after you receive two negative tests results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are around others after you receive two negative test results in a row, from tests done at least 24 hours apart.</li>
-					<li>You are with others after you receive two negative test results in a row, at least 24 hours apart.</li>
+					<li>The city was still the center of the virus in the United States.</li>
 					</random>
 			</template>
 		</category>
@@ -1089,178 +377,6 @@
 			<template>
 				<random>
 					<li>Timely communication is essential to minimize the risk incurred in handling specimens from patients with possible SARS-CoV-2 infection.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* TESTING *</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>TESTING *</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* TESTING</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>TESTING</pattern>
-			<template>
-				<random>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					<li>Testing is available in your community.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* WHO *</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>WHO *</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* WHO</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>WHO</pattern>
-			<template>
-				<random>
-					<li>Who Are at Increased Risk for Severe Illness People.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CDC *</pattern>
-			<template>
-				<random>
-					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CDC *</pattern>
-			<template>
-				<random>
-					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* CDC</pattern>
-			<template>
-				<random>
-					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>CDC</pattern>
-			<template>
-				<random>
-					<li>Cdc is not responsible for Section 508 compliance (accessibility) on other federal or private website.</li>
-					<li>Cdc is committed to stopping its spread.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE *</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE *</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>U. S. HEALTHCARE SETTINGS COVID-19 RESPONSE</pattern>
-			<template>
-				<random>
-					<li>U. s. healthcare settings covid-19 response is a Family Affair for EIS Alums Preparedness Tools for Healthcare Professionals and Facilities.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* A DIFFERENT KIND *</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>A DIFFERENT KIND *</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>* A DIFFERENT KIND</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
-					</random>
-			</template>
-		</category>
-		<category>
-			<pattern>A DIFFERENT KIND</pattern>
-			<template>
-				<random>
-					<li>A different kind is a Family Affair for EIS Alums.</li>
 					</random>
 			</template>
 		</category>

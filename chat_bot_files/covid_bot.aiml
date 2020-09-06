@@ -3,13 +3,13 @@
 		<pattern>LOAD AIML FILES</pattern>
 		<template>
 			<learn>chat_bot_files/general/basic_chat_functions.aiml</learn>
-			<learn>chat_bot_files/covid_topics/politics.aiml</learn>
 			<learn>chat_bot_files/covid_topics/test.aiml</learn>
-			<learn>chat_bot_files/covid_topics/symptom.aiml</learn>
 			<learn>chat_bot_files/covid_topics/travel.aiml</learn>
+			<learn>chat_bot_files/covid_topics/politics.aiml</learn>
 			<learn>chat_bot_files/covid_topics/vaccine.aiml</learn>
-			<learn>chat_bot_files/covid_topics/data.aiml</learn>
 			<learn>chat_bot_files/covid_topics/material.aiml</learn>
+			<learn>chat_bot_files/covid_topics/symptom.aiml</learn>
+			<learn>chat_bot_files/covid_topics/data.aiml</learn>
 			<learn>chat_bot/general/covid_no_topic.aiml</learn>
 		</template>
 	</category>
