@@ -135,15 +135,17 @@ class FeatureExtraction():
         les entrées COVID.
     '''
     def use_model(self, corpus, model):
-
+        print("1")
         # Crée les vecteurs d'entrées suivant la matrice-modèle
         X_tfidf = self.tfidf_vectorizer.transform(normalize_corpus(corpus["data"]))
-
+        print("2")
         # On prédit en comparant les vecteurs et labels
         if model == "svm" :
             y_predicted_tfidf = self.clf_tfidf_svm.predict(X_tfidf)
         else:
             y_predicted_tfidf = self.clf_tfidf_log_reg.predict(X_tfidf)
+
+        print("3")
 
         # Et on filtre le corpus pour ne garder que les entrées COVID.
         new_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
@@ -154,6 +156,7 @@ class FeatureExtraction():
                 new_corpus['published_date'].append(corpus['published_date'][idx])
                 new_corpus['data'].append(corpus["data"][idx])
 
+        print("4")
         return new_corpus
 
 

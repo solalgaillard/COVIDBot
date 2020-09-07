@@ -1,5 +1,5 @@
 from functools import reduce
-from process_corpus.extract_facts_textacy import extract_facts_textacy
+from process_corpus.extract_facts import extract_facts
 from process_corpus.utilities import *
 
 def _create_pilot_file(all_existing_topics):
@@ -64,7 +64,7 @@ def _set_all_permutations_string(all_statements):
             if(f'{nsubj.upper()}{verb.upper()}{dobj.upper()}' in nsubj_verb_dobj_dic):
                 nsubj_verb_dobj_dic[f'{nsubj.upper()}{verb.upper()}{dobj.upper()}']['facts'].append(sentence)
             else:
-                noun_verb_dic[f'{nsubj.upper()}{verb.upper()}{dobj.upper()}'] = {"facts": [sentence], "entity": noun, "cue": verb, "obj": dobj}
+                nsubj_verb_dobj_dic[f'{nsubj.upper()}{verb.upper()}{dobj.upper()}'] = {"facts": [sentence], "entity": nsubj, "cue": verb, "obj": dobj}
 
         if (nsubj.upper() in nsubj_dic):
             nsubj_dic[nsubj.upper()]['facts'].append(sentence)
@@ -72,25 +72,13 @@ def _set_all_permutations_string(all_statements):
             nsubj_dic[nsubj.upper()] = {"facts": [sentence], "entity": nsubj}
 
 
-    for statement in noun_verb_dic:
-        entity = noun_verb_dic[statement]["entity"]
-        cue = noun_verb_dic[statement]["cue"]
-        obj = noun_verb_dic[statement]["obj"]
-        facts = noun_verb_dic[statement]["facts"]
+    for statement in nsubj_verb_dobj_dic:
+        entity = nsubj_verb_dobj_dic[statement]["entity"]
+        cue = nsubj_verb_dobj_dic[statement]["cue"]
+        obj = nsubj_verb_dobj_dic[statement]["obj"]
+        facts = nsubj_verb_dobj_dic[statement]["facts"]
         template = ""
-        '''
-        allPatterns = [
-            f'* {cue.upper()} * {entity.upper()} *',
-            f'{cue.upper()} * {entity.upper()} *',
-            f'{cue.upper()} {entity.upper()} *',
-            f'* {cue.upper()} {entity.upper()}',
-            f'* {cue.upper()} * {entity.upper()}',
-            f'* {cue.upper()} {entity.upper()} *',
-            f'{cue.upper()} * {entity.upper()}',
-            f'{cue.upper()} {entity.upper()}',
-        ]
-        '''
-        allPatterns = [
+        all_patterns = [
             f'*{cue.upper()} * {entity.upper()} * {obj.upper()} *',
             f'* {cue.upper()} * {entity.upper()} * {obj.upper()}',
             f'* {cue.upper()} * {entity.upper()} {obj.upper()} *',
@@ -171,16 +159,15 @@ def _set_all_permutations_string(all_statements):
             f'* {obj.upper()} {entity.upper()} {cue.upper()}',
         ]
         for fact in facts:
-            #tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
-            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact.capitalize())}</li>'
-        for pattern in allPatterns:
+            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(capitalize_and_leave_string_untouched(fact))}</li>'
+        for pattern in all_patterns:
             all_permutations += _create_permutation(pattern, template)
 
-    for statement in noun_dic:
-        entity = noun_dic[statement]["entity"]
-        facts = noun_dic[statement]["facts"]
+    for statement in nsubj_dic:
+        entity = nsubj_dic[statement]["entity"]
+        facts = nsubj_dic[statement]["facts"]
         template = ""
-        allPatterns = [
+        all_patterns = [
             f'* {entity.upper()} *',
             f'{entity.upper()} *',
             f'* {entity.upper()}',
@@ -189,8 +176,8 @@ def _set_all_permutations_string(all_statements):
         for fact in facts:
             # currentFact = entity.text.capitalize() + ' ' + cue.text + ' ' + fact.text + '.'
             #tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
-            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact.capitalize())}</li>'
-        for pattern in allPatterns:
+            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(capitalize_and_leave_string_untouched(fact))}</li>'
+        for pattern in all_patterns:
             all_permutations += _create_permutation(pattern, template)
 
 
@@ -234,14 +221,13 @@ def export_to_aiml(result_topics, corpus):
     for topic_idx, topic in enumerate(result_topics["topic_mapping"]):
         corpus_per_cluster = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
         for cluster_idx, cluster in enumerate(result_topics["clusters"]):
-            print(cluster, cluster_idx, topic_idx)
             if cluster == topic_idx:
                 corpus_per_cluster['url'].append(corpus['url'][cluster_idx])
                 corpus_per_cluster['scrapped_date'].append(corpus['scrapped_date'][cluster_idx])
                 corpus_per_cluster['published_date'].append(corpus['published_date'][cluster_idx])
                 corpus_per_cluster['data'].append(corpus["data"][cluster_idx])
 
-        statements_by_topic = extract_facts_textacy(corpus_per_cluster)
+        statements_by_topic = extract_facts(corpus_per_cluster)
         all_statements.extend(statements_by_topic)
         if topic:
             _create_topic(topic, statements_by_topic)
@@ -250,5 +236,5 @@ def export_to_aiml(result_topics, corpus):
             corpus_without_topics['scrapped_date'].extend(corpus_per_cluster['scrapped_date'])
             corpus_without_topics['published_date'].extend(corpus_per_cluster['published_date'])
             corpus_without_topics['data'].extend(corpus_per_cluster['data'])
-    all_statements.extend(extract_facts_textacy(corpus_without_topics))
+    all_statements.extend(extract_facts(corpus_without_topics))
     _create_no_topic(all_statements)

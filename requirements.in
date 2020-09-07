@@ -8,6 +8,5 @@ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.1.0
 scikit-learn
 selenium
 spacy==2.1.0
-textacy==0.9.1
 textsplit
 webdriver-manager

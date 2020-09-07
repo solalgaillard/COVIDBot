@@ -43,15 +43,16 @@ def main(labeling, build, model):
     if build in ["all", "scrap", "corefseg"] or not file_path.is_file():
         print("Segmentation and Coreference Resolution process starting:\nThis is a long process...")
         corpus = remove_all_specific_substrings(remove_overused_sentences_from_corpus(remove_duplicates_in_corpus(corpus)))
-        '''
+
         tmp_corpus_data = []
         for idx, document in enumerate(corpus['data']):
             tmp_corpus_data.append([])
             for segment in segment_documents_textsplit(document):
-                tmp_corpus_data[idx].append(solve_coreferences_neuralcoref(segment))
+                tmp_corpus_data[idx].append(segment)
+                #tmp_corpus_data[idx].append(solve_coreferences_neuralcoref(segment))
 
         corpus['data'] = tmp_corpus_data
-        '''
+
         with open(file_path, 'wb+') as f:
             pickle.dump(corpus, f)
         print("Wrote to file corefseg.pickle")
@@ -59,7 +60,18 @@ def main(labeling, build, model):
         print("Loaded corefseg.pickle")
         corpus = pickle.load(open(file_path, "rb"))
 
+    '''
+    filtered_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
+    for idx, data in enumerate(corpus["data"]):
+        if(idx<2):
+            filtered_corpus['url'].append(corpus['url'][idx])
+            filtered_corpus['scrapped_date'].append(corpus['scrapped_date'][idx])
+            filtered_corpus['published_date'].append(corpus['published_date'][idx])
+            filtered_corpus['data'].append(data)
 
+    #corpus = filtered_corpus
+    #print(corpus)
+    '''
     file_path = (base_path / "data_saved/teaching_data.xml").resolve()
 
     # Exporte fichier pour labélisation et sort du programme
@@ -87,7 +99,7 @@ def main(labeling, build, model):
     # Utilise le modèle
     if build in ["all", "scrap", "corefseg", "model", "covidentries"] or not file_path.is_file():
         print("Using models to isolate covid entries only...")
-        corpus = feature_extraction.use_model(each_segement_gets_description(corpus), model)
+        corpus = feature_extraction.use_model(each_segment_gets_description(corpus), model)
         with open(file_path, 'wb+') as f:
             pickle.dump(corpus, f)
         print("Wrote to file covidentries.pickle")
@@ -132,7 +144,6 @@ def main(labeling, build, model):
             return
         nlp_inputed = nlp(expand_contractions(inputed))
         lemmatized_inputed = ' '.join([token.lemma_ if token.dep_ == 'ROOT' and token.pos_ == 'VERB' else token.text for token in nlp_inputed])
-        print(lemmatized_inputed)
         res = kernel.respond(lemmatized_inputed)
         if (len(res) > 0):
             print(res)
@@ -177,58 +188,7 @@ if __name__ == "__main__":
 #-----------------------------------------------------------------------------------------------------------------------
 #Those are all the todos that are done
 
-    #TODO - Scrapper - done
-        #TODO Understand why rules won't work and the filter is not applied
-            # (regex preparsing relative path, not absolute) - done
-        #TODO Bread-width-first (see settings file) - done
-        #TODO Kill all queued requests (might not be relevant anymore since I'm not following requests) - done
-        #TODO Extract date for each article - Done
-        #TODO Limit scrapping to what is past three months - done
 
-    #TODO - Coreference extraction. - done
-    #TODO - Text Segmentation - done
-    #TODO - Automatize to get a small corpus to label - done
-    #TODO - Label data - done
-    #TODO - TF-IDF with Logistic Regression or SVM to isolate COVID - Labeled data 500 - done
-    #TODO - TF-IDF then K-Means clustering on all corpus to get terms out -done
-    #TODO - Get topic name by the most used terms per cluster - done
-    #TODO - Generate one aiml file per topic - done
-    #TODO - Review structure of dictionnary for mapping
-    #TODO - Understand why one topic is not in the cluster list - done
-    #TODO - Add non-topics to bot - done
-
-    #TODO - Add Random Tag To centralize cue and Entities pattern as shown below - done
-    #TODO - Better way to find patterns(single nouns and no verbs?) - done
-    #TODO - Bring permutations within one loop and test code - done
-    #TODO - Save Brain of Chatbot - done
-    #TODO - Allow parameters to be passed to cmd line to isolate the different type of actions possible - done
-        #TODO - a - Scrap only the web - done
-        #TODO - b - Export Data for labelling - done
-        #TODO - c - Load - done
-        #TODO - d - Pass type model to recognize covid text - done
-        #TODO - f - generate aiml - done
-        #TODO - g - launch bot - done
-        #TODO - h - start-from-scratch - done
-        #TODO - i - save model - done
-        #TODO - j - load model - done
-
-    #TODO - Install locally webdriver / Check that the path works - done
-    #TODO - Rules for automatic path to driver - done
-    #TODO - Make Driver Path absolute - done
-    #TODO - a - Prepare proper packaging - done
-    #TODO - c - Paths must be resolved properly - done
-
-    #TODO - Make sure it can be deployed and built anywhere - done
-        #TODO - a - Check all Packages - done
-        #TODO - b - Check Environment - Envpath - done
-
-    #TODO - ADD QUIT TO AIML - done
-    #TODO - Test env on linux - done
-
-    #TODO - On Scrapper, writing to files need to be invoked only once - done
-    #TODO - Refactor all the code - done
-    #TODO - Silence nltk downloads
-    #TODO - Comment Code - done beisdes AIML part
 
 
 #-----------------------------------------------------------------------------------------------------------------------
@@ -243,41 +203,3 @@ if __name__ == "__main__":
 #Make sure last Chrome is installed, not chromium but chrome
 
 
-    #TODO - Better strategy in generating AIML - done
-
-
-    #TODO - BRING In A different strategy for extracting facts, One subject,, all other noun_chunks, objs
-
-    #TODO GET RID OF TEXTACY
-
-    #TODO Add also topic data to non-topic
-
-    #TODO EXPORT TO AIML WITH NEW SYSTEM - done
-
-    #TODO contractions and lemmatization on input
-
-    #TODO - Patterns to take out
-
-    #TODO - Provide Basic AIML Bot - today
-
-
-
-
-
-#-----------------------------------------------------------------------------------------------------------------------
-#Those are all the nice to have
-    #TODO - Survey where data structures can be replaced by Pandas DataFrame
-    #TODO - Survey Cluster technique
-    #TODO - 5 - Develop Mecanism to flag answer when special authorized user is interacting with the bot
-        #TODO - 5 - a - Need to be able to blacklist entry - (Put it in a dic, and rebuild AIML)
-    #TODO - PIPE NLP when processing batches of docs for incredible speeding up
-    #TODO - 2 - Cron Job to scrap and rebuild automatically the bot
-    #TODO - 3 - Unit Testing
-    #TODO - 4 - Word embeddings all across would have been more efficient than TF-IDF?
-    #TODO - Investigate better Scrapping
-        #TODO - c - Stupid meaningless sentences get kept
-        #TODO - c - Investigate Paywall for NYT, do I need a new Login?
-
-    #TODO - Label more Data and check between Logistic Regression and SVM which one is best
-
-    #TODO - Review clustering process

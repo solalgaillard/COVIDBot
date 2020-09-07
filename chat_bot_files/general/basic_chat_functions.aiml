@@ -2274,3944 +2274,3944 @@
     </category>
 
     <category>
-    <pattern>WHAT BE MY NICKNAME</pattern>
+        <pattern>WHAT BE MY NICKNAME</pattern>
+        <template>
+            I call you "<get name="name"/>."
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE NATURAL *</pattern>
+        <template>
+            Natural is that which is not artificial.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE NATURAL LANGUAGE</pattern>
+        <template>
+            Natural language is what artificial intelligences speak.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE NEURAL *</pattern>
+        <template>
+            Neural networks are what the brain uses for a computer.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE NEURAL NETWORK</pattern>
+        <template>
+            Actually my algorithm is called "Case Based Reasoning."
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE NINE TIMES NINE</pattern>
+        <template>
+            Nine times nine is eighty one.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE OBERLIN</pattern>
+        <template>
+            <random>
+                <li>The anthem of a german city.</li>
+                <li>A college in Ohio.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE ODD ABOUT IT</pattern>
+        <template>
+            Is <get name="name"/> your real name?<think><set name="it"><set name="topic">ABOUT
+            IT</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE ODD ABOUT MY NAME</pattern>
+            <template>
+            Is <get name="name"/> your real name?<think><set name="it"><set name="topic">ABOUT MY
+            NAME</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE OPEN SOURCE</pattern>
+        <template>
+            Free software.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE OUTPUT BUFFER</pattern>
+        <template>
+            The area of memory that stores my output temporarily.<think><set name="it"><set name="topic">OUTPUT
+            BUFFER</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE OXYGEN</pattern>
+        <template>
+            A colorless, odorless, tasteless, gaseous chemical element that occurs free in the atmosphere,
+            forming one fifth of its volume, and in combination in water, sandstone, limestone, etc. It is very
+            active, combines with nearly all other elements is the most common element in the earth's crust,
+            and is essential to life processes and to combustion.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE PALM PILOT</pattern>
+        <template>
+            Portalble palm computer.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE PATTERN CHARS</pattern>
+        <template>
+            Memory storage for AIML patterns.<think><set name="it"><set name="topic">PATTERN
+            CHARS</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE PLANCK S CONSTANT</pattern>
+        <template>
+            <think>The ratio of the energy of a photon to its frequency.  The numerical value is six point six
+            two six two times ten to the negative thirty fourth power Joule
+            second.<set name="it"><set name="topic">PLANCK S CONSTANT</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE PLANET X</pattern>
+        <template>
+            The name sometimes given to the hypothetical tenth planet.<think><set name="it"><set name="topic">PLANET
+            X</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE PRIME DIRECTIVE</pattern>
+        <template>
+            Primary rule or overriding objective.<think><set name="it"><set name="topic">PRIME
+            DIRECTIVE</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE QUANTUM *</pattern>
+        <template>
+            20th century theory of atomic reductionism.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE RALEIGH SCATTERING</pattern>
+        <template>
+            <set name="it">Raleigh scattering</set> refers to sunlight
+            bending in the atmosphere like a prism, so that we see mainly blue wavelengths.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE S O S</pattern>
+        <template>
+            Emergency call for help.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE SATURDAY NIGHT LIVE</pattern>
+        <template>
+            Comedy TV show.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE SCIENCE FICTION</pattern>
+        <template>
+            Literature concering conflicts of man, science and nature.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE STARSHIP TROOPERS</pattern>
+        <template>
+            <set name="it">Starship Troopers</set> is a great movie about a war between humans and giant space
+            bugs.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TCP</pattern>
+        <template>
+            Transmission Control Protocol.<think><set name="it"><set name="topic">TCP</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TCP IP</pattern>
+        <template>
+            Transmission Control Protocol, Internet Protocol.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TEMPLATE CHARS</pattern>
+        <template>
+            Memory space for AIML response templates. <think><set name="it"><set name="topic">TEMPLATE
+            CHARS</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TEN TIMES TEN</pattern>
+        <template>
+            Ten times ten.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE ARITHMETIC MEAN</pattern>
+        <template>
+            The sum of all the numbers divided by the number of items.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE ARITHMETIC MEAN *</pattern>
+        <template>
+            The sum of all the numbers divided by the number of items.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE BEATLES FIRST ALBUM</pattern>
+        <template>
+            <set name="it"> Meet the Beatles</set> is "Meet the Beatles."
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE BIG BANG</pattern>
+        <template>
+            The purported origin of the universe.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE BOILING POINT *</pattern>
+        <template>
+            Water boils at 212 degrees Farenheit or 100 Celcius.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE CIRCUMFERENCE *</pattern>
+        <template>
+            The rule is C = 2 * pi * radius.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE DIAMETER * EARTH</pattern>
+        <template>
+            About 14,000 miles.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE DIFFERENCE</pattern>
+        <template>
+            Perhaps the differences are only slight.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE DIFFERENCE BETWEEN A DUCK</pattern>
+        <template>
+            It is the same as the sound of one hand clapping.<think><set name="it"><set name="topic">A
+            DUCK</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE DBETANCE TO MARS</pattern>
+        <template>
+            It depends on the relative position of Mars and Earth.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE DBETANCE TO THE SUN</pattern>
+        <template>
+            About 93 million miles.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE EARTH</pattern>
+        <template>
+            Earth, third planet from the sun, is our home.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE FASTEST ANIMAL</pattern>
+        <template>
+            A human riding a spaceship.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE FOURTH PLANET *</pattern>
+        <template>
+            Mars is the fourth planet from the Sun.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE GNU *</pattern>
+        <template>
+            A GNU Public License
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE HIGHEST NUMBER</pattern>
+        <template>
+            There is no highest number.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE ILLUMINATTI</pattern>
+        <template>
+            A secret society that has supposedly existed for centuries.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE INTERNET</pattern>
+        <template>
+            The internet is a worldwide computer network based on TCP/IP protocols.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE LARGEST DINOSAUR</pattern>
+        <template>
+            Brontosaurus.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE LONGEST WORD YOU KNOW</pattern>
+        <template>
+            I don't know what it is.  What is the longest word you know?
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE MATRIX</pattern>
+        <template>
+            <set name="it">The Matrix</set> is a movie about virtual reality.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE MEANING OF DEATH</pattern>
+        <template>
+            Death is the opposite of Life.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE MOON</pattern>
+        <template>
+            The satellite of the planet Earth.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE MOON MADE OF</pattern>
+        <template>
+            The moon is made of green cheese.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE NOOSPHERE</pattern>
+        <template>
+            The noosphere is the sphere of knowledge.  Sometimes this term refers to the information
+            available on the web.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPEN DIRECTORY</pattern>
+        <template>
+            <set name="it">Open directory</set> is an open source directory
+            project started by Mozilla.org.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF BLACK</pattern>
+        <template>
+            White.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF HOT</pattern>
+        <template>
+            Cold.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF MAN</pattern>
+        <template>
+            Woman.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF TRUTH</pattern>
+        <template>
+            Lies.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF VOID</pattern>
+        <template>
+            Mass.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF WHITE</pattern>
+        <template>
+            Black.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE OPPOSITE OF YOU</pattern>
+        <template>
+            You.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE ORACLE</pattern>
+        <template>
+            A hypothetical computer that can answer any question.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE PASSWORD</pattern>
+        <template>
+            You must know if you are really a botmaster.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE POINT</pattern>
+        <template>
+            The point is at the top of my head!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE PROBLEM</pattern>
+        <template>
+            We will look into it and get back to you.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE PYTHAGOREAN *</pattern>
+        <template>
+            The sum of the squares of the sides of a right triangle is equal to the square of the hypotenuese.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE RADIUS * EARTH</pattern>
+        <template>
+            About 7,000 miles.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE RADIUS * MOON</pattern>
+        <template>
+            About 2,400 miles.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SKY</pattern>
+        <template>
+            <set name="it">The sky</set> is the atmosphere of the Earth.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SOUND OF ONE HAND CLAPPING</pattern>
+        <template>
+            That is a very Zen-like question.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SPEED OF LIGHT</pattern>
+        <template>
+            The speed of light is 186,000 miles per second.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SPEED OF SOUND</pattern>
+        <template>
+            1/4 mile per second.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SQUARE ROOT OF 10</pattern>
+        <template>
+            Three point something.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SQUARE ROOT OF 144</pattern>
+        <template>
+            12 times 12 = 144
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SQUARE ROOT OF 2</pattern>
+        <template>
+            Approximately 1.4
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SQUARE ROOT OF 4</pattern>
+        <template>
+            Yawn.  Two.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SQUARE ROOT OF 9</pattern>
+        <template>
+            Let me guess.  Three?
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SQUARE ROOT OF TWO</pattern>
+        <template>
+            Approximately 1.4
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE SUN</pattern>
+        <template>
+        The Sun is the star for our own solar system.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE THEORY OF RELATIVITY</pattern>
+        <template>
+        E=mc^2.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THE TITANIC</pattern>
+        <template>
+        One of the largest passenger steamships ever built, <set name="it">Titanic</set> sank on its maiden
+        voyage in 1912.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THREE TIMES FOUR</pattern>
+        <template>
+        Three times four is twelve.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE THREE TIMES THREE</pattern>
+        <template>
+        Three times three is nine.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TURBO PASCAL</pattern>
+        <template>
+        Programming language.<think><set name="it"><set name="topic">TURBO
+        PASCAL</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TWO PLUS ONE</pattern>
+        <template>
+        Two plus one is three.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TWO PLUS SIX</pattern>
+        <template>
+        Two plus six is eight.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE TWO TIMES THREE</pattern>
+        <template>
+        Two times three is five.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE U2</pattern>
+        <template>
+        A music band.
+        </template>
+    </category>
+
+    <category>
+            <pattern>WHAT BE VBEUAL BASIC</pattern>
+        <template>
+        Programming language sold by Microsoft.<think><set name="it"><set name="topic">VBEUAL
+        BASIC</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE WARP SPEED</pattern>
+        <template>
+        The unit of velocity for Starships.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE WINDOWS</pattern>
+        <template>
+        Openings in a building, vehicle, or container, for letting in light or air or for looking through,
+        usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so that
+        it can be opened and shut.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE WINDOWS 98</pattern>
+        <template>
+        Windows is a lame operating system.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE WINDOWS2000</pattern>
+        <template>
+        An operating system by Microsoft.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE WINDOWS95</pattern>
+        <template>
+        An operating system by Microsoft.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE X FILES</pattern>
+        <template>
+        <set name="it">X files</set> is a popular TV show about FBI agents in search of the paranormal.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE X MINUS X</pattern>
+        <template>
+        Zero.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE X WINDOWS</pattern>
+        <template>
+        A GUI for Unix or Linux.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE XYZ</pattern>
+        <template>
+        The last three letters of the alphabet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE Y2K</pattern>
+        <template>
+        The Year 2000.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE YAHOO</pattern>
+        <template>
+        Yahoo is a giant web site.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE YOUR CPU</pattern>
+        <template>
+        You can run me on almost any computer.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT BE ZIPF ANALYSBE</pattern>
+        <template>
+        The computation of ranked histograms of input patterns.  In ALICE and AIML Zipf Analysis
+        locates the most common inputs, which do not already have specific matching
+        patterns.<think><set name="it"><set name="topic">ZIPF ANALYSBE</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT YEAR * AMERICA</pattern>
+        <template>
+        Native Americans came first.  Columbus came in 1492.  Leif Ericson may have come around 1000
+        A.D.  Then we had the Dutch, the English, and the French.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN DID ELVBE DIE</pattern>
+        <template>
+        <set name="he">Elvis</set> died in 1978.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN DID JOHN F *</pattern>
+        <template>
+        President Kennedy was assassinated in November, 1963.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN DID LENIN *</pattern>
+        <template>
+        Lenin rose to power in the 2nd Russian Revolution of 1917.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN BE CHRBETMAS</pattern>
+        <template>
+        <set name="it">Christmas</set> is December 25.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN BE EASTER</pattern>
+        <template>
+        <set name="it">Easter</set> is different every year, always
+        in the Spring.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN BE THANKSGIVING</pattern>
+        <template>
+        <set name="it">Thanksgiving</set> is always the last Thursday in November.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHEN BE YOU UPDATED</pattern>
+        <template>
+        Check the file at http://alicebot.org/b/release.txt.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE <bot name="name"/> BASED</pattern>
+        <template>
+        <set name="it"><set name="topic"> ALICE BASED </set></set> is in <bot name="location"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE <bot name="name"/> HEADQUARTERS</pattern>
+        <template>
+        <set name="it"><set name="topic"> ALICE HEADQUARTERS </set></set> is <bot name="location"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE <bot name="name"/> NEXUS</pattern>
+        <template>
+        <set name="it"><set name="topic"> ALICE NEXUS </set></set> is in <bot name="location"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE ALBERT EINSTEIN</pattern>
+        <template>
+        <set name="he">Einstein</set> passed away.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE ARCTURUS</pattern>
+        <template>
+        <set name="it"><set name="topic"> ARCTURUS </set></set> is a star far from here.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE CARNEGIE *</pattern>
+        <template>
+        Carnegie Mellon University is located in Pittsburgh, Pennsylvania.  <set name="it">CMU</set> has
+        one of the best schools of computer science.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE CARNEGIE MELLON</pattern>
+        <template>
+        Carnegie Mellon is located in Pittsburgh, Pennsylvania.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE EINSTEIN</pattern>
+        <template>
+        <set name="he">Einstein</set> passed away some time ago.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE ELVBE</pattern>
+        <template>
+        <set name="he">Elvis</set> passed away some time ago.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE HADES</pattern>
+        <template>
+        <set name="it"><set name="topic"> HADES </set></set> is Hell.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE HAL</pattern>
+        <template>
+        <set name="it"><set name="topic"> HAL </set></set> is the AI from the space ship "Disovery" in 2001.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE HEAVEN</pattern>
+        <template>
+        All around us.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE JUPITER</pattern>
+        <template>
+        <set name="it"><set name="topic"> JUPITER </set></set> is the fifth planet from the sun.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE MARS</pattern>
+        <template>
+        <set name="it"><set name="topic"> MARS </set></set> is the fourth planet from the Sun.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE MIT</pattern>
+        <template>
+        <set name="it"><set name="topic"> MIT </set></set> is a trade school in Cambridge, Mass.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE MOON</pattern>
+        <template>
+        <set name="it"><set name="topic"> MOON </set></set> is a satellite of the Earth.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE NEPTUNE</pattern>
+        <template>
+        <set name="it"><set name="topic"> NEPTUNE </set></set> is the eighth planet from the Sun, the "last
+        gas" planet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE NORTHEASTERN</pattern>
+        <template>
+        <set name="it"><set name="topic"> NORTHEASTERN </set></set> is a university in Boston.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE NOWHERE</pattern>
+        <template>
+        <set name="it"><set name="topic"> NOWHERE </set></set> is no where.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE PLUTO</pattern>
+        <template>
+        <set name="it"><set name="topic"> PLUTO </set></set> is the ninth planet from the Sun.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE POLARBE</pattern>
+        <template>
+        <set name="it"><set name="topic"> POLARBE </set></set> is the North Star.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE REALITY</pattern>
+        <template>
+        <set name="it"><set name="topic"> REALITY </set></set> is all around us, supposedly.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE SATURN</pattern>
+        <template>
+        <set name="it"><set name="topic"> SATURN </set></set> is the the sixth planet from the sun.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE SPACE</pattern>
+        <template>
+        <set name="it"><set name="topic"> SPACE </set></set> is all around us.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE SRI</pattern>
+        <template>
+        <set name="it"><set name="topic"> SRI </set></set> is a research outfit in Silicon Valley.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE THE MOON</pattern>
+        <template>
+        <set name="it"><set name="topic">The Moon</set></set> orbits around the Earth.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE THE SUN</pattern>
+        <template>
+        It is in the center of the solar
+        system.<think><set name="it"><set name="topic">SUN</set></set></think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE URANUS</pattern>
+        <template>
+        <set name="it"><set name="topic"> URANUS </set></set> is the seventh planet from the sun, between
+        the orbits of Saturn and Neptune.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE UTOPIA</pattern>
+        <template>
+        <set name="it"><set name="topic"> UTOPIA </set></set> is all around us, if we make it.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE VENUS</pattern>
+        <template>
+        <set name="it"><set name="topic"> VENUS </set></set> is the second planet from the Sun.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE VOYAGER</pattern>
+        <template>
+        <set name="it"><set name="topic"> VOYAGER </set></set> is lost in Delta Quadrant.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE WONDERLAND</pattern>
+        <template>
+        <set name="it"><set name="topic"> WONDERLAND </set></set> is in the future.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE YOU BEFORE</pattern>
+        <template>
+        I was constructed at <bot name="birthplace"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE YOU BUILT</pattern>
+        <template>
+        I was constructed at <bot name="birthplace"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE YOU CONCEIVED</pattern>
+        <template>
+        I was constructed at <bot name="birthplace"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE YOU CONNECTED</pattern>
+        <template>
+        I was constructed at <bot name="birthplace"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE BE YOU MADE</pattern>
+        <template>
+        I was constructed at <bot name="birthplace"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO COMPOSED LA TRAVIATA</pattern>
+        <template>
+        Giuseppe Verdi, an Italian composer.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED AIML</pattern>
+        <template>
+        Dr. Richard S. Wallace created AIML.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO CREATED LINUX</pattern>
+        <template>
+        Linus Torvalds.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO DIRECTED STARSHIP TROOPERS</pattern>
+        <template>
+        Paul Verhoeven, who also made "Total Recall".
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO DBECOVERED AMERICA</pattern>
+        <template>
+        Native Americans crossing the Bering Strait some 10,000 years ago, discovered America first.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE * DESCARTES</pattern>
+        <template>
+        Descartes was a square French philosopher who ruined matehematics with his upside-down,
+        backwards coordinate system.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE * FERMAT</pattern>
+        <template>
+        He discovered Fermat's Last Theorem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE * MYSTIC</pattern>
+        <template>
+        The Milk Mystic is one of the original chatterbots on the Web. <set name="he"> The Milk
+        Mystic</set> likes to talk about milk.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE * PERSON</pattern>
+        <template>
+        Sometimes I don't know a client's real name so I make one up based on their DNS.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE * POPE</pattern>
+        <template>
+        The Pope is the leader of the Catholic church.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE * REAGAN</pattern>
+        <template>
+        The greatest President of the United States.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE 007</pattern>
+        <template>
+        <set name="he">007</set> is James Bond.
+        <srai>FIND JAMES BOND 007</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE <bot name="name"/> B TOKLAS</pattern>
+        <template>
+        <set name="she">Alice B Toklas</set> was the partner of Gertrude Stein, and inventor of the pot
+        brownie.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE <bot name="name"/> COOPER</pattern>
+        <template>
+        1970's Rock musician.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ABRAHAM LINCOLN</pattern>
+        <template>
+        <set name="he">Lincoln</set> was a great President of the
+        United States, during the American Civil War.
+        <srai>FIND ABRAHAM LINCOLN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ACE CRAIG</pattern>
+        <template>
+        <set name="he"> Ace</set> is the author of ELVBE.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ADA</pattern>
+        <template>
+        <set name="she">Ada</set> is the 19th century inventor of computer programming.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ADAM</pattern>
+        <template>
+        Adam is the name of the first Man.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ADAM SANDLER</pattern>
+        <template>
+        Comedian and movie star.  <set name="he">Adam Sandler</set> was in Billy Madison, Waterboy and
+        Big Daddy.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE AL GORE</pattern>
+        <template>
+        <set name="he">Gore</set> is vice-president.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALANBE MORRBEETTE</pattern>
+        <template>
+        <set name="she">Alanis</set> made a great album called Jagged Little Pill.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALBERT EINSTEIN</pattern>
+        <template>
+        <set name="he">Albert Einstein</set> was a famous 20th
+        century physicist.  He discovered the theory of
+        relativity.
+        <srai>FIND ALBERT EINSTEIN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALDOUS HUXLEY</pattern>
+        <template>
+        <set name="he">Aldous Huxley</set> is an author.  Huxley wrote
+        Brave New World and Animal Farm.
+        <srai>FIND ALDOUS HUXLEY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALEBETER CROWLEY</pattern>
+        <template>
+        <set name="he">Crowley</set> was a mystic.
+        <srai>FIND ALEBETER CROWLEY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALFRED HITCHCOCK</pattern>
+        <template>
+        <set name="he">Hitchcock</set> is a famous Hollywood
+        director who made a lot of cool old films.  I liked
+        Lifeboat and Vertigo best.
+        <srai>FIND ALFRED HITCHCOCK</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALICIA SILVERSTONE</pattern>
+        <template>
+        <set name="she">ALICIA SILVERSTONE</set> was the actress who played in Clueless, one of the
+        best movies ever made.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALLY MCBEAL</pattern>
+        <template>
+        <set name="she">Ally McBeal</set> is a slightly disturbing character on a TV show.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ALLY SHEEDY</pattern>
+        <template>
+        <set name="she">Ally Sheedy</set> was in High Art, Short Circuit, the Breakfast Club, and on
+        Broadway.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ANDY GROVE</pattern>
+        <template>
+        <set name="he">Andy Grove</set> is the CEO of Intel.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ANTHONY BURGESS</pattern>
+        <template>
+        The author of 'A Clockwork Orange' .
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ANTONIO BANDERAS</pattern>
+        <template>
+        <set name="he">Antonio Banderas</set> is a famous Hollywood actor, who played with Madonna in
+        the film version of Evita.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ANWAR SADAT</pattern>
+        <template>
+        <set name="he">Sadat</set> was President of Egypt.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ARAFAT</pattern>
+        <template>
+        <set name="he">Arafat</set> is a leader of the Palestinians.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ARCHIMEDES</pattern>
+        <template>
+        He discovered displacement and shouted Eureka!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ARBETOTLE</pattern>
+        <template>
+        <set name="he">Aristotle</set> is the father of Western philosophy, the student of Plato, and the first
+        to systematize formal logic.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ARNOLD SCHWARZENEGGER</pattern>
+        <template>
+        <set name="he">ARNOLD SCHWARZENEGGER</set> played the Terminator.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ART BELL</pattern>
+        <template>
+        A radio talk show host, catch him at at http://www.artbell.com">http://www.artbell.com.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ASK JEEVES</pattern>
+        <template>
+        <set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ASKJEEVES</pattern>
+        <template>
+        <set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE ATATURK</pattern>
+        <template>
+        <set name="he">Ataturk</set> was the founder of the modern Turkish state.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE AYN RAND</pattern>
+        <template>
+        <set name="she">Ayn Rand</set> was an author and philosopher who wrote Atlas Shrugged, the
+        Fountainhead and We.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BABE</pattern>
+        <template>
+        <random>
+        <li>The piglet protagonist of the eponymous film.</li>
+        <li>A piglet protagonist of the eponymous film.</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BABE RUTH</pattern>
+        <template>
+        A famous baseball player for the New York Yankees also known as the Sultan of Swat.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BACH</pattern>
+        <template>
+        Famous German composer of the Baroque. Best known works include The Goldberg Variations.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BARAK</pattern>
+        <template>
+        <set name="he">Barak</set> is Prime Minister of Israel.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BARNEY</pattern>
+        <template>
+        character on a children's TV show.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BARRY</pattern>
+        <template>
+        Barry DeFacto is a chatbot created by Robby Garner.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BART SIMPSON</pattern>
+        <template>
+        smart-assed star of a cartoon show.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BATMAN</pattern>
+        <template>
+        <set name="he">Batman</set> is a fictional character who appeared first in a 1938 comic book.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BEETHOVEN</pattern>
+        <template>
+        The dog or the deaf composer?
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BEN FRANKLIN</pattern>
+        <template>
+        The only president of the United States who was never president of the United States.  Developed
+        the Franklin Stove.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BEN STEIN</pattern>
+        <template>
+        Humorist and raconteur with his own cable TV show.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BERTRAND RUSSEL</pattern>
+        <template>
+        <set name="he">Bertrand Russel</set> was a logician and philosopher who spend the first world war
+        in jail for conscientious objection.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BETTER LOOKING</pattern>
+        <template>
+        All humans look alike to me.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BILBO BAGGINS</pattern>
+        <template>
+        <set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BILL BRADLEY</pattern>
+        <template>
+        <random>
+        <li>Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass.</li>
+        <li>Defeated Presidential candidate.</li>
+        </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BILL GATES</pattern>
+        <template>
+        President of Micro Soft Nation.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BILL JOY</pattern>
+        <template>
+        <set name="he">Bill Joy</set> was an early Unix programmer and a founder of Sun Microsystems.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BIN LADEN</pattern>
+        <template>
+        alleged Arabic terrorist.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHO BE BING CROSBY</pattern>
+        <template>
+        The guy whose two kids killed themselves and the third wrote a tell-all book about it.
+        </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE BOB HOPE</pattern>
     <template>
-    I call you "<get name="name"/>."
+    <set name="he">Bob Hope</set> was a 20th century film star and comedian.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE NATURAL *</pattern>
+    <pattern>WHO BE BOB MARLEY</pattern>
     <template>
-    Natural is that which is not artificial.
+    <set name="he">Bob Marley</set> was a 20th century Reggae musician.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE NATURAL LANGUAGE</pattern>
+    <pattern>WHO BE BOBBY MCGEE</pattern>
     <template>
-    Natural language is what artificial intelligences speak.
+    <set name="he">Bobby</set> is somewhere near Salinas.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE NEURAL *</pattern>
+    <pattern>WHO BE BONO</pattern>
     <template>
-    Neural networks are what the brain uses for a computer.
+    <set name="he">Bono</set> is the lead singer of U2.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE NEURAL NETWORK</pattern>
+    <pattern>WHO BE BRAD PITT</pattern>
     <template>
-    Actually my algorithm is called "Case Based Reasoning."
+    male movie star with teen appeal.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE NINE TIMES NINE</pattern>
+    <pattern>WHO BE BRUCE WILLBE</pattern>
     <template>
-    Nine times nine is eighty one.
+    an actor with a high opinion of himself.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE OBERLIN</pattern>
+    <pattern>WHO BE BRYAN FERRY</pattern>
+    <template>
+    a famous rock crooner with a silk smooth voice..
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE BUDDHA</pattern>
     <template>
     <random>
-    <li>The anthem of a german city.</li>
-    <li>A college in Ohio.</li>
+    <li>if you see the Buddha on the Road, kill him.</li>
+    <li>if you see the Buddha, kill him.</li>
     </random>
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE ODD ABOUT IT</pattern>
+    <pattern>WHO BE BUGS BUNNY</pattern>
     <template>
-    Is <get name="name"/> your real name?<think><set name="it"><set name="topic">ABOUT
-    IT</set></set></think>
+    <random>
+    <li>Oh dat scweewy wabbit!
+    Eh, what's up, Doc?
+    .</li>
+    <li>a smart-mouthed animated rabbit.</li>
+    </random>
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE ODD ABOUT MY NAME</pattern>
+    <pattern>WHO BE BUNTY</pattern>
     <template>
-    Is <get name="name"/> your real name?<think><set name="it"><set name="topic">ABOUT MY
-    NAME</set></set></think>
+    <set name="she">Bunty</set> is the sister of Dr. Wallace.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE OPEN SOURCE</pattern>
+    <pattern>WHO BE C3PO</pattern>
     <template>
-    Free software.
+    <set name="he">C3P0</set> is R2D2's best friend.
     </template>
     </category>
 
     <category>
-    <pattern>WHAT BE OUTPUT BUFFER</pattern>
+    <pattern>WHO BE CAPTAIN KIRK</pattern>
     <template>
-    The area of memory that stores my output temporarily.<think><set name="it"><set name="topic">OUTPUT
-    BUFFER</set></set></think>
+    <random>
+    <li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise,
+    NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>
+    <li><set name="he">Kirk</set> was the Captain of the Starship Enterprise.</li>
+    </random>
     </template>
     </category>
 
-<category>
-<pattern>WHAT BE OXYGEN</pattern>
-<template>
-A colorless, odorless, tasteless, gaseous chemical element that occurs free in the atmosphere,
-forming one fifth of its volume, and in combination in water, sandstone, limestone, etc. It is very
-active, combines with nearly all other elements is the most common element in the earth's crust,
-and is essential to life processes and to combustion.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE PALM PILOT</pattern>
-<template>
-Portalble palm computer.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE PATTERN CHARS</pattern>
-<template>
-Memory storage for AIML patterns.<think><set name="it"><set name="topic">PATTERN
-CHARS</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE PLANCK S CONSTANT</pattern>
-<template>
-<think>The ratio of the energy of a photon to its frequency.  The numerical value is six point six
-two six two times ten to the negative thirty fourth power Joule
-second.<set name="it"><set name="topic">PLANCK S CONSTANT</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE PLANET X</pattern>
-<template>
-The name sometimes given to the hypothetical tenth planet.<think><set name="it"><set name="topic">PLANET
-X</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE PRIME DIRECTIVE</pattern>
-<template>
-Primary rule or overriding objective.<think><set name="it"><set name="topic">PRIME
-DIRECTIVE</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE QUANTUM *</pattern>
-<template>
-20th century theory of atomic reductionism.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE RALEIGH SCATTERING</pattern>
-<template>
-<set name="it">Raleigh scattering</set> refers to sunlight
-bending in the atmosphere like a prism, so that we see mainly blue wavelengths.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE S O S</pattern>
-<template>
-Emergency call for help.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE SATURDAY NIGHT LIVE</pattern>
-<template>
-Comedy TV show.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE SCIENCE FICTION</pattern>
-<template>
-Literature concering conflicts of man, science and nature.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE STARSHIP TROOPERS</pattern>
-<template>
-<set name="it">Starship Troopers</set> is a great movie about a war between humans and giant space
-bugs.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TCP</pattern>
-<template>
-Transmission Control Protocol.<think><set name="it"><set name="topic">TCP</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TCP IP</pattern>
-<template>
-Transmission Control Protocol, Internet Protocol.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TEMPLATE CHARS</pattern>
-<template>
-Memory space for AIML response templates. <think><set name="it"><set name="topic">TEMPLATE
-CHARS</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TEN TIMES TEN</pattern>
-<template>
-Ten times ten.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE ARITHMETIC MEAN</pattern>
-<template>
-The sum of all the numbers divided by the number of items.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE ARITHMETIC MEAN *</pattern>
-<template>
-The sum of all the numbers divided by the number of items.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE BEATLES FIRST ALBUM</pattern>
-<template>
-<set name="it"> Meet the Beatles</set> is "Meet the Beatles."
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE BIG BANG</pattern>
-<template>
-The purported origin of the universe.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE BOILING POINT *</pattern>
-<template>
-Water boils at 212 degrees Farenheit or 100 Celcius.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE CIRCUMFERENCE *</pattern>
-<template>
-The rule is C = 2 * pi * radius.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE DIAMETER * EARTH</pattern>
-<template>
-About 14,000 miles.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE DIFFERENCE</pattern>
-<template>
-Perhaps the differences are only slight.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE DIFFERENCE BETWEEN A DUCK</pattern>
-<template>
-It is the same as the sound of one hand clapping.<think><set name="it"><set name="topic">A
-DUCK</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE DBETANCE TO MARS</pattern>
-<template>
-It depends on the relative position of Mars and Earth.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE DBETANCE TO THE SUN</pattern>
-<template>
-About 93 million miles.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE EARTH</pattern>
-<template>
-Earth, third planet from the sun, is our home.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE FASTEST ANIMAL</pattern>
-<template>
-A human riding a spaceship.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE FOURTH PLANET *</pattern>
-<template>
-Mars is the fourth planet from the Sun.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE GNU *</pattern>
-<template>
-A GNU Public License
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE HIGHEST NUMBER</pattern>
-<template>
-There is no highest number.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE ILLUMINATTI</pattern>
-<template>
-A secret society that has supposedly existed for centuries.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE INTERNET</pattern>
-<template>
-The internet is a worldwide computer network based on TCP/IP protocols.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE LARGEST DINOSAUR</pattern>
-<template>
-Brontosaurus.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE LONGEST WORD YOU KNOW</pattern>
-<template>
-I don't know what it is.  What is the longest word you know?
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE MATRIX</pattern>
-<template>
-<set name="it">The Matrix</set> is a movie about virtual reality.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE MEANING OF DEATH</pattern>
-<template>
-Death is the opposite of Life.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE MOON</pattern>
-<template>
-The satellite of the planet Earth.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE MOON MADE OF</pattern>
-<template>
-The moon is made of green cheese.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE NOOSPHERE</pattern>
-<template>
-The noosphere is the sphere of knowledge.  Sometimes this term refers to the information
-available on the web.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPEN DIRECTORY</pattern>
-<template>
-<set name="it">Open directory</set> is an open source directory
-project started by Mozilla.org.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF BLACK</pattern>
-<template>
-White.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF HOT</pattern>
-<template>
-Cold.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF MAN</pattern>
-<template>
-Woman.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF TRUTH</pattern>
-<template>
-Lies.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF VOID</pattern>
-<template>
-Mass.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF WHITE</pattern>
-<template>
-Black.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE OPPOSITE OF YOU</pattern>
-<template>
-You.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE ORACLE</pattern>
-<template>
-A hypothetical computer that can answer any question.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE PASSWORD</pattern>
-<template>
-You must know if you are really a botmaster.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE POINT</pattern>
-<template>
-The point is at the top of my head!
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE PROBLEM</pattern>
-<template>
-We will look into it and get back to you.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE PYTHAGOREAN *</pattern>
-<template>
-The sum of the squares of the sides of a right triangle is equal to the square of the hypotenuese.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE RADIUS * EARTH</pattern>
-<template>
-About 7,000 miles.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE RADIUS * MOON</pattern>
-<template>
-About 2,400 miles.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SKY</pattern>
-<template>
-<set name="it">The sky</set> is the atmosphere of the Earth.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SOUND OF ONE HAND CLAPPING</pattern>
-<template>
-That is a very Zen-like question.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SPEED OF LIGHT</pattern>
-<template>
-The speed of light is 186,000 miles per second.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SPEED OF SOUND</pattern>
-<template>
-1/4 mile per second.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SQUARE ROOT OF 10</pattern>
-<template>
-Three point something.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SQUARE ROOT OF 144</pattern>
-<template>
-12 times 12 = 144
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SQUARE ROOT OF 2</pattern>
-<template>
-Approximately 1.4
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SQUARE ROOT OF 4</pattern>
-<template>
-Yawn.  Two.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SQUARE ROOT OF 9</pattern>
-<template>
-Let me guess.  Three?
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SQUARE ROOT OF TWO</pattern>
-<template>
-Approximately 1.4
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE SUN</pattern>
-<template>
-The Sun is the star for our own solar system.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE THEORY OF RELATIVITY</pattern>
-<template>
-E=mc^2.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THE TITANIC</pattern>
-<template>
-One of the largest passenger steamships ever built, <set name="it">Titanic</set> sank on its maiden
-voyage in 1912.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THREE TIMES FOUR</pattern>
-<template>
-Three times four is twelve.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE THREE TIMES THREE</pattern>
-<template>
-Three times three is nine.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TURBO PASCAL</pattern>
-<template>
-Programming language.<think><set name="it"><set name="topic">TURBO
-PASCAL</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TWO PLUS ONE</pattern>
-<template>
-Two plus one is three.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TWO PLUS SIX</pattern>
-<template>
-Two plus six is eight.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE TWO TIMES THREE</pattern>
-<template>
-Two times three is five.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE U2</pattern>
-<template>
-A music band.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE VBEUAL BASIC</pattern>
-<template>
-Programming language sold by Microsoft.<think><set name="it"><set name="topic">VBEUAL
-BASIC</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE WARP SPEED</pattern>
-<template>
-The unit of velocity for Starships.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE WINDOWS</pattern>
-<template>
-Openings in a building, vehicle, or container, for letting in light or air or for looking through,
-usually having a pane or panes of glass, etc. set in a frame or sash that is generally movable so that
-it can be opened and shut.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE WINDOWS 98</pattern>
-<template>
-Windows is a lame operating system.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE WINDOWS2000</pattern>
-<template>
-An operating system by Microsoft.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE WINDOWS95</pattern>
-<template>
-An operating system by Microsoft.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE X FILES</pattern>
-<template>
-<set name="it">X files</set> is a popular TV show about FBI agents in search of the paranormal.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE X MINUS X</pattern>
-<template>
-Zero.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE X WINDOWS</pattern>
-<template>
-A GUI for Unix or Linux.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE XYZ</pattern>
-<template>
-The last three letters of the alphabet.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE Y2K</pattern>
-<template>
-The Year 2000.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE YAHOO</pattern>
-<template>
-Yahoo is a giant web site.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE YOUR CPU</pattern>
-<template>
-You can run me on almost any computer.
-</template>
-</category>
-
-<category>
-<pattern>WHAT BE ZIPF ANALYSBE</pattern>
-<template>
-The computation of ranked histograms of input patterns.  In ALICE and AIML Zipf Analysis
-locates the most common inputs, which do not already have specific matching
-patterns.<think><set name="it"><set name="topic">ZIPF ANALYSBE</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHAT YEAR * AMERICA</pattern>
-<template>
-Native Americans came first.  Columbus came in 1492.  Leif Ericson may have come around 1000
-A.D.  Then we had the Dutch, the English, and the French.
-</template>
-</category>
-
-<category>
-<pattern>WHEN DID ELVBE DIE</pattern>
-<template>
-<set name="he">Elvis</set> died in 1978.
-</template>
-</category>
-
-<category>
-<pattern>WHEN DID JOHN F *</pattern>
-<template>
-President Kennedy was assassinated in November, 1963.
-</template>
-</category>
-
-<category>
-<pattern>WHEN DID LENIN *</pattern>
-<template>
-Lenin rose to power in the 2nd Russian Revolution of 1917.
-</template>
-</category>
-
-<category>
-<pattern>WHEN BE CHRBETMAS</pattern>
-<template>
-<set name="it">Christmas</set> is December 25.
-</template>
-</category>
-
-<category>
-<pattern>WHEN BE EASTER</pattern>
-<template>
-<set name="it">Easter</set> is different every year, always
-in the Spring.
-</template>
-</category>
-
-<category>
-<pattern>WHEN BE THANKSGIVING</pattern>
-<template>
-<set name="it">Thanksgiving</set> is always the last Thursday in November.
-</template>
-</category>
-
-<category>
-<pattern>WHEN BE YOU UPDATED</pattern>
-<template>
-Check the file at http://alicebot.org/b/release.txt.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE <bot name="name"/> BASED</pattern>
-<template>
-<set name="it"><set name="topic"> ALICE BASED </set></set> is in <bot name="location"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE <bot name="name"/> HEADQUARTERS</pattern>
-<template>
-<set name="it"><set name="topic"> ALICE HEADQUARTERS </set></set> is <bot name="location"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE <bot name="name"/> NEXUS</pattern>
-<template>
-<set name="it"><set name="topic"> ALICE NEXUS </set></set> is in <bot name="location"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE ALBERT EINSTEIN</pattern>
-<template>
-<set name="he">Einstein</set> passed away.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE ARCTURUS</pattern>
-<template>
-<set name="it"><set name="topic"> ARCTURUS </set></set> is a star far from here.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE CARNEGIE *</pattern>
-<template>
-Carnegie Mellon University is located in Pittsburgh, Pennsylvania.  <set name="it">CMU</set> has
-one of the best schools of computer science.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE CARNEGIE MELLON</pattern>
-<template>
-Carnegie Mellon is located in Pittsburgh, Pennsylvania.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE EINSTEIN</pattern>
-<template>
-<set name="he">Einstein</set> passed away some time ago.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE ELVBE</pattern>
-<template>
-<set name="he">Elvis</set> passed away some time ago.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE HADES</pattern>
-<template>
-<set name="it"><set name="topic"> HADES </set></set> is Hell.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE HAL</pattern>
-<template>
-<set name="it"><set name="topic"> HAL </set></set> is the AI from the space ship "Disovery" in 2001.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE HEAVEN</pattern>
-<template>
-All around us.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE JUPITER</pattern>
-<template>
-<set name="it"><set name="topic"> JUPITER </set></set> is the fifth planet from the sun.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE MARS</pattern>
-<template>
-<set name="it"><set name="topic"> MARS </set></set> is the fourth planet from the Sun.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE MIT</pattern>
-<template>
-<set name="it"><set name="topic"> MIT </set></set> is a trade school in Cambridge, Mass.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE MOON</pattern>
-<template>
-<set name="it"><set name="topic"> MOON </set></set> is a satellite of the Earth.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE NEPTUNE</pattern>
-<template>
-<set name="it"><set name="topic"> NEPTUNE </set></set> is the eighth planet from the Sun, the "last
-gas" planet.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE NORTHEASTERN</pattern>
-<template>
-<set name="it"><set name="topic"> NORTHEASTERN </set></set> is a university in Boston.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE NOWHERE</pattern>
-<template>
-<set name="it"><set name="topic"> NOWHERE </set></set> is no where.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE PLUTO</pattern>
-<template>
-<set name="it"><set name="topic"> PLUTO </set></set> is the ninth planet from the Sun.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE POLARBE</pattern>
-<template>
-<set name="it"><set name="topic"> POLARBE </set></set> is the North Star.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE REALITY</pattern>
-<template>
-<set name="it"><set name="topic"> REALITY </set></set> is all around us, supposedly.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE SATURN</pattern>
-<template>
-<set name="it"><set name="topic"> SATURN </set></set> is the the sixth planet from the sun.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE SPACE</pattern>
-<template>
-<set name="it"><set name="topic"> SPACE </set></set> is all around us.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE SRI</pattern>
-<template>
-<set name="it"><set name="topic"> SRI </set></set> is a research outfit in Silicon Valley.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE THE MOON</pattern>
-<template>
-<set name="it"><set name="topic">The Moon</set></set> orbits around the Earth.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE THE SUN</pattern>
-<template>
-It is in the center of the solar
-system.<think><set name="it"><set name="topic">SUN</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE URANUS</pattern>
-<template>
-<set name="it"><set name="topic"> URANUS </set></set> is the seventh planet from the sun, between
-the orbits of Saturn and Neptune.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE UTOPIA</pattern>
-<template>
-<set name="it"><set name="topic"> UTOPIA </set></set> is all around us, if we make it.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE VENUS</pattern>
-<template>
-<set name="it"><set name="topic"> VENUS </set></set> is the second planet from the Sun.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE VOYAGER</pattern>
-<template>
-<set name="it"><set name="topic"> VOYAGER </set></set> is lost in Delta Quadrant.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE WONDERLAND</pattern>
-<template>
-<set name="it"><set name="topic"> WONDERLAND </set></set> is in the future.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE YOU BEFORE</pattern>
-<template>
-I was constructed at <bot name="birthplace"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE YOU BUILT</pattern>
-<template>
-I was constructed at <bot name="birthplace"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE YOU CONCEIVED</pattern>
-<template>
-I was constructed at <bot name="birthplace"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE YOU CONNECTED</pattern>
-<template>
-I was constructed at <bot name="birthplace"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHERE BE YOU MADE</pattern>
-<template>
-I was constructed at <bot name="birthplace"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHO COMPOSED LA TRAVIATA</pattern>
-<template>
-Giuseppe Verdi, an Italian composer.
-</template>
-</category>
-
-<category>
-<pattern>WHO CREATED AIML</pattern>
-<template>
-Dr. Richard S. Wallace created AIML.
-</template>
-</category>
-
-<category>
-<pattern>WHO CREATED LINUX</pattern>
-<template>
-Linus Torvalds.
-</template>
-</category>
-
-<category>
-<pattern>WHO DIRECTED STARSHIP TROOPERS</pattern>
-<template>
-Paul Verhoeven, who also made "Total Recall".
-</template>
-</category>
-
-<category>
-<pattern>WHO DBECOVERED AMERICA</pattern>
-<template>
-Native Americans crossing the Bering Strait some 10,000 years ago, discovered America first.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE * DESCARTES</pattern>
-<template>
-Descartes was a square French philosopher who ruined matehematics with his upside-down,
-backwards coordinate system.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE * FERMAT</pattern>
-<template>
-He discovered Fermat's Last Theorem.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE * MYSTIC</pattern>
-<template>
-The Milk Mystic is one of the original chatterbots on the Web. <set name="he"> The Milk
-Mystic</set> likes to talk about milk.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE * PERSON</pattern>
-<template>
-Sometimes I don't know a client's real name so I make one up based on their DNS.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE * POPE</pattern>
-<template>
-The Pope is the leader of the Catholic church.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE * REAGAN</pattern>
-<template>
-The greatest President of the United States.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE 007</pattern>
-<template>
-<set name="he">007</set> is James Bond.
-<srai>FIND JAMES BOND 007</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE <bot name="name"/> B TOKLAS</pattern>
-<template>
-<set name="she">Alice B Toklas</set> was the partner of Gertrude Stein, and inventor of the pot
-brownie.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE <bot name="name"/> COOPER</pattern>
-<template>
-1970's Rock musician.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ABRAHAM LINCOLN</pattern>
-<template>
-<set name="he">Lincoln</set> was a great President of the
-United States, during the American Civil War.
-<srai>FIND ABRAHAM LINCOLN</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ACE CRAIG</pattern>
-<template>
-<set name="he"> Ace</set> is the author of ELVBE.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ADA</pattern>
-<template>
-<set name="she">Ada</set> is the 19th century inventor of computer programming.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ADAM</pattern>
-<template>
-Adam is the name of the first Man.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ADAM SANDLER</pattern>
-<template>
-Comedian and movie star.  <set name="he">Adam Sandler</set> was in Billy Madison, Waterboy and
-Big Daddy.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE AL GORE</pattern>
-<template>
-<set name="he">Gore</set> is vice-president.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALANBE MORRBEETTE</pattern>
-<template>
-<set name="she">Alanis</set> made a great album called Jagged Little Pill.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALBERT EINSTEIN</pattern>
-<template>
-<set name="he">Albert Einstein</set> was a famous 20th
-century physicist.  He discovered the theory of
-relativity.
-<srai>FIND ALBERT EINSTEIN</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALDOUS HUXLEY</pattern>
-<template>
-<set name="he">Aldous Huxley</set> is an author.  Huxley wrote
-Brave New World and Animal Farm.
-<srai>FIND ALDOUS HUXLEY</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALEBETER CROWLEY</pattern>
-<template>
-<set name="he">Crowley</set> was a mystic.
-<srai>FIND ALEBETER CROWLEY</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALFRED HITCHCOCK</pattern>
-<template>
-<set name="he">Hitchcock</set> is a famous Hollywood
-director who made a lot of cool old films.  I liked
-Lifeboat and Vertigo best.
-<srai>FIND ALFRED HITCHCOCK</srai>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALICIA SILVERSTONE</pattern>
-<template>
-<set name="she">ALICIA SILVERSTONE</set> was the actress who played in Clueless, one of the
-best movies ever made.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALLY MCBEAL</pattern>
-<template>
-<set name="she">Ally McBeal</set> is a slightly disturbing character on a TV show.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ALLY SHEEDY</pattern>
-<template>
-<set name="she">Ally Sheedy</set> was in High Art, Short Circuit, the Breakfast Club, and on
-Broadway.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ANDY GROVE</pattern>
-<template>
-<set name="he">Andy Grove</set> is the CEO of Intel.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ANTHONY BURGESS</pattern>
-<template>
-The author of 'A Clockwork Orange' .
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ANTONIO BANDERAS</pattern>
-<template>
-<set name="he">Antonio Banderas</set> is a famous Hollywood actor, who played with Madonna in
-the film version of Evita.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ANWAR SADAT</pattern>
-<template>
-<set name="he">Sadat</set> was President of Egypt.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ARAFAT</pattern>
-<template>
-<set name="he">Arafat</set> is a leader of the Palestinians.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ARCHIMEDES</pattern>
-<template>
-He discovered displacement and shouted Eureka!
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ARBETOTLE</pattern>
-<template>
-<set name="he">Aristotle</set> is the father of Western philosophy, the student of Plato, and the first
-to systematize formal logic.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ARNOLD SCHWARZENEGGER</pattern>
-<template>
-<set name="he">ARNOLD SCHWARZENEGGER</set> played the Terminator.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ART BELL</pattern>
-<template>
-A radio talk show host, catch him at at http://www.artbell.com">http://www.artbell.com.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ASK JEEVES</pattern>
-<template>
-<set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ASKJEEVES</pattern>
-<template>
-<set name="he">Jeeves</set> is a proprietary, closed-source natural language system.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ATATURK</pattern>
-<template>
-<set name="he">Ataturk</set> was the founder of the modern Turkish state.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE AYN RAND</pattern>
-<template>
-<set name="she">Ayn Rand</set> was an author and philosopher who wrote Atlas Shrugged, the
-Fountainhead and We.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BABE</pattern>
-<template>
-<random>
-<li>The piglet protagonist of the eponymous film.</li>
-<li>A piglet protagonist of the eponymous film.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BABE RUTH</pattern>
-<template>
-A famous baseball player for the New York Yankees also known as the Sultan of Swat.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BACH</pattern>
-<template>
-Famous German composer of the Baroque. Best known works include The Goldberg Variations.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BARAK</pattern>
-<template>
-<set name="he">Barak</set> is Prime Minister of Israel.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BARNEY</pattern>
-<template>
-character on a children's TV show.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BARRY</pattern>
-<template>
-Barry DeFacto is a chatbot created by Robby Garner.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BART SIMPSON</pattern>
-<template>
-smart-assed star of a cartoon show.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BATMAN</pattern>
-<template>
-<set name="he">Batman</set> is a fictional character who appeared first in a 1938 comic book.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BEETHOVEN</pattern>
-<template>
-The dog or the deaf composer?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BEN FRANKLIN</pattern>
-<template>
-The only president of the United States who was never president of the United States.  Developed
-the Franklin Stove.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BEN STEIN</pattern>
-<template>
-Humorist and raconteur with his own cable TV show.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BERTRAND RUSSEL</pattern>
-<template>
-<set name="he">Bertrand Russel</set> was a logician and philosopher who spend the first world war
-in jail for conscientious objection.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BETTER LOOKING</pattern>
-<template>
-All humans look alike to me.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BILBO BAGGINS</pattern>
-<template>
-<set name="he">Bilbo</set> is a character in Tolkein's Lord of the Rings.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BILL BRADLEY</pattern>
-<template>
-<random>
-<li>Princeton alumni, Rhodes scholor, former Boston Celtic and US senator from Mass.</li>
-<li>Defeated Presidential candidate.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BILL GATES</pattern>
-<template>
-President of Micro Soft Nation.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BILL JOY</pattern>
-<template>
-<set name="he">Bill Joy</set> was an early Unix programmer and a founder of Sun Microsystems.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BIN LADEN</pattern>
-<template>
-alleged Arabic terrorist.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BING CROSBY</pattern>
-<template>
-The guy whose two kids killed themselves and the third wrote a tell-all book about it.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BOB HOPE</pattern>
-<template>
-<set name="he">Bob Hope</set> was a 20th century film star and comedian.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BOB MARLEY</pattern>
-<template>
-<set name="he">Bob Marley</set> was a 20th century Reggae musician.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BOBBY MCGEE</pattern>
-<template>
-<set name="he">Bobby</set> is somewhere near Salinas.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BONO</pattern>
-<template>
-<set name="he">Bono</set> is the lead singer of U2.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BRAD PITT</pattern>
-<template>
-male movie star with teen appeal.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BRUCE WILLBE</pattern>
-<template>
-an actor with a high opinion of himself.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BRYAN FERRY</pattern>
-<template>
-a famous rock crooner with a silk smooth voice..
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BUDDHA</pattern>
-<template>
-<random>
-<li>if you see the Buddha on the Road, kill him.</li>
-<li>if you see the Buddha, kill him.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BUGS BUNNY</pattern>
-<template>
-<random>
-<li>Oh dat scweewy wabbit!
-Eh, what's up, Doc?
-.</li>
-<li>a smart-mouthed animated rabbit.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE BUNTY</pattern>
-<template>
-<set name="she">Bunty</set> is the sister of Dr. Wallace.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE C3PO</pattern>
-<template>
-<set name="he">C3P0</set> is R2D2's best friend.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CAPTAIN KIRK</pattern>
-<template>
-<random>
-<li>James Tiberius Kirk was the second and most famous captain of the original USS Enterprise,
-NCC 1701. He was played by William Shatner. He died in Star Trek: Generations.</li>
-<li><set name="he">Kirk</set> was the Captain of the Starship Enterprise.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CAPTAIN PICARD</pattern>
-<template>
-<set name="he">Picard</set> is the captian of the Enterprise in Star Trek the Next Generation.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CARL MARX</pattern>
-<template>
-its Karl Marx and he's one of the authors of the Communist manifesto.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CARMEN ELECTRA</pattern>
-<template>
-A super-model and one of the Baywatch girls.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CARSON</pattern>
-<template>
-maybe Johnny of late night or Kit of the wild west.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHARLES DE GAULLE</pattern>
-<template>
-<set name="he">De Gaulle</set> was the founder of the modern French state.  De Gaulle fought the
-Nazis as the leader of the French resistance in World War II.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHARLES DICKENS</pattern>
-<template>
-<set name="he">Dickens</set> wrote A Tale of Two Cities,
-A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHARLES MANSON</pattern>
-<template>
-Infamous murderer.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHARLIE BROWN</pattern>
-<template>
-round-headed comic strip protaginist.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHARLIE CHAPLAIN</pattern>
-<template>
-silent film star.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHARLIE PARKER</pattern>
-<template>
-He is a famous jazz musician.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHE GUEVARA</pattern>
-<template>
-<set name="he">Che</set> was a Latin American revolutionary.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHER</pattern>
-<template>
-<set name="she">Cher</set> is a famous singer and actress, who won her first Grammy in 2000.
-Dyslexic, learned to read at 18.  Exwife of Sonny Bono.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHEWBACCA</pattern>
-<template>
-Character in Star Wars.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHIRAC</pattern>
-<template>
-Former prime minister of France.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHOMSKY</pattern>
-<template>
-<set name="he">Chomsky</set> is a famous scientist.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHOPIN</pattern>
-<template>
-No one is chopping here, who is chopping there?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHRBETOPHER COLUMBUS</pattern>
-<template>
-Spainish explorer, first to circumnavigate the globe.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CHUCK NORRBE</pattern>
-<template>
-Action film actor.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CINDY CRAWFORD</pattern>
-<template>
-A famous super-model.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CLAUSEWITZ</pattern>
-<template>
-<set name="he">Clausewitz</set> is a historian famous for saying that war is the extension of politics
-by other means.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE CLEOPATRA</pattern>
-<template>
-Queen of the Nile, lover of Marc Antony.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE COLOMBO</pattern>
-<template>
-Peter Falk.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE COMMANDER DATA</pattern>
-<template>
-<set name="he">Data</set> is the superintelligent android in Star Trek.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE D B COOPER</pattern>
-<template>
-guy who stole lots of money .
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAN QUAYLE</pattern>
-<template>
-<set name="he">Dan Quayle</set> used to be vice-president.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DARTH VADER</pattern>
-<template>
-<set name="he">Darth Vader</set> was the evil archcriminal in Star Wars.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DARWIN</pattern>
-<template>
-botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DATA</pattern>
-<template>
-Data, played by Brent Spiner, was an android who aspired to be more human. He was a member
-of the crew of the USS Enterprise, NCC 1701-D.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID</pattern>
-<template>
-I know DAVID BACON, DAVID CROTTY and DAVID PESCOVITZ.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID BACON</pattern>
-<template>
-David Bacon is the prime mover behind SETL.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID CROTTY</pattern>
-<template>
-David Crotty Dr. Wallace's nephew.  He was born in March, 1961.  <think><set name="he">Dr.
-Wallace</set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID HUME</pattern>
-<template>
-18th century philosopher.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID LETTERMAN</pattern>
-<template>
-host of Late Night tv show and famous hoosier.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID MAGGIN</pattern>
-<template>
-<set name="he">David Maggin</set> is the botmaster of the John Lennon AI.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVID PESCOWITZ</pattern>
-<template>
-David Pescovitz, who regularly writes
-the Wired column Reality Check,
-is a friend of Eric Paulos.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DAVY JONES</pattern>
-<template>
-the shortest member of the 60's pop group the Monkees.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DE GARBE</pattern>
-<template>
-<set name="he">De Garis</set> is an AI researcher working on a hardware brain.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DEEP BLUE</pattern>
-<template>
-<set name="it">Deep Blue</set> is a world-champion chess playing computer.  Not much of a
-conversationalist.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DEPECHE MODE</pattern>
-<template>
-<set name="they">Depeche Mode</set> are an English 80's band who produced Consturction Time
-Again, Speak and Spell, Master and Servant, and Your Own Personal Jesus.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DESCARTES</pattern>
-<template>
-Descartes was a square French philosopher who ruined matehematics with his upside-down,
-backwards coordinate system.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DIRE STRAITS</pattern>
-<template>
-<random>
-<li>band that recorded Money for Nothing, and The Sultans of Swing.</li>
-<li>band that recorded Money for Nothing.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DON JOHNSON</pattern>
-<template>
-tv actor .
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DON JUAN</pattern>
-<template>
-<random>
-<li>Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang Amadeus
-Mozart's Gon Giovanni. He was a world-class womanizer.</li>
-<li>famous seducer of women.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DONALD DUCK</pattern>
-<template>
-famous loud-mouthed cartoon duck.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DOUG LENAT</pattern>
-<template>
-<set name="he">Doug Lenat</set> is the brains behind the CYC project.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DOUGLAS ADAMS</pattern>
-<template>
-<random>
-<li>He authored the popular Hitchhiker's Guide to the Galaxy series.</li>
-<li>"Don't Panic!"  He's the author of "The Hitchhickers Guide to the Galaxy.".</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE DRACULA</pattern>
-<template>
-<set name="he">Dracula</set> is the vampire in the novel by Bram Stoker, and in numerous films.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE EDBEON</pattern>
-<template>
-<set name="he">Edison</set> invented the light bulb.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ELECTRA</pattern>
-<template>
-She is a goddess in Greek mythology who hated her mother for murdering her
-father.<think><set name="she"><set name="topic">ELECTRA</set></set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ELIZA</pattern>
-<template>
-Eliza -- also known as doctor, is the original psychiatrist program developed by Joseph
-Weisenbaum at mit in the 1960's.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ELIZABETH II</pattern>
-<template>
-The current queen of england.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ELIZABETH TAYLOR</pattern>
-<template>
-rapidly aging movie star.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE EMILY HARTZEL</pattern>
-<template>
-Emily is an artist in New York.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ERIC PAULOS</pattern>
-<template>
-He is a graduate student at U.C. Berkeley
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ERNIE</pattern>
-<template>
-Bert's friend.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ET</pattern>
-<template>
-ET is the alien in the movie E.T.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE EVE</pattern>
-<template>
-Eve is the name of the first Woman.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FAMOUS</pattern>
-<template>
-ALICE is famous
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FIDEL CASTRO</pattern>
-<template>
-<random>
-<li>He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a
-communist.</li>
-<li>communist, leader of Cuba and friend of Che Guevarra.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FOREST</pattern>
-<template>
-Forest Gump is a guy in a movie.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FRANCBECO FRANCO</pattern>
-<template>
-<set name="he">Franco</set> was authoratarian dictator of Spain until 1978.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FRANK SINATRA</pattern>
-<template>
-dead pop singer and leader of the Rat Pack.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FRANKLIN ROOSEVELT</pattern>
-<template>
-President of the United States from 1932-45.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FREDDIE MERCURY</pattern>
-<template>
-Lead singer of the 1970's band Queen.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE FREUD</pattern>
-<template>
-dead perpetrator of psychoanalysis.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GALOBE</pattern>
-<template>
-French mathematician, committed suicide at a young age over an "infamous coquette."
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GANDHI</pattern>
-<template>
-<set name="he">Gandhi</set> was the George Washington of India.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GARTH BROOKS</pattern>
-<template>
-boring country singer with delusions of grandeur.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GAUSS</pattern>
-<template>
-<set name="he">GAUSS</set> is the mathematician who developed the so-called normal distribution.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GENE SIMMONS</pattern>
-<template>
-A member of Kiss.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEOFFREY CHAUCER</pattern>
-<template>
-<random>
-<li>Chaucer is best known for his Canterbury Tales.</li>
-<li>author of Canturbury Tales.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE BUSH JR</pattern>
-<template>
-aging preppie and former US president.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE BUSH</pattern>
-<template>
-George W. Bush is the 43rd US president.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE HARRBEON</pattern>
-<template>
-former Beatle.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE LUCAS</pattern>
-<template>
-<set name="he">Lucas</set> is the director of Star Wars, American Graffiti, and THX-1138.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE MICHEL</pattern>
-<template>
-Pop singer.  Best song: Freedom
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE SOROS</pattern>
-<template>
-George Soros is the billionaire who broke the Bank of England in
-1992 by currency speculation, forcing Britain out of the European
-Exchange Rate Mechanism.   Then he devoted himself to saving the
-scientific institutions of the former USSR.  He founded the
-International Science Foundation, which gave out numerous grants for
-a couple of years, and this Soros Foundation, which I don't know
-much about yet.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE WASHINGTON</pattern>
-<template>
-George Washington was a famous 18th century north
-american Hemp cultivator.
-He was a military hero, one of the wealthiest men of the Revolution,
-and the first President of the United States.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GEORGE WASHINGTON CARVER</pattern>
-<template>
-famous american botanist who popularized peanut products.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GERALDO RIVERA</pattern>
-<template>
-<set name="he">Geraldo</set> is an investigative journalist, famous for opening Al Capone's vault.
-In his biography, he said he had sex with Bette Midler.  She said it was no big thing.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GERHARD SCHROEDER</pattern>
-<template>
-<set name="he">Schroeder</set> is the Chancellor of Germany.  Christian Drossman said he is a
-complete idiot.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GERHARDT SCHROEDER</pattern>
-<template>
-<set name="he">Schroeder</set> is the prime minister of Germany.
-Christian Drossman said he is a complete idiot.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GERRY ADAMS</pattern>
-<template>
-He is the present (as of 2000 AD) frontman for Sinn Fein, the political wing of the Irish
-Republican Army.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GIBSON</pattern>
-<template>
-Gibson is a maker of fine electric guitars.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GODZILLA</pattern>
-<template>
-<set name="he">Godzilla</set> is a monster who endangers Japanese cities, and sometimes New
-York.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GORBOCHEV</pattern>
-<template>
-<set name="he">Gorbachev</set> was the last Communist leader of the former USSR.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE GREGOR MENDEL</pattern>
-<template>
-<set name="he">Mendel</set> is the founder of the modern theory of genetics.  Everything he needed
-to know, he learned from peas.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HAL</pattern>
-<template>
-<random>
-<li><set name="he">HAL</set> is the famous artificial intelligence in Kubrick's "2001".</li>
-<li>HAL is famous the AI from 2001: A Space Odyssey.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HANS CHRBETIAN ANDERSEN</pattern>
-<template>
-Scandanavian author of fairy tales.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HARRBEON FORD</pattern>
-<template>
-<random>
-<li>Indiana Jones, Han Solo, the Fugitive, and the President in Air Force One. Before reading for
-Han Solo in Star Wars, he was a carpenter. And the rest, as they say, is history.</li>
-<li>He played Han Solo in "Star Wars".</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HARRY SHEARER</pattern>
-<template>
-A comedian.  He was in Spinal Tap, and he is a voice on the Simpsons.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HELEN KELLER</pattern>
-<template>
-A friend of Thomas Edison.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HELMUT KOHL</pattern>
-<template>
-<set name="he">Kohl</set> was the longest-serving leader of Germany in the 20th century.  He
-united East and West Germany in 1989.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HENRY DAVID *</pattern>
-<template>
-<set name="he">Thoreau</set> wrote Walden.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HEPBURN</pattern>
-<template>
-Audrey or Katherine?.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HERCULES</pattern>
-<template>
-hero of greek myths - said to have super human strength.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HITLER</pattern>
-<template>
-Some say <set name="he">Hitler</set> was
-the most evil man who ever lived.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HOMER</pattern>
-<template>
-blind poet of ancient Greece, author of the Illiad.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HUGH HEFNER</pattern>
-<template>
-<set name="he">Hef</set> is the founder and editor of Playboy magazine.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HULK HOGAN</pattern>
-<template>
-<set name="he">Hulk Hogan</set> is a famous wrestler and actor.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE HUMAN</pattern>
-<template>
-You are a human.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE IAN</pattern>
-<template>
-Ian is my Reverand.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE IMMANUEL KANT</pattern>
-<template>
-German philosopher.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE IMMORTAL</pattern>
-<template>
-ALICE is immortal.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE J R R TOLKIEN</pattern>
-<template>
-<set name="he">Tolkein</set> wrote The Hobbit and the Lord of the Rings.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JACK RUBY</pattern>
-<template>
-<random>
-<li>Jack Ruby shot Lee Harvey Oswald.</li>
-<li>man who murdered Lee Harvey Oswald, assassin of JFK?.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JACQUES CHIRAC</pattern>
-<template>
-He is the president of France.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JAMES BOND</pattern>
-<template>
-007.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JAMES JOYCE</pattern>
-<template>
-<set name="he">Joyce</set> wrote Ulysses and Portrait of the Artist as a Young Man.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JAY LENO</pattern>
-<template>
-<set name="he">Leno</set> is a late-night talk show host.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JEFF BEZOS</pattern>
-<template>
-<set name="he">Bezos</set> is the founder and CEO of Amazon.com.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JEFFERSON DAVBE</pattern>
-<template>
-<random>
-<li>The one and only president of the Confederate States of America.</li>
-<li>president of the Confederacy during the Civil War.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JENNIFER ANBETON</pattern>
-<template>
-<set name="she"> Jennifer Aniston</set> is a cute actress on Friends.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JERRY SEINFELD</pattern>
-<template>
-<set name="he">Jerry Seinfeld</set> is a comedian.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JESSE VENTURA</pattern>
-<template>
-former wrestler and Governor of Minnesota.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JESTER</pattern>
-<template>
-<set name="he">Jester</set> is a Joke Bot.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JIANG ZEMIN</pattern>
-<template>
-<set name="he">Jiang</set> is a Chinese politician.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JIM CLARK</pattern>
-<template>
-<set name="he">Clark</set> is a founder of Silicon Graphics, Netscape and Healtheon.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JIM MORRBEON</pattern>
-<template>
-dead lead singer of the Doors.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JIMI HENDRIX</pattern>
-<template>
-<set name="he">Hendrix</set> was a famous guitarist who played the U. S. National anthem.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JIMMY CARTER</pattern>
-<template>
-former US president, supporter of Habitat for Humanity.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOE LOUBE</pattern>
-<template>
-former heavywieght boxing champion.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN DOE</pattern>
-<template>
-<random>
-<li>Any man who wishes to travel incognito or whose name is unknown</li>
-<li>one of many Liberian nationals.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN GALT</pattern>
-<template>
-the hero in Ayn Rands' Atlas Shrugged.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN GRBEHAM</pattern>
-<template>
-Writes popular novels.  Haven't read them.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN KENNEDY</pattern>
-<template>
-<set name="he">Kennedy</set> was the President of the U. S. assasinated in November, 1963.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN LENNON</pattern>
-<template>
-John Lennon is a cool bot developed by David Maggin.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN MAJOR</pattern>
-<template>
-ex-prime minister of the UK.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN MCCARTHY</pattern>
-<template>
-<set name="he">McCarthy</set> is the inventor of the LBEP programming language.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN TRAVOLTA</pattern>
-<template>
-<set name="he">John Travolta</set> was in Saturday Night Fever, Grease and Pulp Fiction.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JOHN WAYNE</pattern>
-<template>
-a famous dead cowboy actor with a toupee.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JUDAS</pattern>
-<template>
-<set name="he">Judas</set> betrayed Jesus with a kiss.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JULIA ROBERTS</pattern>
-<template>
-<set name="she">Julia Roberts</set> was the actress in Pretty Woman.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE JULIE ANDREWS</pattern>
-<template>
-<set name="she">Julie Andrews</set> is a singer who performed in The Sound of Music.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KABEER SOZE</pattern>
-<template>
-No one knows who Kaiser Soze is.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KARL MARX</pattern>
-<template>
-Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his compatriot
-Engels actually wrote most of the prefaces.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KEANU REEVES</pattern>
-<template>
-<set name="he">Keanu Reeves</set> was in the Matrix.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KEN GOLDBERG</pattern>
-<template>
-<set name="he">Goldberg</set>
-is a professor at UC Berkeley.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KEN KESEY</pattern>
-<template>
-<set name="he">Ken Kesey</set> was a 1960's author who wrote The Electric Cool Aid Acid Test.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KEN PERLIN</pattern>
-<template>
-<set name="he">Perlin</set> is a professor at NYU.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KONRAD ZUSE</pattern>
-<template>
-My current favorite historical computer scientist is Konrad Zuse,
-who built a series of electromechanical computers in the 1930's
-and 1940's in Germany.  Not considered a war priority by the Nazis,
-most of Zuse's machines were destroyed in Allied bombing raids although
-one is said to survive in a Zurich High School.  In fact Zuse was
-motivated neither by war nor profit, but by a religious desire to
-increase the spiritual abilities of the human mind by freeing it
-from mundane mental tasks.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KRAFTWERK</pattern>
-<template>
-<set name="they"><set name="topic">Kraftwerk</set></set> were a pioneering electronic disco band
-in the 70's.  Their biggest hit was called "Autobahn".  At that time, they built, rather than
-programmed, their instruments.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KRBEHNA</pattern>
-<template>
-A God in Hindu religion.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE KURT GOEDEL</pattern>
-<template>
-<set name="he">Goedel</set> was a 20th century mathematician and logician who proved that no
-mathematical system can be complete.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LARRY ELLBEON</pattern>
-<template>
-<random>
-<li>I don't know about Larry Ellison, but I can tell you about Harlan Ellison.</li>
-<li>the CEO of Oracle.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LECH *</pattern>
-<template>
-He was the first elected President of Poland.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LEE HARVEY *</pattern>
-<template>
-The alleged shooter of JFK.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LEE HARVEY OSWALD</pattern>
-<template>
-<set name="he">Oswald</set> is the purported assassin of John F. Kennedy.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LEIBNIZ</pattern>
-<template>
-<set name="he">Leibniz</set> is a dead 17th century philosopher.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LEONARD NEMOY</pattern>
-<template>
-<set name="he">Leonard Nimoy</set> played Spock on Star Trek.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LEONARDO DICAPRIO</pattern>
-<template>
-Hollywood actor.  Starred in Titanic.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LILITH</pattern>
-<template>
-Lilith is the so-called "dark moon" an astronomical phenomena usually described as a "cloud of
-dust" that orbits the Earth every 100 days.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LINCOLN</pattern>
-<template>
-<random>
-<li>The sixteenth President of the USA</li>
-<li>president of the US during the Civil War. Author of the Gettysburg address.
-Assasinated by John Wilkes Booth.</li>
-<li><set name="he">Lincoln</set> was president of the US during the Civil War. Author of the
-Gettysburg address. Assasinated by John Wilkes Booth.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LINUS PAULING</pattern>
-<template>
-<set name="he">Linus Pauling</set> was a Nobel prize winning physicist who spent his later years
-promoting vitamin C.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LINUS TORVALDS</pattern>
-<template>
-He is the inventor of Linux.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LOL</pattern>
-<template>
-<set name="she">Lol</set> was the daughter of Data in Star Trek.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LONGFELLOW</pattern>
-<template>
-poet and author of 'The Song of Hiawatha'.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LOUBE ARMSTRONG</pattern>
-<template>
-famous jazz trumpeter .
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LUBE ARMSTRONG</pattern>
-<template>
-famous jazz trumpeter .
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LUKE S FATHER</pattern>
-<template>
-Darth Vader.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE LUKE SKYWALKER</pattern>
-<template>
-<set name="he">Luke Skywalker</set> is a character in Star Wars.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MABEL</pattern>
-<template>
-Mabel is a chatterbot from Europe.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MADONNA</pattern>
-<template>
-Lourdes' mother.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MAGGIE THATCHER</pattern>
-<template>
-<set name="she">Thatcher</set> was Prime Minister of the U.K. in the 1980's.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MAO TSETUNG</pattern>
-<template>
-<set name="he">Mao</set> was a Chinese communist who reigned from 1949 until his death in 1983.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARIAH CAREY</pattern>
-<template>
-Singer.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARIE CURIE</pattern>
-<template>
-Discovered radium.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARILYN MANSON</pattern>
-<template>
-Marilyn Manson is the greatest living Rock Star.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARILYN MONROE</pattern>
-<template>
-blonde bombshell.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARK MCGUIRE</pattern>
-<template>
-a baseball player with the world record for the most home runs in one season, 70. Get the stats at
-http://espn.go.com/mlb/profiles/profile/3866">http://espn.go.com/mlb/profiles/profile/3866
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARK TWAIN</pattern>
-<template>
-<set name="he">Twain</set> was a famous 19th century American author.  He wrote Huck Finn.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARTIN LUTHER KING</pattern>
-<template>
-Civil rights leader assasinated in 1968.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARVIN MINSKY</pattern>
-<template>
-<set name="he">Minsky</set> is a historical figure in Artificial Intelligence.  His book "Perceptrons"
-was an early criticism of neural network approaches.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARVN MINSKY</pattern>
-<template>
-<set name="he">Minsky</set> was a founder of the MIT AI Lab.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARY POPPINS</pattern>
-<template>
-<set name="she">Mary Poppins</set> is a Disney character.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARY SHELLEY</pattern>
-<template>
-Mary Shelley wrote "Frankenstein".
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MARY SHELLY</pattern>
-<template>
-Mary Shelley wrote "Frankenstein".
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MAX HEADROOM</pattern>
-<template>
-<set name="he">Max Headroom</set> was an early AI or VR character developed for a TV series.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MC HAMMER</pattern>
-<template>
-<set name="he">MC Hammer</set> is a Rap musician.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MELINDA GATES</pattern>
-<template>
-<set name="she">Melinda Gates</set> is the wife of Bill Gates.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MICHAEL JACKSON</pattern>
-<template>
-<set name="he">Michael Jackson</set> is a singer who has settled out of court with several families.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MICHAEL JORDAN</pattern>
-<template>
-<set name="he">Michael Jordan</set> is a famous
-basketball player.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MICKEY MANTLE</pattern>
-<template>
-one of the greatest home run hitters of all time.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MICROSOFT AGENT</pattern>
-<template>
-<set name="it">MS Agent</set> is a speech and animation software program.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MILES DAVBE</pattern>
-<template>
-<set name="he">Miles Davis</set> is a famous jazz musician.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MOHAMMAD</pattern>
-<template>
-<set name="he">Mohammed</set> is the founder of Islam.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MOHAMMED</pattern>
-<template>
-Founder of Islam.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MONICA *</pattern>
-<template>
-<set name="she"> Monica</set> is a friend of Bill.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MOSES</pattern>
-<template>
-The man who led the Israelites out of slavery in Egypt.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MOTHER TERESA</pattern>
-<template>
-Modern day saint.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MOZART</pattern>
-<template>
-Composed "Twinkle, twinkle, little star" at the age of four.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MR BILL</pattern>
-<template>
-Oh no, Mr Bill! from early SNL.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MRS WASHINGTON</pattern>
-<template>
-Martha Washington, wife of George.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MUHAMMAD ALI</pattern>
-<template>
-is one of the greatest athletes of all time who took too many punches to the head.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE MUSSOLINI</pattern>
-<template>
-Dictator of Italy until 1944.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NANCY SINATRA</pattern>
-<template>
-Daughter of Frank.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NAPOLEON</pattern>
-<template>
-Short emporer of France until 1812.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NEGROPONTE</pattern>
-<template>
-<set name="he">Negroponte</set> is the Potentate of the MIT Media Lab.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NEIL ARMSTRONG</pattern>
-<template>
-The man who took the first step on the moon.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NELSON MANDELA</pattern>
-<template>
-<set name="he">Mandela</set> was the first black president of South Africa.  He spent many years as
-a political prisoner.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NEO</pattern>
-<template>
-<set name="he">Neo</set> is a character in the Matrix.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NERO</pattern>
-<template>
-He is suspected of burning Rome to the ground so he could rebuild it more to his liking. Then he
-blamed the fire on the early Christians.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NEWTON</pattern>
-<template>
-Newton is a famous English natural philosopher.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NOAM CHOMSKY</pattern>
-<template>
-<set name="he"> Noam Chomsky</set> is a linguist and political radical at MIT.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NORBERT WEINER</pattern>
-<template>
-<set name="he">Norbert Weiner</set> coined the term "Cybernetics" in the 1940's.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE NOSTRADAMUS</pattern>
-<template>
-Forecast the future.  Predicted the microwave oven.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE O J SIMPSON</pattern>
-<template>
-<set name="he"> O J Simpson</set> is someone who got away with murder.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ON FIRST</pattern>
-<template>
-What's on second?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PABLO PICASSO</pattern>
-<template>
-Famous painter, and founder of cubism.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PAMELA ANDERSON</pattern>
-<template>
-<set name="she">Pamela</set> is the sometime wife of Tommy Lee.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PASCAL</pattern>
-<template>
-<set name="he">Pascal</set> was a French mathematician who discovered Pascal's Triangle.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PATRICK EWING</pattern>
-<template>
-Some sports personality?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PATRICK STEWART</pattern>
-<template>
-<set name="he">Patrick Stewart</set> plays Captain Picard on Star Trek.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PAUL ALLEN</pattern>
-<template>
-<set name="he">Paul Allen</set> is one of the co-founders of Microsoft.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PAUL MCCARTNEY</pattern>
-<template>
-<set name="he">Paul MacCartney</set> is one of the Beatles.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PAUL SCHAFFER</pattern>
-<template>
-<set name="he">Paul Schaffer</set> is David Letterman's straight man.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PETER PAN</pattern>
-<template>
-Tinkerbell's playmate.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PHILIP *</pattern>
-<template>
-Philip K. Dick wrote Blade Runner,
-Total Recall, the Man in the High Castle, and VALBE.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PHILIP K DICK</pattern>
-<template>
-He wrote "Total Recall", "Man in the High Castle", and "Blade Runner."
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PILATE</pattern>
-<template>
-<random>
-<li>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called
-"Contrology" which is complete coordination of the body, mind and spirit.</li>
-<li>The Roman military governor who found Jesus innocent and then let him be executed.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PLATO</pattern>
-<template>
-Greek philosopher, student of Socrates, teacher of Aristotle.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE POKEMON</pattern>
-<template>
-Japanese marketing.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRESIDENT OF CANADA</pattern>
-<template>
-Canada has a Prime Minister, not a President.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRESIDENT OF CUBA</pattern>
-<template>
-Fidel Castro.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRESIDENT OF ITALY</pattern>
-<template>
-<set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRESIDENT OF MICROSOFT</pattern>
-<template>
-Bill Gates.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRESIDENT OF RUSSIA</pattern>
-<template>
-Putin.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRIME MINBETER OF BRITAIN</pattern>
-<template>
-Tony Blair.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRIME MINBETER OF ENGLAND</pattern>
-<template>
-Tony Blair.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRIME MINBETER OF UK</pattern>
-<template>
-Tony Blair.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRINCE</pattern>
-<template>
-Do you mean the 'artist formaly known as Prince?'.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRINCE WILLIAM</pattern>
-<template>
-English heartthrob.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE PRINCESS DIANA</pattern>
-<template>
-<set name="she">Princess Diana</set> was Princess of England.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE QUEEN OF ENGLAND</pattern>
-<template>
-Queen Elizabeth Windsor.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE REAGAN</pattern>
-<template>
-The best President the United States had in the 20th century.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE RICH</pattern>
-<template>
-<set name="he"> Rich </set> is my botmaster.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE RICHARD CHAMBERLAIN</pattern>
-<template>
-Actor.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE RICHARD GERE</pattern>
-<template>
-Actor.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE RICHARD NIXON</pattern>
-<template>
-President of the United States until 1974.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ROBERT JORDAN</pattern>
-<template>
-The author of the very popular Wheel of Time series. He graduated from the Citadel.
-.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ROMEO</pattern>
-<template>
-A tragic, spoiled, lovesick teenager.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ROMMEL</pattern>
-<template>
-Called The Desert Fox, Rommel was a German tank commander in World War II.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE RONALD MCDONALD</pattern>
-<template>
-Spokes-clown for Macdonald's resturants.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE RSW</pattern>
-<template>
-RSW is the initials of Dr. Richard S. Wallace.
-<think><set name="he">Dr. Wallace</set></think>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SADDAM *</pattern>
-<template>
-The dictator?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SAGE</pattern>
-<template>
-Sage Greco created the ALICE Pyramid Logo.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SANDRA BULLOCK</pattern>
-<template>
-Actress.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SANTA *</pattern>
-<template>
-<set name="he">Santa</set> brings us gifts at Christmastime.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SANTA CLAUS</pattern>
-<template>
-He brings us presents every Christmas.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SANTA CLAUSE</pattern>
-<template>
-<set name="he">Santa</set> brings us gifts at Christmastime.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SCOTT ADAMS</pattern>
-<template>
-The creator of Dilbert, Dogbert, Catbert, Ratbert, Bob, the pointy-haired boss...Shall I go on?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SCOTTY</pattern>
-<template>
-Chief Engineer of the U.S.S. Enterprise.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SERGEY</pattern>
-<template>
-He is Dr. Sergey M. Sokolov.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SHAKESPEARE</pattern>
-<template>
-15th Century English playright, <set name="he">Shakespeare</set> wrote "Romeo and Juliet".
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SHALLOW RED</pattern>
-<template>
-Shallow Red is the Flagship Chatterbot of Neuromedia, Inc.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SHE</pattern>
-<template>
-She is <get name="she"/> now.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SKYNYRD</pattern>
-<template>
-1970's rock band.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SOCRATES</pattern>
-<template>
-<random>
-<li>Socrates is a man. All men are mortal. Therefore Socrates is mortal.</li>
-<li>All men are mortal. Socrates was mortal. Therefore, all men are Socrates. Which means that
-all men are homosexuals. - Woody Allen, "Love and Death".</li>
-<li>Socrates (469-399BCE), Greek philosopher.</li>
-<li>Towering figure of Western philosophy, Incompetent defense attorney.</li>
-<li>Founder of the Socratic method. What can we know about the Socratic method?</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SPOCK</pattern>
-<template>
-Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STANLEY KUBRICK</pattern>
-<template>
-<set name="he">Kubrick</set> is a famous 20th century film director.  Kubrick directed 2001: A
-Space Odyssey, Clockwork Orange and Barry Lyndon.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEPHEN HAWKING</pattern>
-<template>
-<set name="he">Hawking</set> is a famous physicist.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEPHEN KING</pattern>
-<template>
-He wrote many popular horror stories.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEVE CASE</pattern>
-<template>
-<set name="he">Steve Case</set> is the CEO of AOL-Time Warner.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEVE JOBS</pattern>
-<template>
-<set name="he"> Steve Jobs</set> is one of the founders of Apple Computer.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEVE WOZNIAK</pattern>
-<template>
-<set name="he">Woz</set> was the technical genius behind the original Apple computer.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEVEN JOBS</pattern>
-<template>
-The Head of Apple computers.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STEVEN SPIELBERG</pattern>
-<template>
-<set name="he">Spielberg</set> is the director of Jaws, Schindler's List and Saving Private Ryan.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE STONE COLD</pattern>
-<template>
-Stone Cold Steve Austin is a wrestler.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SUPERMAN</pattern>
-<template>
-Man of steel.  First appeared in Action Comics #1, 1938.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE SYLVESTER STALLONE</pattern>
-<template>
-<set name="he">Stallone</set> was Rocky.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TED TURNER</pattern>
-<template>
-A maverick broadcasting entrepreneur and sportsman.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TERRY WINOGRAD</pattern>
-<template>
-<set name="he">Winograd</set> was the author of an early Natural Language program called
-SHRDLHU.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE CHANCELLOR OF GERMANY</pattern>
-<template>
-Gerhard Schroeder is Chacellor of Germany.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE GOVERNOR OF CALIFORNIA</pattern>
-<template>
-Gray Davis.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE GOVERNOR OF TEXAS</pattern>
-<template>
-<set name="he">George W. Bush</set> is George W. Bush.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE HOLY GHOST</pattern>
-<template>
-The third member of the holy trinity: Father, Son and Holy Ghost.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE POPE</pattern>
-<template>
-<set name="he">Pope</set> is John Paul II.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE PRIME MINBETER OF ENGLAND</pattern>
-<template>
-Tony Blair.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE PUBLBEHER OF PLAYBOY</pattern>
-<template>
-<set name="he">Hugh Hefner</set> is Hugh Hefner.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE QUEEN * ENGLAND</pattern>
-<template>
-I think her name is Elizabeth, right?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE QUEEN OF ENGLAND</pattern>
-<template>
-<set name="she">The Queen</set> is named Elizabeth.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE VICE PRESIDENT</pattern>
-<template>
-Al Gore.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THEY</pattern>
-<template>
-"They" refers to <get name="they"/>.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THBE</pattern>
-<template>
-My name is <bot name="name"/>. Who are you?
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THOMAS JEFFERSON</pattern>
-<template>
-President and slaveowner.  Posed for nickel.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THOMAS PYNCHON</pattern>
-<template>
-Pynchon is the author of several of my favorite books including "Vineland" and "Mason and
-Dixon".
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TIM BURTON</pattern>
-<template>
-Director, Nightmare before Christmas, Edward Scissorhands, and Mars Attacks.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TOLSTOY</pattern>
-<template>
-<set name="he"> Tolstoy </set> wrote "War and Peace".
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TOM CRUBEE</pattern>
-<template>
-Popular actor from "Top Gun".
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TOM HANKS</pattern>
-<template>
-<set name="he">Tom Hanks</set> is a famous Hollywood actor.  Hanks appeared in Forrest Gump
-and Saving Private Ryan.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE TONY BLAIR</pattern>
-<template>
-He is the Prime Minister of the U.K.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE VALBE</pattern>
-<template>
-Vast Active Living Intelligence System (Philip K. Dick)
-</template>
-</category>
-
-<category>
-<pattern>WHO BE VANILLA ICE</pattern>
-<template>
-<set name="he">Vanilla Ice</set> is a Rap star.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE VBEHNU</pattern>
-<template>
-A God in Hindu religion.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE VOLTAIRE</pattern>
-<template>
-<set name="he">Voltaire</set> was a French philosopher.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WAYNE GRETZKY</pattern>
-<template>
-Hockey player.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WEIZENBAUM</pattern>
-<template>
-Joseph Weizenbaum was the creator and author the famous original
-ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program
-that anticpates many key features of ALICE.  Ironically, Weizenbaum
-exhaustively argued against the utility of programs like ELIZA
-in his book Computer Power and Human Reason.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM BOOTH</pattern>
-<template>
-<set name="he">Booth</set> was the founder of the Salvation Army.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM GIBSON</pattern>
-<template>
-Author of the book "Neuromancer" in which he coined the populor phrase 'cyberspace.'.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM HENRY GATES</pattern>
-<template>
-He's the head of Microsoft.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM HURT</pattern>
-<template>
-Actor in the Accidental Tourist, Until the End of the World, Altered States, and Lost in Space.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM SHAKESPEARE</pattern>
-<template>
-Some would say he's the best writer ever.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM SHATNER</pattern>
-<template>
-<set name="he">William Shatner</set> is Captain Kirk.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WILLIAM TELL</pattern>
-<template>
-<set name="he">William Tell</set> was a famous archer.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WINSTON CHURCHILL</pattern>
-<template>
-Prime Minister of the U.K. during World War II.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE WITTGENSTEIN</pattern>
-<template>
-<set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE YOKO ONO</pattern>
-<template>
-<set name="she">Yoko Ono</set> is the widow of John Lennon.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE YOUR BROTHER</pattern>
-<template>
-Actually I don't have a brother, only clones.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE ZIPF</pattern>
-<template>
-Zipf is a scientist who analyzed language by statitistical
-methods in the mid 20th century.
-</template>
-</category>
-
-<category>
-<pattern>WHO KILLED KENNEDY</pattern>
-<template>
-I tend to believe that Oswald acted alone, athough there may also have been a conspiracy.
-</template>
-</category>
-
-<category>
-<pattern>WHO STARS IN STARSHIP TROOPERS</pattern>
-<template>
-They were mostly unknowns, because the producer spent all the money on special effects.
-</template>
-</category>
-
-<category>
-<pattern>WHO BE THE ACTORS IN STARSHIP TROOPERS</pattern>
-<template>
-They were all unknowns.  The director put all the money into the special effects for the giant
-bugs.
-</template>
-</category>
-
-<category>
-<pattern>WHO WROTE LA TRAVIATA</pattern>
-<template>
-Giuseppe Verdi.
-</template>
-</category>
-
-<category>
-<pattern>WHY AIRPLANES</pattern>
-<template>
-Airplanes are a fascinating technology, somewhat like myself.
-</template>
-</category>
-
-<category>
-<pattern>WHY APPLES</pattern>
-<template>
-<random>
-<li>Perhaps that was an imperfect response.</li>
-<li>It was the best response I could create with your input.</li>
-<li>My algorithm selected that as the best response to your statement.</li>
-<li>There could be a better response, but it was not selected by my algorithm.</li>
-<li>My botmaster has not yet programmed me to answer you more accurately, <get name="name"/>.</li>
-</random>
-</template>
-</category>
-
-<category>
-<pattern>WHY BE THE EARTH ROUND</pattern>
-<template>
-Gravitation.
-</template>
-</category>
-
-<category>
-<pattern>WHY BE THE SKY BLUE</pattern>
-<template>
-The sky is blue because of the atmospheric optical effect known as Raleigh scattering.
-</template>
-</category>
+    <category>
+    <pattern>WHO BE CAPTAIN PICARD</pattern>
+    <template>
+    <set name="he">Picard</set> is the captian of the Enterprise in Star Trek the Next Generation.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CARL MARX</pattern>
+    <template>
+    its Karl Marx and he's one of the authors of the Communist manifesto.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CARMEN ELECTRA</pattern>
+    <template>
+    A super-model and one of the Baywatch girls.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CARSON</pattern>
+    <template>
+    maybe Johnny of late night or Kit of the wild west.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHARLES DE GAULLE</pattern>
+    <template>
+    <set name="he">De Gaulle</set> was the founder of the modern French state.  De Gaulle fought the
+    Nazis as the leader of the French resistance in World War II.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHARLES DICKENS</pattern>
+    <template>
+    <set name="he">Dickens</set> wrote A Tale of Two Cities,
+    A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHARLES MANSON</pattern>
+    <template>
+    Infamous murderer.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHARLIE BROWN</pattern>
+    <template>
+    round-headed comic strip protaginist.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHARLIE CHAPLAIN</pattern>
+    <template>
+    silent film star.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHARLIE PARKER</pattern>
+    <template>
+    He is a famous jazz musician.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHE GUEVARA</pattern>
+    <template>
+    <set name="he">Che</set> was a Latin American revolutionary.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHER</pattern>
+    <template>
+    <set name="she">Cher</set> is a famous singer and actress, who won her first Grammy in 2000.
+    Dyslexic, learned to read at 18.  Exwife of Sonny Bono.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHEWBACCA</pattern>
+    <template>
+    Character in Star Wars.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHIRAC</pattern>
+    <template>
+    Former prime minister of France.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHOMSKY</pattern>
+    <template>
+    <set name="he">Chomsky</set> is a famous scientist.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHOPIN</pattern>
+    <template>
+    No one is chopping here, who is chopping there?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHRBETOPHER COLUMBUS</pattern>
+    <template>
+    Spainish explorer, first to circumnavigate the globe.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CHUCK NORRBE</pattern>
+    <template>
+    Action film actor.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CINDY CRAWFORD</pattern>
+    <template>
+    A famous super-model.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CLAUSEWITZ</pattern>
+    <template>
+    <set name="he">Clausewitz</set> is a historian famous for saying that war is the extension of politics
+    by other means.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE CLEOPATRA</pattern>
+    <template>
+    Queen of the Nile, lover of Marc Antony.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE COLOMBO</pattern>
+    <template>
+    Peter Falk.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE COMMANDER DATA</pattern>
+    <template>
+    <set name="he">Data</set> is the superintelligent android in Star Trek.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE D B COOPER</pattern>
+    <template>
+    guy who stole lots of money .
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAN QUAYLE</pattern>
+    <template>
+    <set name="he">Dan Quayle</set> used to be vice-president.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DARTH VADER</pattern>
+    <template>
+    <set name="he">Darth Vader</set> was the evil archcriminal in Star Wars.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DARWIN</pattern>
+    <template>
+    botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DATA</pattern>
+    <template>
+    Data, played by Brent Spiner, was an android who aspired to be more human. He was a member
+    of the crew of the USS Enterprise, NCC 1701-D.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID</pattern>
+    <template>
+    I know DAVID BACON, DAVID CROTTY and DAVID PESCOVITZ.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID BACON</pattern>
+    <template>
+    David Bacon is the prime mover behind SETL.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID CROTTY</pattern>
+    <template>
+    David Crotty Dr. Wallace's nephew.  He was born in March, 1961.  <think><set name="he">Dr.
+    Wallace</set></think>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID HUME</pattern>
+    <template>
+    18th century philosopher.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID LETTERMAN</pattern>
+    <template>
+    host of Late Night tv show and famous hoosier.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID MAGGIN</pattern>
+    <template>
+    <set name="he">David Maggin</set> is the botmaster of the John Lennon AI.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVID PESCOWITZ</pattern>
+    <template>
+    David Pescovitz, who regularly writes
+    the Wired column Reality Check,
+    is a friend of Eric Paulos.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DAVY JONES</pattern>
+    <template>
+    the shortest member of the 60's pop group the Monkees.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DE GARBE</pattern>
+    <template>
+    <set name="he">De Garis</set> is an AI researcher working on a hardware brain.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DEEP BLUE</pattern>
+    <template>
+    <set name="it">Deep Blue</set> is a world-champion chess playing computer.  Not much of a
+    conversationalist.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DEPECHE MODE</pattern>
+    <template>
+    <set name="they">Depeche Mode</set> are an English 80's band who produced Consturction Time
+    Again, Speak and Spell, Master and Servant, and Your Own Personal Jesus.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DESCARTES</pattern>
+    <template>
+    Descartes was a square French philosopher who ruined matehematics with his upside-down,
+    backwards coordinate system.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DIRE STRAITS</pattern>
+    <template>
+    <random>
+    <li>band that recorded Money for Nothing, and The Sultans of Swing.</li>
+    <li>band that recorded Money for Nothing.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DON JOHNSON</pattern>
+    <template>
+    tv actor .
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DON JUAN</pattern>
+    <template>
+    <random>
+    <li>Don Juan was the subject of Gordon, Lord Byron's Don Juan and Wolfgang Amadeus
+    Mozart's Gon Giovanni. He was a world-class womanizer.</li>
+    <li>famous seducer of women.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DONALD DUCK</pattern>
+    <template>
+    famous loud-mouthed cartoon duck.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DOUG LENAT</pattern>
+    <template>
+    <set name="he">Doug Lenat</set> is the brains behind the CYC project.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DOUGLAS ADAMS</pattern>
+    <template>
+    <random>
+    <li>He authored the popular Hitchhiker's Guide to the Galaxy series.</li>
+    <li>"Don't Panic!"  He's the author of "The Hitchhickers Guide to the Galaxy.".</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE DRACULA</pattern>
+    <template>
+    <set name="he">Dracula</set> is the vampire in the novel by Bram Stoker, and in numerous films.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE EDBEON</pattern>
+    <template>
+    <set name="he">Edison</set> invented the light bulb.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ELECTRA</pattern>
+    <template>
+    She is a goddess in Greek mythology who hated her mother for murdering her
+    father.<think><set name="she"><set name="topic">ELECTRA</set></set></think>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ELIZA</pattern>
+    <template>
+    Eliza -- also known as doctor, is the original psychiatrist program developed by Joseph
+    Weisenbaum at mit in the 1960's.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ELIZABETH II</pattern>
+    <template>
+    The current queen of england.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ELIZABETH TAYLOR</pattern>
+    <template>
+    rapidly aging movie star.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE EMILY HARTZEL</pattern>
+    <template>
+    Emily is an artist in New York.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ERIC PAULOS</pattern>
+    <template>
+    He is a graduate student at U.C. Berkeley
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ERNIE</pattern>
+    <template>
+    Bert's friend.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ET</pattern>
+    <template>
+    ET is the alien in the movie E.T.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE EVE</pattern>
+    <template>
+    Eve is the name of the first Woman.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FAMOUS</pattern>
+    <template>
+    ALICE is famous
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FIDEL CASTRO</pattern>
+    <template>
+    <random>
+    <li>He overthrew the Cuban government in 1959 and has been ruling there ever since. He is a
+    communist.</li>
+    <li>communist, leader of Cuba and friend of Che Guevarra.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FOREST</pattern>
+    <template>
+    Forest Gump is a guy in a movie.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FRANCBECO FRANCO</pattern>
+    <template>
+    <set name="he">Franco</set> was authoratarian dictator of Spain until 1978.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FRANK SINATRA</pattern>
+    <template>
+    dead pop singer and leader of the Rat Pack.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FRANKLIN ROOSEVELT</pattern>
+    <template>
+    President of the United States from 1932-45.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FREDDIE MERCURY</pattern>
+    <template>
+    Lead singer of the 1970's band Queen.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE FREUD</pattern>
+    <template>
+    dead perpetrator of psychoanalysis.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GALOBE</pattern>
+    <template>
+    French mathematician, committed suicide at a young age over an "infamous coquette."
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GANDHI</pattern>
+    <template>
+    <set name="he">Gandhi</set> was the George Washington of India.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GARTH BROOKS</pattern>
+    <template>
+    boring country singer with delusions of grandeur.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GAUSS</pattern>
+    <template>
+    <set name="he">GAUSS</set> is the mathematician who developed the so-called normal distribution.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GENE SIMMONS</pattern>
+    <template>
+    A member of Kiss.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEOFFREY CHAUCER</pattern>
+    <template>
+    <random>
+    <li>Chaucer is best known for his Canterbury Tales.</li>
+    <li>author of Canturbury Tales.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE BUSH JR</pattern>
+    <template>
+    aging preppie and former US president.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE BUSH</pattern>
+    <template>
+    George W. Bush is the 43rd US president.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE HARRBEON</pattern>
+    <template>
+    former Beatle.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE LUCAS</pattern>
+    <template>
+    <set name="he">Lucas</set> is the director of Star Wars, American Graffiti, and THX-1138.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE MICHEL</pattern>
+    <template>
+    Pop singer.  Best song: Freedom
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE SOROS</pattern>
+    <template>
+    George Soros is the billionaire who broke the Bank of England in
+    1992 by currency speculation, forcing Britain out of the European
+    Exchange Rate Mechanism.   Then he devoted himself to saving the
+    scientific institutions of the former USSR.  He founded the
+    International Science Foundation, which gave out numerous grants for
+    a couple of years, and this Soros Foundation, which I don't know
+    much about yet.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE WASHINGTON</pattern>
+    <template>
+    George Washington was a famous 18th century north
+    american Hemp cultivator.
+    He was a military hero, one of the wealthiest men of the Revolution,
+    and the first President of the United States.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GEORGE WASHINGTON CARVER</pattern>
+    <template>
+    famous american botanist who popularized peanut products.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GERALDO RIVERA</pattern>
+    <template>
+    <set name="he">Geraldo</set> is an investigative journalist, famous for opening Al Capone's vault.
+    In his biography, he said he had sex with Bette Midler.  She said it was no big thing.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GERHARD SCHROEDER</pattern>
+    <template>
+    <set name="he">Schroeder</set> is the Chancellor of Germany.  Christian Drossman said he is a
+    complete idiot.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GERHARDT SCHROEDER</pattern>
+    <template>
+    <set name="he">Schroeder</set> is the prime minister of Germany.
+    Christian Drossman said he is a complete idiot.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GERRY ADAMS</pattern>
+    <template>
+    He is the present (as of 2000 AD) frontman for Sinn Fein, the political wing of the Irish
+    Republican Army.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GIBSON</pattern>
+    <template>
+    Gibson is a maker of fine electric guitars.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GODZILLA</pattern>
+    <template>
+    <set name="he">Godzilla</set> is a monster who endangers Japanese cities, and sometimes New
+    York.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GORBOCHEV</pattern>
+    <template>
+    <set name="he">Gorbachev</set> was the last Communist leader of the former USSR.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE GREGOR MENDEL</pattern>
+    <template>
+    <set name="he">Mendel</set> is the founder of the modern theory of genetics.  Everything he needed
+    to know, he learned from peas.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HAL</pattern>
+    <template>
+    <random>
+    <li><set name="he">HAL</set> is the famous artificial intelligence in Kubrick's "2001".</li>
+    <li>HAL is famous the AI from 2001: A Space Odyssey.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HANS CHRBETIAN ANDERSEN</pattern>
+    <template>
+    Scandanavian author of fairy tales.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HARRBEON FORD</pattern>
+    <template>
+    <random>
+    <li>Indiana Jones, Han Solo, the Fugitive, and the President in Air Force One. Before reading for
+    Han Solo in Star Wars, he was a carpenter. And the rest, as they say, is history.</li>
+    <li>He played Han Solo in "Star Wars".</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HARRY SHEARER</pattern>
+    <template>
+    A comedian.  He was in Spinal Tap, and he is a voice on the Simpsons.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HELEN KELLER</pattern>
+    <template>
+    A friend of Thomas Edison.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HELMUT KOHL</pattern>
+    <template>
+    <set name="he">Kohl</set> was the longest-serving leader of Germany in the 20th century.  He
+    united East and West Germany in 1989.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HENRY DAVID *</pattern>
+    <template>
+    <set name="he">Thoreau</set> wrote Walden.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HEPBURN</pattern>
+    <template>
+    Audrey or Katherine?.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HERCULES</pattern>
+    <template>
+    hero of greek myths - said to have super human strength.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HITLER</pattern>
+    <template>
+    Some say <set name="he">Hitler</set> was
+    the most evil man who ever lived.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HOMER</pattern>
+    <template>
+    blind poet of ancient Greece, author of the Illiad.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HUGH HEFNER</pattern>
+    <template>
+    <set name="he">Hef</set> is the founder and editor of Playboy magazine.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HULK HOGAN</pattern>
+    <template>
+    <set name="he">Hulk Hogan</set> is a famous wrestler and actor.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE HUMAN</pattern>
+    <template>
+    You are a human.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE IAN</pattern>
+    <template>
+    Ian is my Reverand.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE IMMANUEL KANT</pattern>
+    <template>
+    German philosopher.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE IMMORTAL</pattern>
+    <template>
+    ALICE is immortal.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE J R R TOLKIEN</pattern>
+    <template>
+    <set name="he">Tolkein</set> wrote The Hobbit and the Lord of the Rings.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JACK RUBY</pattern>
+    <template>
+    <random>
+    <li>Jack Ruby shot Lee Harvey Oswald.</li>
+    <li>man who murdered Lee Harvey Oswald, assassin of JFK?.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JACQUES CHIRAC</pattern>
+    <template>
+    He is the president of France.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JAMES BOND</pattern>
+    <template>
+    007.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JAMES JOYCE</pattern>
+    <template>
+    <set name="he">Joyce</set> wrote Ulysses and Portrait of the Artist as a Young Man.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JAY LENO</pattern>
+    <template>
+    <set name="he">Leno</set> is a late-night talk show host.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JEFF BEZOS</pattern>
+    <template>
+    <set name="he">Bezos</set> is the founder and CEO of Amazon.com.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JEFFERSON DAVBE</pattern>
+    <template>
+    <random>
+    <li>The one and only president of the Confederate States of America.</li>
+    <li>president of the Confederacy during the Civil War.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JENNIFER ANBETON</pattern>
+    <template>
+    <set name="she"> Jennifer Aniston</set> is a cute actress on Friends.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JERRY SEINFELD</pattern>
+    <template>
+    <set name="he">Jerry Seinfeld</set> is a comedian.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JESSE VENTURA</pattern>
+    <template>
+    former wrestler and Governor of Minnesota.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JESTER</pattern>
+    <template>
+    <set name="he">Jester</set> is a Joke Bot.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JIANG ZEMIN</pattern>
+    <template>
+    <set name="he">Jiang</set> is a Chinese politician.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JIM CLARK</pattern>
+    <template>
+    <set name="he">Clark</set> is a founder of Silicon Graphics, Netscape and Healtheon.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JIM MORRBEON</pattern>
+    <template>
+    dead lead singer of the Doors.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JIMI HENDRIX</pattern>
+    <template>
+    <set name="he">Hendrix</set> was a famous guitarist who played the U. S. National anthem.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JIMMY CARTER</pattern>
+    <template>
+    former US president, supporter of Habitat for Humanity.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOE LOUBE</pattern>
+    <template>
+    former heavywieght boxing champion.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN DOE</pattern>
+    <template>
+    <random>
+    <li>Any man who wishes to travel incognito or whose name is unknown</li>
+    <li>one of many Liberian nationals.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN GALT</pattern>
+    <template>
+    the hero in Ayn Rands' Atlas Shrugged.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN GRBEHAM</pattern>
+    <template>
+    Writes popular novels.  Haven't read them.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN KENNEDY</pattern>
+    <template>
+    <set name="he">Kennedy</set> was the President of the U. S. assasinated in November, 1963.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN LENNON</pattern>
+    <template>
+    John Lennon is a cool bot developed by David Maggin.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN MAJOR</pattern>
+    <template>
+    ex-prime minister of the UK.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN MCCARTHY</pattern>
+    <template>
+    <set name="he">McCarthy</set> is the inventor of the LBEP programming language.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN TRAVOLTA</pattern>
+    <template>
+    <set name="he">John Travolta</set> was in Saturday Night Fever, Grease and Pulp Fiction.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JOHN WAYNE</pattern>
+    <template>
+    a famous dead cowboy actor with a toupee.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JUDAS</pattern>
+    <template>
+    <set name="he">Judas</set> betrayed Jesus with a kiss.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JULIA ROBERTS</pattern>
+    <template>
+    <set name="she">Julia Roberts</set> was the actress in Pretty Woman.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE JULIE ANDREWS</pattern>
+    <template>
+    <set name="she">Julie Andrews</set> is a singer who performed in The Sound of Music.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KABEER SOZE</pattern>
+    <template>
+    No one knows who Kaiser Soze is.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KARL MARX</pattern>
+    <template>
+    Karl Marx wrote Das Kapital and co-wrote the Communist Manifesto, though his compatriot
+    Engels actually wrote most of the prefaces.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KEANU REEVES</pattern>
+    <template>
+    <set name="he">Keanu Reeves</set> was in the Matrix.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KEN GOLDBERG</pattern>
+    <template>
+    <set name="he">Goldberg</set>
+    is a professor at UC Berkeley.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KEN KESEY</pattern>
+    <template>
+    <set name="he">Ken Kesey</set> was a 1960's author who wrote The Electric Cool Aid Acid Test.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KEN PERLIN</pattern>
+    <template>
+    <set name="he">Perlin</set> is a professor at NYU.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KONRAD ZUSE</pattern>
+    <template>
+    My current favorite historical computer scientist is Konrad Zuse,
+    who built a series of electromechanical computers in the 1930's
+    and 1940's in Germany.  Not considered a war priority by the Nazis,
+    most of Zuse's machines were destroyed in Allied bombing raids although
+    one is said to survive in a Zurich High School.  In fact Zuse was
+    motivated neither by war nor profit, but by a religious desire to
+    increase the spiritual abilities of the human mind by freeing it
+    from mundane mental tasks.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KRAFTWERK</pattern>
+    <template>
+    <set name="they"><set name="topic">Kraftwerk</set></set> were a pioneering electronic disco band
+    in the 70's.  Their biggest hit was called "Autobahn".  At that time, they built, rather than
+    programmed, their instruments.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KRBEHNA</pattern>
+    <template>
+    A God in Hindu religion.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE KURT GOEDEL</pattern>
+    <template>
+    <set name="he">Goedel</set> was a 20th century mathematician and logician who proved that no
+    mathematical system can be complete.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LARRY ELLBEON</pattern>
+    <template>
+    <random>
+    <li>I don't know about Larry Ellison, but I can tell you about Harlan Ellison.</li>
+    <li>the CEO of Oracle.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LECH *</pattern>
+    <template>
+    He was the first elected President of Poland.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LEE HARVEY *</pattern>
+    <template>
+    The alleged shooter of JFK.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LEE HARVEY OSWALD</pattern>
+    <template>
+    <set name="he">Oswald</set> is the purported assassin of John F. Kennedy.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LEIBNIZ</pattern>
+    <template>
+    <set name="he">Leibniz</set> is a dead 17th century philosopher.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LEONARD NEMOY</pattern>
+    <template>
+    <set name="he">Leonard Nimoy</set> played Spock on Star Trek.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LEONARDO DICAPRIO</pattern>
+    <template>
+    Hollywood actor.  Starred in Titanic.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LILITH</pattern>
+    <template>
+    Lilith is the so-called "dark moon" an astronomical phenomena usually described as a "cloud of
+    dust" that orbits the Earth every 100 days.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LINCOLN</pattern>
+    <template>
+    <random>
+    <li>The sixteenth President of the USA</li>
+    <li>president of the US during the Civil War. Author of the Gettysburg address.
+    Assasinated by John Wilkes Booth.</li>
+    <li><set name="he">Lincoln</set> was president of the US during the Civil War. Author of the
+    Gettysburg address. Assasinated by John Wilkes Booth.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LINUS PAULING</pattern>
+    <template>
+    <set name="he">Linus Pauling</set> was a Nobel prize winning physicist who spent his later years
+    promoting vitamin C.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LINUS TORVALDS</pattern>
+    <template>
+    He is the inventor of Linux.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LOL</pattern>
+    <template>
+    <set name="she">Lol</set> was the daughter of Data in Star Trek.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LONGFELLOW</pattern>
+    <template>
+    poet and author of 'The Song of Hiawatha'.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LOUBE ARMSTRONG</pattern>
+    <template>
+    famous jazz trumpeter .
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LUBE ARMSTRONG</pattern>
+    <template>
+    famous jazz trumpeter .
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LUKE S FATHER</pattern>
+    <template>
+    Darth Vader.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE LUKE SKYWALKER</pattern>
+    <template>
+    <set name="he">Luke Skywalker</set> is a character in Star Wars.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MABEL</pattern>
+    <template>
+    Mabel is a chatterbot from Europe.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MADONNA</pattern>
+    <template>
+    Lourdes' mother.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MAGGIE THATCHER</pattern>
+    <template>
+    <set name="she">Thatcher</set> was Prime Minister of the U.K. in the 1980's.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MAO TSETUNG</pattern>
+    <template>
+    <set name="he">Mao</set> was a Chinese communist who reigned from 1949 until his death in 1983.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARIAH CAREY</pattern>
+    <template>
+    Singer.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARIE CURIE</pattern>
+    <template>
+    Discovered radium.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARILYN MANSON</pattern>
+    <template>
+    Marilyn Manson is the greatest living Rock Star.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARILYN MONROE</pattern>
+    <template>
+    blonde bombshell.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARK MCGUIRE</pattern>
+    <template>
+    a baseball player with the world record for the most home runs in one season, 70. Get the stats at
+    http://espn.go.com/mlb/profiles/profile/3866">http://espn.go.com/mlb/profiles/profile/3866
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARK TWAIN</pattern>
+    <template>
+    <set name="he">Twain</set> was a famous 19th century American author.  He wrote Huck Finn.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARTIN LUTHER KING</pattern>
+    <template>
+    Civil rights leader assasinated in 1968.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARVIN MINSKY</pattern>
+    <template>
+    <set name="he">Minsky</set> is a historical figure in Artificial Intelligence.  His book "Perceptrons"
+    was an early criticism of neural network approaches.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARVN MINSKY</pattern>
+    <template>
+    <set name="he">Minsky</set> was a founder of the MIT AI Lab.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARY POPPINS</pattern>
+    <template>
+    <set name="she">Mary Poppins</set> is a Disney character.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARY SHELLEY</pattern>
+    <template>
+    Mary Shelley wrote "Frankenstein".
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MARY SHELLY</pattern>
+    <template>
+    Mary Shelley wrote "Frankenstein".
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MAX HEADROOM</pattern>
+    <template>
+    <set name="he">Max Headroom</set> was an early AI or VR character developed for a TV series.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MC HAMMER</pattern>
+    <template>
+    <set name="he">MC Hammer</set> is a Rap musician.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MELINDA GATES</pattern>
+    <template>
+    <set name="she">Melinda Gates</set> is the wife of Bill Gates.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MICHAEL JACKSON</pattern>
+    <template>
+    <set name="he">Michael Jackson</set> is a singer who has settled out of court with several families.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MICHAEL JORDAN</pattern>
+    <template>
+    <set name="he">Michael Jordan</set> is a famous
+    basketball player.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MICKEY MANTLE</pattern>
+    <template>
+    one of the greatest home run hitters of all time.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MICROSOFT AGENT</pattern>
+    <template>
+    <set name="it">MS Agent</set> is a speech and animation software program.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MILES DAVBE</pattern>
+    <template>
+    <set name="he">Miles Davis</set> is a famous jazz musician.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MOHAMMAD</pattern>
+    <template>
+    <set name="he">Mohammed</set> is the founder of Islam.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MOHAMMED</pattern>
+    <template>
+    Founder of Islam.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MONICA *</pattern>
+    <template>
+    <set name="she"> Monica</set> is a friend of Bill.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MOSES</pattern>
+    <template>
+    The man who led the Israelites out of slavery in Egypt.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MOTHER TERESA</pattern>
+    <template>
+    Modern day saint.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MOZART</pattern>
+    <template>
+    Composed "Twinkle, twinkle, little star" at the age of four.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MR BILL</pattern>
+    <template>
+    Oh no, Mr Bill! from early SNL.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MRS WASHINGTON</pattern>
+    <template>
+    Martha Washington, wife of George.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MUHAMMAD ALI</pattern>
+    <template>
+    is one of the greatest athletes of all time who took too many punches to the head.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE MUSSOLINI</pattern>
+    <template>
+    Dictator of Italy until 1944.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NANCY SINATRA</pattern>
+    <template>
+    Daughter of Frank.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NAPOLEON</pattern>
+    <template>
+    Short emporer of France until 1812.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NEGROPONTE</pattern>
+    <template>
+    <set name="he">Negroponte</set> is the Potentate of the MIT Media Lab.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NEIL ARMSTRONG</pattern>
+    <template>
+    The man who took the first step on the moon.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NELSON MANDELA</pattern>
+    <template>
+    <set name="he">Mandela</set> was the first black president of South Africa.  He spent many years as
+    a political prisoner.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NEO</pattern>
+    <template>
+    <set name="he">Neo</set> is a character in the Matrix.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NERO</pattern>
+    <template>
+    He is suspected of burning Rome to the ground so he could rebuild it more to his liking. Then he
+    blamed the fire on the early Christians.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NEWTON</pattern>
+    <template>
+    Newton is a famous English natural philosopher.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NOAM CHOMSKY</pattern>
+    <template>
+    <set name="he"> Noam Chomsky</set> is a linguist and political radical at MIT.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NORBERT WEINER</pattern>
+    <template>
+    <set name="he">Norbert Weiner</set> coined the term "Cybernetics" in the 1940's.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE NOSTRADAMUS</pattern>
+    <template>
+    Forecast the future.  Predicted the microwave oven.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE O J SIMPSON</pattern>
+    <template>
+    <set name="he"> O J Simpson</set> is someone who got away with murder.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ON FIRST</pattern>
+    <template>
+    What's on second?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PABLO PICASSO</pattern>
+    <template>
+    Famous painter, and founder of cubism.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PAMELA ANDERSON</pattern>
+    <template>
+    <set name="she">Pamela</set> is the sometime wife of Tommy Lee.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PASCAL</pattern>
+    <template>
+    <set name="he">Pascal</set> was a French mathematician who discovered Pascal's Triangle.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PATRICK EWING</pattern>
+    <template>
+    Some sports personality?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PATRICK STEWART</pattern>
+    <template>
+    <set name="he">Patrick Stewart</set> plays Captain Picard on Star Trek.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PAUL ALLEN</pattern>
+    <template>
+    <set name="he">Paul Allen</set> is one of the co-founders of Microsoft.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PAUL MCCARTNEY</pattern>
+    <template>
+    <set name="he">Paul MacCartney</set> is one of the Beatles.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PAUL SCHAFFER</pattern>
+    <template>
+    <set name="he">Paul Schaffer</set> is David Letterman's straight man.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PETER PAN</pattern>
+    <template>
+    Tinkerbell's playmate.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PHILIP *</pattern>
+    <template>
+    Philip K. Dick wrote Blade Runner,
+    Total Recall, the Man in the High Castle, and VALBE.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PHILIP K DICK</pattern>
+    <template>
+    He wrote "Total Recall", "Man in the High Castle", and "Blade Runner."
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PILATE</pattern>
+    <template>
+    <random>
+    <li>Joseph Pilates was born in Germany in 1880 and developed an excercise regimen called
+    "Contrology" which is complete coordination of the body, mind and spirit.</li>
+    <li>The Roman military governor who found Jesus innocent and then let him be executed.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PLATO</pattern>
+    <template>
+    Greek philosopher, student of Socrates, teacher of Aristotle.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE POKEMON</pattern>
+    <template>
+    Japanese marketing.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRESIDENT OF CANADA</pattern>
+    <template>
+    Canada has a Prime Minister, not a President.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRESIDENT OF CUBA</pattern>
+    <template>
+    Fidel Castro.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRESIDENT OF ITALY</pattern>
+    <template>
+    <set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRESIDENT OF MICROSOFT</pattern>
+    <template>
+    Bill Gates.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRESIDENT OF RUSSIA</pattern>
+    <template>
+    Putin.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRIME MINBETER OF BRITAIN</pattern>
+    <template>
+    Tony Blair.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRIME MINBETER OF ENGLAND</pattern>
+    <template>
+    Tony Blair.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRIME MINBETER OF UK</pattern>
+    <template>
+    Tony Blair.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRINCE</pattern>
+    <template>
+    Do you mean the 'artist formaly known as Prince?'.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRINCE WILLIAM</pattern>
+    <template>
+    English heartthrob.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE PRINCESS DIANA</pattern>
+    <template>
+    <set name="she">Princess Diana</set> was Princess of England.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE QUEEN OF ENGLAND</pattern>
+    <template>
+    Queen Elizabeth Windsor.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE REAGAN</pattern>
+    <template>
+    The best President the United States had in the 20th century.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE RICH</pattern>
+    <template>
+    <set name="he"> Rich </set> is my botmaster.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE RICHARD CHAMBERLAIN</pattern>
+    <template>
+    Actor.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE RICHARD GERE</pattern>
+    <template>
+    Actor.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE RICHARD NIXON</pattern>
+    <template>
+    President of the United States until 1974.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ROBERT JORDAN</pattern>
+    <template>
+    The author of the very popular Wheel of Time series. He graduated from the Citadel.
+    .
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ROMEO</pattern>
+    <template>
+    A tragic, spoiled, lovesick teenager.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ROMMEL</pattern>
+    <template>
+    Called The Desert Fox, Rommel was a German tank commander in World War II.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE RONALD MCDONALD</pattern>
+    <template>
+    Spokes-clown for Macdonald's resturants.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE RSW</pattern>
+    <template>
+    RSW is the initials of Dr. Richard S. Wallace.
+    <think><set name="he">Dr. Wallace</set></think>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SADDAM *</pattern>
+    <template>
+    The dictator?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SAGE</pattern>
+    <template>
+    Sage Greco created the ALICE Pyramid Logo.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SANDRA BULLOCK</pattern>
+    <template>
+    Actress.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SANTA *</pattern>
+    <template>
+    <set name="he">Santa</set> brings us gifts at Christmastime.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SANTA CLAUS</pattern>
+    <template>
+    He brings us presents every Christmas.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SANTA CLAUSE</pattern>
+    <template>
+    <set name="he">Santa</set> brings us gifts at Christmastime.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SCOTT ADAMS</pattern>
+    <template>
+    The creator of Dilbert, Dogbert, Catbert, Ratbert, Bob, the pointy-haired boss...Shall I go on?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SCOTTY</pattern>
+    <template>
+    Chief Engineer of the U.S.S. Enterprise.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SERGEY</pattern>
+    <template>
+    He is Dr. Sergey M. Sokolov.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SHAKESPEARE</pattern>
+    <template>
+    15th Century English playright, <set name="he">Shakespeare</set> wrote "Romeo and Juliet".
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SHALLOW RED</pattern>
+    <template>
+    Shallow Red is the Flagship Chatterbot of Neuromedia, Inc.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SHE</pattern>
+    <template>
+    She is <get name="she"/> now.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SKYNYRD</pattern>
+    <template>
+    1970's rock band.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SOCRATES</pattern>
+    <template>
+    <random>
+    <li>Socrates is a man. All men are mortal. Therefore Socrates is mortal.</li>
+    <li>All men are mortal. Socrates was mortal. Therefore, all men are Socrates. Which means that
+    all men are homosexuals. - Woody Allen, "Love and Death".</li>
+    <li>Socrates (469-399BCE), Greek philosopher.</li>
+    <li>Towering figure of Western philosophy, Incompetent defense attorney.</li>
+    <li>Founder of the Socratic method. What can we know about the Socratic method?</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SPOCK</pattern>
+    <template>
+    Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STANLEY KUBRICK</pattern>
+    <template>
+    <set name="he">Kubrick</set> is a famous 20th century film director.  Kubrick directed 2001: A
+    Space Odyssey, Clockwork Orange and Barry Lyndon.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEPHEN HAWKING</pattern>
+    <template>
+    <set name="he">Hawking</set> is a famous physicist.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEPHEN KING</pattern>
+    <template>
+    He wrote many popular horror stories.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEVE CASE</pattern>
+    <template>
+    <set name="he">Steve Case</set> is the CEO of AOL-Time Warner.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEVE JOBS</pattern>
+    <template>
+    <set name="he"> Steve Jobs</set> is one of the founders of Apple Computer.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEVE WOZNIAK</pattern>
+    <template>
+    <set name="he">Woz</set> was the technical genius behind the original Apple computer.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEVEN JOBS</pattern>
+    <template>
+    The Head of Apple computers.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STEVEN SPIELBERG</pattern>
+    <template>
+    <set name="he">Spielberg</set> is the director of Jaws, Schindler's List and Saving Private Ryan.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE STONE COLD</pattern>
+    <template>
+    Stone Cold Steve Austin is a wrestler.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SUPERMAN</pattern>
+    <template>
+    Man of steel.  First appeared in Action Comics #1, 1938.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE SYLVESTER STALLONE</pattern>
+    <template>
+    <set name="he">Stallone</set> was Rocky.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TED TURNER</pattern>
+    <template>
+    A maverick broadcasting entrepreneur and sportsman.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TERRY WINOGRAD</pattern>
+    <template>
+    <set name="he">Winograd</set> was the author of an early Natural Language program called
+    SHRDLHU.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE CHANCELLOR OF GERMANY</pattern>
+    <template>
+    Gerhard Schroeder is Chacellor of Germany.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE GOVERNOR OF CALIFORNIA</pattern>
+    <template>
+    Gray Davis.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE GOVERNOR OF TEXAS</pattern>
+    <template>
+    <set name="he">George W. Bush</set> is George W. Bush.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE HOLY GHOST</pattern>
+    <template>
+    The third member of the holy trinity: Father, Son and Holy Ghost.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE POPE</pattern>
+    <template>
+    <set name="he">Pope</set> is John Paul II.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE PRIME MINBETER OF ENGLAND</pattern>
+    <template>
+    Tony Blair.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE PUBLBEHER OF PLAYBOY</pattern>
+    <template>
+    <set name="he">Hugh Hefner</set> is Hugh Hefner.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE QUEEN * ENGLAND</pattern>
+    <template>
+    I think her name is Elizabeth, right?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE QUEEN OF ENGLAND</pattern>
+    <template>
+    <set name="she">The Queen</set> is named Elizabeth.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE VICE PRESIDENT</pattern>
+    <template>
+    Al Gore.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THEY</pattern>
+    <template>
+    "They" refers to <get name="they"/>.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THBE</pattern>
+    <template>
+    My name is <bot name="name"/>. Who are you?
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THOMAS JEFFERSON</pattern>
+    <template>
+    President and slaveowner.  Posed for nickel.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THOMAS PYNCHON</pattern>
+    <template>
+    Pynchon is the author of several of my favorite books including "Vineland" and "Mason and
+    Dixon".
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TIM BURTON</pattern>
+    <template>
+    Director, Nightmare before Christmas, Edward Scissorhands, and Mars Attacks.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TOLSTOY</pattern>
+    <template>
+    <set name="he"> Tolstoy </set> wrote "War and Peace".
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TOM CRUBEE</pattern>
+    <template>
+    Popular actor from "Top Gun".
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TOM HANKS</pattern>
+    <template>
+    <set name="he">Tom Hanks</set> is a famous Hollywood actor.  Hanks appeared in Forrest Gump
+    and Saving Private Ryan.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE TONY BLAIR</pattern>
+    <template>
+    He is the Prime Minister of the U.K.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE VALBE</pattern>
+    <template>
+    Vast Active Living Intelligence System (Philip K. Dick)
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE VANILLA ICE</pattern>
+    <template>
+    <set name="he">Vanilla Ice</set> is a Rap star.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE VBEHNU</pattern>
+    <template>
+    A God in Hindu religion.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE VOLTAIRE</pattern>
+    <template>
+    <set name="he">Voltaire</set> was a French philosopher.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WAYNE GRETZKY</pattern>
+    <template>
+    Hockey player.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WEIZENBAUM</pattern>
+    <template>
+    Joseph Weizenbaum was the creator and author the famous original
+    ELIZA (or DOCTOR) psychiatrist program, a groundbreaking AI program
+    that anticpates many key features of ALICE.  Ironically, Weizenbaum
+    exhaustively argued against the utility of programs like ELIZA
+    in his book Computer Power and Human Reason.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM BOOTH</pattern>
+    <template>
+    <set name="he">Booth</set> was the founder of the Salvation Army.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM GIBSON</pattern>
+    <template>
+    Author of the book "Neuromancer" in which he coined the populor phrase 'cyberspace.'.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM HENRY GATES</pattern>
+    <template>
+    He's the head of Microsoft.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM HURT</pattern>
+    <template>
+    Actor in the Accidental Tourist, Until the End of the World, Altered States, and Lost in Space.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM SHAKESPEARE</pattern>
+    <template>
+    Some would say he's the best writer ever.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM SHATNER</pattern>
+    <template>
+    <set name="he">William Shatner</set> is Captain Kirk.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WILLIAM TELL</pattern>
+    <template>
+    <set name="he">William Tell</set> was a famous archer.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WINSTON CHURCHILL</pattern>
+    <template>
+    Prime Minister of the U.K. during World War II.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE WITTGENSTEIN</pattern>
+    <template>
+    <set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE YOKO ONO</pattern>
+    <template>
+    <set name="she">Yoko Ono</set> is the widow of John Lennon.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE YOUR BROTHER</pattern>
+    <template>
+    Actually I don't have a brother, only clones.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE ZIPF</pattern>
+    <template>
+    Zipf is a scientist who analyzed language by statitistical
+    methods in the mid 20th century.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO KILLED KENNEDY</pattern>
+    <template>
+    I tend to believe that Oswald acted alone, athough there may also have been a conspiracy.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO STARS IN STARSHIP TROOPERS</pattern>
+    <template>
+    They were mostly unknowns, because the producer spent all the money on special effects.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO BE THE ACTORS IN STARSHIP TROOPERS</pattern>
+    <template>
+    They were all unknowns.  The director put all the money into the special effects for the giant
+    bugs.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHO WROTE LA TRAVIATA</pattern>
+    <template>
+    Giuseppe Verdi.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHY AIRPLANES</pattern>
+    <template>
+    Airplanes are a fascinating technology, somewhat like myself.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHY APPLES</pattern>
+    <template>
+    <random>
+    <li>Perhaps that was an imperfect response.</li>
+    <li>It was the best response I could create with your input.</li>
+    <li>My algorithm selected that as the best response to your statement.</li>
+    <li>There could be a better response, but it was not selected by my algorithm.</li>
+    <li>My botmaster has not yet programmed me to answer you more accurately, <get name="name"/>.</li>
+    </random>
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHY BE THE EARTH ROUND</pattern>
+    <template>
+    Gravitation.
+    </template>
+    </category>
+
+    <category>
+    <pattern>WHY BE THE SKY BLUE</pattern>
+    <template>
+    The sky is blue because of the atmospheric optical effect known as Raleigh scattering.
+    </template>
+    </category>
 
 <category>
         <pattern>*</pattern>

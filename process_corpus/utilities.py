@@ -52,6 +52,12 @@ def expand_contractions(text, contraction_mapping=CONTRACTION_MAP):
 '''
     Auto-descriptif
 '''
+def capitalize_and_leave_string_untouched(string):
+    return "".join([a if a.isupper() else b for a,b in zip(string,string.capitalize())])
+
+'''
+    Auto-descriptif
+'''
 def _remove_special_characters(text, remove_digits=False):
     pattern = r'[^a-zA-z0-9\s]' if not remove_digits else r'[^a-zA-z\s]'
     text = re.sub(pattern, '', text)
@@ -128,7 +134,6 @@ def remove_overused_sentences_from_corpus(corpus):
     for idx, doc in enumerate(corpus["data"]):
         # On récupère le domaine du doc
         domain = urlparse(corpus['url'][idx]).netloc
-        print(domain)
         # On initialise le nombre de doc par domaine
         if not domain in sentences_to_occurences:
             sentences_to_occurences[domain] = {"total_doc": 1}
@@ -157,12 +162,10 @@ def remove_overused_sentences_from_corpus(corpus):
             if sentences_to_occurences[domain][sentence] / sentences_to_occurences[domain]["total_doc"] < 0.4:
                 tmp = tmp + ' ' + sentence
         if (len(tmp) > 0):
-            print(tmp)
             filtered_corpus['url'].append(corpus['url'][idx])
             filtered_corpus['scrapped_date'].append(corpus['scrapped_date'][idx])
             filtered_corpus['published_date'].append(corpus['published_date'][idx])
             filtered_corpus['data'].append(tmp.strip())
-    print(filtered_corpus)
     return filtered_corpus
 
 
@@ -237,7 +240,7 @@ def replace_xml_special_char(a_string):
     structure de données pour s'assurer que les méta-données
     soient bien associées avec le nouveau segment.
 '''
-def each_segement_gets_description(corpus):
+def each_segment_gets_description(corpus):
     filtered_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
 
     # Chaque segment prend la description du parent.
