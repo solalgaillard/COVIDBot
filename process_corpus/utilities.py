@@ -5,6 +5,7 @@ from nltk.tokenize.toktok import ToktokTokenizer
 from process_corpus.contractions import CONTRACTION_MAP
 import re
 import spacy
+from process_corpus.stop_sentences import STOP_SENTENCES
 import unicodedata
 from urllib.parse import urlparse
 
@@ -180,6 +181,19 @@ def remove_duplicates_in_corpus(corpus):
             filtered_corpus['data'].append(doc)
             docs_to_occurences[doc] = True
     return filtered_corpus
+
+'''
+    O(N2) mais pas le choix, ça permet de nettoyer encore le corpus après observation.
+'''
+def remove_all_specific_substrings(corpus):
+    new_corpus = corpus
+    for idx, data in enumerate(corpus['data']):
+        new_data = data
+        for stop_sentence in STOP_SENTENCES:
+            new_data = new_data.replace(stop_sentence, '')
+        new_corpus['data'][idx] = new_data
+
+    return new_corpus
 
 '''
     Création d'un fichier xml en export pour labéliser le corpus

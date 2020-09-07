@@ -42,7 +42,8 @@ def main(labeling, build, model):
     # Résolution des coréférences et segementation du corpus
     if build in ["all", "scrap", "corefseg"] or not file_path.is_file():
         print("Segmentation and Coreference Resolution process starting:\nThis is a long process...")
-        corpus = remove_overused_sentences_from_corpus(remove_duplicates_in_corpus(corpus))
+        corpus = remove_all_specific_substrings(remove_overused_sentences_from_corpus(remove_duplicates_in_corpus(corpus)))
+        '''
         tmp_corpus_data = []
         for idx, document in enumerate(corpus['data']):
             tmp_corpus_data.append([])
@@ -50,6 +51,7 @@ def main(labeling, build, model):
                 tmp_corpus_data[idx].append(solve_coreferences_neuralcoref(segment))
 
         corpus['data'] = tmp_corpus_data
+        '''
         with open(file_path, 'wb+') as f:
             pickle.dump(corpus, f)
         print("Wrote to file corefseg.pickle")
@@ -73,9 +75,8 @@ def main(labeling, build, model):
     # Construit le modèle pour classifier entrées COVID et entrées non-COVID
     if build in ["all", "scrap", "corefseg", "model"] or not file_path.is_file():
         feature_extraction = FeatureExtraction((base_path / "data_saved/teaching_data.xml").resolve())
-        print("Loaded teaching_data.xml")
+        print("Loaded teaching_data.xml\nTraining models...")
         feature_extraction.train_models(file_path)
-        print("Wrote to file trained_models.pickle")
     else:
         feature_extraction = FeatureExtraction()
         feature_extraction.load_models(file_path)
@@ -85,6 +86,7 @@ def main(labeling, build, model):
 
     # Utilise le modèle
     if build in ["all", "scrap", "corefseg", "model", "covidentries"] or not file_path.is_file():
+        print("Using models to isolate covid entries only...")
         corpus = feature_extraction.use_model(each_segement_gets_description(corpus), model)
         with open(file_path, 'wb+') as f:
             pickle.dump(corpus, f)
@@ -97,6 +99,7 @@ def main(labeling, build, model):
 
     # Clusterise par Kmeans les thèmes des entrées sur le COVID.
     if build in ["all", "scrap", "corefseg", "model", "covidentries", "covidtopics"] or not file_path.is_file():
+        print("Extracting themes from corpus...")
         result_topics = feature_extraction.feature_extraction(corpus["data"])
         with open(file_path, 'wb+') as f:
             pickle.dump(result_topics, f)
@@ -111,6 +114,7 @@ def main(labeling, build, model):
     kernel = aiml.Kernel()
     if build in ["all", "scrap", "corefseg", "model", "covidentries", "covidtopics", "botbrain"] \
             or not file_path.is_file():
+        print("Creating bot...")
         export_to_aiml(result_topics, corpus)
         kernel.learn("./chat_bot_files/covid_bot.aiml")
         kernel.respond("load aiml files")
@@ -126,7 +130,10 @@ def main(labeling, build, model):
         if inputed == "quit":
             print("Bye bye")
             return
-        res = kernel.respond(inputed)
+        nlp_inputed = nlp(expand_contractions(inputed))
+        lemmatized_inputed = ' '.join([token.lemma_ if token.dep_ == 'ROOT' and token.pos_ == 'VERB' else token.text for token in nlp_inputed])
+        print(lemmatized_inputed)
+        res = kernel.respond(lemmatized_inputed)
         if (len(res) > 0):
             print(res)
         else:
@@ -237,6 +244,9 @@ if __name__ == "__main__":
 
 
     #TODO - Better strategy in generating AIML - done
+
+
+    #TODO - BRING In A different strategy for extracting facts, One subject,, all other noun_chunks, objs
 
     #TODO GET RID OF TEXTACY
 

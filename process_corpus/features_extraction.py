@@ -57,7 +57,7 @@ class FeatureExtraction():
         # On prédit le corpus test
         y_predicted_tfidf = self.clf_tfidf_log_reg.predict(X_test_tfidf)
 
-        print("Accuracy of the Logistic Regression model is %.3f, " % accuracy_score(y_test, y_predicted_tfidf))
+        print("Accuracy of the Logistic Regression model is %.3f" % accuracy_score(y_test, y_predicted_tfidf))
 
     '''
         On entraîne le modèle de Support Vector Machine
@@ -73,7 +73,7 @@ class FeatureExtraction():
         # On prédit le corpus test
         y_predicted_tfidf = self.clf_tfidf_svm.predict(X_test_tfidf)
 
-        print("Accuracy of the SVM model is %.3f, " % accuracy_score(y_test, y_predicted_tfidf))
+        print("Accuracy of the SVM model is %.3f" % accuracy_score(y_test, y_predicted_tfidf))
 
     '''
         On entraîne les deux modèles et on les sauvegarde

@@ -24,28 +24,30 @@ def extract_facts_textacy(corpus):
 
 def extract_facts_textacy(corpus):
     all_statements = []
-    reflexive_pronouns = {"you": "I", "i": "you"}
     for segment in corpus["data"]:
         segment_expanded = expand_contractions(segment)
         nlp_segment_expanded = nlp(segment_expanded)
         for sentence in nlp_segment_expanded.sents:
-            has_dobj = False
-            has_nsubj = False
+            dobjs = []
+            nsubj = None
             verb = None
             for token in sentence:
-                if not has_dobj and token.dep_ == 'dobj':
-                    has_dobj = True
+                if token.dep_ == 'dobj':
+                    dobjs.append(token.text)
 
-                if not has_nsubj and token.dep_ == 'nsubj':
-                    has_nsubj = True
+                if not nsubj and token.dep_ == 'nsubj':
+                    if token.text == "I":
+                        nsubj = "you"
+                    elif token.text.lower() == "you":
+                        nsubj = "I"
+                    else:
+                        nsubj = token.text
 
-                if token.dep_ == 'ROOT':
+                if token.dep_ == 'ROOT' and token.pos_ == 'VERB':
                     verb = token.lemma_
-            if verb and has_nsubj and has_dobj:
-                lowercase_token = token.text.lower()
-                nouns = [token.text if lowercase_token not in ["you, i"] else reflexive_pronouns[lowercase_token] for token in sentence.noun_chunks]
-                if not any(stmt['nouns'] == nouns and stmt['verb'] == verb and stmt['sentence'] == sentence.text for stmt in all_statements):
-                    all_statements.append({"nouns": nouns, "verb": verb, "sentence": sentence.text})
+            if verb and nsubj and len(dobjs):
+                if not any(stmt['nsubj'] == nsubj and stmt['verb'] == verb and stmt['dobjs'] == dobjs and stmt['sentence'] == sentence.text for stmt in all_statements):
+                    all_statements.append({"nsubj": nsubj, "verb": verb, "dobjs": dobjs, "sentence": sentence.text})
     return all_statements
 
 

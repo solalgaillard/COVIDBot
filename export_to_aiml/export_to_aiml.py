@@ -11,7 +11,7 @@ def _create_pilot_file(all_existing_topics):
                    '\n\t\t<template>'
                    '\n\t\t\t<learn>chat_bot_files/general/basic_chat_functions.aiml</learn>'
                    f'{reduce(lambda i, j: f"{i}{nl_indent_for_learn}<learn>chat_bot_files/covid_topics/{replace_xml_special_char(j)}.aiml</learn>", [""] + all_existing_topics)}'
-		           '\n\t\t\t<learn>chat_bot/general/covid_no_topic.aiml</learn>'
+		           '\n\t\t\t<learn>chat_bot_files/general/covid_no_topic.aiml</learn>'
 		           '\n\t\t</template>'
 	               '\n\t</category>'
                    '\n</aiml>')
@@ -50,31 +50,35 @@ def _set_all_permutations_string(all_statements):
 
     all_permutations = ""
 
-    noun_verb_dic = {}
+    nsubj_verb_dobj_dic = {}
 
-    noun_dic = {}
+    nsubj_dic = {}
 
     for statement in all_statements:
-        nouns, verb, sentence = statement.values()
-        print(nouns, verb, sentence)
+        nsubj = statement['nsubj']
+        verb = statement['verb']
+        dobjs =  statement['dobjs']
+        sentence = statement['sentence']
 
-        for noun in nouns:
-            if(f'{noun.upper()}{verb.upper()}' in noun_verb_dic):
-                noun_verb_dic[f'{noun}{verb}']['facts'].append(sentence)
+        for dobj in dobjs:
+            if(f'{nsubj.upper()}{verb.upper()}{dobj.upper()}' in nsubj_verb_dobj_dic):
+                nsubj_verb_dobj_dic[f'{nsubj.upper()}{verb.upper()}{dobj.upper()}']['facts'].append(sentence)
             else:
-                noun_verb_dic[f'{noun}{verb}'] = {"facts": [sentence], "entity": noun, "cue": verb}
+                noun_verb_dic[f'{nsubj.upper()}{verb.upper()}{dobj.upper()}'] = {"facts": [sentence], "entity": noun, "cue": verb, "obj": dobj}
 
-            if (noun.upper() in noun_dic):
-                noun_dic[noun.upper()]['facts'].append(sentence)
-            else:
-                noun_dic[noun.upper()] = {"facts": [sentence], "entity": noun}
+        if (nsubj.upper() in nsubj_dic):
+            nsubj_dic[nsubj.upper()]['facts'].append(sentence)
+        else:
+            nsubj_dic[nsubj.upper()] = {"facts": [sentence], "entity": nsubj}
 
 
     for statement in noun_verb_dic:
         entity = noun_verb_dic[statement]["entity"]
         cue = noun_verb_dic[statement]["cue"]
+        obj = noun_verb_dic[statement]["obj"]
         facts = noun_verb_dic[statement]["facts"]
         template = ""
+        '''
         allPatterns = [
             f'* {cue.upper()} * {entity.upper()} *',
             f'{cue.upper()} * {entity.upper()} *',
@@ -85,9 +89,90 @@ def _set_all_permutations_string(all_statements):
             f'{cue.upper()} * {entity.upper()}',
             f'{cue.upper()} {entity.upper()}',
         ]
+        '''
+        allPatterns = [
+            f'*{cue.upper()} * {entity.upper()} * {obj.upper()} *',
+            f'* {cue.upper()} * {entity.upper()} * {obj.upper()}',
+            f'* {cue.upper()} * {entity.upper()} {obj.upper()} *',
+            f'* {cue.upper()}  {entity.upper()} * {obj.upper()} *',
+            f'{cue.upper()} * {entity.upper()} * {obj.upper()} *',
+            f'* {cue.upper()} * {entity.upper()} {obj.upper()}',
+            f'* {cue.upper()} {entity.upper()} * {obj.upper()} *',
+            f'{cue.upper()} * {entity.upper()} * {obj.upper()}',
+            f'{cue.upper()} * {entity.upper()} {obj.upper()} *',
+            f'{cue.upper()} {entity.upper()} {obj.upper()} *',
+            f'{cue.upper()} {entity.upper()} * {obj.upper()}',
+            f'{cue.upper()} * {entity.upper()} {obj.upper()}',
+            f'* {cue.upper()} {entity.upper()} {obj.upper()}',
+            f'* {entity.upper()} * {cue.upper()} * {obj.upper()} *',
+            f'* {entity.upper()} * {cue.upper()} * {obj.upper()}',
+            f'* {entity.upper()} * {cue.upper()} {obj.upper()} *',
+            f'* {entity.upper()}  {cue.upper()} * {obj.upper()} *',
+            f'{entity.upper()} * {cue.upper()} * {obj.upper()} *',
+            f'* {entity.upper()} * {cue.upper()} {obj.upper()}',
+            f'* {entity.upper()} {cue.upper()} * {obj.upper()} *',
+            f'{entity.upper()} * {cue.upper()} * {obj.upper()}',
+            f'{entity.upper()} * {cue.upper()} {obj.upper()} *',
+            f'{entity.upper()} {cue.upper()} {obj.upper()} *',
+            f'{entity.upper()} {cue.upper()} * {obj.upper()}',
+            f'{entity.upper()} * {cue.upper()} {obj.upper()}',
+            f'* {entity.upper()} {cue.upper()} {obj.upper()}',
+            f'* {obj.upper()} * {cue.upper()} * {entity.upper()} *',
+            f'* {obj.upper()} * {cue.upper()} * {entity.upper()}',
+            f'* {obj.upper()} * {cue.upper()} {entity.upper()} *',
+            f'* {obj.upper()}  {cue.upper()} * {entity.upper()} *',
+            f'{obj.upper()} * {cue.upper()} * {entity.upper()} *',
+            f'* {obj.upper()} * {cue.upper()} {entity.upper()}',
+            f'* {obj.upper()} {cue.upper()} * {entity.upper()} *',
+            f'{obj.upper()} * {cue.upper()} * {entity.upper()}',
+            f'{obj.upper()} * {cue.upper()} {entity.upper()} *',
+            f'{obj.upper()} {cue.upper()} {entity.upper()} *',
+            f'{obj.upper()} {cue.upper()} * {entity.upper()}',
+            f'{obj.upper()} * {cue.upper()} {entity.upper()}',
+            f'* {obj.upper()} {cue.upper()} {entity.upper()}',
+            f'* {cue.upper()} * {obj.upper()} * {entity.upper()} *',
+            f'* {cue.upper()} * {obj.upper()} * {entity.upper()}',
+            f'* {cue.upper()} * {obj.upper()} {entity.upper()} *',
+            f'* {cue.upper()}  {obj.upper()} * {entity.upper()} *',
+            f'{cue.upper()} * {obj.upper()} * {entity.upper()} *',
+            f'* {cue.upper()} * {obj.upper()} {entity.upper()}',
+            f'* {cue.upper()} {obj.upper()} * {entity.upper()} *',
+            f'{cue.upper()} * {obj.upper()} * {entity.upper()}',
+            f'{cue.upper()} * {obj.upper()} {entity.upper()} *',
+            f'{cue.upper()} {obj.upper()} {entity.upper()} *',
+            f'{cue.upper()} {obj.upper()} * {entity.upper()}',
+            f'{cue.upper()} * {obj.upper()} {entity.upper()}',
+            f'* {cue.upper()} {obj.upper()} {entity.upper()}',
+            f'* {entity.upper()} * {obj.upper()} * {cue.upper()} *',
+            f'* {entity.upper()} * {obj.upper()} * {cue.upper()}',
+            f'* {entity.upper()} * {obj.upper()} {cue.upper()} *',
+            f'* {entity.upper()}  {obj.upper()} * {cue.upper()} *',
+            f'{entity.upper()} * {obj.upper()} * {cue.upper()} *',
+            f'* {entity.upper()} * {obj.upper()} {cue.upper()}',
+            f'* {entity.upper()} {obj.upper()} * {cue.upper()} *',
+            f'{entity.upper()} * {obj.upper()} * {cue.upper()}',
+            f'{entity.upper()} * {obj.upper()} {cue.upper()} *',
+            f'{entity.upper()} {obj.upper()} {cue.upper()} *',
+            f'{entity.upper()} {obj.upper()} * {cue.upper()}',
+            f'{entity.upper()} * {obj.upper()} {cue.upper()}',
+            f'* {entity.upper()} {obj.upper()} {cue.upper()}',
+            f'* {obj.upper()} * {entity.upper()} * {cue.upper()} *',
+            f'* {obj.upper()} * {entity.upper()} * {cue.upper()}',
+            f'* {obj.upper()} * {entity.upper()} {cue.upper()} *',
+            f'* {obj.upper()}  {entity.upper()} * {cue.upper()} *',
+            f'{obj.upper()} * {entity.upper()} * {cue.upper()} *',
+            f'* {obj.upper()} * {entity.upper()} {cue.upper()}',
+            f'* {obj.upper()} {entity.upper()} * {cue.upper()} *',
+            f'{obj.upper()} * {entity.upper()} * {cue.upper()}',
+            f'{obj.upper()} * {entity.upper()} {cue.upper()} *',
+            f'{obj.upper()} {entity.upper()} {cue.upper()} *',
+            f'{obj.upper()} {entity.upper()} * {cue.upper()}',
+            f'{obj.upper()} * {entity.upper()} {cue.upper()}',
+            f'* {obj.upper()} {entity.upper()} {cue.upper()}',
+        ]
         for fact in facts:
             #tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
-            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact)}</li>'
+            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact.capitalize())}</li>'
         for pattern in allPatterns:
             all_permutations += _create_permutation(pattern, template)
 
@@ -104,7 +189,7 @@ def _set_all_permutations_string(all_statements):
         for fact in facts:
             # currentFact = entity.text.capitalize() + ' ' + cue.text + ' ' + fact.text + '.'
             #tmp = f'{entity.text.capitalize()} {cue.text} {fact.text}.'
-            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact)}</li>'
+            template += f'\n\t\t\t\t\t<li>{replace_xml_special_char(fact.capitalize())}</li>'
         for pattern in allPatterns:
             all_permutations += _create_permutation(pattern, template)
 
@@ -144,7 +229,7 @@ def _create_no_topic(statements):
 def export_to_aiml(result_topics, corpus):
 
     _create_pilot_file([topic[0] for topic in result_topics["topic_mapping"] if topic])
-
+    all_statements = []
     corpus_without_topics = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
     for topic_idx, topic in enumerate(result_topics["topic_mapping"]):
         corpus_per_cluster = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
@@ -156,13 +241,14 @@ def export_to_aiml(result_topics, corpus):
                 corpus_per_cluster['published_date'].append(corpus['published_date'][cluster_idx])
                 corpus_per_cluster['data'].append(corpus["data"][cluster_idx])
 
-        all_statements = extract_facts_textacy(corpus_per_cluster)
+        statements_by_topic = extract_facts_textacy(corpus_per_cluster)
+        all_statements.extend(statements_by_topic)
         if topic:
-            _create_topic(topic, all_statements)
+            _create_topic(topic, statements_by_topic)
         else:
             corpus_without_topics['url'].extend(corpus_per_cluster['url'])
             corpus_without_topics['scrapped_date'].extend(corpus_per_cluster['scrapped_date'])
             corpus_without_topics['published_date'].extend(corpus_per_cluster['published_date'])
             corpus_without_topics['data'].extend(corpus_per_cluster['data'])
-
-    _create_no_topic(extract_facts_textacy(corpus_without_topics))
+    all_statements.extend(extract_facts_textacy(corpus_without_topics))
+    _create_no_topic(all_statements)
