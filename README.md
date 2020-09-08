@@ -118,7 +118,7 @@ Just be aware that modifying a previous building stage will force a rebuild of t
     done - Contractions and lemmatization on input
 ---
 #### Roadmap - open issues:
-    #TODO - 1 -  Survey where data structures can be replaced by Pandas DataFrame
+    #TODO - 1 - Survey where data structures can be replaced by Pandas DataFrame
     #TODO - 2 - Develop Mecanism to flag answer when special authorized user is interacting with the bot
         # - 2 - a - Need to be able to blacklist entry - (Put it in a dic, and rebuild AIML)
     #TODO - 3 - PIPE NLP when processing batches of docs for incredible speed bump
