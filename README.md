@@ -118,8 +118,6 @@ Just be aware that modifying a previous building stage will force a rebuild of t
     done - Contractions and lemmatization on input
 ---
 #### Roadmap - open issues:
-    #TODO - Add an example image to README
-    #TODO - Comment export_aiml
     #TODO - 1 -  Survey where data structures can be replaced by Pandas DataFrame
     #TODO - 2 - Develop Mecanism to flag answer when special authorized user is interacting with the bot
         # - 2 - a - Need to be able to blacklist entry - (Put it in a dic, and rebuild AIML)
@@ -133,6 +131,9 @@ Just be aware that modifying a previous building stage will force a rebuild of t
         # - 9 - a - Stupid meaningless sentences get kept
         # - 9 - c - Investigate Paywall for NYT, do I need a new Login?
     #TODO - 10 - Label more Data for better SVM accuracy
+    #TODO - 11 - Review better AIML, especially around the notion of precedence.
+        # It is bloated right now and I am pretty certain a huge amount is not
+        # even accessible.
 ---
 ### Remarks:
 
