@@ -1,5 +1,5 @@
 ***`COVIDBot`*** scraps institutional and news website such as the nytimes, the guardian, the bbc or the CDC, and provides an AIML chatbot based on the content retrieved.
-!(./example.png)
+![Example](./example.png)
 To install:
 ```sh
 $ sudo apt install python3-pip
