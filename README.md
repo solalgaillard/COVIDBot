@@ -9,7 +9,7 @@ $ source ./venv/bin/activate
 $ pip3 install -r requirements.txt
 # Make sure last Chrome is installed, not chromium but chrome
 ```
----`
+---
 To Launch, nothing easier, just run. If files have never been built, the process will be long.
 The version available here on GitHub has everything built but the botbrain. Depending on the memory
 available on your computer, you might have to adjust the memlim parameter. Indeed, if you don't have enough
@@ -17,16 +17,16 @@ swap, the OS might kill the process.
 ```sh
 $ ./covid_bot.py
 ```
-
 You can alternatively, scrap new data and rebuild the bot or relaunch the AIML building process at any of the important stages.
 Just be aware that modifying a previous building stage will force a rebuild of the following ones.
+
 ---
 ### Here are the build options:
 
 ```sh
 --build or -b
 ```
-with :
+*with:*
 1. `all`: Goes through all the stages of building the bot. Equivalent in practice to
 `scrap`
 2. `corefseg`: Used initially to resolve the coreferences within the corpus, but results were not satisfactory. I therefore decided to leave the coreferences unresolved. This stage still segments the articles in multiple smaller parts that are easier to work with, and remove overused or flagged sentences as well as the duplicates. This is a particularly slow building process.
@@ -38,14 +38,14 @@ with :
 ```sh
 --model or -m
 ```
-with :
+*with:*
 1. `SVM`: Uses Support Vector Machine to extract COVID related entries (default, slower but more accurate).
 2. `logreg`: Uses Logistic Regression to extract COVID related entries.
 ---
 ```sh
 --labeling or -l
 ```
-with :
+*with:*
 1. `Int`: Will export a file based on the scrapped entry with the number of entries to label passed as an option. Open the xml file created and label the entries related or not to covid with the strings `covid` and `not covid`. The program will use this file for classification.
 
     ! Be careful, this will overwrite any existing file used for labeling.
@@ -53,7 +53,7 @@ with :
 ```sh
 --memlim or -e
 ```
-with :
+*with:*
 1. `Int`: The AIML is loaded in memory and the more the data, the more likely the bot will not load and the process will be killed. The default is `1`. Try a higher number until the process loads on your system. If the process got killed in the middle of writing the botbrain, make sure you delete the file in `data_saved` or call the bot with the option `-b botbrain`
 
 ---
