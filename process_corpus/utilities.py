@@ -52,8 +52,8 @@ def expand_contractions(text, contraction_mapping=CONTRACTION_MAP):
 '''
     Auto-descriptif
 '''
-def capitalize_and_leave_string_untouched(string):
-    return "".join([a if a.isupper() else b for a,b in zip(string,string.capitalize())])
+def capitalize_and_leave_string_untouched(str):
+    return f'{str[0:1].upper()}{str[1:]}'
 
 '''
     Auto-descriptif

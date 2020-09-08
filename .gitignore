@@ -1,2 +1,4 @@
 ./venv
 ./.idea
+./env
+./data_saved/bot_brain.brn

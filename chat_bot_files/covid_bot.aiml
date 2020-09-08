@@ -2,7 +2,6 @@
 	<category>
 		<pattern>LOAD AIML FILES</pattern>
 		<template>
-			<learn>chat_bot_files/general/basic_chat_functions.aiml</learn>
 			<learn>chat_bot_files/covid_topics/politics.aiml</learn>
 			<learn>chat_bot_files/covid_topics/symptom.aiml</learn>
 			<learn>chat_bot_files/covid_topics/test.aiml</learn>
@@ -10,7 +9,18 @@
 			<learn>chat_bot_files/covid_topics/data.aiml</learn>
 			<learn>chat_bot_files/covid_topics/material.aiml</learn>
 			<learn>chat_bot_files/covid_topics/vaccine.aiml</learn>
-			<learn>chat_bot_files/general/covid_no_topic.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_1.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_2.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_3.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_4.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_5.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_6.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_7.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_8.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_9.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_10.aiml</learn>
+			<learn>chat_bot_files/general/covid_no_topics_11.aiml</learn>
+			<learn>chat_bot_files/general/basic_chat_functions.aiml</learn>
 		</template>
 	</category>
 </aiml>

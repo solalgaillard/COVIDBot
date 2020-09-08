@@ -22,7 +22,7 @@ from scrapy.crawler import CrawlerProcess
     Un deuxième paramètre est celui où l'on demande expressement à exporter un fichier pour labeliser les entrées covid.
     Enfin le dernier paramètre permet de décider un classificateur par régression logistic ou par SVM.
 '''
-def main(labeling, build, model):
+def main(labeling, build, model, memlim):
     base_path = Path(__file__).parent
     file_path = (base_path / "data_saved/scrap.pickle").resolve()
 
@@ -49,6 +49,7 @@ def main(labeling, build, model):
             tmp_corpus_data.append([])
             for segment in segment_documents_textsplit(document):
                 tmp_corpus_data[idx].append(segment)
+                # Je ne résoud plus les coreferences
                 #tmp_corpus_data[idx].append(solve_coreferences_neuralcoref(segment))
 
         corpus['data'] = tmp_corpus_data
@@ -60,18 +61,6 @@ def main(labeling, build, model):
         print("Loaded corefseg.pickle")
         corpus = pickle.load(open(file_path, "rb"))
 
-    '''
-    filtered_corpus = {'url': [], 'data': [], 'scrapped_date': [], 'published_date': []}
-    for idx, data in enumerate(corpus["data"]):
-        if(idx<2):
-            filtered_corpus['url'].append(corpus['url'][idx])
-            filtered_corpus['scrapped_date'].append(corpus['scrapped_date'][idx])
-            filtered_corpus['published_date'].append(corpus['published_date'][idx])
-            filtered_corpus['data'].append(data)
-
-    #corpus = filtered_corpus
-    #print(corpus)
-    '''
     file_path = (base_path / "data_saved/teaching_data.xml").resolve()
 
     # Exporte fichier pour labélisation et sort du programme
@@ -127,7 +116,7 @@ def main(labeling, build, model):
     if build in ["all", "scrap", "corefseg", "model", "covidentries", "covidtopics", "botbrain"] \
             or not file_path.is_file():
         print("Creating bot...")
-        export_to_aiml(result_topics, corpus)
+        export_to_aiml(result_topics, corpus, memlim)
         kernel.learn("./chat_bot_files/covid_bot.aiml")
         kernel.respond("load aiml files")
         kernel.saveBrain(file_path)
@@ -153,10 +142,10 @@ def main(labeling, build, model):
 # Script de début
 if __name__ == "__main__":
     # Arguments par défaut.
-    labeling = 0 ; build = "none" ; model = "svm" #ou log_reg
+    labeling = 0 ; build = "none" ; model = "svm" ; memlim = 1 #ou log_reg
     try:
         # Retire premier argument de sys, donne options longues et courtes.
-        arguments, values = getopt.getopt(sys.argv[1:], "b:l:m:", ["build=", "labeling=", "model="])
+        arguments, values = getopt.getopt(sys.argv[1:], "b:l:m:e:", ["build=", "labeling=", "model=", "memlim="])
 
         # Parse la ligne de commande
         for currentArgument, currentValue in arguments:
@@ -175,31 +164,12 @@ if __name__ == "__main__":
                 build = "none"
                 labeling = int(currentValue)
 
+            elif currentArgument in ("-e", "--memlim"):
+                memlim = int(currentValue)
+
     except getopt.error as err:
         # Imprime erreur sur les arguments
         print(str(err))
 
     # Et lance programme
-    main(labeling, build, model)
-
-
-
-
-#-----------------------------------------------------------------------------------------------------------------------
-#Those are all the todos that are done
-
-
-
-
-#-----------------------------------------------------------------------------------------------------------------------
-#Those are all the todos not done
-
-
-#sudo apt install python3-pip
-#sudo apt-get install python3-venv
-#python3 -m venv venv
-#source ./env/bin/activate
-#pip3 install -r requirements.txt
-#Make sure last Chrome is installed, not chromium but chrome
-
-
+    main(labeling, build, model, memlim)
