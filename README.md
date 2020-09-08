@@ -137,4 +137,4 @@ Just be aware that modifying a previous building stage will force a rebuild of t
 ---
 ### Remarks:
 
-I initially used AIML as the knowledge base for the bot but I mostly use it as a simple pattern matcher. It might have been cleverer to simply use some internal pattern matching for the bot instead of bloating files and working around AIML to generate the COVIDBot.
+I initially used AIML as the knowledge base for the chatbot but I mostly use it as a simple pattern matcher. It might have been more clever to simply use some internal pattern matching instead of bloating files and working around the AIML standard to generate the bot.
